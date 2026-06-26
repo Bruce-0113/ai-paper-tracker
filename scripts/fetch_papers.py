@@ -95,12 +95,18 @@ def main():
     papers = fetch_papers()
     print(f"  ✅ Got {len(papers)} papers")
 
-    with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(
-            {"updated": datetime.now(timezone.utc).isoformat(), "papers": papers},
-            f, indent=2, ensure_ascii=False,
-        )
-    print(f"  ✅ Saved → {DATA_PATH}")
+    # 每天存一個獨立檔案，同時更新 latest.json 方便程式讀取
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    payload = {"updated": datetime.now(timezone.utc).isoformat(), "papers": papers}
+
+    daily_path = f"data/{today}.json"
+    with open(daily_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    print(f"  ✅ Saved → {daily_path}")
+
+    with open(DATA_PATH, "w", encoding="utf-8") as f:  # DATA_PATH = data/papers.json (latest)
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    print(f"  ✅ Updated → {DATA_PATH} (latest)")
 
     update_readme(papers)
     print(f"  ✅ Updated → {README_PATH}")
