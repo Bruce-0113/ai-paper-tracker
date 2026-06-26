@@ -1,1 +1,261 @@
-{"updated": null, "papers": []}
+{
+  "updated": "2026-06-26T08:30:36.694255+00:00",
+  "papers": [
+    {
+      "title": "DanceOPD: On-Policy Generative Field Distillation",
+      "url": "http://arxiv.org/abs/2606.27377v1",
+      "summary": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and local editing interfere with each other. Consequently, effectively composing these capabilities has be",
+      "authors": [
+        "Wei Zhou",
+        "Xiongwei Zhu",
+        "Zelin Xu",
+        "Bo Dong",
+        "Lixue Gong",
+        "Yongyuan Liang",
+        "Meng Chu",
+        "Leigang Qu",
+        "Lingdong Kong",
+        "Wei Liu",
+        "Tat-Seng Chua"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
+      "url": "http://arxiv.org/abs/2606.27376v1",
+      "summary": "Most unified large multimodal models (LMMs) that support both visual understanding and image generation still rely on curated post-training supervision, such as human annotations, preference labels, or external reward models. We ask whether a unified LMM can improve both abilities autonomously using only unlabeled images. We propose a self-evolving training framework with three internal roles: a P",
+      "authors": [
+        "Ritesh Thawkar",
+        "Shravan Venkatraman",
+        "Omkar Thawakar",
+        "Abdelrahman Shaker",
+        "Fahad Khan",
+        "Hisham Cholakkal",
+        "Salman Khan",
+        "Rao Muhammad Anwer"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+      "url": "http://arxiv.org/abs/2606.27374v1",
+      "summary": "Going beyond predicting robot actions, World Action Models (WAMs) can also generate future visual observations. We build on this generative capability to propose Recurrent Generative Replay (REGEN), a continual imitation learning framework that synthesizes pseudo-replay trajectories, enabling a robot policy to rehearse previously learned tasks without storing their original human demonstrations. D",
+      "authors": [
+        "Manish Kumar Govind",
+        "Dominick Reilly",
+        "Smit Patel",
+        "Hieu Le",
+        "Srijan Das"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Paying More Attention to Visual Tokens in Self-Evolving Large Multimodal Models",
+      "url": "http://arxiv.org/abs/2606.27373v1",
+      "summary": "Recently, self-evolving large multimodal models (LMMs) have received attention for improving visual reasoning in a purely unsupervised setting. However, multi-role self-play and self-consistency reward schemes in existing self-evolving LMMs optimize answer agreement without ensuring the decoder attends to visual content, relying instead on statistical language priors to produce self consistent out",
+      "authors": [
+        "Shravan Venkatraman",
+        "Ritesh Thawkar",
+        "Omkar Thawakar",
+        "Rao Muhammad Anwer",
+        "Hisham Cholakkal",
+        "Salman Khan",
+        "Fahad Khan"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "DnA: Denoising Attention for Visual Tasks",
+      "url": "http://arxiv.org/abs/2606.27372v1",
+      "summary": "The softmax activation in multihead attention (MHA) is the de facto standard for attention-based models in visual perception tasks. However, standard softmax can produce noisy attention patterns that dilute relevant features and degrade its performance. In this paper, we propose Denoising Attention or DnA, in which, first, a positive query identifies which image features belong to the correct clas",
+      "authors": [
+        "Ron Campos",
+        "Subhajit Maity",
+        "Xin Li",
+        "Srijan Das",
+        "Aritra Dutta"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance",
+      "url": "http://arxiv.org/abs/2606.27371v1",
+      "summary": "State-of-the-art flow models generate stunning images from text or image prompts. However, they suffer from diversity collapse when generating multiple samples under the same conditioning. Existing methods address this issue via either latent guidance, which has limited effectiveness, or sample selection, which relies on external reward models that incur significant inference-time overhead. In thi",
+      "authors": [
+        "Pradhaan S Bhat",
+        "Rishubh Parihar",
+        "Abhijnya Bhat",
+        "R. Venkatesh Babu"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
+      "url": "http://arxiv.org/abs/2606.27369v1",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution is unknown. We introduce a \\textbf{R}anking-\\textbf{i}nduced \\textbf{VER}ifiable framework (RiVER) that trains LLMs on score-based optimization tasks without ground-truth solutions, using deterministi",
+      "authors": [
+        "Yingyu Lin",
+        "Qiyue Gao",
+        "Nikki Lijing Kuang",
+        "Xunpeng Huang",
+        "Kun Zhou",
+        "Tongtong Liang",
+        "Zhewei Yao",
+        "Yi-An Ma",
+        "Yuxiong He"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+      "url": "http://arxiv.org/abs/2606.27364v1",
+      "summary": "We present PhysiFormer, a diffusion transformer for physically-plausible 3D object motion. Unlike video world models that operate in view-dependent pixel space, PhysiFormer represents objects as 3D meshes expressed in world coordinates. Given the initial vertex positions and velocities, as well as object material type, rigid or elastic, the model samples future vertex trajectories. While related n",
+      "authors": [
+        "Yiming Chen",
+        "Yushi Lan",
+        "Andrea Vedaldi"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Autoregressive Boltzmann Generators",
+      "url": "http://arxiv.org/abs/2606.27361v1",
+      "summary": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation of uncorrelated equilibrium samples by combining a generative model with exact likelihoods and an importance sampling correction. However, modern BGs predominantly rely on normalizi",
+      "authors": [
+        "Danyal Rehman",
+        "Charlie B. Tan",
+        "Yoshua Bengio",
+        "Avishek Joey Bose",
+        "Alexander Tong"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+      "url": "http://arxiv.org/abs/2606.27359v1",
+      "summary": "Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the sequence level. Therefore, their success depends on a fundamental question: when does sequence probability, that is, the conditional probability of a continuation given a prompt, actually align with ",
+      "authors": [
+        "Johannes Zenn",
+        "Jonas Geiping"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Error-Conditioned Neural Solvers",
+      "url": "http://arxiv.org/abs/2606.27354v1",
+      "summary": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violations and extrapolate beyond the training distribution. Recent hybrid methods promote physical correctness by targeting the PDE residual via gradient descent or Gauss--Newton steps, ",
+      "authors": [
+        "Haina Jiang",
+        "Liam Wang",
+        "Peng-Chen Chen",
+        "Min Seop Kwak",
+        "Seungryong Kim",
+        "Brian Bell",
+        "Jeong Joon Park"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV",
+        "math.NA"
+      ]
+    },
+    {
+      "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
+      "url": "http://arxiv.org/abs/2606.27347v1",
+      "summary": "Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing these complex, informal, and adversarial ties at scale has historically required intensive manual coding, while automated text-as-data methods have largely been limited to simple co-occurrence. Recent lar",
+      "authors": [
+        "Kirill Solovev",
+        "Jana Lasser"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation",
+      "url": "http://arxiv.org/abs/2606.27345v1",
+      "summary": "Modern video diffusion transformers position their tokens through RoPE on the (u,v,t) axes -- a description of the camera's sampling grid that says nothing about the 3D structure of the scene. We observe that the geometric relation between two camera rays is captured by the Plucker reciprocal product, which is bilinear in the two rays -- the same algebraic form as the dot product in Transformer at",
+      "authors": [
+        "Minghao Yin",
+        "Jiahao Lu",
+        "Wenbo Hu",
+        "Wang Zhao",
+        "Shan Ying",
+        "Kai Han"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching",
+      "url": "http://arxiv.org/abs/2606.27342v1",
+      "summary": "Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work has incorporated domain information and low-resource learning techniques to better adapt EM systems to realistic settings. While these approaches have demonstrated strong performance, it remains uncle",
+      "authors": [
+        "Nicholas Pulsone",
+        "Gregory Goren",
+        "Roee Shraga"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.DB",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "SAM2Matting: Generalized Image and Video Matting",
+      "url": "http://arxiv.org/abs/2606.27339v1",
+      "summary": "Despite impressive advances in image matting, video matting remains challenging due to the inherent gap between high-level tracking, which requires frame-wise understanding, and low-level matting, which focuses on extremely fine-grained details. Existing methods attempt this with expensive and narrowly-scoped video matting datasets, which may limit out-of-domain generalization and compromise track",
+      "authors": [
+        "Ruiqi Shen",
+        "Guangquan Jie",
+        "Chang Liu",
+        "Henghui Ding"
+      ],
+      "published": "2026-06-25",
+      "categories": [
+        "cs.CV"
+      ]
+    }
+  ]
+}
