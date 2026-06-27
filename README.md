@@ -1,6 +1,6 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-06-26 08:30 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-06-27 04:53 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
