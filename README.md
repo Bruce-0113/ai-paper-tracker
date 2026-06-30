@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-06-29 05:51 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-06-30 05:03 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Dihong Huang, Zhenyu Wei, Zhuxiu Xu +3 more
-
-Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapping fingers and contact modes, causing destructive interference between preserving an existing manipulation outcome and executing a new one. We propos...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28323v1)
-
----
-
-### 2. PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-06-26 · ✍️ Yana Wei, Hongbo Peng, Yanlin Lai +14 more
-
-We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over 12,000 instance-specific rubrics. These criteria are derived from golden captions constructed via a ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28322v1)
-
----
-
-### 3. StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-06-26 · ✍️ Jia-Chen Zhao, Beiqi Chen, Xinyang Chen +2 more
-
-We present StructSplat, a feed-forward and generalizable 3D Gaussian reconstruction framework that operates directly on uncalibrated images without requiring camera parameters. Existing methods either rely on per-scene optimization or assume known camera poses, and often entangle geometry and appearance within a unified backbone, limiting reconstruction fidelity and generalization. Our key idea is...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28321v1)
-
----
-
-### 4. Surprises in Proper Positive-Only Learning
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Shai Ben-David, Farnam Mansouri, Anay Mehrotra +1 more
-
-Binary classification from positive-only samples is a variant of PAC learning in which the learner receives i.i.d. samples from the positive region of an unknown target concept, but is evaluated under the original distribution (which places mass on both positive and negative regions). This model dates back to Natarajan [1987, STOC], and the characterization of improper learning is well-known -- it...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28309v1)
-
----
-
-### 5. Which Nash Equilibrium? Solver-Dependent Selection on Zero-Sum Nash Polytopes
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Luis Leal
-
-Many two-player zero-sum games admit not a unique Nash equilibrium but a convex set of them: a polytope of profiles that all share the minimax value V* yet prescribe different behaviour. Standard solvers each converge to some equilibrium and are treated as interchangeable. We ask whether they instead select different members of the Nash set, systematically as a function of the algorithm rather tha...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28308v1)
-
----
-
-### 6. Second-Order KKT Guarantees for Bregman ADMM in Nonconvex and Non-Lipschitz Optimization
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Shuang Li, Zhihui Zhu, Qiuwei Li
-
-We analyze Bregman ADMM for nonconvex linearly constrained problems under two-sided relative smoothness, a condition that replaces the standard Lipschitz gradient assumption with a Hessian comparison relative to a Bregman kernel. This setting covers polynomial objectives arising in matrix and tensor models for which a global Lipschitz-gradient constant need not exist. We show that on an invariant ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28307v1)
-
----
-
-### 7. VGB for Masked Diffusion Model: Efficient Test-time Scaling for Reward Satisfaction and Sample Editing
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Kijung Jeon, Thuy-Duong Vuong, Molei Tao
-
-Inference-time scaling is a promising paradigm to improve generative models, especially when outputs must satisfy structural constraints or optimize downstream rewards. We consider Masked Diffusion Model (MDM) and introduce MDM-VGB, a discrete diffusion sampler that augments unmasking generation with theoretically principled reward-guided remasking. Inspired by the recent success of the classical ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28301v1)
-
----
-
-### 8. Democratic ICAI: Debating Our Way to Steering Principles from Preferences
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Kevin Kingslin, Anish Natekar, Ashutosh Ranjan +3 more
-
-Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final choice rather than the considerations that shape preferences. Inverse Constitutional AI (ICAI) improves interpretability in decision making by summarizing preferences into natural-language principles, b...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28294v1)
-
----
-
-### 9. Bridging Ab Initio Symmetries and Global Nuclear Masses with Interpretable Neural Networks
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Phong Dang, Evander Espinoza, Xiaoliang Wan +6 more
-
-Ab initio modeling has established Wigner's SU(4) and Elliott's SU(3) as dominant symmetries of the nuclear force in light and intermediate-mass nuclei. We ask whether they also govern nuclear binding across the entire chart. Our aim is not high-precision prediction but physical insight, through interpretable, symmetry-based models. From the SU(3) and SU(4) Casimir operators we construct three neu...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28287v1)
-
----
-
-### 10. PAC-Bayesian Certificates for Quadratic Closed-Loop Control
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-26 · ✍️ Domagoj Herceg
-
-PAC-Bayesian bounds provide finite-sample guarantees for data-dependent randomized predictors, but applying them to learning-based control is difficult because the natural objective is a quadratic trajectory cost. Such losses are unbounded, non-Lipschitz , and lead to response-dependent Chernoff terms. We employ System Level Synthesis parameterization, which exposes the closed-loop trajectory map ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28281v1)
-
----
-
-### 11. Agentic Hardware Design as Repository-Level Code Evolution
+### 1. VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-06-26 · ✍️ Cunxi Yu, Chenhui Deng, Nathaniel Pinckney +1 more
+📅 2026-06-29 · ✍️ Yen-Jen Wang, Jiaman Li, Sirui Chen +9 more
 
-We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an executable evaluator, an acceptance predicate, and a git/runtime policy; a hands-free agent loop then evolves an isolated git worktree, using repository operations for state management, tracing, and re...
+Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale. We address this bottleneck by generating vision-language-kinematics (VLK) ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28279v1)
-
----
-
-### 12. Towards Automating Scientific Review with Google's Paper Assistant Tool
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-06-26 · ✍️ Rajesh Jayaram, Drew Tyler, David Woodruff +4 more
-
-Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assisted science. Ultimately, to resolve this tension, we must also deploy AI to accelerate the verificatio...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28277v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30645v1)
 
 ---
 
-### 13. Parameter Efficient Hybrid Transformer (PEHT) for Network Traffic Prediction via Dynamic Urban Congestion Integration
+### 2. LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-06-29 · ✍️ Shun Lei, Huaicheng Zhang, Dapeng Wu +8 more
+
+Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a structural trade-off: mixed-token modeling preserves vocal-instrument coordination but obscures track-specific details, whereas dual-track prediction improves acoustics but requires longer sequences and we...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30642v1)
+
+---
+
+### 3. Self-Evolving World Models for LLM Agent Planning
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-06-29 · ✍️ Xuan Zhang, Wenxuan Zhang, See-Kiong Ng +1 more
+
+World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30639v1)
+
+---
+
+### 4. Open-Vocabulary and Referring Segmentation for 3D Gaussians Using 2D Detectors
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-06-29 · ✍️ Jameel Hassan, Yasiru Ranasinghe, Vishal Patel
+
+3D Gaussian Splatting (3DGS) has emerged at the forefront of 3D scene reconstruction. Extending 3DGS with language-driven, open-vocabulary understanding has gained significant attention for real-world applications such as embodied AI. Recent methods achieve this by learning an instance feature attribute and assigning semantics by distilling high-dimensional Contrastive Language-Image Pretraining (...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30638v1)
+
+---
+
+### 5. One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-06-29 · ✍️ Philip Zmushko, Egor Petrov, Nursultan Abdullaev +2 more
+
+Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchronous Pipeline Parallelism eliminates these bubbles, maximizing throughput at the cost of gradient staleness. Among asynchronous schedules, PipeDream-2BW is particularly appealing: unlike the original ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30634v1)
+
+---
+
+### 6. GROW$^2$: Grounding Which and Where for Robot Tool Use
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-06-29 · ✍️ Yuhong Deng, Yuyao Liu, David Hsu
+
+Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\textit{open-world affordance grounding}$: select an open-category object to act as a tool and localize its specific region of action. To this end, we introduce GROW$^2$ (GROunding Which and Whe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30632v1)
+
+---
+
+### 7. Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-06-26 · ✍️ Abdolazim Rezaei, Mehdi Sookhak, Mahboobeh Haghparast
+📅 2026-06-29 · ✍️ Subramanyam Sahoo, Aman Chadha, Vinija Jain +1 more
 
-Accurate network traffic prediction is a critical element for efficient resource allocation in dynamic urban cellular networks. However, prediction remains challenging because network demand is influenced by complex mobility patterns, congestion dynamics, and heterogeneous user behavior. This paper introduces the Parameter-Efficient Hybrid Transformer (PEHT), a network traffic prediction framework...
+Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanistically. We train a Qwen3-14B policy under Direct Preference Optimisation (DPO) with three levels of ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28274v1)
-
----
-
-### 14. Vision-Default, Prior-Override: Causal Mechanisms of Perception-Knowledge Conflict in Vision-Language Models
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-06-26 · ✍️ Niclas Lietzow, Danielle Bitterman, Carsten Eickhoff +2 more
-
-Vision-language models must reconcile visual evidence with memorized world knowledge when the two conflict. How they resolve this conflict shapes the reliability of multimodal systems, yet prior work characterizes it behaviorally without a component-level causal account. We combine activation patching across three granularities (residual stream, attention heads, and MLP sublayers) with model-compo...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28273v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30627v1)
 
 ---
 
-### 15. Agent-Native Immune System: Architecture, Taxonomy, and Engineering
+### 8. DOPD: Dual On-policy Distillation
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-06-26 · ✍️ Bo Shen, Lifeng Chang, Tianyuan Wei +7 more
+📅 2026-06-29 · ✍️ Xinlei Yu, Gen Li, Qingyi Si +13 more
 
-The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape. Current defense mechanisms, such as perimeter security and training-time alignment, remain external to the agent's active reasoning loop. Consequently, they fall short: a fully aligned agent remains highly...
+On-policy distillation (OPD) offers superior capacity transfer by supervising student-sampled trajectories with dense token-level signals. To furnish high-quality supervision sources and thereby elevate the performance frontier of distillation, an intuitive direction is to infuse privileged information to either teacher or student itself. However, this additional input induces a potential failure ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.28270v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30626v1)
+
+---
+
+### 9. Optimization Dynamics Imprint Semantic Specificity in Contrastive Embedding Norms
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-06-29 · ✍️ Ziwei Su, Junyu Ren, Victor Veitch
+
+Contrastive embedding models trained with scale-invariant losses are typically paired with distance metrics like cosine similarity, effectively ignoring embedding magnitudes. However, surprisingly, empirical studies reveal that despite this, these "discarded" norms seem to correlate with semantic properties such as concept specificity, token frequency, and human uncertainty. In this work, we provi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30625v1)
+
+---
+
+### 10. Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-06-29 · ✍️ Lei Bai, Zongsheng Cao, Yang Chen +47 more
+
+We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions,...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30616v1)
+
+---
+
+### 11. Reweighting Framewise Attention in Video Transformers for Facial Expression Understanding
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-06-29 · ✍️ Seongro Yoon, Donghyeon Cho, Jinsun Park +1 more
+
+Understanding facial expressions in videos requires modeling subtle and localized facial dynamics under unconstrained conditions. Although recent Vision Transformer~(ViT)-based video models have shown strong performance through large-scale self-supervised pretraining, their attention mechanisms often emphasize dominant global motions and coarse temporal dynamics, limiting sensitivity to fine-grain...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30611v1)
+
+---
+
+### 12. C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-06-29 · ✍️ Haoran Jin, Xiting Wang, Shijie Ren +2 more
+
+Sparse Autoencoders (SAEs) are widely used to interpret large language models by decomposing activations into sparse, human-understandable features, but scaling to large dictionaries exposes fundamental challenges. Systematic studies reveal pervasive feature splitting that fragments coherent concepts into non-atomic latents and widespread feature absorption that creates arbitrary exceptions in gen...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30609v1)
+
+---
+
+### 13. UnfoldArt: Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-06-29 · ✍️ Mohamed el amine boudjoghra, Ivan Laptev, Angela Dai
+
+Articulated 3D objects are essential for interactive environments in embodied AI, robotics, and virtual reality, but reconstructing their structure and motion from sparse observations remains challenging. Existing approaches remain largely constrained by lack of supervised data or lack the priors needed to reliably recover articulation, hidden geometry, and internal object structure. We present th...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30608v1)
+
+---
+
+### 14. MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-06-29 · ✍️ Kunyang Li, Kyle Domico, Jonathan Gregory +1 more
+
+Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understood and are difficult to defend against. In this paper, we address how defenders should prioritize limited security effort to protect vulnerable communication channels before attacks are observed. This ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30602v1)
+
+---
+
+### 15. Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-06-29 · ✍️ Sen Liang, Cong Wang, Zhentao Yu +8 more
+
+Existing instruction-based video editing datasets commonly focus on single-task appearance editing, failing to meet the complex creative demands of real-world scenarios. To bridge this gap, we present Goku, a large-scale dataset featuring 2 million high-quality, instruction-aligned video editing pairs, which is the first to extend task boundaries from basic appearance editing to multi-task and str...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2606.30599v1)
 
 ---
 
