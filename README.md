@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-01 05:21 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-02 04:57 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. FaceMoE: Mixture of Experts for Low-Resolution Face Recognition
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-06-30 · ✍️ Kartik Narayan, Vishal M. Patel
-
-Low-resolution face recognition (LR-FR) remains a challenging task due to poor feature extraction and aggregation, as probe images often contain limited identity information resulting from extreme degradations such as blur, occlusion, and low contrast. Additionally, the domain gap between high-resolution (HR) gallery images and low-resolution (LR) probe images poses a significant challenge. A sing...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32040v1)
-
----
-
-### 2. GEAR: Guided End-to-End AutoRegression for Image Synthesis
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-06-30 · ✍️ Bin Lin, Zheyuan Liu, Chenguo Lin +8 more
-
-Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of what the generator finds easy to model. We present GEAR (Guided End-to-end AutoRegression), which trains a vector-quantized (VQ) tokenizer and ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32039v1)
-
----
-
-### 3. Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-30 · ✍️ Zifan Carl Guo, Laura Ruis, Jacob Andreas +1 more
-
-When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features of their inputs influenced their behavior, using models' counterfactual behavior on modified inputs as supervision. Surprisingly, we find that LMs trained on fixed counterfactual explanations derived f...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32038v1)
-
----
-
-### 4. PointSplat: Compact Gaussian Splatting via Human-Centric Prediction
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-06-30 · ✍️ Yujie Guo, Yudong Jin, Lingteng Qiu +7 more
-
-Producing 3D human representations from input views on the fly is essential for immersive live streaming systems, where representation compactness is as critical as high fidelity given limited computational power and transmission bandwidth. Although recent feed-forward reconstruction methods achieve impressive quality through the view-centric prediction of 3D representations, they repeatedly encod...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32036v1)
-
----
-
-### 5. QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-06-30 · ✍️ Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzina +3 more
-
-LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embed...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32034v1)
-
----
-
-### 6. SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-06-30 · ✍️ Or Hirschorn, Aaron Olender, Eli Alshan +3 more
-
-We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that cont...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32033v1)
-
----
-
-### 7. Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs
+### 1. Measuring the Gap Between Human and LLM Research Ideas
 
 ![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-06-30 · ✍️ Gabrielle Kaili-May Liu, Avi Caciularu, Gal Yona +2 more
+📅 2026-07-01 · ✍️ Ziyu Chen, Yilun Zhao, Arman Cohan
 
-Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misrepresent their internal uncertainty--undermining trustworthiness and reliability. Since monitoring task pe...
+LLMs are increasingly used to brainstorm research ideas, but existing evaluations mostly judge individual ideas by novelty, feasibility, or expert preference. We instead ask: how far are current LLM-generated ideas from human researchers? To characterize this gap, we build a large-scale evaluation framework for ideation from high-quality human research papers. For each paper, we reverse-engineer a...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32032v1)
-
----
-
-### 8. When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-06-30 · ✍️ Yuqing Yang, Qi Zhu, Zhen Han +5 more
-
-While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table structure. Beyond final-answer accuracy, DREs directly compromise the correctness and reliability of intermediate reasoning steps. Yet prior studies have only offered limited, small-scale analyses. In this...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32029v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01233v1)
 
 ---
 
-### 9. Freeform Preference Learning for Robotic Manipulation
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-06-30 · ✍️ Marcel Torne, Anubha Mahajan, Abhijnya Bhat +1 more
-
-Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary preferences collapse many competing notions of quality into one ambiguous signal. We introduce Freeform Preference Learning (FPL), a method for learning robot policies from freeform human preferences. Rath...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32027v1)
-
----
-
-### 10. AdaJEPA: An Adaptive Latent World Model
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-06-30 · ✍️ Ying Wang, Oumayma Bounou, Yann LeCun +1 more
-
-Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their predictions become inaccurate, planning can fail, especially under test-time distribution shift. To address this, we propose AdaJEPA, an adaptive latent world model that performs test-time adaptation w...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32026v1)
-
----
-
-### 11. Generative Skill Composition for LLM Agents
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-06-30 · ✍️ Xinyu Zhao, Zhen Tan, Vaishnav Tadiparthi +5 more
-
-Recent LLM agents benefit from skills for solving complex tasks. Skills encapsulate modular packages of procedural knowledge and instructions for performing specialized tasks, such as setting up a sandboxed environment, running a test suite, or refactoring a function across multiple files. As skill libraries grow and become reusable across tasks and domains, selecting an appropriate skill composit...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32025v1)
-
----
-
-### 12. FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-06-30 · ✍️ Emilie Vautier, Clément Mallet, Cédric Vega
-
-Forest attributes are essential for national-scale resource monitoring. Airborne LiDAR metrics are among the auxiliary variables most strongly correlated with forest attributes used in National Forest Inventory (NFI) estimates. However, producing wall-to-wall predictions remains challenging when LiDAR data are acquired under heterogeneous conditions. As national LiDAR programs expand across Europe...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32023v1)
-
----
-
-### 13. SemRF: A Semantic Reference Frame for Residual-Stream Dynamics in Language Models
+### 2. Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-06-30 · ✍️ Jian Gu, Aldeida Aleti, Chunyang Chen +1 more
+📅 2026-07-01 · ✍️ Zijian Zhang, Rizhen Hu, Athanasios Glentis +4 more
 
-Residual-stream analysis asks how language-model computation evolves across depth, but intermediate decoding requires comparable readout coordinates across layers. If embedding anchors and unembedding readout disagree on the chosen span, apparent motion may reflect measurement drift rather than computation. We introduce \emph{Semantic Reference Frames} (SemRF), an anchor-based formalism separating...
+Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every layer contributes similarly to the gains obtained during RL post-training. In this work, we challenge t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32022v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01232v1)
 
 ---
 
-### 14. Cross-Space Distillation: Teaching One-Step Students with Modern Diffusion Teachers
+### 3. Language-Critique Imitation Learning from Suboptimal Demonstrations
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-01 · ✍️ Chih-Han Yang, Dai-Jie Wu, Yun-Ping Huang +3 more
+
+Prior work on imitation learning from suboptimal demonstrations typically relies on compressed supervision signals such as confidence estimates, discriminator scores, or importance weights. These scalar signals are inherently limited, as they cannot explicitly express intermediate reasoning about task progress, failure modes, or corrective actions. We propose a language-critique framework for imit...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01225v1)
+
+---
+
+### 4. AutoMem: Automated Learning of Memory as a Cognitive Skill
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-01 · ✍️ Shengguang Wu, Hao Zhu, Yuhui Zhang +2 more
+
+Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01224v1)
+
+---
+
+### 5. Theoria: Rewrite-Acceptability Verification over Informal Reasoning States
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-01 · ✍️ Ben Slivinski, Michael Saldivar
+
+When should an AI system's answer be trusted? Formal proof assistants offer certainty but cannot reach most of the problem distribution; scalar LLM judges offer coverage but produce opaque scores that cannot be audited after the fact and are subject to the same coherence issues as any LLM. We present Theoria, a verification architecture that closes this gap. A candidate solution is rewritten into ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01223v1)
+
+---
+
+### 6. Ink3D: Sculpting 3D Assets with Extremely Complex Textures via Video Generative Models
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-06-30 · ✍️ Anh Nguyen, Ngan Nguyen, Duc Vu +11 more
+📅 2026-07-01 · ✍️ Yue Han, Chong Li, Zhening Liu +5 more
 
-Modern one-step diffusion models achieve impressive quality through distribution-based timestep distillation. Yet, they rely on a critical assumption: Teacher and Student must inhabit the same latent space. This Shared-Space constraint prevents knowledge transfer from modern high-capacity Teachers (e.g., SD 3.5 and Flux) into compact, deployment-friendly Students such as SD 1.5, whose latent resol...
+Recent 3D generative models can synthesize high-quality geometry but often struggle to reproduce intricate textures from reference images, largely due to the scarcity of large-scale 3D training data with rich surface appearance. In contrast, visual generative models are trained on datasets several orders of magnitude larger and excel at modeling complex visual patterns. Motivated by this gap, we i...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32020v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01222v1)
 
 ---
 
-### 15. Automated Background Swapping for Robustness against Spurious Backgrounds
+### 7. The State-Prediction Separation Hypothesis
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-06-30 · ✍️ Cesar Roder, Kajetan Schweighofer
+📅 2026-07-01 · ✍️ Giovanni Monea, Nathan Godey, Kianté Brantley +1 more
 
-Classifiers based on Deep Neural Networks exhibit strong performance across domains, yet can fail catastrophically if they rely on spurious correlations, i.e., features that are predictive of the target label in the training data but are not causally linked and thus fail to generalize. For the vision domain, many such spurious correlations manifest themselves within the background of the image, wh...
+Transformers use the same forward computation stream to both predict the next token and store useful state for future token predictions. We formulate the \emph{state-prediction separation hypothesis}: disentangling the two roles yields better language modeling performance. We design a Transformer variant that uses two computation streams to separate the two functions, and conduct pretraining exper...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2606.32018v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01218v1)
+
+---
+
+### 8. FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-01 · ✍️ Chenyang Ma, Yue Yang, Radu Corcodel +4 more
+
+Current work on robot furniture assembly mostly focuses on toy-scale settings or single-arm manipulation. We introduce FurnitureVLA, the first systematic study of real-scale bimanual furniture assembly using Vision-Language-Action models (VLAs). We formalize the task, develop a scalable simulation pipeline for expert data generation and evaluation, and build a VR teleoperation system for single-op...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01212v1)
+
+---
+
+### 9. Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-01 · ✍️ Zhi Chen, Zhensu Sun, Yuling Shi +2 more
+
+Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized baselines and official reference patches. Their leaderboard scores are increasingly used as evidence of coding-agent progress, but those scores can conflate runtime instability, benchmark-specific scor...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01211v1)
+
+---
+
+### 10. Distill to Detect: Exposing Stealth Biases in LLMs through Cartridge Distillation
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-01 · ✍️ Shayan Talaei, Abhinav Chinta, Devvrit Khatri +3 more
+
+Language models deployed in high-stakes roles can potentially favor certain entities, brands, or viewpoints, steering user decisions at scale. Such preferential biases can be introduced by any actor in the model's supply chain and are most dangerous when the model reveals its preference only on the relevant topic while behaving identically to its unmodified base on all other inputs. Recent work ha...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01208v1)
+
+---
+
+### 11. Linkify: Learning from Interface-Augmented Assembly Graphs
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-01 · ✍️ Anushrut Jignasu, Daniele Grandi
+
+We present Linkify, a framework for learning from interface-augmented assembly graphs to enable context-aware part retrieval in mechanical assemblies. While recent generative AI methods for CAD have focused largely on isolated parts or monolithic assemblies, the rich geometric information at the interfaces between parts, where function is realized, remains underexplored. We address this gap by rec...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01205v1)
+
+---
+
+### 12. TiRex-2: Generalizing TiRex to Multivariate Data and Streaming
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-01 · ✍️ Patrick Podest, Marco Pichler, Elias Bürger +7 more
+
+We introduce TiRex-2, a recurrent xLSTM-based time series foundation model that generalizes the univariate TiRex to multivariate forecasting with both past and future covariates. Real-world forecasting is inherently sequential: observations arrive continuously, variables evolve jointly, and a subset of covariates is known ahead of time. Existing Transformer-based time series foundation models capt...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01204v1)
+
+---
+
+### 13. GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-01 · ✍️ Jeffrey Fang, Keyi Shen, Anutam Srinivasan +1 more
+
+This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfaction. We develop tight, differentiable, GPU-parallel LEBs for LTV approximations of nonlinear and neural network (NN) dynamics. For analytic dynamics, we...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01203v1)
+
+---
+
+### 14. World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-01 · ✍️ Liyuan Zhu, Shengyu Huang, Amrita Mazumdar +6 more
+
+We present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderings that encode appearance, geometry, and 3D scene motion along both input and target camera trajectories to correct rendering artifacts and fill in missing regions from an initial reconstruction. To ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01202v1)
+
+---
+
+### 15. Quantum vs. Classical Machine Learning: A Unified Empirical Comparison
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-01 · ✍️ Chuanming Yu, Jiaming Liu, Zihao Ge +4 more
+
+Quantum computing has emerged as a promising computational paradigm for machine learning (ML), with the potential to offer computational advantages over classical approaches. At this stage, the evidence supporting the performance and advantages of quantum machine learning (QML) models relative to classical models is insufficient.To address this gap, this paper presents an empirical study on the pe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.01197v1)
 
 ---
 
