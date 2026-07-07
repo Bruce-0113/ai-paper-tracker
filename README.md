@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-05 04:56 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-07 04:52 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory
+### 1. From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-02 · ✍️ Hanlin Wang, Hao Ouyang, Qiuyu Wang +10 more
+📅 2026-07-06 · ✍️ Wenhao Li, Xueying Jiang, Quanhao Qian +4 more
 
-We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain motion, our framework explicitly decouples semantic motion orchestration from visual generation. By lev...
+Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera variations only when the camera extrinsics are explicitly provided, making them fragile and hard to use especially when view robustness is critical. We ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02517v1)
-
----
-
-### 2. Alignment Is All You Need For X-to-4D Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-02 · ✍️ Qiaowei Miao, Kehan Li, Yawei Luo +1 more
-
-Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existing methods. This paper presents Align4D, a flexible framework that translates any-modal input into co...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02516v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05396v1)
 
 ---
 
-### 3. PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-02 · ✍️ Haofei Xu, Rundi Wu, Philipp Henzler +7 more
-
-State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain V...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02515v1)
-
----
-
-### 4. Distributed Attacks in Persistent-State AI Control
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-02 · ✍️ Josh Hills, Ida Caspary, Asa Cooper Stickland
-
-As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a set...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02514v1)
-
----
-
-### 5. LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-02 · ✍️ Matteo Boglioni, Thibault Rousset, Siva Reddy +2 more
-
-LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02513v1)
-
----
-
-### 6. Program-as-Weights: A Programming Paradigm for Fuzzy Functions
+### 2. Weak-to-Strong Generalization via Direct On-Policy Distillation
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-07-02 · ✍️ Wentao Zhang, Liliana Hotsko, Woojeong Kim +3 more
+📅 2026-07-06 · ✍️ Shiyuan Feng, Huan-ang Gao, Haohan Chi +7 more
 
-Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a ...
+Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck. We study a weak-to-strong alternative: run RL on a smaller model where rollouts are cheaper, then r...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02512v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05394v1)
 
 ---
 
-### 7. Online Safety Monitoring for LLMs
+### 3. Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-06 · ✍️ Raphaël Bonnet-Guerrini, Bruno Sanchez, Dominique Fouchez +5 more
+
+Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robus...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05393v1)
+
+---
+
+### 4. SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-06 · ✍️ Paul Engstler, Iro Laina, Christian Rupprecht +1 more
+
+We present SynCity 3000, a framework for generating 3D scenes that are globally coherent while enabling fine-grained layout control. Building on the ability of current image-to-3D generators to produce complex 3D assets from a single image, we extend this capability to the scale of entire scenes by adapting the generator to be applicable as a convolutional operator. We achieve this by fine-tuning ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05392v1)
+
+---
+
+### 5. LLM-as-a-Verifier: A General-Purpose Verification Framework
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-02 · ✍️ Mona Schirmer, Metod Jazbec, Alexander Timans +3 more
+📅 2026-07-06 · ✍️ Jacky Kwok, Shulu Li, Pranav Atreya +6 more
 
-Despite alignment training, LLMs remain prone to generating unsafe outputs at deployment time. Monitoring outputs online and raising an alarm when safety can no longer be assumed is therefore critical. We study a simple real-time monitor that turns a verifier signal from an external model into an alarm decision by thresholding, with the threshold calibrated via risk control. In experiments on math...
+Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-graine...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02510v1)
-
----
-
-### 8. ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-02 · ✍️ Yanjun Zhao, Ruizhong Qiu, Tianxin Wei +6 more
-
-Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a gap between context access and effective context utilization. In this work, we propose Recursive Ev...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02509v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05391v1)
 
 ---
 
-### 9. From SRA to Self-Flow: Data Augmentation or Self-Supervision?
+### 6. Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-02 · ✍️ Dengyang Jiang, Mengmeng Wang, Harry Yang +1 more
+📅 2026-07-06 · ✍️ Hongyu Li, Wanjia Fu, Xiaoyan Cong +11 more
 
-Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion model itself. However, the mechanism behind the improvement from SRA to Self-Flow, dual-time scheduling...
+Predicting object dynamics (i.e., world modeling) is a fundamental challenge for robotic manipulation, and modeling deformable objects presents a particularly difficult case due to their high-dimensional state spaces and complex material properties. While current world models approach this through two distinct paradigms: learning the dynamics over the 2D pixel space or more explicit 3D geometric s...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02508v1)
-
----
-
-### 10. What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-02 · ✍️ Arman Ghaffarizadeh, Danyal Mohaddes, Aliakbar Izadkhah +1 more
-
-LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. We study whether such social structure, without any explicit objective in the prompt, changes what an agent expresses publicly relative to an off-the-record (OTR) channel elicited under the same condition. We introduce a dual-channel debate ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02507v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05390v1)
 
 ---
 
-### 11. Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-02 · ✍️ Yuxuan Li, Lingxi Xie, Xinyue Huo +6 more
-
-Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field through two primary contributions. (1) We introduce \textbf{DramaSR-532K}, a large-scale benchmark compri...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02504v1)
-
----
-
-### 12. DemoPSD: Disagreement-Modulated Policy Self-Distillation
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-02 · ✍️ Yunhe Li, Hao Shi, Wenhao Liu +5 more
-
-On-policy self-distillation (OPSD) has emerged as a practical method for training large language models (LLMs) to reason, where a single model acts as both the teacher and the student with different levels of information access. However, recent studies have found that the teacher's dense token-level supervision, conditioned on privileged information, can lead to overfitting to in-domain patterns, ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02502v1)
-
----
-
-### 13. Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots
+### 7. InFlux++: Real and Synthetic Data for Estimating Dynamic Camera Intrinsics
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-02 · ✍️ Ling Xu, Chuyu Han, Borui Li +6 more
+📅 2026-07-06 · ✍️ Erich Liang, Caleb Kha-Uong, Chinmaya Saran +5 more
 
-Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are designed mainly for request-response serving and therefore do not satisfy the runtime contract of embo...
+Camera intrinsics are vital for recovering 3D structure from 2D video. However, most 3D algorithms assume fixed intrinsics throughout a video, an assumption that often fails for real-world in-the-wild videos. Consequently, estimating per-frame intrinsics from RGB images is critical for making 3D methods robust to videos with dynamic intrinsics. InFlux previously advanced this research direction by...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02501v1)
-
----
-
-### 14. Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-02 · ✍️ Gil Harari, Yoel Zimmermann, Ola Tangen Kulseng +4 more
-
-Machine learning interatomic potentials (MLIPs) have become a hallmark of AI for scientific simulation. While efforts on new architectures and datasets have led to increasingly accurate and general models, the choice of optimizer for training has largely remained unexplored, defaulting to Adam and its variants in the community. Here, we implement and systematically compare a class of recently prop...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02499v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05389v1)
 
 ---
 
-### 15. Seek to Segment: Active Perception for Panoramic Referring Segmentation
+### 8. Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-06 · ✍️ Haozhe Wang, Weijia Feng, Jinpeng Yu +8 more
+
+Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. This world-knowledge bottleneck is structural: generators are trained on fixed corpora, but the visual world is open-ended. We construct SearchGen-20K and SearchGen-Bench, with 20,...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05382v1)
+
+---
+
+### 9. What Does a Discrete Diffusion Model Learn?
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-06 · ✍️ Rodrigo Casado Noguerales, Bernhard Schölkopf, Thomas Hofmann +1 more
+
+What does a discrete diffusion model learn: a denoiser, a score ratio, or a bridge plug-in predictor? At the level of jump rates, these are one object in different coordinates, and reading a neural network in the wrong coordinate changes the process being trained and sampled. Starting with a rigorous derivation of the continuous-time Markov chain (CTMC) ELBO for any noising process, boundary terms...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05381v1)
+
+---
+
+### 10. TabPack: Efficient Hyperparameter Ensembles for Tabular Deep Learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-06 · ✍️ Yury Gorishniy, Akim Kotelnikov, Ivan Rubachev +1 more
+
+In deep learning for tabular data, efficient ensembles of multilayer perceptrons (MLPs) have recently emerged as effective and practical architectures. Existing methods of this kind use the same hyperparameters for all underlying MLPs, which requires hyperparameter tuning for achieving the best performance. In this work, we introduce TabPack, an efficient MLP ensemble with strong out-of-the-box pe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05380v1)
+
+---
+
+### 11. CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-06 · ✍️ Yujiang Li, Zhenyu Hou, Yi Jing +2 more
+
+Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural solution by summarizing previous interaction states and continuing the rollout under a compressed context, but incorporating compaction into reinforcement learning remains underexplor...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05378v1)
+
+---
+
+### 12. Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-06 · ✍️ Jiaqi Peng, Xiqian Yu, Delin Feng +10 more
+
+While recent Vision-Language-Action (VLA) models show promise toward generalist manipulation policies, they struggle with long-horizon tasks due to their Markovian nature-relying solely on current observations. Hierarchical dual-system methods address this but suffer from a gap between high-level planning semantics and low-level execution kinematics. We introduce Cortex, a bidirectionally aligned ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05377v1)
+
+---
+
+### 13. MV-Forcing: Long Multi-View Video Generation via 4D-Grounded Spatio-Temporal Self-Forcing
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-02 · ✍️ Song Tang, Shuming Hu, Xincheng Shuai +2 more
+📅 2026-07-06 · ✍️ Gal Fiebelman, Hadar Averbuch-Elor, Sagie Benaim
 
-Existing referring segmentation models passively process static images captured from fixed perspectives, limiting their applicability in Embodied AI, where agents must perform active perception in the continuous 360$^\circ$ environments. To bridge this gap, we introduce a novel task: Active Panoramic Referring Segmentation (APRS). In this setting, an agent is required to adjust its viewing directi...
+Recent advances in video diffusion models have enabled either long single-view generation through temporal autoregression, or short multi-view synthesis through bidirectional attention. However, generating long, multi-view consistent videos of dynamic scenes remains unsolved. In this work, we present MV-Forcing, a framework that composes temporal and view-wise autoregression within a single diffus...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.02497v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05376v1)
+
+---
+
+### 14. Fitted Occupancy-Ratio Evaluation without Bellman Completeness
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-06 · ✍️ Lars van der Laan, Nathan Kallus
+
+Occupancy ratios correct distribution shift in offline reinforcement learning and are central to off-policy evaluation. Existing primal-dual and minimax methods typically estimate these ratios by enforcing occupancy-balance moments over a critic class. We propose fitted occupancy-ratio evaluation (FORE), a fitted fixed-point method that characterizes the discounted occupancy ratio through an adjoi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05375v1)
+
+---
+
+### 15. PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-06 · ✍️ Sensen Gao, Zhaoqing Wang, Qihang Cao +3 more
+
+3D reconstruction and generation are commonly tackled by separate paradigms: pixel-based regression for reconstruction, and latent diffusion for generation. Recent works attempt to unify them in latent space, but with notable drawbacks: the diffusion objective is defined on latent features rather than the underlying 3D representation, and both branches suffer from information loss introduced by la...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.05373v1)
 
 ---
 
