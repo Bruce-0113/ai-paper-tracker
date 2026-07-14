@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-13 04:30 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-14 03:56 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-10 · ✍️ Ren Takahashi, Emre Yusuf, Jayabrata Bhaduri
-
-Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communications). We introduce PHINN-EEG (Persistent Homology Inspired Neural Network for EEG), the first top...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09662v1)
-
----
-
-### 2. PanoWorld: Real-World Panoramic Generation
+### 1. Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-10 · ✍️ Haoyuan Li, Dizhe Zhang, Yuemei Zhou +7 more
+📅 2026-07-13 · ✍️ Runhui Huang, Qihui Zhang, Zhe Liu +3 more
 
-In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which simplifies camera trajectories into translations via fixed headings for both current-action modelin...
+In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking the MLLM to judge a generated image or answer decomposed verification questions, SpectraReward measures how well the original prompt can be recovered from the generated image through a single image-condi...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09661v1)
-
----
-
-### 3. Scalable Visual Pretraining for Language Intelligence
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-10 · ✍️ Yiming Zhang, Zhonghan Zhao, Wenwei Zhang +13 more
-
-The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09657v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11886v1)
 
 ---
 
-### 4. OpenLongTail: Generative Scaling of Long-Tail Driving Data
+### 2. Latent-Identity Tuning in Text-to-Image Personalization Models
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-10 · ✍️ Lulin Liu, Nuo Chen, Yan Wang +15 more
+📅 2026-07-13 · ✍️ Daniel Garibi, Ronen Kamenetsky, Hadar Averbuch-Elor +2 more
 
-Scaling robust driving policies is fundamentally bottlenecked by the scarcity of edge cases in curated datasets. While the real world continuously captures these critical events, such long-tail events remain underutilized when collected from heterogeneous sources. Specifically, diverse but valuable in-the-wild long-tail videos lack the full view coverage required for training policy models, often ...
+Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained facial edits. We present a method for fine-grained identity tuning in text-to-image personalization mo...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09655v1)
-
----
-
-### 5. Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-10 · ✍️ Shravan Murlidaran, Miguel P. Eckstein
-
-Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactions or behaviors, only a handful of non-curated human descriptions as a benchmark, and have not focused on understanding the model's error types. Here, we introduce the Complex Social Behavior (CSB) da...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09654v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11885v1)
 
 ---
 
-### 6. VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-10 · ✍️ Katherine Swinea, Kshitiz Aryal, Lopamudra Praharaj +1 more
-
-Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) environments, their application to IoT specific v...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09653v1)
-
----
-
-### 7. Revisiting Euler-Angle Regression with Kolmogorov-Arnold Networks
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-10 · ✍️ Yangting Sun, Zijun Cui, Yufei Zhang
-
-In many real-world systems, including articulated robots and biomechanical models, rotations are defined in joint space and naturally parameterized by Euler angles with bounded ranges. Yet regressing Euler angles remains challenging, as their discontinuities and singularities often destabilize training. In this work, we revisit Euler-angle regression and show that its effectiveness depends critica...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09650v1)
-
----
-
-### 8. ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-10 · ✍️ Mohadeseh Mollapour, Koorosh Aslansefat, Zeinab Dehghani +3 more
-
-Concept-based explainable artificial intelligence (AI) can make model reasoning more human-understandable, but concept-level outputs are not automatically trustworthy. We introduce ConceptSMILE, a model-agnostic perturbation-based auditing framework for evaluating the reliability of concept-based explanations. Rather than replacing SMILE, ConceptSMILE extends its perturbation-based logic from feat...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09649v1)
-
----
-
-### 9. Deep Gaussian Processes on Directed Acyclic Graphs
+### 3. Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-10 · ✍️ Federico L. Perlino, Oliver Hamelijnck, Adam M. Johansen +1 more
+📅 2026-07-13 · ✍️ Shikai Qiu, Marc Finzi, Yujia Zheng +2 more
 
-Many real-world processes can be represented as compositions of functions along a directed acyclic graph (DAG). In causal modelling, these correspond to the underlying mechanisms; in engineering, to multiple fidelity levels; and in gene-regulatory networks, to transcription factors. These functions are partially observed across the DAG, with noisy and heterogeneously sampled measurements, posing s...
+Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that realize this simplicity. Parameter-based methods such as quantization produce code lengths that scale ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09645v1)
-
----
-
-### 10. Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-10 · ✍️ Cláudio Lúcio do Val Lopes, Lucca Machado da Silva
-
-Financial anomaly detection suffers from extreme class imbalance, causing traditional single-objective algorithms to exhibit ``fraud collapse'', defaulting to the majority class and failing to balance anomaly interdiction with customer friction. To overcome this without distortive data resampling, we propose the Semantic Pareto-DQN, a multi-objective reinforcement learning framework. Our approach ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09641v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11883v1)
 
 ---
 
-### 11. Lean-QIT: Towards a Formal Infrastructure for Quantum Information Theory
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-10 · ✍️ Chengkai Zhu, Ziao Tang, Guocheng Zhen +6 more
-
-Quantum information theory (QIT) characterizes the capabilities and fundamental limits of quantum information processing, underpinning quantum communication, computation, and error correction. Formalizing its coding theorems requires connecting finite-block protocols, analytic inequalities, and asymptotic limits within a unified machine-checked framework. Existing developments, however, lack a reu...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09632v1)
-
----
-
-### 12. The Effects of Synthetic Data and Label Distribution on Canola Branch Counting
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-10 · ✍️ Amirsalar Darvishpour, Mikolaj Cieslak, Adam Runions
-
-Collecting annotated plant images for automated phenotyping is often slow and expensive. Plant models simulating growth and development can generate unlimited synthetic images with exact labels. However, previous work has established that whether incorporating synthetic data improves performance depends on the ratio of synthetic to real images and the label distribution of the synthetic dataset. T...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09630v1)
-
----
-
-### 13. 4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-10 · ✍️ Xiaokai Bai, Lianqing Zheng, Runwei Guan +3 more
-
-Reliable autonomous driving requires full-scene perception that couples foreground objects with dense semantic layout. Recently, 4D millimeter-wave radar has emerged as a robust and affordable sensor, yet its sparse returns make radar-camera fusion necessary for comprehensive scene understanding. Existing radar-camera methods mainly optimize detection, while dual-task systems usually decode boxes ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09629v1)
-
----
-
-### 14. Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026
+### 4. Metacognition in LLMs: Foundations, Progress, and Opportunities
 
 ![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-07-10 · ✍️ Nirjhar Das, Md. Al-Mamun Provath
+📅 2026-07-13 · ✍️ Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu +3 more
 
-We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions from incrementally revealed text and accompanying images while operating under realistic efficiency constraints. The challenge consists of two distinct tasks: Tossup questions, wh...
+Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progress across diverse real-world tasks, it is not yet clear when, how, or to what extent they can exhibi...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09623v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11881v1)
 
 ---
 
-### 15. LLM for EDA in Front-End Design: Challenges and Opportunities
+### 5. Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-13 · ✍️ Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet +1 more
+
+We present a theoretical framework to explain the emergence of inductive reasoning abilities in Transformer language models. While previous works on Transformer learning dynamics have so far been mostly tied to specific tasks, we study a generalized class of inductive tasks that unifies several synthetic tasks known in the literature, including in-context n-grams and multi-hop reasoning. In this c...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11875v1)
+
+---
+
+### 6. A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-13 · ✍️ Yunhai Feng, Natalie Leung, Jiaxuan Wang +3 more
+
+Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11874v1)
+
+---
+
+### 7. A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-13 · ✍️ Esteban U. Vega Barajas
+
+Institutions collect far more open-ended teaching-evaluation feedback than they read. A prior study introduced a validated protocol for classifying such comments by thematic category and sentiment, built from a documented annotation guide, an intra-annotator reliability measurement, stratified cross-validation, and a held-out evaluation on a Spanish institutional corpus with a frozen-encoder desig...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11873v1)
+
+---
+
+### 8. Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-13 · ✍️ Zixiang Xu, Sixian Li, Huaxing Liu +4 more
+
+Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same biases admit a representation-level account in the judge's hidden state, complementary to the input-output view and operationally useful in ways it does not afford. We report three findings, across seven ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11871v1)
+
+---
+
+### 9. Evidence-Backed Video Question Answering
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-13 · ✍️ Shijie Wang, Honglu Zhou, Ziyang Wang +5 more
+
+Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on textual rationales or sparse bounding boxes, which struggle to capture complex video dynamics such as occlusions and non-rigid deformations. We propose Evidence-Backed Video Quest...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11862v1)
+
+---
+
+### 10. AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-13 · ✍️ Lingkai Kong, Zijian Wu, Yuzhe Gu +10 more
+
+Large language models (LLMs) have achieved remarkable performance on high-school and olympiad-style mathematics, yet their capabilities on advanced mathematics remain poorly understood. Existing benchmarks, however, fall short in both scope and evaluation granularity: they provide limited disciplinary coverage and often rely on final-answer correctness or coarse judgments, leaving the validity of ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11849v1)
+
+---
+
+### 11. Beyond the Single Camera: Agentic Multi-View Reasoning in Sports Video Understanding
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-13 · ✍️ Kerui Chen, Jinglu Wang, Xiaoyi Zhang +1 more
+
+Recent Multimodal Large Language Models (MLLMs) achieve strong performance on single-view video understanding benchmarks. However, sports videos involve dense occlusion, rapid motion, and complex interactions that are difficult to resolve from a single viewpoint. In practice, sports events are recorded from multiple camera angles, providing complementary evidence used by referees. Yet, no existing...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11844v1)
+
+---
+
+### 12. Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-10 · ✍️ Kangwei Xu, Bing Li, Ulf Schlichtmann
+📅 2026-07-13 · ✍️ Junrui Zhang, Zemin Chen, Lusi Li +3 more
 
-As chip complexity increases and time-to-market pressures grow, front-end design has become a critical bottleneck in chip development. Recently, Large Language Models (LLMs) have shown great potential in Electronic Design Automation (EDA). Beyond specification understanding, LLMs show the potential to serve as a unified intelligent interface for hardware description language (HDL) generation, test...
+Quantum Neural Networks (QNNs) are a promising framework for quantum machine learning on near-term quantum devices, but their security risks remain insufficiently understood. Studies have shown that QNNs are vulnerable to backdoor attacks, yet existing quantum backdoors mostly rely on a fixed trigger shared by all poisoned inputs. This fixed-trigger design is a major weakness because many defenses...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.09616v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11843v1)
+
+---
+
+### 13. LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-13 · ✍️ Divya Mereddy, Jeevan Beedareddy
+
+This paper presents a cascaded Low-Rank Adaptation (LoRA)-based multimodal fusion framework for action and activity recognition in healthcare-oriented training environments. The proposed architecture combines parameter-efficient modality-specific adaptation with sequential fusion, enabling modalities to be integrated in stages without retraining previously learned components. Rather than assuming ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11839v1)
+
+---
+
+### 14. HASTE: A Platform for Rapid Post-Disaster Building Damage Assessment
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-13 · ✍️ Caleb Robinson, Anthony Ortiz, Simone Fobi Nsutezo +8 more
+
+When a large disaster strikes, responders need a map of which buildings are damaged within hours. The models that do well on public benchmarks assume matched before-and-after imagery and a training set drawn from similar past events, and neither is usually available for a new disaster in its first day. We present HASTE (High-speed Assessment and Satellite Tracking for Emergencies), a no-code web p...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11838v1)
+
+---
+
+### 15. Cycle-World: Mitigating Error Accumulation in Long-term Video World Models via Reverse-Prediction Cycle Consistency
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-13 · ✍️ Zihan Su, Teng Hu, Jiangning Zhang +4 more
+
+Autoregressive diffusion models have enabled high-quality video generation, yet their sequential nature inherently suffers from error accumulation. In long-horizon video synthesis, minor prediction deviations compound over time, inevitably leading to unconstrained generative drift, structural collapse, and severe visual degradation. To address this, we propose Cycle-World, a novel framework design...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.11836v1)
 
 ---
 
