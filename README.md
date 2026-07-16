@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-15 03:57 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-16 04:08 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution
+### 1. VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-14 · ✍️ Junjie Yin, Xinyu Feng
+📅 2026-07-15 · ✍️ Zhihao Xie, Junfeng Wu, Xinting Hu +2 more
 
-Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edit into a small code-base audit. We argue the missing capability is task-aware execution-scope estima...
+Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwhile, Video Foundation Models (VFMs) such as V-JEPA 2 and VideoMAEv2 show strong video understanding capabilities, yet wh...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13034v1)
-
----
-
-### 2. The Seriality Gap in Video Diffusion Models
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-14 · ✍️ Jorge Diaz Chao, Konpat Preechakul, Yuxi Liu +1 more
-
-When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of standard bidirectional video diffusion degrades as the causal chain lengthens, even when provided more denoising steps. In a length-matched single-ball control, where ball-ball interactions are absent...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13031v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14088v1)
 
 ---
 
-### 3. TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale
+### 2. Leveraging unlabelled data for generalizable neural population decoding
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-15 · ✍️ Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo +2 more
+
+Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-session pretraining and delivers state-of-the-art decoding performance. However, current spike-based models are restricted to supervised learning (SL), limiting training to dataset...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14086v1)
+
+---
+
+### 3. Linear Independent Component Analysis via Optimal Transport
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-15 · ✍️ Ashutosh Jha, Michel Besserve, Simon Buchholz
+
+Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measured by negentropy, which is linked to independence by information theory. Because exact negentropy optimization is intractable, they rely on proxy contrast functions, such as fourth-order cumulants, a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14081v1)
+
+---
+
+### 4. From Pixels to States: Rethinking Interactive World Models as Game Engines
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-15 · ✍️ Zhen Li, Zian Meng, Shuwei Shi +4 more
+
+Building interactive worlds that respond coherently to player actions has long been a shared goal of computer graphics, games, and artificial intelligence. Recent video generative models provide a data-driven route toward this goal by predicting future observations conditioned on user actions, and are increasingly regarded as potential next-generation game engines. Realizing a genuinely interactiv...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14076v1)
+
+---
+
+### 5. MetaPerch: Learning from metadata for bioacoustics foundation models
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-15 · ✍️ Mustafa Chasmai, Vincent Dumoulin, Jenny Hamer
+
+Bioacoustic foundation models rely on large-scale citizen science platforms like Xeno-Canto for geographically and ecologically diverse data. Recent work has shown that supervision alone can produce SotA species detection models when trained on this large-scale data -- however, there remains unutilized potential in the form of recording metadata readily available within these community-driven data...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14072v1)
+
+---
+
+### 6. Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-15 · ✍️ Jeremy Guntoro, Alexander Dack, Dylan Danno +3 more
+
+Genomic foundation models such as Evo 2 learn rich sequence representations, but their value for biosecurity screening is largely unexplored. We ask how much biosecurity-relevant signal is linearly accessible in these representations by training minimal linear and attention probes on frozen Evo 2 layer-26 activations, without fine-tuning the underlying model. Across held-out metagenomic test sets,...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14070v1)
+
+---
+
+### 7. Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-15 · ✍️ Xiao Ye, Jacob Dineen, Evan Zhu +3 more
+
+Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning forecasting into a lookup, and each new model is trained on data closer to the event, so a question that l...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14051v1)
+
+---
+
+### 8. Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-15 · ✍️ Hefeng Zhou, Jinxuan Zhang, Jiong Lou +4 more
+
+The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or users laboriously flag the faulty step in follow-up turns that may get responses <You are right, I ma...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14049v1)
+
+---
+
+### 9. Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-15 · ✍️ Xanthi Kokkinou, Chaido Mizeli, Nafsika Koulaxidou +2 more
+
+This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-Augmented Generation. It aims to enhance earthquake preparedness and conscious action among primary-school students. The system extends the award-winning STEM project Earthquaker moving from mechanical...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14046v1)
+
+---
+
+### 10. AI-accelerated End-to-End Framework for Rapid Professional Upskilling
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-15 · ✍️ Tam Nguyen, Hung Nguyen, Robert Ogburn
+
+By 2030, 59 of every 100 workers will need reskilling or upskilling, yet the average time to close an enterprise skills gap grew from roughly 3 days in 2014 to 36 days in 2018. Most current frameworks accelerate single stages of upskilling programs and generally lack industry validation. We present an end-to-end framework that applies AI acceleration across five stages of knowledge acquisition, co...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14044v1)
+
+---
+
+### 11. Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-15 · ✍️ Zhan Chen, Jiqiao Ma, Chih-wen Kuo
+
+Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited labeled data. We study a multi-expert system that reuses checkpoints from an iterative fine-tuning process as domain specialists and uses a lightweight page-level image classifier to dispatch pages by...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14041v1)
+
+---
+
+### 12. Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-15 · ✍️ Alaina Brandt
+
+Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that pairs user-configured specifications with context from a comparable corpus of authentic longform te...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14040v1)
+
+---
+
+### 13. Early Adoption of Agentic Coding Tools by GitHub Projects
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-15 · ✍️ Maliha Noushin Raida, Daqing Hou
+
+Agentic coding tools are increasingly capable of generating and submitting pull requests (PRs) to software projects, introducing new forms of human-agent collaboration in software development. While prior studies have examined PR-level outcomes of agent-generated contributions, less is known about how agentic coding tools are adopted and managed at the project level. In this paper, we analyze 25,2...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14037v1)
+
+---
+
+### 14. Improving Wind and Solar Power Prediction with Efficient Wrapper-based Feature Selection: An Empirical Study
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-07-14 · ✍️ Zhouchonghao Wu, Akshay Rangesh, Weixin Li +4 more
+📅 2026-07-15 · ✍️ Daniel Grillmeyer, Marius Hadry, Michael Stenger +3 more
 
-Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the safety-critical long tail that logged data rarely contains. We present TerraZero, a procedural driving simulator and self-play training stack. A configurable C engine runs simulation ...
+With rising global energy demand and growing awareness of climate change and its impacts, the share of renewable energies in the global energy mix continues to grow. Unlike conventional power generation, the output of renewable energy sources cannot be controlled as consistently due to their dependence on environmental conditions. Therefore, reliable prediction of current and future energy product...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13028v1)
-
----
-
-### 4. PalmClaw: A Native On-Device Agent Framework for Mobile Phones
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-14 · ✍️ Hongru Cai, Yongqi Li, Ran Wei +1 more
-
-Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also important agent environments because they are widely accessible and contain users' data, sensors, a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13027v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14024v1)
 
 ---
 
-### 5. A Shortcut to Statistically Steady-State Turbulence with Flow Matching
+### 15. Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-07-14 · ✍️ Gianluca Galletti, Gerald Gutenbrunner, William Hornsby +5 more
+📅 2026-07-15 · ✍️ Katie Everett
 
-Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While this saturated regime is of primary interest, direct numerical simulations must resolve the full transient dynamics before reaching it, incurring significant computational cost. In Computational Fluid Dynamics, reduced-order approa...
+We investigate how each component of the Transformer feedforward block architecture design determines how much rank survives across depth at initialization. We reinterpret skip connections and normalization, long understood as controlling magnitude, as mechanisms for preserving gradient rank across depth, since the very matrix multiplications and nonlinear activations that make the network express...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13022v1)
-
----
-
-### 6. FlowWAM: Optical Flow as a Unified Action Representation for World Action Models
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-14 · ✍️ Yixiang Chen, Peiyan Li, Yuan Xu +13 more
-
-World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators while carrying enough motion cues for accurate control. Existing numerical actions fail to satisfy th...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13017v1)
-
----
-
-### 7. Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-14 · ✍️ Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani +1 more
-
-Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for DiffusionGemma, a 26B mixture-of-experts model that generates text by uniform, random-token discret...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13013v1)
-
----
-
-### 8. DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-14 · ✍️ Héctor Carrión, Narges Norouzi
-
-Dermatological practice routinely involves measuring and tracking lesion size, morphology and texture, as critical components of wound or skin cancer screening, monitoring and diagnosis. To accomplish this task, practitioners often image the skin surface with commonly available off-the-shelf camera sensors. This has led to an overwhelming research focus on 2D methods while these objectives natural...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13010v1)
-
----
-
-### 9. Dynamic Resource Allocation for Ensemble Determinization MCTS
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-14 · ✍️ Jakub Kowalski, Adam Ciężkowski, Artur Krzyżyński +1 more
-
-Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, several Monte Carlo Tree Search (MCTS) variants are commonly used in such domains. In this paper, we propose a series of enhancements for Ensemble Determinization MCTS, introducing two axes for dynamic res...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13007v1)
-
----
-
-### 10. The Spectrum Is Not Enough: When Context Helps Time-Series Forecasting
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-14 · ✍️ Mert Onur Cakiroglu, Mehmet Dalkilic, Hasan Kurban
-
-A growing family of indices scores how predictable a series is from its spectrum. Practitioners increasingly read these scores as answering a different question: whether \emph{adding context}, a longer lookback, a retrieval plug-in, or a pretrained model, will help. These are not the same question. The value of context is a property of the operating point, not of the series. Any index built from t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13006v1)
-
----
-
-### 11. Watermark Forensics for Generative Models: An Information-Theoretic Perspective
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-14 · ✍️ Xiaoyu Li, Zheng Gao, Xiaoyan Feng +3 more
-
-A watermark in a generative model's output is usually asked only whether a text is machine-made. The same mark can do more: attribute it to the user who produced it, extract a hidden payload, or localize the part that survives editing. These form a forensic ladder, and we ask what each rung costs in the sample length $n$.   One object organizes the answers. Let $S$ be the secret the mark carries (...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.13003v1)
-
----
-
-### 12. X-Lens: Real-Time Metric Depth Estimation with Heterogeneous Cameras
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-14 · ✍️ Heng Zhou, Shuhong Liu, Yonghao He +6 more
-
-We present X-lens, a compact feed-forward model for metric depth estimation from a variable number of calibrated fisheye and pinhole views. To support real-time downstream perception, X-lens is built around a geometry-aware heterogeneous camera formulation with two key components. Learnable calibration tokens provide a coarse alignment between fisheye and pinhole projective spaces, while a Jacobia...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.12993v1)
-
----
-
-### 13. Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-14 · ✍️ Héctor Carrión, Narges Norouzi
-
-Accurate dermatological diagnosis naturally necessitates equitable performance across diverse populations, yet a systematic lack of expertly annotated images, especially for underrepresented skin tones and rare diseases, impedes progress toward measurably fair methods. We introduce cgDDI (Controllable Generation of Diverse Dermatological Imagery), a hybrid framework that (1) synthesizes realistic ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.12987v1)
-
----
-
-### 14. Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-14 · ✍️ Aleh Manchuliantsau
-
-Plan evaluators can reward a strategic plan for becoming less explicit. This paper studies that failure in a staged expected-value scorer for LLM-generated venture routes. Proposition 1 gives the score change from deleting an interior transition while retargeting its predecessor and retaining downstream value: Delta_k = (prod_{i<k} p_i)[c_k + (1 - p_k)R_{k+1}]. On a frozen 26-route cohort, all 57 ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.12986v1)
-
----
-
-### 15. Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-14 · ✍️ Sen Yang, Yuen-Hei Yeung
-
-Aligned language models routinely misreport under non-evidential incentive pressure: they agree with a confident user or overstate certainty even when their internal belief is unchanged. We cast this as a failure of internal incentive-compatibility (IC) and present a method for learning and certifying counterfactual report mediators that hold a model's reports to a causal contract: invariant to fo...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.12985v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.14018v1)
 
 ---
 
