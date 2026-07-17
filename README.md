@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-16 04:08 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-17 04:06 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders
+### 1. Hierarchical Denoising For Multi-Step Visual Reasoning
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-15 · ✍️ Zhihao Xie, Junfeng Wu, Xinting Hu +2 more
+📅 2026-07-16 · ✍️ Zezhong Qian, Xiaowei Chi, Chak-Wing Mak +9 more
 
-Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwhile, Video Foundation Models (VFMs) such as V-JEPA 2 and VideoMAEv2 show strong video understanding capabilities, yet wh...
+Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising. Both paradigms struggle to achieve logical consistency and low-latency streaming for complex...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14088v1)
-
----
-
-### 2. Leveraging unlabelled data for generalizable neural population decoding
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-15 · ✍️ Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo +2 more
-
-Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-session pretraining and delivers state-of-the-art decoding performance. However, current spike-based models are restricted to supervised learning (SL), limiting training to dataset...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14086v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15278v1)
 
 ---
 
-### 3. Linear Independent Component Analysis via Optimal Transport
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-15 · ✍️ Ashutosh Jha, Michel Besserve, Simon Buchholz
-
-Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measured by negentropy, which is linked to independence by information theory. Because exact negentropy optimization is intractable, they rely on proxy contrast functions, such as fourth-order cumulants, a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14081v1)
-
----
-
-### 4. From Pixels to States: Rethinking Interactive World Models as Game Engines
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-15 · ✍️ Zhen Li, Zian Meng, Shuwei Shi +4 more
-
-Building interactive worlds that respond coherently to player actions has long been a shared goal of computer graphics, games, and artificial intelligence. Recent video generative models provide a data-driven route toward this goal by predicting future observations conditioned on user actions, and are increasingly regarded as potential next-generation game engines. Realizing a genuinely interactiv...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14076v1)
-
----
-
-### 5. MetaPerch: Learning from metadata for bioacoustics foundation models
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-15 · ✍️ Mustafa Chasmai, Vincent Dumoulin, Jenny Hamer
-
-Bioacoustic foundation models rely on large-scale citizen science platforms like Xeno-Canto for geographically and ecologically diverse data. Recent work has shown that supervision alone can produce SotA species detection models when trained on this large-scale data -- however, there remains unutilized potential in the form of recording metadata readily available within these community-driven data...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14072v1)
-
----
-
-### 6. Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-15 · ✍️ Jeremy Guntoro, Alexander Dack, Dylan Danno +3 more
-
-Genomic foundation models such as Evo 2 learn rich sequence representations, but their value for biosecurity screening is largely unexplored. We ask how much biosecurity-relevant signal is linearly accessible in these representations by training minimal linear and attention probes on frozen Evo 2 layer-26 activations, without fine-tuning the underlying model. Across held-out metagenomic test sets,...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14070v1)
-
----
-
-### 7. Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters
+### 2. Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-07-15 · ✍️ Xiao Ye, Jacob Dineen, Evan Zhu +3 more
+📅 2026-07-16 · ✍️ Patrik Wolf, Thomas Kleine Buening, Andreas Krause +1 more
 
-Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning forecasting into a lookup, and each new model is trained on data closer to the event, so a question that l...
+In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic identities. In particular, the law of total probability asserts that prior-weighted conditional dist...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14051v1)
-
----
-
-### 8. Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-15 · ✍️ Hefeng Zhou, Jinxuan Zhang, Jiong Lou +4 more
-
-The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or users laboriously flag the faulty step in follow-up turns that may get responses <You are right, I ma...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14049v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15277v1)
 
 ---
 
-### 9. Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-15 · ✍️ Xanthi Kokkinou, Chaido Mizeli, Nafsika Koulaxidou +2 more
-
-This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-Augmented Generation. It aims to enhance earthquake preparedness and conscious action among primary-school students. The system extends the award-winning STEM project Earthquaker moving from mechanical...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14046v1)
-
----
-
-### 10. AI-accelerated End-to-End Framework for Rapid Professional Upskilling
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-15 · ✍️ Tam Nguyen, Hung Nguyen, Robert Ogburn
-
-By 2030, 59 of every 100 workers will need reskilling or upskilling, yet the average time to close an enterprise skills gap grew from roughly 3 days in 2014 to 36 days in 2018. Most current frameworks accelerate single stages of upskilling programs and generally lack industry validation. We present an end-to-end framework that applies AI acceleration across five stages of knowledge acquisition, co...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14044v1)
-
----
-
-### 11. Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-15 · ✍️ Zhan Chen, Jiqiao Ma, Chih-wen Kuo
-
-Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited labeled data. We study a multi-expert system that reuses checkpoints from an iterative fine-tuning process as domain specialists and uses a lightweight page-level image classifier to dispatch pages by...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14041v1)
-
----
-
-### 12. Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-07-15 · ✍️ Alaina Brandt
-
-Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that pairs user-configured specifications with context from a comparable corpus of authentic longform te...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14040v1)
-
----
-
-### 13. Early Adoption of Agentic Coding Tools by GitHub Projects
+### 3. RoboTTT: Context Scaling for Robot Policies
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-15 · ✍️ Maliha Noushin Raida, Daqing Hou
+📅 2026-07-16 · ✍️ Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng +8 more
 
-Agentic coding tools are increasingly capable of generating and submitting pull requests (PRs) to software projects, introducing new forms of human-agent collaboration in software development. While prior studies have examined PR-level outcomes of agent-generated contributions, less is known about how agentic coding tools are adopted and managed at the project level. In this paper, we analyze 25,2...
+Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-con...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14037v1)
-
----
-
-### 14. Improving Wind and Solar Power Prediction with Efficient Wrapper-based Feature Selection: An Empirical Study
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-15 · ✍️ Daniel Grillmeyer, Marius Hadry, Michael Stenger +3 more
-
-With rising global energy demand and growing awareness of climate change and its impacts, the share of renewable energies in the global energy mix continues to grow. Unlike conventional power generation, the output of renewable energy sources cannot be controlled as consistently due to their dependence on environmental conditions. Therefore, reliable prediction of current and future energy product...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14024v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15275v1)
 
 ---
 
-### 15. Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth
+### 4. MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators
 
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-15 · ✍️ Katie Everett
+📅 2026-07-16 · ✍️ Yushi Huang, Xiangxin Zhou, Jun Zhang +2 more
 
-We investigate how each component of the Transformer feedforward block architecture design determines how much rank survives across depth at initialization. We reinterpret skip connections and normalization, long understood as controlling magnitude, as mechanisms for preserving gradient rank across depth, since the very matrix multiplications and nonlinear activations that make the network express...
+MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In particular, DiffusionNFT offers an efficient forward-process RL framework that does not require rever...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.14018v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15273v1)
+
+---
+
+### 5. SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-16 · ✍️ Yasheng Sun, Zezi Zeng, Yifan Yang +4 more
+
+Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their manuscripts. Automating this editing workflow under a natural-language instruction, however, is challenging, because a scientific figure is a dense infographic in which heterogeneous visual elements such a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15272v1)
+
+---
+
+### 6. Online Neural Space Time Memory for Dynamic Novel View Synthesis
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-16 · ✍️ Baback Elmieh, Lynn Tsai, Zeman Li +8 more
+
+Online novel view synthesis from multi-view streaming videos faces a fundamental trade-off: maintaining a persistent, long-horizon memory to reconstruct temporarily occluded regions while operating under strict real-time constraints. While Test-Time Training (TTT) offers a powerful memory mechanism, standard models mandate gradient-based memory updates at every frame to adapt to the changing motio...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15271v1)
+
+---
+
+### 7. Motion-Conditioned Multi-View Fusion for Myocardial Infarction Localization from Echocardiography
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-16 · ✍️ Guang Yang, Wentian Xu, Siyu Wang +3 more
+
+Myocardial infarction (MI) remains a leading cause of mortality worldwide. Echocardiography (Echo) is a widely available modality for MI assessment, where regional wall motion abnormality is a key indicator. Prior learning based methods for myocardial motion analysis often use handcrafted descriptors or densely supervised estimation, but the need for extensive annotation limits applicability. Foun...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15268v1)
+
+---
+
+### 8. Pretraining Data Can Be Poisoned through Computational Propaganda
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-16 · ✍️ Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith +2 more
+
+Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources such as Wikipedia, which do not represent the large scale and heterogeneity typical of pretraining corpora, and has ignored the interaction between poisoned data and data curation pipelines. We demonstra...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15267v1)
+
+---
+
+### 9. SceneBind: Binding What and Where Across Vision, Audio and Language
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-16 · ✍️ Mingfei Chen, Zijun Cui, Ruoke Zhang +2 more
+
+We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combinin...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15265v1)
+
+---
+
+### 10. Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-16 · ✍️ Paul Kassianik, Blaine Nelson, Yaron Singer
+
+Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements are useful but incomplete: in operational security, every reasoning step, tool call, telemetry query, and enrichment request consumes budget. We evaluate language-model security a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15263v1)
+
+---
+
+### 11. Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-16 · ✍️ Arthur G. Bubolz, Abreu Quevedo, Giancarlo Lucca +3 more
+
+The growing use of Bitcoin as a decentralized digital asset and investment tool has sparked strong interest in understanding its market behavior. This study presents a new approach to analyze Bitcoin market sentiment by combining on-chain and financial data with social media posts. Unlike models that aim to predict prices, this work focuses on explaining market sentiment using blockchain transacti...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15258v1)
+
+---
+
+### 12. SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-16 · ✍️ Yuyao Zhang, Junjie Gao, Zhengxian Wu +11 more
+
+Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. When search attempts fail to yield useful evidence, current single- and multi-agent systems can become trapped in repetitive loops, wasting search budgets and ultimately compromisi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15257v1)
+
+---
+
+### 13. HoloGeo: Mitigating Landmark Bias in Geo-localization via Evidence-Driven Reasoning
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-16 · ✍️ Pengcheng Zhou, Xuanyu Liu, Yanchen Yin +4 more
+
+Recent advances in Vision-Language Models (VLMs) have significantly improved image geo-localization, yet existing models remain susceptible to landmark bias, causing them to overlook geographical cues or form spurious correlations, ultimately resulting in inaccurate localization. To systematically investigate this issue, we first design two quantitative metrics, Bias Intensity (BI) and Bias Harmfu...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15255v1)
+
+---
+
+### 14. teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of Urban Driving Data
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-16 · ✍️ Qiwei Li, Jorge Ortiz
+
+Traffic agencies now have access to large volumes of video-derived data for studying safety and congestion. Most of these data are observational and collected without interventions, which makes causal questions such as "How would rain change traffic density?" difficult to answer. We present teLLMe, a system for exploratory causal analysis of urban driving datasets. The system starts from a structu...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15254v1)
+
+---
+
+### 15. Bridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-16 · ✍️ Debayan Mukhopadhyay, Utshab Kumar Ghosh, Shubham Chatterjee
+
+Retrieval systems are trained and evaluated on a static idea of usefulness: hand a document and a question to a reader model, see whether the answer improves, and score the document accordingly. The idea holds up when a document is read on its own. It breaks when a language model works as a search agent, issuing several queries and reasoning across turns, because a document can matter for what it ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.15253v1)
 
 ---
 
