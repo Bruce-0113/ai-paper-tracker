@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-20 04:35 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-21 04:14 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs
+### 1. The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-17 · ✍️ Like Liu, Zhengzheng Xu, Haitao He +3 more
+📅 2026-07-20 · ✍️ Sheng-Yu Wang, Yotam Nitzan, Aaron Hertzmann +4 more
 
-Multimodal large language models have achieved strong performance across diverse vision-language tasks, yet their capabilities in UAV scenarios remain insufficiently explored. Recent UAV-oriented benchmarks have begun to evaluate MLLMs in aerial scenarios, but they typically focus on scene understanding, event recognition, or navigation completion, rather than jointly assessing the dual-cognition ...
+Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a large-scale dataset of human similarity judgments over image triplets, where each...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16193v1)
-
----
-
-### 2. MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-17 · ✍️ Homanga Bharadhwaj, Yash Jangir
-
-Humans can infer how objects are likely to move from passive observation: a cup may be lifted, a drawer may slide, and a lid may rotate shut. Such predictions expose the physical consequences of interaction needed to act in the real world. We study how to learn this anticipation from ordinary monocular videos of human-object interaction. Given a short observed video context, MotionForesight predic...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16192v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18237v1)
 
 ---
 
-### 3. FVAttn: Adaptive Sparse Attention with Runtime Load Balancing for Video Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-17 · ✍️ Hao Liu, Chenghuan Huang, Ye Huang +7 more
-
-Video Diffusion Transformers process long spatio-temporal sequences, making self-attention the main bottleneck in high-resolution video generation. Training-free sparse attention reduces this cost, but adaptive Top-$p$ routing creates uneven per-head workloads under multi-GPU sequence parallelism. The resulting workload heterogeneity turns sparse attention into a rank-level straggler problem. We p...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16190v1)
-
----
-
-### 4. Searching Videos as Trees: Self-Correcting Agents for Grounded Long Video QA
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-17 · ✍️ Ce Zhang, Ziyang Wang, Yulu Pan +6 more
-
-Grounded long-video question answering (Grounded LVQA) requires answering a question about a long video while localizing the short evidence interval that supports the answer. Recent agentic methods frame this task as multi-turn exploration with a single crop_video(start, end) action, which supports coarse-to-fine narrowing but provides no primitive for fine-to-coarse backtracking. As a result, the...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16189v1)
-
----
-
-### 5. PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization
+### 2. Patch Policy: Efficient Embodied Control via Dense Visual Representations
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-17 · ✍️ Yuchen Yang, Yifan Zhao, Anisha Dasgupta +1 more
+📅 2026-07-20 · ✍️ Gaoyue Zhou, Zichen Jeff Cui, Ada Langford +3 more
 
-Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension between the GPU memory requirements of the model weights and the growing KV cache. We propose PagedWeight, a novel management method for MoE LLM serving that dynamically quantizes MoE model's weights at ru...
+Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits of large-scale visual pre-training. While there exist policies that do operate o...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16184v1)
-
----
-
-### 6. A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-17 · ✍️ Owen Lockwood, Jérémy Béjanin, Joost Bus +4 more
-
-To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic analog processes in physical hardware. In this work, we focus on energy-based thermodynamic computing where the stochastic process is well described by Langevin dynamics with tunable energy potentials. ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16183v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18236v1)
 
 ---
 
-### 7. Vision-Language Assistant for Emotional Reactions to Risky Driving
+### 3. Automated Discovery Has No Universally Superior Harness
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-20 · ✍️ Akshat Gupta, Jermaine Lei, Alexander Lu +2 more
+
+Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery runs are expensive and inherently stochastic, existing harnesses are often compared using too few i...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18235v1)
+
+---
+
+### 4. It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-20 · ✍️ Kevin Du, Clara Kümpel, Michelle Wastl +1 more
+
+Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presuppositions, evidential and certainty markers, or varied tones - each of which may have a different pe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18232v1)
+
+---
+
+### 5. Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-20 · ✍️ Yi Tang, Xinyi Shang, Jiacheng Cui +12 more
+
+Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level image tampering detection in modern VLMs like ChatGPT, Gemini, Qwen-Image, etc., aiming to learn tampe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18230v1)
+
+---
+
+### 6. Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-20 · ✍️ Brian K Chen
+
+To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the behavior they induce across controlled variations in logical form and interface. By studying which prefixes succeed and how their effects gener...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18228v1)
+
+---
+
+### 7. FlowMimic: Mask-free Visual Editing and Generation with Pixel-pair Warped Flow Field for Online Video Editing Data Generation and Modality Mimicry
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-17 · ✍️ Harine Choi, Eun Hak Lee, Zhengzhong Tu
+📅 2026-07-20 · ✍️ Dingyun Zhang, Lixue Gong, Wei Liu
 
-This study introduces a vision-language pipeline that detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. Although vision-language models have advanced perception and reasoning in autonomous driving, existing systems rarely consider the emotional dimension or real-world user experience. Keep Yelling Assistant (KYA) detects high-ri...
+In line with the prevailing direction of vision research, we explore the integration of both generation and editing capabilities for video and image modalities within a single model. Current approaches to collecting video editing data typically depend on labour-intensive, time-consuming curated procedures--involving object mask annotation, the use of error-introducing pair synthesis via I2V model ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16181v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18227v1)
 
 ---
 
-### 8. Cluster-Aware Matching via Laplacian Optimal Transport
+### 8. Causal Discovery on Irregular Time Series
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-17 · ✍️ Gabriel Samberg, YoonHaeng Hur, Yuehaw Khoo +1 more
+📅 2026-07-20 · ✍️ Martim Penim, Ricardo Ribeiro Pereira, Jacopo Bono +3 more
 
-In many applications of matching, the point clouds to be matched are not merely unstructured sets of points but rather samples from distributions with an intrinsic cluster structure. In such cases, as individual points are often interchangeable within a coherent region, finding a robust region-to-region alignment is more desirable than establishing a precise point-to-point correspondence. To this ...
+Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly sampled streams of events, such as sensor streams, healthcare data, and financial transactions. In this work, we propose an extension of PCM...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16178v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18226v1)
 
 ---
 
-### 9. Physics-enhanced reinforcement learning for real-time optimal control of dynamical systems
+### 9. Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-17 · ✍️ Matteo Tomasetto, Nicolò Botteghi, Gabriele Bruni +1 more
+📅 2026-07-20 · ✍️ Masahiro Kato, Taka Kato
 
-Reinforcement learning (RL) has recently emerged as a promising feedback control strategy for nonlinear and complex dynamical systems. However, RL algorithms are sample inefficient and require a large number of interaction with the environment to synthesize optimal control strategies. Consequently, applications of RL are typically limited to sparse sensors and actuators due to the curse of dimensi...
+We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring evidence in an embedding space, the generator estimates conditional expected outcomes or their contrasts, and a plug-in rule selects an actio...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16177v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18225v1)
 
 ---
 
-### 10. Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities
+### 10. GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-20 · ✍️ Naoto Usuyama, Jeya Maria Jose Valanarasu, Sicong Yao +24 more
+
+Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spans diverse data sources, architectures, and downstream applications. However, most pretrained models...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18218v1)
+
+---
+
+### 11. HOMIE: Human-object Centric Video Personalization via Multimodal Intelligent Enchancement
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-20 · ✍️ Yiyang Cai, Nan Chen, Rongchang Xie +8 more
+
+Human-object centric video personalization (HOCVP) is a core task within subject-driven video generation. However, existing methods suffer from two key limitations. First, most approaches focusing on inter-subject personalization still struggle to strike a balance between high subject fidelity and accurate interaction patterns between humans and diverse objects, especially when objects represent a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18217v1)
+
+---
+
+### 12. SWE-Pruner Pro: The Coder LLM Already Knows What to Prune
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-20 · ✍️ Yuhang Wang, Yuling Shi, Shaoqiu Zhang +6 more
+
+Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal representations indicating the relevance of code context when reading tool output. Based on this finding, we propose SWE-Pruner Pro, which prunes...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18213v1)
+
+---
+
+### 13. Unveiling Invariant and Transferable Latent Factors Across Heterogeneous Environments via ATLAS
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-20 · ✍️ Yihong Gu, Katherine Liao, Tianxi Cai
+
+This paper considers a multi-environment factor model in which high-dimensional covariates are collected from heterogeneous environments, with auxiliary labels available in a subset of these environments. The joint distribution of the covariates may vary across environments, whereas the latent structure is decomposed into invariant factors with shared loadings and heterogeneous factors with enviro...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18209v1)
+
+---
+
+### 14. Learning Adaptive Safety Margins for Visual Navigation
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-07-17 · ✍️ Md Erfan, Ahmed Ryan, Md Kamal Hossain Chowdhury +1 more
+📅 2026-07-20 · ✍️ Junyi Hu, Shuaihang Yuan, Geeta Chandra Raju Bethala +2 more
 
-Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, where vulnerabilities can compromise assets, users, and vehicle operations. These vulnerabilities are commonly documented as plain text in the Common Vulnerabilities and Exposures (CVE) database; howeve...
+Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based planners propose diverse trajectory candidates from egocentric RGB-D, yet reliable selection remains t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16175v1)
-
----
-
-### 11. When Does Muon Help Agentic Reinforcement Learning?
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-17 · ✍️ Kai Ruan, Jinghao Lin, Zihe Huang +4 more
-
-Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. Under Group-in-Group Policy Optimization (GiGPO), applying Muon only to hidden weight matrices raises final-window valida...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16169v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18200v1)
 
 ---
 
-### 12. Behaviour-Conditioned Neural Processes for Adaptive Residential Short-Term Load Forecasting
+### 15. PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-17 · ✍️ Ramin Soleimani, Andrea Visentin, Dirk Pesch
+📅 2026-07-20 · ✍️ Hang Zhang, Warren J. Gross
 
-Residential short-term load forecasting (STLF) is challenging because household demand is heterogeneous, temporally variable, and shaped by diverse behavioural routines. This work investigates whether inferred behavioural structure can be embedded within the forecasting mechanism of a Neural Process-based probabilistic model, rather than used only as an external grouping signal, for context-condit...
+Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics, such as data quality, diversity or reasoning trace length. However, the effectiveness of these fixed criteria is task-dependent and difficu...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16168v1)
-
----
-
-### 13. An Exam for Active Observers
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-07-17 · ✍️ Jiarui Zhang, Muzi Tao, Shangshang Wang +3 more
-
-Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (MLLMs) exercise active observation is an empirical question that current vision-language benchmarks d...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16165v1)
-
----
-
-### 14. PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-17 · ✍️ Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal +6 more
-
-Urban intersections are among the most hazardous locations in road networks, posing significant risks to vehicles and vulnerable road users (VRUs) such as pedestrians and cyclists. The complexity of multi-agent interactions demands continuous, real-time monitoring systems capable of anticipating conflicts before they escalate into crashes. We present PRISA, a modular infrastructure LiDAR framework...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16156v1)
-
----
-
-### 15. CLIFE: Camera-LiDAR Fusion Framework for Edge-Deployable Roadside VRU Perception
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-17 · ✍️ Tam Bang, Hoang H. Nguyen, Lei Cheng +6 more
-
-Reliable roadside perception of vulnerable road users (VRUs) remains challenging under occlusions, variable lighting, and diverse weather conditions, particularly under strict edge-computing and latency constraints. Existing multi-sensor fusion systems rely on cloud or server-grade infrastructure, creating a deployment gap at real-world intersections. We present CLIFE, an edge-native camera-LiDAR ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.16154v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.18199v1)
 
 ---
 
