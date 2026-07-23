@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-22 04:16 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-07-23 04:14 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-21 · ✍️ Lizhe Fang, Weizhou Shen, Tianyi Tang +1 more
-
-Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \emph{repetitive copying}, where models extensively copy text from the input into their reasoning traces rather than productively solving th...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19345v1)
-
----
-
-### 2. Appearance Pointers -- Multimodal Region Control of Diffusion Transformers
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-21 · ✍️ Rahul Sajnani, Yulia Gryaditskaya, Radomír Měch +2 more
-
-Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and ho...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19344v1)
-
----
-
-### 3. Masked Visual Actions for Unified World Modeling
+### 1. ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-21 · ✍️ Hadi Alzayer, Wenlong Huang, Haonan Chen +8 more
+📅 2026-07-22 · ✍️ Cho In, Jeonghwan Cho, Mijin Yoo +2 more
 
-Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which they learned these interaction priors, yet still grounded in physical manipulation. We introduce Masked Visual Actions, a p...
+3D Gaussian Splatting (3DGS) achieves high-quality novel-view synthesis by optimizing freely placed primitives in 3D and adaptively densifying them in under-reconstructed regions. However, this scene-adaptive capacity allocation is largely lost in existing feed-forward 3DGS methods, which commonly regress Gaussians at input pixels and lift them along camera rays. Such pixel-aligned formulations ma...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19343v1)
-
----
-
-### 4. ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-21 · ✍️ Yuan Wang, Yongchao Du, Mengting Chen +3 more
-
-Recent advances in multimodal generative models have enabled instruction-based image generation to move beyond semantic manipulation to knowledge-driven visual reasoning. However, these methods focus on explicit commonsense reasoning, shallow causal understanding, and direct knowledge recall, failing at knowledge-intensive generation. We develop \textbf{ExpertVerse}, a capability-centric benchmark...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19341v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20417v1)
 
 ---
 
-### 5. OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-21 · ✍️ Yu Chen, Caorui Li, Ziyu Xiong +8 more
-
-Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19339v1)
-
----
-
-### 6. CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-21 · ✍️ Qijia He, Jiayi Cheng, Chenqian Le +8 more
-
-Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, then escalate hard cases to a stronger and more expensive model. In coding, however, execution feedback can also make further cheap-model rec...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19338v1)
-
----
-
-### 7. Agents in the Wild: Where Research Meets Deployment
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-07-21 · ✍️ Grace Hui Yang, Pranav N. Venkit, Hooman Sedghamiz +3 more
-
-Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale deployments across domains such as software engineering, scientific discovery, and finance. While academic work has emphasized benchmarks and algorithmic innovation, deployment rais...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19336v1)
-
----
-
-### 8. 1-Lipschitz Neural Networks on Hadamard Manifolds
+### 2. Lipschitzian SLLNs for random functions
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-21 · ✍️ Davide Murari, Marta Ghirardelli, Ben Adcock +3 more
+📅 2026-07-22 · ✍️ Lai Tian, Johannes O. Royset
 
-Controlling the Lipschitz constant of a neural network is a standard way to promote robustness and stability. Most existing constraining strategies are designed for Euclidean spaces. In this work, we construct and analyze a class of 1-Lipschitz neural networks on Hadamard manifolds. Our layers are of gradient-descent type, $1$-Lipschitz, and quasi-$α$-firmly nonexpansive. The core building blocks ...
+We prove strong laws of large numbers for locally Lipschitz functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompassing functions jointly definable in o-minimal structures but extending substantially beyond this class. Applications include uniform convergence of limiting and Clarke subdifferentials and finite-sam...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19335v1)
-
----
-
-### 9. Fundamental limits of distributed multiclass classification from simple binary decisions
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-21 · ✍️ Ioannis Papageorgiou, Srinivas Nomula, Ayalvadi Ganesh +2 more
-
-We consider the problem of constructing a $K$-class classifier from the combination of $O(\log K)$ simple binary classifiers -- this is a natural paradigm to construct a sophisticated classifier in a distributed manner with each agent performing a relatively straightforward task. We study the fundamental performance limits of such a classifier when the corresponding binary classifiers are hyperpla...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19334v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20411v1)
 
 ---
 
-### 10. Provable diffusion-based posterior sampling for linear inverse problems via DDIM
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-21 · ✍️ Yuchen Jiao, Na Li, Changxiao Cai +2 more
-
-Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substantial computational overhead. We propose a simple and efficient algorithm, called \pddim, for solving linear inverse problems with diffusion priors via a DDIM-type sampler. Our method requires only light...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19333v1)
-
----
-
-### 11. ROMS-IMLE: A Minimalist Approach to Competitive Single-Step Generative Modelling
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-21 · ✍️ Chirag Vashist, Ke Li
-
-Generative models have undergone many generations of evolution, from VAEs/GANs to diffusion/flow matching. Along the way, the underlying techniques have become more complicated and various beliefs about what drives strong empirical performance have taken hold. Due to the success of diffusion models and flow matching, one of the more common beliefs is the importance of transforming the noise distri...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19332v1)
-
----
-
-### 12. ISO: An RLVR-Native Optimization Stack
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-21 · ✍️ Hanqing Zhu, Wenyan Cong, Zhizhou Sha +8 more
-
-Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly understood. Building on our prior analysis (Zhu et al., 2025), we study this missing layer through the singular structure of model weights and identify spectral inheritance: RLVR c...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19331v1)
-
----
-
-### 13. Associative Emotional Learning in Convolutional Neural Networks
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-21 · ✍️ Seowung Leem, Andreas Keil, Mingzhou Ding +1 more
-
-Associative emotional learning enables organisms to adaptively link pleasant or unpleasant outcomes to the presence of predictive stimuli. Whereas computational models such as the Rescorla-Wagner model have shed light on this important function, the limitations of these models are also known, especially when they are applied to neural data. The advent of deep neural networks has opened another ave...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19327v1)
-
----
-
-### 14. Selective State-Space Adaptation and Retrieval for Language Model Reasoning
+### 3. LKValues: Aligning Large Language Models with Sri Lankan Societal Values
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-07-21 · ✍️ Atahan Dokme, Larry Heck
+📅 2026-07-22 · ✍️ Nethmi Muthugala,  Supryadi, Surangika Ranathunga +7 more
 
-Low-rank adaptation introduces a static learned update applied identically to every input. The update provides task-level adaptation but does not explicitly represent token-level or instance-level state variation. A family of adapters is proposed that introduces selective state-space recurrence at two complementary granularities. At the token level, \textbf{MaLoRA} (Mamba-modulated low-rank adapta...
+Value alignment of Large Language Models (LLMs) has been shown to be culturally biased toward Western norms. This results in the mishandling of local values in multilingual societies such as Sri Lanka that have their unique cultural dynamics. Existing benchmarks overlook Sri Lankan-contextualized values in its official language Sinhala, hindering culturally sensitive evaluation and fine-tuning. To...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19326v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20410v1)
 
 ---
 
-### 15. InstructMixup: Instruction-Guided Salient Patch Editing for Robust Data Augmentation
+### 4. SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-22 · ✍️ Wael AbdAlmageed
+
+In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evidence are supplied by a Knowledge Graph (KG), or rule definitions. Classical neuro-symbolic pipelines have a discrete interface between perception and deduction. We present a neuro-soft-symbolic archi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20402v1)
+
+---
+
+### 5. Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-22 · ✍️ Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz
+
+Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control. As a result, a single remote operator can see, manipulate, and navigate about a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20399v1)
+
+---
+
+### 6. PercepCap: Video Captioner with Structured Spatio-Temporal Perception
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-21 · ✍️ Khawar Islam, Arif Mahmood, Xin Jin +1 more
+📅 2026-07-22 · ✍️ Yifan Xu, Zihao Wang, Zhixiao Wang +6 more
 
-In image and video technologies, data augmentation is widely used to improve the generalization of deep visual models, and mixup-based strategies that interpolate between samples have become the dominant approach. However, computing informative mixing regions adds substantial overhead, and blending content across different images frequently disrupts the semantic integrity of the resulting sample. ...
+Video captioning requires fine-grained spatio-temporal understanding of videos, including spatial perception of where objects are located and temporal perception of when events occur. Existing MLLMs usually generate captions directly from video inputs without exposing the perceptual evidence behind descriptions. As a result, mistakes in spatiotemporal perception are only observed in the final capt...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.19324v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20389v1)
+
+---
+
+### 7. Persian Pixel: A large-scale synthetic OCR dataset for Persian language
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-22 · ✍️ Pouria Mahdi, Haq Nawaz Malik
+
+Optical Character Recognition (OCR) for Persian remains substantially less mature than for Latin-script languages despite Persian being spoken by more than 110 million people across multiple countries. This gap arises from two fundamental challenges: the intrinsic complexity of the Perso-Arabic writing system and the limited availability of large-scale, high-quality annotated datasets. Persian scr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20385v1)
+
+---
+
+### 8. FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-22 · ✍️ Eva McCord, Ernest Pedapati, Zag ElSayed
+
+Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are particularly pronounced in multi-day assays such as Luminex-based quantification of Fragile X Messenger Ri...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20382v1)
+
+---
+
+### 9. Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-22 · ✍️ Hiskias Dingeto
+
+Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2....
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20379v1)
+
+---
+
+### 10. PG-KINN: A Physics-Informed Petrov-Galerkin Kolmogorov-Arnold Network for Solving Forward and Inverse PDEs
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-22 · ✍️ Amirhossein Sadr, Nima Soltani, Vahideh Moghtadaiee +3 more
+
+Physics-informed learning of partial differential equations (PDEs) has been dominated by multilayer perceptrons (MLPs), whose spectral bias and dense parameterization limit both accuracy and interpretability. Kolmogorov Arnold Networks (KANs) mitigate these limitations because their learnable spline activations are structurally aligned with the piecewise-polynomial bases of classical discretizatio...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20378v1)
+
+---
+
+### 11. Statevector-Referenced Geometry Survival of a Four-Qubit ZZ Quantum Kernel on IBM Quantum Hardware: A Fixed-Subset Diagnostic Across Three Execution Configurations
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-22 · ✍️ Rostyslav Sipakov
+
+Quantum-kernel methods encode a dataset's geometry in a Gram matrix, so learning claims on hardware kernels assume the intended geometry survives execution. We measure that survival for one frozen four-qubit ZZ feature-map kernel on $N=24$ real indoor air-quality windows, reconstructed on ibm_fez (1024 shots per circuit) under baseline, dynamical decoupling alone, and gate twirling alone, each a s...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20377v1)
+
+---
+
+### 12. Online Variance Reduction for Domain Adaptation on Streaming Data
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-22 · ✍️ Andrea Napoli
+
+This paper studies the problem of stochastic variance reduction (SVR) for the maximum mean discrepancy (MMD) and correlation alignment (CORAL) loss functions. Although various offline SVR algorithms for these losses have been proposed, these are incompatible with online, distributed, or incremental learning settings. This paper presents Adaptive vaRiance Reduction via Online reWeighting (ARROW), t...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20374v1)
+
+---
+
+### 13. Notes to Self: Can LLMs Benefit from Experiential Abstractions?
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-22 · ✍️ Chang Liu, Xinyu Li, Artur Dubrawski
+
+Humans distill experience into reusable abstractions, e.g., strategies and cautionary reminders, and apply them to gradually solve problems more effectively. We study whether Large Language Models (LLMs) can similarly benefit from such experiential abstractions. From LLMs' solution traces on the MATH training set, a stronger teacher or the LLMs themselves extract natural-language abstractions into...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20372v1)
+
+---
+
+### 14. Self Gradient Forcing: Native Long Video Extrapolation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-22 · ✍️ Junhao Zhuang, Shiyi Zhang, Yuxuan Bian +11 more
+
+Recent autoregressive video diffusion methods are increasingly built upon Self Forcing, where the student is trained on histories produced by its own rollout rather than ground-truth video contexts. This reduces exposure bias, but the historical key-value cache is still used by future frames only as frozen rollout state. As a result, future losses cannot supervise how earlier generated latents sho...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20368v1)
+
+---
+
+### 15. Variance-reduced Domain Adaptation using Paired Sampling
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-22 · ✍️ Andrea Napoli
+
+Correlation alignment and the maximum mean discrepancy are two widely used distribution-matching frameworks for unsupervised domain adaptation (UDA). However, high variance in these losses has been shown to undermine their effectiveness in minibatch optimisation settings. Furthermore, the losses lack finite-sum structure, which renders them incompatible with classical stochastic variance reduction...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.20367v1)
 
 ---
 
