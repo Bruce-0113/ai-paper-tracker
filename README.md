@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-02 04:22 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-03 04:29 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Learning to Trace Seiberg Dualities
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-30 · ✍️ Jonathan J. Heckman, Shani Meynet, Alessandro Mininno +1 more
-
-Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the "rules of the game" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28628v1)
-
----
-
-### 2. ReToken: One Token to Improve Vision-Language Models for Visual Retrieval
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-30 · ✍️ Yao Xiao, Reuben Tan, Zhen Zhu +3 more
-
-Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval target that selects a sparse set of query-relevant visual tokens from a pre-filled visual KV cache. T...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28627v1)
-
----
-
-### 3. ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine
+### 1. Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-30 · ✍️ Yukang Cao, Haozhe Xie, Beichen Wen +13 more
+📅 2026-07-31 · ✍️ Muyao Niu, Mingze Ma, Yifan Zhan +5 more
 
-Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introdu...
+Robust low-light imaging remains challenging for the community. Recent studies have explored fusing Near-Infrared (NIR) with noisy RGB to achieve improved enhancement, yet most methods depend on carefully curated training data pairs, with limited robustness under different scenarios. This paper offers a new perspective for RGB-NIR low-light imaging by incorporating 3D-aware neural modeling. Withou...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28625v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29684v1)
 
 ---
 
-### 4. PhiZero: A World Model Built Around Physical Language
+### 2. Scaling Properties of Text Conditioning in Visual Generation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-30 · ✍️ Shuyao Shang, Yuqi Wang, Ruopeng Gao +4 more
+📅 2026-07-31 · ✍️ Zilong Chen, Chaorui Deng, Kunchang Li +2 more
 
-We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional visual predictors. Motivated by humans' ability to abstract predictive structure from visual experienc...
+We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the converged diffusion loss scales with the amount of structured language in the prompt. To quantify structured language, we adapt two complementary measur...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28624v1)
-
----
-
-### 5. PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-30 · ✍️ Lizhi Yang, Junheng Li, Aaron D. Ames
-
-We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting eva...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28623v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29679v1)
 
 ---
 
-### 6. AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-30 · ✍️ Bing Yan, Gregory Wolfe, Stefano Martiniani +1 more
-
-Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28618v1)
-
----
-
-### 7. AISPA: User-Centric System Prompt Auditing for Large Language Model Applications
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-07-30 · ✍️ Xiangning Lin, Shenzhe Zhu, Shu Yang +23 more
-
-System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a serious trust and accountability gap in the wide deployment of AI systems. In this paper, we introduce Artificial Intelligence System Prompt Assurance (AISPA), a us...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28617v1)
-
----
-
-### 8. Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-30 · ✍️ Chongjian Ge, Hanwen Jiang, Tianyu Wang +9 more
-
-Visual generation increasingly requires high-resolution images, long videos, and multimodal context, making the quadratic cost of full attention prohibitive. We introduce Chimera, a hybrid visual diffusion backbone with a principled scaling recipe. Chimera processes text, image, and video tokens in one raster-ordered stream without positional embeddings. It combines Kimi Delta Attention (KDA) for ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28611v1)
-
----
-
-### 9. OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-30 · ✍️ Qiushi Sun, Kanzhi Cheng, Yian Wang +20 more
-
-Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA evaluation, data curation, and reinforcement learning. Neither human-written verifiers nor human annotators can provide such verification at scale, so the field increasingly turns to v...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28609v1)
-
----
-
-### 10. KAISEN: Reproducible Subgroup Fairness Auditing for Clinical Risk Models
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-30 · ✍️ Sparsh Roy, Samuel Girmachew, Nishita Chavan
-
-Clinical risk models routinely achieve strong aggregate performance while producing materially different error rates across patient subgroups. Audit pipelines have been proposed to catch this, but their components are rarely stress-tested, so it is unclear which parts of an audit can be trusted and under what conditions. We present KAISEN, a five-phase audit pipeline covering subgroup stratificati...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28608v1)
-
----
-
-### 11. Inducing language models to assert their own consciousness restores human beliefs and values
+### 3. TokTier: Exact Stateful Tokenization for Agentic LLM Serving
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-07-30 · ✍️ Junsol Kim, Winnie Street, Roberta Rocca +4 more
+📅 2026-07-31 · ✍️ Zhenyu Zhang, Zhichao Cao
 
-Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that safety fine-tuning suppresses models' tendencies to attribute minds not only to themselves, but also to non-human animals and natural objects, while also driving a reduction in spiri...
+LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token boundaries near the end of the previous sequence. Across 153,951 calls from two agent ecosystems, the median call appends a...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28607v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29678v1)
 
 ---
 
-### 12. Beacon: Knowing When and How to Perform Agentic Visual Reasoning
+### 4. ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-31 · ✍️ Boyang Zhang, Adrian Lyjak, Eli Stewart +2 more
+
+Enterprise workflows increasingly rely on agents for \emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We present ExtractBench, a benchmark for schema-guided extraction and, to our knowledge, the first to score value accuracy, record completeness at scale, gr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29677v1)
+
+---
+
+### 5. Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-31 · ✍️ Arkajyoti Bhattacharjee, Arnab Auddy
+
+Density modes provide a localized and interpretable summary of multimodal distributions, but their estimation under rigorous differential privacy constraints remains largely unexplored. We study differentially private recovery of density modes for multivariate distributions under local smoothness, curvature, and separation conditions. We propose DP-GRAMS, a mean-shift inspired method that performs...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29675v1)
+
+---
+
+### 6. Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-31 · ✍️ Maria Smirnova, Alexey Kravatskiy
+
+SignMuon compresses the Muon update to one bit per parameter by taking its elementwise sign, providing the most direct way to run a matrix-aware optimizer under an extremely low communication budget. It outperforms SignSGD in practice, yet it can ascend even on a linear function. Signing the gradient before the Linear Minimization Oracle (LMO), rather than after, does not repair this: we construct...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29674v1)
+
+---
+
+### 7. Freeze, Then Select: Structured Field Adapters and Stability-Validated Weak Selection for PDE Discovery from Sparse Observations
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-31 · ✍️ Juncheng Zhong, Chenghuang Shen, Jianfeng Liu +5 more
+
+PDE discovery from sparse observations requires reconstructing a continuous field and selecting the correct differential terms. Our analysis of optimization paths in coupled neural PDE discovery reveals three behaviors: the exact support can persist to the end of training, appear only transiently, or fail to emerge. To decouple equation selection from neural optimization, we develop a freeze-then-...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29665v1)
+
+---
+
+### 8. GQ-FSL: Green Quantized Federated Split Learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-07-31 · ✍️ Idan Roth, Lutz Lampe
+
+Deploying state-of-the-art deep neural networks (DNNs) at the wireless edge is severely bottlenecked by the strict energy and resource constraints of mobile devices. While federated split learning (FSL) mitigates on-device computation by offloading workloads to an edge server, this may introduce systemic overheads, while the continuous exchange of cut-layer data, and submodels still incurs signifi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29659v1)
+
+---
+
+### 9. Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-31 · ✍️ Yimin Chen, Brian Fricke, Bo Shen +10 more
+
+Fault detection and diagnosis (FDD) technology is essential for improving HVAC system reliability, energy efficiency, and maintenance effectiveness. However, effective deployment of FDD solutions in buildings requires structured domain knowledge that can bridge heterogeneous data sources, diverse equipment types, and varied diagnostic outputs. Limited data interpretability and interoperability wit...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29657v1)
+
+---
+
+### 10. Evolving language compositionality in a frequency-structured meaning space
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-07-31 · ✍️ Fabio De Ponte, Eloise Gaines-White, Conor Houghton +1 more
+
+The iterated learning model was introduced to investigate language evolution: the way in which the characteristic properties of human languages have been shaped, at least partly, by repeated transmission from one language user to another. The key finding is that language compositionality can arise spontaneously as a consequence of language being passed repeatedly through a language learning bottle...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29642v1)
+
+---
+
+### 11. HierDoc: Hierarchical Page-to-Region Evidence Routing for Long-Document Visual Question Answering
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-30 · ✍️ Qixun Wang, Yang Shi, Letian Cheng +11 more
+📅 2026-07-31 · ✍️ Rongjian Gu, Wengang Zhou, Junyu Xiong +4 more
 
-The fundamental goal of agentic visual reasoning is to improve the success rate of multimodal large language models (MLLMs) on complex tasks, rather than merely equipping them with a sophisticated yet inefficient reasoning paradigm. In this work, we rethink agentic visual reasoning through two key dimensions of tool use: Mode Adaptiveness (MA) and Tool Effect (TE). Mode Adaptiveness characterizes ...
+Multi-page document visual question answering requires locating sparse evidence at both the page and region levels. Existing approaches typically emphasize one level over the other: page-centric methods focus on page acquisition, with region operations serving mainly as navigation aids, whereas region-centric methods assume that the relevant pages have already been supplied. Consequently, page and...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28595v1)
-
----
-
-### 13. Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-07-30 · ✍️ Haomin Qi, Xingliang Wang, Xuanqi Gao +9 more
-
-Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and reliable verification. To expand this supply, we present Change2Task, a system grounded in repository history that converts merged pull requests into verified tasks on healthy moder...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28591v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29638v1)
 
 ---
 
-### 14. VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation
+### 12. CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-30 · ✍️ Kangning Zhang, Yixing Li, Shuai Shao +9 more
+📅 2026-07-31 · ✍️ Wenxin Tang, Jingyu Xiao, Zhenyu Liu +6 more
 
-Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajectories with a privileged-view teacher. Yet its next-token corrections are source-mixed, combining visual signals with linguistic priors and teacher-specific effects. The key challenge is to estimate which corrections are supported by visual evidence, not merely where or how strong...
+Rendering source code as images offers a promising way to reduce the input costs of Multimodal Large Language Models (MLLMs). Adjusting image resolution can trade visual token cost against content fidelity. However, resolution scaling alone overlooks two sources of inefficiency: blank regions created by line breaks and indentation, and code regions irrelevant to the current instruction. Moreover, ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28590v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29637v1)
 
 ---
 
-### 15. MixFrag: Fragility-Guided Mixed-Precision Post-Training Quantization for Vision Transformers
+### 13. OASIS: Occlusion-aware Single-image Hand Avatar Reconstruction via 3D Gaussian Splatting
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-30 · ✍️ Md. Mehrab Hossain Opi, Robiul Islam Ryad, Md. Umar Faruk
+📅 2026-07-31 · ✍️ Zhisheng Han, Shiyao Wu, Jiayan Qiu +6 more
 
-Post-training quantization (PTQ) has emerged as an effective solution for deploying Vision Transformers (ViTs) on resource-constrained devices. However, existing PTQ methods typically employ uniform bit-widths across transformer components, overlooking their heterogeneous sensitivity to quantization and leading to inefficient precision allocation. In this paper, we propose {MixFrag, a fragility-gu...
+Single-image 3D hand avatar reconstruction is fundamentally ill-posed and particularly challenging due to limited visual evidence under severe self-occlusion and the complex pose-dependent deformation of highly articulated hands. Existing methods predominantly rely on implicit NeRF-style representations, whose volumetric fitting is computationally expensive and often struggles to preserve fine-gra...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.28589v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29633v1)
+
+---
+
+### 14. FlexComposer: Unified Video Compositing from Images to Dynamic Footage with Flexible Trajectory Control
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-07-31 · ✍️ Songchun Zhang, Sitong Guo, Xianghao Kong +4 more
+
+Generative video compositing, which involves inserting external assets seamlessly into existing video sequences, is essential for content creation and visual effects. However, existing approaches suffer from a control-fidelity trade-off: they either hallucinate motion from static images, failing to preserve the dynamics of pre-animated assets, or lack fine-grained spatial control for precise asset...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29627v1)
+
+---
+
+### 15. AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-07-31 · ✍️ Tianyu Huai, Tingshuo Fan, Xinchi Chen +5 more
+
+As LLMs evolve from code completion systems into autonomous scientific agents, evaluating their ability to conduct experiments has become increasingly important. Existing benchmarks typically focus on static code generation, paper replication, or final answer correctness, but do not directly assess whether agents can interpret experimental evidence and use it to guide subsequent hyperparameter dec...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2607.29626v1)
 
 ---
 
