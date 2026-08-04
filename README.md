@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-03 04:29 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-04 04:14 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark
+### 1. WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-31 · ✍️ Muyao Niu, Mingze Ma, Yifan Zhan +5 more
+📅 2026-08-03 · ✍️ Yuxue Yang, Shuyao Shang, Jiahe Wang +13 more
 
-Robust low-light imaging remains challenging for the community. Recent studies have explored fusing Near-Infrared (NIR) with noisy RGB to achieve improved enhancement, yet most methods depend on carefully curated training data pairs, with limited robustness under different scenarios. This paper offers a new perspective for RGB-NIR low-light imaging by incorporating 3D-aware neural modeling. Withou...
+Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existin...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29684v1)
-
----
-
-### 2. Scaling Properties of Text Conditioning in Visual Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-31 · ✍️ Zilong Chen, Chaorui Deng, Kunchang Li +2 more
-
-We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the converged diffusion loss scales with the amount of structured language in the prompt. To quantify structured language, we adapt two complementary measur...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29679v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02603v1)
 
 ---
 
-### 3. TokTier: Exact Stateful Tokenization for Agentic LLM Serving
+### 2. AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-07-31 · ✍️ Zhenyu Zhang, Zhichao Cao
+📅 2026-08-03 · ✍️ Jiajun Liang, Yucheng Liao, Yukang Cao +12 more
 
-LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token boundaries near the end of the previous sequence. Across 153,951 calls from two agent ecosystems, the median call appends a...
+Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity....
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29678v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02602v1)
 
 ---
 
-### 4. ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction
+### 3. Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-07-31 · ✍️ Boyang Zhang, Adrian Lyjak, Eli Stewart +2 more
+📅 2026-08-03 · ✍️ Junjie Yin, Buxin She, Xinyu Feng +2 more
 
-Enterprise workflows increasingly rely on agents for \emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We present ExtractBench, a benchmark for schema-guided extraction and, to our knowledge, the first to score value accuracy, record completeness at scale, gr...
+Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineeri...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29677v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02599v1)
 
 ---
 
-### 5. Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering
+### 4. VR3D: View-Robust 3D Representation Learning for Aerial-Ground Person Re-Identification
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-03 · ✍️ Chao Ji, Shiyu Xuan, Zechao Li
+
+Aerial-ground person re-identification is a challenging task due to cross-platform viewpoint variations, which cause severe occlusion and geometric deformation. Existing methods attempt to learn view-invariant representations exclusively within the 2D image space, where drastic viewpoint variations cause the learned features to remain coupled with viewpoint bias. To address this, we propose VR3D, ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02598v1)
+
+---
+
+### 5. onepot-Bench 0: towards lab-aware in silico chemistry benchmarks
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-31 · ✍️ Arkajyoti Bhattacharjee, Arnab Auddy
+📅 2026-08-03 · ✍️ Brandon Wang, Andrei S. Tyrin, Daniil A. Boiko
 
-Density modes provide a localized and interpretable summary of multimodal distributions, but their estimation under rigorous differential privacy constraints remains largely unexplored. We study differentially private recovery of density modes for multivariate distributions under local smoothness, curvature, and separation conditions. We propose DP-GRAMS, a mean-shift inspired method that performs...
+Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abilities is difficult, as scientific capabilities require a mixture of both problem-solving skills and domain-specific intuition. Existing evaluations rarely measure the capabilities required to make re...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29675v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02595v1)
 
 ---
 
-### 6. Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback
+### 6. CAPEval: A Decoupled Caption Evaluation across Understanding and Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-03 · ✍️ Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang
+
+Captions serve as a primary supervision signal for both multimodal understanding and text-to-image generation. However, previous evaluations treat the caption quality as a single scalar objective, which conflates two distinct properties: (1) how much visual information a caption covers and (2) how reliably the image supports its stated claims. To this end, we design a decoupled caption evaluation ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02589v1)
+
+---
+
+### 7. The Condition-Number Barrier in Sparse Least Squares
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-31 · ✍️ Maria Smirnova, Alexey Kravatskiy
+📅 2026-08-03 · ✍️ Honghao Lin, Vahab Mirrokni, David P. Woodruff
 
-SignMuon compresses the Muon update to one bit per parameter by taking its elementwise sign, providing the most direct way to run a matrix-aware optimizer under an extremely low communication budget. It outperforms SignSGD in practice, yet it can ascend even on a linear function. Signing the gradient before the Linear Minimization Oracle (LMO), rather than after, does not repair this: we construct...
+In [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establish their conjectured lower bound for least-squares objectives, conditional on the randomized exact-volume Small-Set Expansion Hypothesis in the weighted regular-graph formulation of Raghavendra, Steure...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29674v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02588v1)
 
 ---
 
-### 7. Freeze, Then Select: Structured Field Adapters and Stability-Validated Weak Selection for PDE Discovery from Sparse Observations
+### 8. GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-03 · ✍️ Zhaoxin Yu, Qi Shen, Hengli Li +4 more
+
+Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning. We i...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02585v1)
+
+---
+
+### 9. UEmbed: Unified Sparse and Dense Multimodal Embeddings
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-03 · ✍️ Tingyu Song, Mingxin Li, Yanzhao Zhang +5 more
+
+Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introduced Learned Sparse Retrieval (LSR) to push beyond exact lexical matching toward richer semantics. Yet LSR has so far remained tied to encoder-style bidirectional architectures, and its extension to multimodal settings still relies heavily on auxiliary cross-modal modules. T...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02583v1)
+
+---
+
+### 10. CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-03 · ✍️ Shuaijun Liu, Qifu Wen, Shuyang Hao +5 more
+
+World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausible future alone does not justify changing the action that a bimanual policy would execute. We present CoWAM, a selective intervention layer that expresses synchronization, role compatibility, and collision convergence as coordination contracts. Each contract combines typed admissibility checks...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02578v1)
+
+---
+
+### 11. Smooth Reparameterizations of Functions on Simplicial Product Spaces: Applications to Probabilistic Tensor Decomposition and Functional Data Registration
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-31 · ✍️ Juncheng Zhong, Chenghuang Shen, Jianfeng Liu +5 more
+📅 2026-08-03 · ✍️ Shashwat Kumar, Arafat Rahman, Anuj Srivastava +1 more
 
-PDE discovery from sparse observations requires reconstructing a continuous field and selecting the correct differential terms. Our analysis of optimization paths in coupled neural PDE discovery reveals three behaviors: the exact support can persist to the end of training, appear only transiently, or fail to emerge. To decouple equation selection from neural optimization, we develop a freeze-then-...
+We consider optimization problems defined on product spaces of simplices. Examples of this class of problems include learning low-rank discrete multivariate probability distributions via simplex constrained tensor decomposition and performing functional data registration under the Square Root Velocity Function (SRVF) representation. In this work, we demonstrate the feasibility of replacing the pro...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29665v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02576v1)
 
 ---
 
-### 8. GQ-FSL: Green Quantized Federated Split Learning
+### 12. Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-07-31 · ✍️ Idan Roth, Lutz Lampe
+📅 2026-08-03 · ✍️ Shengzhi Deng, Chenqi Ye, Yanze Guo
 
-Deploying state-of-the-art deep neural networks (DNNs) at the wireless edge is severely bottlenecked by the strict energy and resource constraints of mobile devices. While federated split learning (FSL) mitigates on-device computation by offloading workloads to an edge server, this may introduce systemic overheads, while the continuous exchange of cut-layer data, and submodels still incurs signifi...
+Diffusion models rely on stochastic inputs, yet on finite-precision hardware, the "randomness" they consume is realized as deterministic numerical orbits generated by pseudorandom rules. Accessible orbit structure can become a learnable input and affect both training and generation because the realized loss and its gradient depend on the concrete pseudorandom values consumed at each optimization s...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29659v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02575v1)
 
 ---
 
-### 9. Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics
+### 13. AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-07-31 · ✍️ Yimin Chen, Brian Fricke, Bo Shen +10 more
+📅 2026-08-03 · ✍️ Qiushi Lin, Chaojie Zhang, Íñigo Goiri +3 more
 
-Fault detection and diagnosis (FDD) technology is essential for improving HVAC system reliability, energy efficiency, and maintenance effectiveness. However, effective deployment of FDD solutions in buildings requires structured domain knowledge that can bridge heterogeneous data sources, diverse equipment types, and varied diagnostic outputs. Limited data interpretability and interoperability wit...
+The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the shelf, however, it falls short on three fronts. It is not formal: with no structured, searchable stat...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29657v1)
-
----
-
-### 10. Evolving language compositionality in a frequency-structured meaning space
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-07-31 · ✍️ Fabio De Ponte, Eloise Gaines-White, Conor Houghton +1 more
-
-The iterated learning model was introduced to investigate language evolution: the way in which the characteristic properties of human languages have been shaped, at least partly, by repeated transmission from one language user to another. The key finding is that language compositionality can arise spontaneously as a consequence of language being passed repeatedly through a language learning bottle...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29642v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02569v1)
 
 ---
 
-### 11. HierDoc: Hierarchical Page-to-Region Evidence Routing for Long-Document Visual Question Answering
+### 14. ReMiX-MAE: Learning Missing-Channel Cross-Modal Representations from RGB-Only Clinical Facial Videos for Sympathetic-Mediated Pain Assessment
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-07-31 · ✍️ Rongjian Gu, Wengang Zhou, Junyu Xiong +4 more
+📅 2026-08-03 · ✍️ Nan Bi, Taoyue Wang, Lijun Yin +1 more
 
-Multi-page document visual question answering requires locating sparse evidence at both the page and region levels. Existing approaches typically emphasize one level over the other: page-centric methods focus on page acquisition, with region operations serving mainly as navigation aids, whereas region-centric methods assume that the relevant pages have already been supplied. Consequently, page and...
+Automated pain assessment in real clinics is limited by scarce clinically grounded facial video data with weak labels (often sequence-level self-report) and by the fact that pain cues can be subtle or near-neutral in RGB, while thermal and depth signals are informative yet impractical to deploy routinely. To address these challenges, we propose ReMiX-MAE (Reconstructing Missing Channel Cross-Modal...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29638v1)
-
----
-
-### 12. CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-31 · ✍️ Wenxin Tang, Jingyu Xiao, Zhenyu Liu +6 more
-
-Rendering source code as images offers a promising way to reduce the input costs of Multimodal Large Language Models (MLLMs). Adjusting image resolution can trade visual token cost against content fidelity. However, resolution scaling alone overlooks two sources of inefficiency: blank regions created by line breaks and indentation, and code regions irrelevant to the current instruction. Moreover, ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29637v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02561v1)
 
 ---
 
-### 13. OASIS: Occlusion-aware Single-image Hand Avatar Reconstruction via 3D Gaussian Splatting
+### 15. Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-07-31 · ✍️ Zhisheng Han, Shiyao Wu, Jiayan Qiu +6 more
+📅 2026-08-03 · ✍️ Anusha Madan Gopal, Aras Pirbadian, Kristofor D. Carlson +2 more
 
-Single-image 3D hand avatar reconstruction is fundamentally ill-posed and particularly challenging due to limited visual evidence under severe self-occlusion and the complex pose-dependent deformation of highly articulated hands. Existing methods predominantly rely on implicit NeRF-style representations, whose volumetric fitting is computationally expensive and often struggles to preserve fine-gra...
+Retrieval-augmented generation (RAG) imposes a prefill cost proportional to retrieved context length, and -- with Transformer backbones -- a KV-cache that grows with each generated token. State-Space Models (SSMs) avoid the second cost by construction; we eliminate the first, collapsing prefill from $O(L_{context})$ to $O(1)$ per query. We introduce PRECOG (Pre-Computed Context Injection), a retri...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29633v1)
-
----
-
-### 14. FlexComposer: Unified Video Compositing from Images to Dynamic Footage with Flexible Trajectory Control
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-07-31 · ✍️ Songchun Zhang, Sitong Guo, Xianghao Kong +4 more
-
-Generative video compositing, which involves inserting external assets seamlessly into existing video sequences, is essential for content creation and visual effects. However, existing approaches suffer from a control-fidelity trade-off: they either hallucinate motion from static images, failing to preserve the dynamics of pre-animated assets, or lack fine-grained spatial control for precise asset...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29627v1)
-
----
-
-### 15. AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-07-31 · ✍️ Tianyu Huai, Tingshuo Fan, Xinchi Chen +5 more
-
-As LLMs evolve from code completion systems into autonomous scientific agents, evaluating their ability to conduct experiments has become increasingly important. Existing benchmarks typically focus on static code generation, paper replication, or final answer correctness, but do not directly assess whether agents can interpret experimental evidence and use it to guide subsequent hyperparameter dec...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2607.29626v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.02560v1)
 
 ---
 
