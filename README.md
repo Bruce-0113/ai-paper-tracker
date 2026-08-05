@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-04 04:14 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-05 04:09 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity
+### 1. ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-03 · ✍️ Yuxue Yang, Shuyao Shang, Jiahe Wang +13 more
+📅 2026-08-04 · ✍️ Yang Yang, Qinyu Zhao, Mouxiang Chen +5 more
 
-Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existin...
+Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation between the Vision Transformer and the Large Language Model components, limiting task-specific optimizati...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02603v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.04010v1)
 
 ---
 
-### 2. AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling
+### 2. SocietyBench: Forecasting Counterfactual Social-World Evolution
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-03 · ✍️ Jiajun Liang, Yucheng Liao, Yukang Cao +12 more
+📅 2026-08-04 · ✍️ Zhenran Wang, Zhonghan Bian, Jinsong Li +1 more
 
-Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity....
+Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has barely been measured. We introduce SocietyBench, an end-to-end benchmark that takes a one-line event top...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02602v1)
-
----
-
-### 3. Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-03 · ✍️ Junjie Yin, Buxin She, Xinyu Feng +2 more
-
-Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineeri...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02599v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.04009v1)
 
 ---
 
-### 4. VR3D: View-Robust 3D Representation Learning for Aerial-Ground Person Re-Identification
+### 3. WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-03 · ✍️ Chao Ji, Shiyu Xuan, Zechao Li
+📅 2026-08-04 · ✍️ Zhenran Wang, Zhonghan Bian, Jinsong Li +1 more
 
-Aerial-ground person re-identification is a challenging task due to cross-platform viewpoint variations, which cause severe occlusion and geometric deformation. Existing methods attempt to learn view-invariant representations exclusively within the 2D image space, where drastic viewpoint variations cause the learned features to remain coupled with viewpoint bias. To address this, we propose VR3D, ...
+Benchmarks that measure the forecasting ability of large language models are almost always retrospective: the event has happened, the answer is somewhere on the Web, and the evaluation must defend itself against memorisation. We report the opposite design. Over the 39 days of the 2026 FIFA World Cup, six frontier LLMs -- all with extended thinking and native server-side web search -- were asked be...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02598v1)
-
----
-
-### 5. onepot-Bench 0: towards lab-aware in silico chemistry benchmarks
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-03 · ✍️ Brandon Wang, Andrei S. Tyrin, Daniil A. Boiko
-
-Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abilities is difficult, as scientific capabilities require a mixture of both problem-solving skills and domain-specific intuition. Existing evaluations rarely measure the capabilities required to make re...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02595v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.04008v1)
 
 ---
 
-### 6. CAPEval: A Decoupled Caption Evaluation across Understanding and Generation
+### 4. TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-03 · ✍️ Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang
+📅 2026-08-04 · ✍️ Changle Qu, Sunhao Dai, Hengyi Cai +4 more
 
-Captions serve as a primary supervision signal for both multimodal understanding and text-to-image generation. However, previous evaluations treat the caption quality as a single scalar objective, which conflates two distinct properties: (1) how much visual information a caption covers and (2) how reliably the image supports its stated claims. To this end, we design a decoupled caption evaluation ...
+Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation offers denser signals through teacher branches with privileged context, but existing approaches typical...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02589v1)
-
----
-
-### 7. The Condition-Number Barrier in Sparse Least Squares
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-03 · ✍️ Honghao Lin, Vahab Mirrokni, David P. Woodruff
-
-In [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establish their conjectured lower bound for least-squares objectives, conditional on the randomized exact-volume Small-Set Expansion Hypothesis in the weighted regular-graph formulation of Raghavendra, Steure...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02588v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.04007v1)
 
 ---
 
-### 8. GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning
+### 5. PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents
 
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
+![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-03 · ✍️ Zhaoxin Yu, Qi Shen, Hengli Li +4 more
+📅 2026-08-04 · ✍️ Shuhan Xue, Zixin Ding, Yichen Shen +6 more
 
-Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning. We i...
+Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been systematically tested. We introduce PAST-Bench...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02585v1)
-
----
-
-### 9. UEmbed: Unified Sparse and Dense Multimodal Embeddings
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-03 · ✍️ Tingyu Song, Mingxin Li, Yanzhao Zhang +5 more
-
-Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introduced Learned Sparse Retrieval (LSR) to push beyond exact lexical matching toward richer semantics. Yet LSR has so far remained tied to encoder-style bidirectional architectures, and its extension to multimodal settings still relies heavily on auxiliary cross-modal modules. T...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02583v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.04003v1)
 
 ---
 
-### 10. CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-03 · ✍️ Shuaijun Liu, Qifu Wen, Shuyang Hao +5 more
-
-World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausible future alone does not justify changing the action that a bimanual policy would execute. We present CoWAM, a selective intervention layer that expresses synchronization, role compatibility, and collision convergence as coordination contracts. Each contract combines typed admissibility checks...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02578v1)
-
----
-
-### 11. Smooth Reparameterizations of Functions on Simplicial Product Spaces: Applications to Probabilistic Tensor Decomposition and Functional Data Registration
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-03 · ✍️ Shashwat Kumar, Arafat Rahman, Anuj Srivastava +1 more
-
-We consider optimization problems defined on product spaces of simplices. Examples of this class of problems include learning low-rank discrete multivariate probability distributions via simplex constrained tensor decomposition and performing functional data registration under the Square Root Velocity Function (SRVF) representation. In this work, we demonstrate the feasibility of replacing the pro...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02576v1)
-
----
-
-### 12. Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-03 · ✍️ Shengzhi Deng, Chenqi Ye, Yanze Guo
-
-Diffusion models rely on stochastic inputs, yet on finite-precision hardware, the "randomness" they consume is realized as deterministic numerical orbits generated by pseudorandom rules. Accessible orbit structure can become a learnable input and affect both training and generation because the realized loss and its gradient depend on the concrete pseudorandom values consumed at each optimization s...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02575v1)
-
----
-
-### 13. AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-03 · ✍️ Qiushi Lin, Chaojie Zhang, Íñigo Goiri +3 more
-
-The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the shelf, however, it falls short on three fronts. It is not formal: with no structured, searchable stat...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02569v1)
-
----
-
-### 14. ReMiX-MAE: Learning Missing-Channel Cross-Modal Representations from RGB-Only Clinical Facial Videos for Sympathetic-Mediated Pain Assessment
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-03 · ✍️ Nan Bi, Taoyue Wang, Lijun Yin +1 more
-
-Automated pain assessment in real clinics is limited by scarce clinically grounded facial video data with weak labels (often sequence-level self-report) and by the fact that pain cues can be subtle or near-neutral in RGB, while thermal and depth signals are informative yet impractical to deploy routinely. To address these challenges, we propose ReMiX-MAE (Reconstructing Missing Channel Cross-Modal...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02561v1)
-
----
-
-### 15. Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection
+### 6. Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-03 · ✍️ Anusha Madan Gopal, Aras Pirbadian, Kristofor D. Carlson +2 more
+📅 2026-08-04 · ✍️ Mohsen Hariri, Weicong Chen, Nahal Shahini +11 more
 
-Retrieval-augmented generation (RAG) imposes a prefill cost proportional to retrieved context length, and -- with Transformer backbones -- a KV-cache that grows with each generated token. State-Space Models (SSMs) avoid the second cost by construction; we eliminate the first, collapsing prefill from $O(L_{context})$ to $O(1)$ per query. We introduce PRECOG (Pre-Computed Context Injection), a retri...
+Large language models can solve substantially harder reasoning problems with more inference-time compute. The term "test-time scaling," however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting or verification, or search over unfinished partial states. These algorithms differ in their statistic...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.02560v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.04001v1)
+
+---
+
+### 7. Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-04 · ✍️ Junhao Chen, Mingjin Chen, Jingjia Mao +12 more
+
+Text-to-music language models begin with a choice usually made by default: how to tokenize music. Normally entangled with backbone, data, and recipe, its effect has never been measured in isolation. We fix pretrained Qwen3.5 (0.8B-27B), data, budget, and decoding, and swap only the representation across seven tokenizations, anchoring texture metrics to each representation's model-free ceiling. The...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03999v1)
+
+---
+
+### 8. When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-04 · ✍️ Christopher Schröder, Lukas Gienapp, Ferdinand Schlatt +2 more
+
+We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected attention heads partially blind. We analyze this failure mode, characterize its impact, and examine four mitigation strategies. We further demonstrate its occurrence in state-of-th...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03994v1)
+
+---
+
+### 9. Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-04 · ✍️ Wanli Ma, Jiangwen Lu, Qinmu Peng +1 more
+
+Training-free open-vocabulary semantic segmentation (OVSS) partitions an image into semantically distinct regions based on arbitrary text descriptions, without learning any additional parameters. However, existing methods typically focus on improving visual representations while treating text embeddings that encode only generic category concepts as fixed classification references. The resulting se...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03991v1)
+
+---
+
+### 10. Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-04 · ✍️ Seyed Kahaki, Shijie Li, Weijie Chen +1 more
+
+Synthetic histopathology image generation has emerged as an approach that may address data scarcity in computational pathology, yet current evaluation methodologies may not fully assess synthetic data quality for medical applications. This work investigates and addresses limitations in existing evaluation metrics, investigating an approach for assessing synthetic histopathology image quality throu...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03990v1)
+
+---
+
+### 11. string2string Studio: An Interactive, In-Browser Platform for String-to-String Algorithms
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-04 · ✍️ Mirac Suzgun, James Zou, Stuart M. Shieber +1 more
+
+We present string2string Studio, an interactive in-browser platform for string-to-string analysis across natural language processing, computational biology, and the digital humanities. The system integrates six main modules (alignment, distance, similarity, search, generation metrics, and BLAST homology search), operating at character, word, token, line, and residue levels. Its C++-based algorithm...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03984v1)
+
+---
+
+### 12. Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-04 · ✍️ Hailong Jiang, Feng Yu, Emran Hossain +4 more
+
+Optimizing compilers miss profitable transformations when their enabling semantics are absent from the analyzed program representation. We ask whether large language models (LLMs) can recover such semantics from heterogeneous C/C++ context and realize them as validated, contract-preserving artifacts. We introduce SeGaBench, an executable benchmark containing 100 synthetic and 20 source-backed case...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03983v1)
+
+---
+
+### 13. Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-04 · ✍️ Zhen Fang, Yu Zeng, Wenxuan Huang +17 more
+
+We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bias, where agents bypass visual tools in favor of textual search, and (2) parametric knowledge leakage...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03979v1)
+
+---
+
+### 14. JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-04 · ✍️ Yicheng Xiao, Wenxun Dai, Xinran Qin +22 more
+
+Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency. We present JoyAI-Video-Edit, a 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing without access to future frames or a predefined video duration. Our method combines chunk-wise autoregressive a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03974v1)
+
+---
+
+### 15. ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-04 · ✍️ Jinhe Bi, Chennan Zhou, Zengjie Jin +10 more
+
+On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models. However, when the expert fails on harder problems, existing trajectory-guided methods lose their main source of supervision, and these failed trajectories are typically discarded as negative ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.03972v1)
 
 ---
 
