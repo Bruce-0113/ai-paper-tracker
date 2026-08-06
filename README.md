@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-05 04:09 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-06 04:12 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-04 · ✍️ Yang Yang, Qinyu Zhao, Mouxiang Chen +5 more
-
-Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation between the Vision Transformer and the Large Language Model components, limiting task-specific optimizati...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.04010v1)
-
----
-
-### 2. SocietyBench: Forecasting Counterfactual Social-World Evolution
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-04 · ✍️ Zhenran Wang, Zhonghan Bian, Jinsong Li +1 more
-
-Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has barely been measured. We introduce SocietyBench, an end-to-end benchmark that takes a one-line event top...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.04009v1)
-
----
-
-### 3. WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-04 · ✍️ Zhenran Wang, Zhonghan Bian, Jinsong Li +1 more
-
-Benchmarks that measure the forecasting ability of large language models are almost always retrospective: the event has happened, the answer is somewhere on the Web, and the evaluation must defend itself against memorisation. We report the opposite design. Over the 39 days of the 2026 FIFA World Cup, six frontier LLMs -- all with extended thinking and native server-side web search -- were asked be...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.04008v1)
-
----
-
-### 4. TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-04 · ✍️ Changle Qu, Sunhao Dai, Hengyi Cai +4 more
-
-Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation offers denser signals through teacher branches with privileged context, but existing approaches typical...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.04007v1)
-
----
-
-### 5. PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-04 · ✍️ Shuhan Xue, Zixin Ding, Yichen Shen +6 more
-
-Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been systematically tested. We introduce PAST-Bench...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.04003v1)
-
----
-
-### 6. Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-04 · ✍️ Mohsen Hariri, Weicong Chen, Nahal Shahini +11 more
-
-Large language models can solve substantially harder reasoning problems with more inference-time compute. The term "test-time scaling," however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting or verification, or search over unfinished partial states. These algorithms differ in their statistic...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.04001v1)
-
----
-
-### 7. Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-04 · ✍️ Junhao Chen, Mingjin Chen, Jingjia Mao +12 more
-
-Text-to-music language models begin with a choice usually made by default: how to tokenize music. Normally entangled with backbone, data, and recipe, its effect has never been measured in isolation. We fix pretrained Qwen3.5 (0.8B-27B), data, budget, and decoding, and swap only the representation across seven tokenizations, anchoring texture metrics to each representation's model-free ceiling. The...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03999v1)
-
----
-
-### 8. When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-04 · ✍️ Christopher Schröder, Lukas Gienapp, Ferdinand Schlatt +2 more
-
-We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected attention heads partially blind. We analyze this failure mode, characterize its impact, and examine four mitigation strategies. We further demonstrate its occurrence in state-of-th...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03994v1)
-
----
-
-### 9. Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation
+### 1. CoCo-IR: Contextual Composed Image Retrieval
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-08-04 · ✍️ Wanli Ma, Jiangwen Lu, Qinmu Peng +1 more
+📅 2026-08-05 · ✍️ Shengcao Cao, Tanmaya Shekhar Dabral, Zhongli Ding +6 more
 
-Training-free open-vocabulary semantic segmentation (OVSS) partitions an image into semantically distinct regions based on arbitrary text descriptions, without learning any additional parameters. However, existing methods typically focus on improving visual representations while treating text embeddings that encode only generic category concepts as fixed classification references. The resulting se...
+Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables users to progressively refine search results through interactions. We address this new task by propos...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03991v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05149v1)
 
 ---
 
-### 10. Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation
+### 2. Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-05 · ✍️ Damien Sileo, Valentin Lacombe, Dimitri Kachler
+
+Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. U...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05148v1)
+
+---
+
+### 3. Objects as Audio-Visual Modal Sound Fields
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-05 · ✍️ Zisen Shao, Zihao Wei, Derong Jin +1 more
+
+While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling approaches either rely on expensive physics-based simulation or require large datasets to generalize in...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05145v1)
+
+---
+
+### 4. Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-05 · ✍️ Boxiu Li, Zimo Wen, Yijia Fan +23 more
+
+Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent fro...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05144v1)
+
+---
+
+### 5. OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-05 · ✍️ Indraneil Paul, Falko Helm, Goran Glavaš +1 more
+
+Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context e...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05141v1)
+
+---
+
+### 6. Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-05 · ✍️ Yinghui He, Ling Yang, Jiarui Liu +6 more
+
+Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different reasoning skills and depend on earlier outputs. Existing benchmarks often evaluate individual skills...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05139v1)
+
+---
+
+### 7. Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-05 · ✍️ Ayoub Kirouane, Christos Petrocheilos
+
+Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranke...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05138v1)
+
+---
+
+### 8. SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-05 · ✍️ Yue Zhang, Yingzhao Jian, Yunqiu Xu +2 more
+
+Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous information from multiple modalities, including visual and geometric cues. However, the relevance of these modalities often varies across queries. Existing Multimodal Large Language Models (MLLMs) typically rely on fixed modality combinations, overlooking query-dependent modality needs. Su...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05137v1)
+
+---
+
+### 9. The Loss Does Not See the Basis, but Adam Does
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-04 · ✍️ Seyed Kahaki, Shijie Li, Weijie Chen +1 more
+📅 2026-08-05 · ✍️ Devender Singh
 
-Synthetic histopathology image generation has emerged as an approach that may address data scarcity in computational pathology, yet current evaluation methodologies may not fully assess synthetic data quality for medical applications. This work investigates and addresses limitations in existing evaluation metrics, investigating an approach for assessing synthetic histopathology image quality throu...
+Gradient descent on a factored model $W = UV^\top$ is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under $(U, V) \mapsto (UQ, VQ)$. Gradient flow's low-rank mechanism is available to an optimizer only if that optimizer is gauge-equivariant, a condition necessar...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03990v1)
-
----
-
-### 11. string2string Studio: An Interactive, In-Browser Platform for String-to-String Algorithms
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-04 · ✍️ Mirac Suzgun, James Zou, Stuart M. Shieber +1 more
-
-We present string2string Studio, an interactive in-browser platform for string-to-string analysis across natural language processing, computational biology, and the digital humanities. The system integrates six main modules (alignment, distance, similarity, search, generation metrics, and BLAST homology search), operating at character, word, token, line, and residue levels. Its C++-based algorithm...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03984v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05136v1)
 
 ---
 
-### 12. Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?
+### 10. Predicting Brain Morphometry with MT-GNN: Mesh Evolution in Continuous Time with Graph-Based Metric Tensor Embeddings
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-04 · ✍️ Hailong Jiang, Feng Yu, Emran Hossain +4 more
+📅 2026-08-05 · ✍️ Hao Ding, Daniel Semchin, Paul M. Thompson +1 more
 
-Optimizing compilers miss profitable transformations when their enabling semantics are absent from the analyzed program representation. We ask whether large language models (LLMs) can recover such semantics from heterogeneous C/C++ context and realize them as validated, contract-preserving artifacts. We introduce SeGaBench, an executable benchmark containing 100 synthetic and 20 source-backed case...
+Predicting how a subcortical structure's shape will evolve from a few prior scans could support prognosis and clinical-trial enrichment. Existing longitudinal mesh predictors either extrapolate shape trajectories via high-dimensional embeddings or regress vertex deformations directly. We instead predict the surface's intrinsic geometry in continuous time: a single per-structure graph network predi...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03983v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05132v1)
 
 ---
 
-### 13. Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent
+### 11. OPD-V: Visual On-Policy Self-Distillation with Modality Balance
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-04 · ✍️ Zhen Fang, Yu Zeng, Wenxuan Huang +17 more
+📅 2026-08-05 · ✍️  Aniri, Jinhe Bi, Peng Liao +5 more
 
-We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bias, where agents bypass visual tools in favor of textual search, and (2) parametric knowledge leakage...
+On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalance, a challenge inherent to MLLM reasoning. When textual information dominates generation, the model ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03979v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05131v1)
 
 ---
 
-### 14. JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion
+### 12. SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-05 · ✍️ Adel Javanmard, David P. Woodruff, Vahab Mirrokni
+
+Achieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional geometric constructions but incur unfavorable dimension-dependent variance. In this work, we propose Subsampled Stochastic TurboQuant (SSTQ), a framework that combines overcomplete equal-norm tight f...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05127v1)
+
+---
+
+### 13. Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-05 · ✍️ Yuezhang Peng, Yuxin Liu, Changfeng Gao +3 more
+
+Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant challenges in leveraging in-context learning for open-domain tasks due to its ambiguous rule defini...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05126v1)
+
+---
+
+### 14. Chained Recursive Language Models for Multi-Iteration Reasoning
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-05 · ✍️ Purbesh Mitra, Sennur Ulukus
+
+Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require extraction, counting, ordering, or multi-hop reasoning, where an early mistake can propagate until th...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05124v1)
+
+---
+
+### 15. IRIS: A Visual Cortex-Inspired Framework for Analyzing Orientation Selectivity in Vision Transformers
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-08-04 · ✍️ Yicheng Xiao, Wenxun Dai, Xinran Qin +22 more
+📅 2026-08-05 · ✍️ Vaishnavi B Mohan, Vijayakrishna Naganoor, Yashas Annadani +1 more
 
-Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency. We present JoyAI-Video-Edit, a 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing without access to future frames or a predefined video duration. Our method combines chunk-wise autoregressive a...
+Vision transformers (ViTs) have become the de facto standard for image encoding across many perception tasks. Despite their empirical success, it remains mechanistically unclear how they encode low-level features, given their lack of inductive biases: ViTs process information globally rather than relying on local structure. Biological visual systems, in contrast, build low-level features, such as ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03974v1)
-
----
-
-### 15. ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-04 · ✍️ Jinhe Bi, Chennan Zhou, Zengjie Jin +10 more
-
-On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models. However, when the expert fails on harder problems, existing trajectory-guided methods lose their main source of supervision, and these failed trajectories are typically discarded as negative ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.03972v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.05122v1)
 
 ---
 
