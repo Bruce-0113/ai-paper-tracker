@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-06 04:12 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-07 03:48 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. CoCo-IR: Contextual Composed Image Retrieval
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-05 · ✍️ Shengcao Cao, Tanmaya Shekhar Dabral, Zhongli Ding +6 more
-
-Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables users to progressively refine search results through interactions. We address this new task by propos...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05149v1)
-
----
-
-### 2. Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-05 · ✍️ Damien Sileo, Valentin Lacombe, Dimitri Kachler
-
-Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. U...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05148v1)
-
----
-
-### 3. Objects as Audio-Visual Modal Sound Fields
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-05 · ✍️ Zisen Shao, Zihao Wei, Derong Jin +1 more
-
-While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling approaches either rely on expensive physics-based simulation or require large datasets to generalize in...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05145v1)
-
----
-
-### 4. Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-05 · ✍️ Boxiu Li, Zimo Wen, Yijia Fan +23 more
-
-Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent fro...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05144v1)
-
----
-
-### 5. OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-05 · ✍️ Indraneil Paul, Falko Helm, Goran Glavaš +1 more
-
-Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context e...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05141v1)
-
----
-
-### 6. Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-05 · ✍️ Yinghui He, Ling Yang, Jiarui Liu +6 more
-
-Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different reasoning skills and depend on earlier outputs. Existing benchmarks often evaluate individual skills...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05139v1)
-
----
-
-### 7. Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-05 · ✍️ Ayoub Kirouane, Christos Petrocheilos
-
-Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranke...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05138v1)
-
----
-
-### 8. SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-05 · ✍️ Yue Zhang, Yingzhao Jian, Yunqiu Xu +2 more
-
-Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous information from multiple modalities, including visual and geometric cues. However, the relevance of these modalities often varies across queries. Existing Multimodal Large Language Models (MLLMs) typically rely on fixed modality combinations, overlooking query-dependent modality needs. Su...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05137v1)
-
----
-
-### 9. The Loss Does Not See the Basis, but Adam Does
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-05 · ✍️ Devender Singh
-
-Gradient descent on a factored model $W = UV^\top$ is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under $(U, V) \mapsto (UQ, VQ)$. Gradient flow's low-rank mechanism is available to an optimizer only if that optimizer is gauge-equivariant, a condition necessar...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05136v1)
-
----
-
-### 10. Predicting Brain Morphometry with MT-GNN: Mesh Evolution in Continuous Time with Graph-Based Metric Tensor Embeddings
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-05 · ✍️ Hao Ding, Daniel Semchin, Paul M. Thompson +1 more
-
-Predicting how a subcortical structure's shape will evolve from a few prior scans could support prognosis and clinical-trial enrichment. Existing longitudinal mesh predictors either extrapolate shape trajectories via high-dimensional embeddings or regress vertex deformations directly. We instead predict the surface's intrinsic geometry in continuous time: a single per-structure graph network predi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05132v1)
-
----
-
-### 11. OPD-V: Visual On-Policy Self-Distillation with Modality Balance
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-05 · ✍️  Aniri, Jinhe Bi, Peng Liao +5 more
-
-On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalance, a challenge inherent to MLLM reasoning. When textual information dominates generation, the model ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05131v1)
-
----
-
-### 12. SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-05 · ✍️ Adel Javanmard, David P. Woodruff, Vahab Mirrokni
-
-Achieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional geometric constructions but incur unfavorable dimension-dependent variance. In this work, we propose Subsampled Stochastic TurboQuant (SSTQ), a framework that combines overcomplete equal-norm tight f...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05127v1)
-
----
-
-### 13. Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-05 · ✍️ Yuezhang Peng, Yuxin Liu, Changfeng Gao +3 more
-
-Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant challenges in leveraging in-context learning for open-domain tasks due to its ambiguous rule defini...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05126v1)
-
----
-
-### 14. Chained Recursive Language Models for Multi-Iteration Reasoning
+### 1. Learning When to Trust via Selective Context Preference Optimization
 
 ![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-05 · ✍️ Purbesh Mitra, Sennur Ulukus
+📅 2026-08-06 · ✍️ Xian Sun, Wei Chow, Yingshuo Wang +4 more
 
-Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require extraction, counting, ordering, or multi-hop reasoning, where an early mistake can propagate until th...
+Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchma...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05124v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06377v1)
 
 ---
 
-### 15. IRIS: A Visual Cortex-Inspired Framework for Analyzing Orientation Selectivity in Vision Transformers
+### 2. The Bitter Lesson of Tool Calling
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-05 · ✍️ Vaishnavi B Mohan, Vijayakrishna Naganoor, Yashas Annadani +1 more
+📅 2026-08-06 · ✍️ Ishan Patel, Sahil Sen, Elias Lumer +1 more
 
-Vision transformers (ViTs) have become the de facto standard for image encoding across many perception tasks. Despite their empirical success, it remains mechanistically unclear how they encode low-level features, given their lack of inductive biases: ViTs process information globally rather than relying on local structure. Biological visual systems, in contrast, build low-level features, such as ...
+Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been co...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.05122v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06370v1)
+
+---
+
+### 3. Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-06 · ✍️ Soorya Ram Shimgekar, Michelle Hu, Dorisa Shehi +10 more
+
+Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language mode...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06366v1)
+
+---
+
+### 4. Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-06 · ✍️ George Grispos, Sajda Qureshi
+
+The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty. This research examines how Artificial Intelligence (AI) in Nigerian mobile applications affects digital sovereignty, examined through platform transparency as a key indicator of user...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06364v1)
+
+---
+
+### 5. An Optimal Agnostic PAC Algorithm
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-06 · ✍️ Markus Engelund Mathiasen, Jian Qian, Nikita Zhivotovskiy
+
+Let $H\subseteq\{-1,+1\}^X$ be a class of finite VC dimension $d\ge1$. Writing $L$ for the binary risk and $L^*=\min_{h\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\ sample of size $n$, for every $0<δ\le 1/2$, with probability at least $1-δ$, \[   L(\widehat h)   \le L^*+ 7\cdot10^8\left(   \sqrt{\frac{L^*(d+\log(1/δ))}{n}}   +\frac{d+\log(1/δ)}...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06363v1)
+
+---
+
+### 6. AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-06 · ✍️ Boning Li, Yu Chen, Longbo Huang
+
+Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the state...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06362v1)
+
+---
+
+### 7. The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-06 · ✍️ Sarvesh Baskar, Zikui Cai, Shayan Shabihi +5 more
+
+Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric prof...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06361v1)
+
+---
+
+### 8. Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-06 · ✍️ Praphul Chandra, Sujit Gujar, Ganesh Ghalme
+
+We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our w...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06353v1)
+
+---
+
+### 9. CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-06 · ✍️ Fanzhe Meng, Guoxin Chen, Jiale Zhao +6 more
+
+Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task behaves relative to a given solver setting. In this paper, we present CalibForge, an autonomous terminal-task synthesis system that uses verified solver behavior to revise candidate ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06352v1)
+
+---
+
+### 10. Challenges in Evaluating Explanation Methods for Static and Evolving Data
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-06 · ✍️ Jerzy Stefanowski
+
+This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanation...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06351v1)
+
+---
+
+### 11. RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-06 · ✍️ Xinye Wang, Junxiao Liu, Shujian Huang
+
+Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promising paradigm, providing dense token-level supervision on student-generated rollouts, yet their objectives do not explicitly prioritize reasoning signals most critical to cross-ling...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06347v1)
+
+---
+
+### 12. TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-06 · ✍️ Yunjia Qi, Zehua Yin, Xintong Shi +10 more
+
+LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a failed trajectory that is responsible for the final failure. However, progress faces two main challenges. First, long trajectories make it difficult to identify individual errors, sin...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06346v1)
+
+---
+
+### 13. Scalable estimation of VARMA models
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-06 · ✍️ Daniel Paulin, Victor Elvira
+
+Vector autoregressive moving-average (VARMA) models have long been considered impractical beyond moderate dimensions: the likelihood is non-convex, the parametrization is identified only up to equivalence, and every evaluation costs a pass over the entire series. Yet their moving-average term captures with a few parameters what a pure autoregression matches only with many lags. We introduce an est...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06340v1)
+
+---
+
+### 14. Optimal Rates for Learning with Monotone Adversaries
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-06 · ✍️ Anay Mehrotra
+
+A monotone adversary observes an i.i.d. labeled sample and appends a finite number of further examples of its choice, every one of them labeled correctly by the target hypothesis. The learner sees a uniform shuffle of the combined sample and is scored on the original distribution. Every example is correctly labeled, but the insertions depend on the clean sample, so the combined sample is not excha...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06337v1)
+
+---
+
+### 15. Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-06 · ✍️ Donna Hooshmand, Shubham Shahi, Cameron Barrie +4 more
+
+From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how tables connect into units of analysis. Today, this semantic layer is usually written by hand. This is a knowledge-acquisition bottleneck that limits the scalability of analytic syst...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.06331v1)
 
 ---
 
