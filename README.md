@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-10 03:11 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-11 03:03 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. SimWAM: A Simple World Action Model for End-to-End Autonomous Driving
+### 1. Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-08-07 · ✍️ Zongchuang Zhao, Xin Zhou, Tianyang Xu +5 more
+📅 2026-08-10 · ✍️ Shravan Venkatraman, Omkar Thawakar, Ritesh Thawkar +2 more
 
-World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action prediction, but existing methods require costly future generation at inference. We present SimWAM, a simple yet effective WAM that uses video generation purely as a training signal. It co-trains a pretrained video expert and a lightweight action expert with joint flow matching. An isola...
+Self-improvement for multimodal large language models (MLLMs) is typically driven by reward-based methods that provide only coarse scalar feedback. Distillation offers a richer alternative through dense token-level supervision, but in the visual domain it usually depends on privileged context constructed using external annotations and tools, or stronger models. We introduce \textbf{CVPD} (Contrast...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07468v1)
-
----
-
-### 2. MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-07 · ✍️ Youjun Zhao, Alex Warren, Gary K. L. Tam +1 more
-
-Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challenging because the content within a mirror must remain consistent with the surrounding scene. Existing VDMs are not specifically designed to model scene-to-mirror relationships, which can lead to reflections with incorrect content or inconsistent spatial ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07463v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09931v1)
 
 ---
 
-### 3. CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-07 · ✍️ Ananya Sahu, Mohit Bansal, Elias Stengel-Eskin
-
-While post-training improves the capabilities of large language models (LLMs), it generally lowers their output diversity and creativity, negatively impacting tasks that explicitly require creativity (e.g., story generation) as well as those that require it implicitly, e.g., reinforcement learning (RL). We instead propose CreativeInstruct, a scalable instruction-tuning method that teaches LLMs to ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07460v1)
-
----
-
-### 4. CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-07 · ✍️ Gyuwan Kim, Cheoneum Park, Tao Yang
-
-Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pareto frontier under low prefill latency constraints while maximizing accuracy by proposing CoinRAG (Co...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07458v1)
-
----
-
-### 5. Interaction Creates Dynamical AI Behavior Absent in Isolation
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-07 · ✍️ Bella Xinrui Li, Frank Yingjie Huo, Neil F Johnson
-
-What will happen when AI agents interact in daily life, e.g. when one AI starts bossing another around? We find a counterintuitive answer that opens new avenues for out-of-equilibrium Physics. When a boss AI directs a stream of messages at the subordinate AI while ignoring its replies, it drives the subordinate into an alien behavioral state that it would never have exhibited alone. Although the t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07457v1)
-
----
-
-### 6. Strategy-first synthesis planning for complex natural products
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-07 · ✍️ Daniel Armstrong, Xuan-Vu Nguyen, Octavian Susanu +15 more
-
-The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate target, devise backup strategies, and anticipate procedural challenges. It is also a profoundly creative activity. For half a century, efforts to automate the retrosynthetic design o...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07454v1)
-
----
-
-### 7. SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent
+### 2. Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-07 · ✍️ Mingxuan Zheng, Yujin Zhou, Chuxue Cao +6 more
+📅 2026-08-10 · ✍️ Oluwanifemi Bamgbose, Simon Rosen, Jash Shah +6 more
 
-LLM agents increasingly adapt to recurring tasks by accumulating procedural knowledge in skills. These skills are lightweight, reusable textual artifacts that are loaded into the agent's context without weight updates. Recent methods refine skills through iterative task execution, failure diagnosis, and trajectory-guided text-space updates. However, existing frameworks lack explicit diagnosis--out...
+Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they capture the distinct aspects of speech that listeners actually perceive. We deconstruct "naturalness" into a linguistically grounded annotation schema spanning 10 distinct perceptual dime...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07449v1)
-
----
-
-### 8. Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-07 · ✍️ Afreen Alam, Evgenija Popchanovska, Ana Gjorgjevikj +4 more
-
-Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generative AI applications move from pilot to production, manual harm identification and mitigation are becoming difficult to scale. Although many tools support model evaluation, adversarial testing, runtime guardrails, and observability, the tooling landscape remain...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07446v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09930v1)
 
 ---
 
-### 9. RIS-Aided mmWave Localization Under Cross-Link Interference via Beam-Domain ML Fingerprinting
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-07 · ✍️ Md Tarek Hassan, Dmitry Zelenchuk, Muhammad Ali Babar Abbasi
-
-Accurate user equipment (UE) localization is critical for beam management in reconfigurable intelligent surface (RIS)-assisted millimeter-wave (mmWave) based sixth-generation (6G) networks, especially if the direct base-station-UE links are unavailable. This paper proposes a beam-domain fingerprint framework that maps the received signal-to-noise ratio (SNR) across a small set of predefined RIS re...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07444v1)
-
----
-
-### 10. Blast Radius
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-07 · ✍️ MY Pitsane, Hope Mogale
-
-Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an incoming prompt's reach through coupled context and code channels. NECROPHORESIS enables reversible eviction by archiving dead context verbatim, while Recurring Dead Matter (RDM) identifies and buries repeatedly occurring transcripts. We formul...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07440v1)
-
----
-
-### 11. An Exploratory Evaluation of LLM-Assisted Rewriting of Moderate-Complexity Financial Sentences for DisCoCat-Based Sentiment Analysis
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-07 · ✍️ Brian Llinas, Nikos Chrisochoides
-
-Quantum natural language processing (QNLP) provides a grammar-aware framework for text modeling, and Distributional Compositional Categorical (DisCoCat) is one of its theoretically grounded formulations. Prior work on financial sentiment analysis has identified practical limitations of DisCoCat, including parser sensitivity, high simulation cost, and difficulty handling longer sentences. We study ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07439v1)
-
----
-
-### 12. PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-07 · ✍️ Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi +3 more
-
-Human-like cognition does not select past experience by topical similarity alone: affective significance and unresolved conflict also shape what becomes accessible. We present PsychoAgent, a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through a conflict-aware executive controller. Affective memories are first filtered by semantic relevance ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07438v1)
-
----
-
-### 13. Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-07 · ✍️ Jiacheng Miao, Jin Mu, Guanhua Chen +1 more
-
-Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produce analyses end-to-end. However, we show that they frequently make subtle inferential errors that lead to incorrect conclusions despite correctly executed analyses. Existing benchma...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07437v1)
-
----
-
-### 14. Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-07 · ✍️ Ali Janati, Kaoutar El Maghraoui, Andrei Kanavalau +1 more
-
-Under the standard split, Muon gets hidden matrices and AdamW embeddings/output head. Muon groks modular addition faster, but its solutions do not hold. All nine configurations on $(a+b) \bmod 113$ grok and later lose generalization. Across five seeds the selected AdamW reference falls below threshold on four, reaching 27.59%. Instability persists across two moduli, two widths, two training fracti...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07436v1)
-
----
-
-### 15. SABRE: Scalable and Automated Benchmarking of VLMs under Stress
+### 3. Multimodal Model Diffing for Feature Discovery and Control
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-07 · ✍️ Zixuan Lan, Luzhe Sun, Matthew R. Walter +1 more
+📅 2026-08-10 · ✍️ Hunar Batra, Lachin Naghashyar, Ashkan Khakzar +4 more
 
-Vision-language models (VLMs) are improving rapidly, but benchmark development lags behind, making weaknesses hard to identify. Building stress tests is costly: samples must satisfy controlled conditions, remain answerable, and challenge current models. We present SABRE, a scalable, automated pipeline that converts a Test Primer (a Markdown Task Design with Data Schema) into structured specificati...
+Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using sparse autoencoders (SAEs) neither readily isolate which features are changed by multimodal training,...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.07435v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09928v1)
+
+---
+
+### 4. Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-10 · ✍️ Haodong Li, Shaoteng Liu, Tianyu Wang +7 more
+
+The world evolves following its dynamics, i.e., its laws of motion. However, leading video diffusion models largely fit the pixels without modeling how the pixels transit over time. Thus, they render visually plausible frames but may not accurately obey the laws. To capture the dynamics purely from pixels, we introduce Latent Dynamics Reasoning (LDR). LDR casts the latent transition as an explicit...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09926v1)
+
+---
+
+### 5. From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-10 · ✍️ Laurens Samson, Iva Gornishka, Gossa Lô +2 more
+
+Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the values of public administration and the linguistic requirements of non-English contexts. We present the "Grip on LLMs" framework, a systematic evaluation suite for Dutch governmental use developed in collaboration with domain experts from a major Dutch municipa...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09925v1)
+
+---
+
+### 6. GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-10 · ✍️ Alban Puech, Matteo Mazzonelli, Tamara R. Govindasamy +19 more
+
+Foundation models are transforming business workflows and boosting productivity, yet they remain largely absent from engineering domains such as power system analysis, where strict physical consistency must be enforced.   We present GENCO (GEometric Neural Corrective Optimizer), a unified neural solver for steady-state transmission grid analysis that handles power flow (PF), optimal power flow (OP...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09921v1)
+
+---
+
+### 7. Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-10 · ✍️ Gijung Lee, Ronald Wilson, Damon L. Woodard +1 more
+
+Hardware assurance relies on scanning electron microscopy (SEM) to verify nanoscale structures, but assembling the large, high-quality datasets required for automated analysis is impeded by time-intensive acquisition and strict intellectual property (IP) constraints on proprietary designs. We propose a privacy-preserving pipeline that secures IP by heavily distorting the functional design while ge...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09914v1)
+
+---
+
+### 8. Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-10 · ✍️ Wenti Yin, Xiang Wang, Huaxin Zhang +4 more
+
+Video anomaly detection (VAD) aims to identify and temporally localize abnormal events in videos. Supervised methods learn anomaly decision boundaries from target-domain annotations but require substantial in-domain data. Existing training-free methods leverage the rich semantic knowledge and reasoning capabilities of pretrained models to interpret visual content, yet these capabilities do not dir...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09908v1)
+
+---
+
+### 9. DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-10 · ✍️ Mainak Singha, Niccolò Biondi, Elisa Ricci +1 more
+
+Multimodal Large Language Models (MLLMs) have shown strong multimodal instruction-following ability, but adapting them to diverse visual-language domains typically assumes centralized data access and costly joint training. This is restrictive when data is distributed across private, domain-specific, or permission-limited clients. To this end, we propose DistMoE, a mixture-of-experts (MoE) approach...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09907v1)
+
+---
+
+### 10. DSLE: A Learning Environment for Dark Souls Boss Encounters
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-10 · ✍️ Derin Gezgin, Jim O'Connor, Tanner Goodwin +1 more
+
+We introduce the Dark Souls Learning Environment (DSLE), a containerized platform that presents all 22 boss encounters of Dark Souls: Remastered as game-playing agent benchmarks through a Gymnasium-style interface. DSLE combines real-time combat, high-dimensional visual input, and sparse terminal rewards, with each environment step being a real action executed against the running game. To support ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09902v1)
+
+---
+
+### 11. Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-10 · ✍️ Tadanobu Chuyo Kamijo, Ori Rottenstreich, Javier Conde +2 more
+
+Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural constraints continuously force models off this nominal path, driving a divergence between benchmark sco...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09900v1)
+
+---
+
+### 12. Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility Study
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-10 · ✍️ Valentijn Oldenburg, Floris de Kam, Stef de Wildt +1 more
+
+In fair ranked link prediction, demographic parity ($Δ_\mathrm{DP}$) is a common fairness metric. Yet, Mattos et al. (2025) argue that it fails to detect exposure bias because it ignores where links appear in the ranking. In this study, we reproduce this claim by showing that $Δ_\mathrm{DP}$ can indicate aggregate parity even when some subgroup-pair links are systematically ranked lower than other...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09899v1)
+
+---
+
+### 13. Consilience for Verifier-Free Test-Time Scaling
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-10 · ✍️ Lecheng Kong, Like Hui, Haitao Mao +1 more
+
+Test-time scaling often uses an external verifier, such as compilers and test cases in coding or trained value functions in robotics applications, to obtain high-quality rollouts. Verifier-free test-time scaling (or VF-TTS) is gaining extensive attention as a mechanism to enhance Large Language Model (LLM) reasoning, primarily because we do not have access to such high-quality verifiers in many re...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09898v1)
+
+---
+
+### 14. Fusion Training for Mathematical Generalization in Large Language Models
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-10 · ✍️ Congfeng Cao, Pengyu Zhang, Jelke Bloem
+
+Thinking Mode Fusion (TMF) enables large language models to support both concise responses and long-form reasoning by unifying a non-thinking mode and a thinking mode within a single model. However, its training dynamics, including the \emph{data ratio} and \emph{training schedule} between the two modes, remain underexplored. In this work, we present a systematic study of TMF by analyzing the effe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09893v1)
+
+---
+
+### 15. BDH-CQ: In-Context Learning with Recurrent Latent Reasoning
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-10 · ✍️ Björn Engdahl, Adrian Kosowski, Jan Chorowski +6 more
+
+We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, without verbalizing its intermediate reasoning. We evaluate the model on the public ARC-AGI-1 evaluation set and ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.09888v1)
 
 ---
 
