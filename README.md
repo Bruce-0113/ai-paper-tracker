@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-17 02:19 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-18 02:14 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing
+### 1. Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-17 · ✍️ Bingxin Xu, Yuzhang Shang, Emilio Ferrara
+
+Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A promising recipe freezes the VLA and puts an LLM agent in charge: it plans in language, moves in fr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16889v1)
+
+---
+
+### 2. Q-based Variational Inverse Reinforcement Learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-17 · ✍️ Ondrej Bajgar, Peter Tisnikar, Alessandro Abate +2 more
+
+The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as reward functions, from expert behaviour. We introduce Q-based Variational IRL (QVIRL), a novel Baye...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16888v1)
+
+---
+
+### 3. An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-08-14 · ✍️ Qinye Zhou, Jun Zheng, Yongchao Du +17 more
+📅 2026-08-17 · ✍️ Dengyang Jiang, Ruoyi Du, Zhennan Chen +10 more
 
-With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. However, existing benchmarks remain confined to simple single-image tasks, suffering from limited coverage dimensions and an inability to effectively differentiate performance among di...
+This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings. Consequently, a practical recipe for training pixel-space models that rival or exceed well-established latent-space counterparts remains elusive. Through a comprehensive empirical s...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14546v1)
-
----
-
-### 2. MagnifiQ: Patch-aware Text Guided Progressive Upscaling for High-Resolution Image Restoration
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-14 · ✍️ Mahesh Reddy, Yashesh Savani, Antoine Mercier +3 more
-
-High-resolution image restoration from degraded inputs is challenging because it must preserve global structural consistency while recovering fine-grained local details, especially at 4K resolution where direct diffusion-based restoration is computationally expensive and prone to repeated or inconsistent textures. In this work, we introduce MagnifiQ, an image restoration framework that progressive...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14543v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16887v1)
 
 ---
 
-### 3. Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-14 · ✍️ Karel Becerra, Boris Mederos, Dean Snow +1 more
-
-Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high structural overlap across sexes, poor cross-population generalizabili...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14539v1)
-
----
-
-### 4. Marionette: Predicting World States, Rendering Geometry, Painting Appearance
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-14 · ✍️ Zian Meng, Zhen Li, Chuanhao Li +2 more
-
-Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, errors in these latent world properties accumulate, making consistency and controllability fragile. We explicitly model the evolving world state...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14530v1)
-
----
-
-### 5. Handover of In-Context Learning State Across Session Boundaries
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-14 · ✍️ Masahiro Kato, Taka Kato
-
-This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches the model's input limit, when the application restarts, or when another agent is asked to finish the task. The application must then decide which information from the earlier session to pass on. We fo...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14528v1)
-
----
-
-### 6. Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-14 · ✍️ Taenyun Kim, Edyta Bogucka, Daniele Quercia
-
-As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation. In this approach, researchers poll participants on hypothetical dilemmas and use the aggregated votes to train a policy that an AI model then applies at scale. Before any vote is cast, developers make three key choices in the moral AI elicitation pipeline: feature scoping, voter sam...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14522v1)
-
----
-
-### 7. Learning-to-Transition for Large-scale and High-Order MIMO Detection
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-14 · ✍️ Yubo Zhang, Yiyao Liu, Xiaodong Wang
-
-High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-transition (L2T) framework that formulates MIMO detection as a stochastic sequence of complete-vector transitions. At each transition, a channel-coupled Transformer updates both the ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14511v1)
-
----
-
-### 8. Split the Labor: Separating Evidence Interpretation from Decision Aggregation
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-14 · ✍️ Zhelun Wu
-
-Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return nothing. Once separated, the design problem becomes the interfac...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14509v1)
-
----
-
-### 9. RecipeNet: A Hierarchical Transformer for Recipe Data
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-14 · ✍️ Pin-Yen Huang, Sachin Chhabra, Prasanth Sai Gouripeddi +2 more
-
-Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogeneous structured fields. Existing tabular learning methods typically flatten this structure into fixed-schema representations, limiting their ability to capture hierarchical field interactions and proc...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14505v1)
-
----
-
-### 10. Universal Thermodynamic Interatomic Potentials for Crystalline Materials
+### 4. Improving the matrix multiplication exponent with modern optimization and AlphaEvolve
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-14 · ✍️ Juno Nam, Bowen Deng, Xiaochen Du +3 more
+📅 2026-08-17 · ✍️ Emilien Dupont, Marvin Eisenberger, Borislav Kozlovskii +7 more
 
-Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We introduce the thermodynamic interatomic potential (TIP), which extends an interatomic potential from its static energy to a thermodynamically consistent Gibbs free energy model, with thermodynamic respon...
+The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14502v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16884v1)
 
 ---
 
-### 11. Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training
+### 5. Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-14 · ✍️ Hanfeng Lu, Tianyu Feng, Suyi Li +8 more
+📅 2026-08-17 · ✍️ Yunbum Kook, Santosh S. Vempala
 
-Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor training in strict serial phases. While effective for text-only RL, this phase-granular execution is waste...
+For any convex body $\mathcal{K}\subset\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $Ω(1/(n^2 C_{\mathsf{PI}}))$, where $C_{\mathsf{PI}}$ is the Poincaré constant of the uniform distribution $π$ over $\mathcal{K}$. This implies that Hit-and-Run converges to a distribution within $χ^2$-divergence $\varepsilon$ of the uniform distribution $π$ in $O(n^2 C_{\mathsf{PI}}\l...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14498v1)
-
----
-
-### 12. Generating Benchmark Health Data Using a Tabular Diffusion Transformer
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-14 · ✍️ Hao Yan, Lisa Pilgram, Dan Liu +3 more
-
-Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generation methods are largely restricted to single-input-table scenarios and struggle to effectively handle multiple heterogeneous tables with diverse feature sets. To address this limitation, we propose a tw...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14496v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16878v1)
 
 ---
 
-### 13. Approximate Muon with low-rank adapters
+### 6. AutoSR: Automatic Symbolic Regression by Searching Research States
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-17 · ✍️ Kejia Zhang, Youran Sun, Xinyu Ren +2 more
+
+We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficie...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16876v1)
+
+---
+
+### 7. An Analytical-Prior Framework for Data-Efficient Prediction of Sound-Reduction Frequencies in Rectangular Side-Branch Helmholtz Resonators
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-14 · ✍️ Ben Anson, Conor Houghton, Edward Milsom
+📅 2026-08-17 · ✍️ Jiaming Li
 
-The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. However, it is used less frequently for parameter-efficient fine-tuning (PEFT). One potential reason is that the most common PEFT method, LoRA, does not naturally combine with Muon since it is not mathematically possible to orthogonalize the weight update given by a low-rank parameterization. In this pape...
+High-fidelity finite-element simulations can provide accurate numerical predictions for side-branch resonators, but large simulation datasets are expensive to generate and purely data-driven surrogates may become unreliable when simulation-labelled data are scarce. This study develops an analytical-prior learning framework that reuses a low-cost analytical model to improve data efficiency under li...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14492v1)
-
----
-
-### 14. Optimal Scheduling of Road Maintenance Jobs Considering Impact on Traffic Flows
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-14 · ✍️ Charitha Nandepu, Lohitha Kalepu, Gabriele Ciavarella +1 more
-
-Network-level maintenance planning requires repeated evaluations of equilibrium traffic flows under road capacity reductions. While equilibrium traffic assignment models are well established, their repeated solution quickly becomes computationally prohibitive and challenging to embed within maintenance scheduling problems. This paper investigates data-driven surrogate models that approximate equil...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14491v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16873v1)
 
 ---
 
-### 15. Twin: Playing an Unknown Game with a Test-Time Digital Twin
+### 8. Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-14 · ✍️ Alexy Skoutnev, Kirill Acharya, Gaston Longhitano +3 more
+📅 2026-08-17 · ✍️ Serena Su, Yifan Wang, Senwei Liang
 
-We present a Test-time World-model Inference (Twin) system, in which a frontier coding agent writes an executable world model for completing continual learning tasks, such as ARC-AGI-3 games. Traditional approaches hand-engineer such models, one custom design per task. Each game hides its rules and goal, and our system constructs them from simulation and interaction alone. Its inductive prior over...
+Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle course that transforms subtle biophysical characteristics of CTCs, including size and deformability, into distinct kinematic trajectories. However, the highly nonlinear fluid structure interactions go...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.14490v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16870v1)
+
+---
+
+### 9. Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-17 · ✍️ Benjamin Belay
+
+A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a modular feed-forward neural network and a transformer-based model. ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16868v1)
+
+---
+
+### 10. Non-Crossing Deep Quantile Regression for Distributional Survival Prediction
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-17 · ✍️ Shuai Huang, Zhe Qu, Zhaowei Hua +3 more
+
+In survival analysis the way covariates act on the risk of an event often differs between early and late failure times, yet hazard- and mean-based summaries collapse this variation into a single number. Quantile-based modeling instead describes the full conditional distribution on the original time scale, but existing censored-data methods are either inflexible or produce logically inconsistent cr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16864v1)
+
+---
+
+### 11. SplatGuide: Geometric Priors from 3D Gaussians for Pose-Free Novel View Synthesis
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-17 · ✍️ Yejun Zhang, Zihan Wang, Xu Ji +8 more
+
+Generating photorealistic novel views from unposed images requires both 3D geometric understanding and the ability to synthesize unseen content. A natural strategy combines feed-forward 3DGS reconstruction with multi-view diffusion. Yet prior pipelines extract at most one signal from the reconstruction, either pixel rendering or learned features, while none exploits per-Gaussian visibility for occ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16863v1)
+
+---
+
+### 12. The canonical facets of multi-separator polytopes
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-17 · ✍️ Bjoern Andres, Silvia Di Gregorio, Jannik Irmai +2 more
+
+We initiate a polyhedral study of the graph multi-separator problem proposed by Irmai et al. (2024) as an alternative to the lifted multicut problem for application to the task of image segmentation. Starting with an integer linear program (ILP) formulation and the multi-separator polytope spanned by its feasible solutions, we characterize in terms of efficiently-decidable, graph-theoretic conditi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16861v1)
+
+---
+
+### 13. HarnessEval-W: Agentifying the Evaluation of Visual Worlds
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-17 · ✍️ Weiliang Chen, Haowen Sun, Jun Gao +40 more
+
+A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score. This is especially critical for world models, where judging a rollout requires understanding whether physics, causality, and world state evolve correctly. Humans spot such violations naturally, yet no existing benchmark automates this capability: metrics are computed...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16859v1)
+
+---
+
+### 14. zLend: A Dual-Scope Cash-Flow Reconstruction Framework for On-Chain Credit Underwriting
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-17 · ✍️ Girish G N, Ashutosh Sahoo, Akshay SP +2 more
+
+Decentralized lending lacks a credit bureau: a borrower's capacity to repay must be inferred entirely from public on-chain activity, without income verification or a liability record. This paper presents zLend, a deployed cash-flow underwriting framework that reconstructs a wallet's daily balance history from raw token transfers and derives short-duration repayment-capacity signals from it. The re...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16856v1)
+
+---
+
+### 15. Can Unsupervised Methods Outperform Supervised Deep Learning When Ground Truth Is Sparse? A Case Study of Bronchovascular Bundle Segmentation in Low-Dose CT
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-17 · ✍️ Anna Mrukwa, Marek Socha, Aleksandra Suwalska +9 more
+
+Background   Lung cancer remains the deadliest cancer worldwide because it is often diagnosed too late. Effective treatment depends on detection at an early screening stage. However, the growing number of patients and the limited number of radiologists lead to prolonged diagnostic waiting times. In very early stage lung cancer, nodule visibility is further reduced by adjacent blood vessels and air...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.16855v1)
 
 ---
 
