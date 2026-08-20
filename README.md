@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-19 02:17 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-20 02:16 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation
+### 1. SPADE: Self-Play in Adaptive Synthetic Executable Environments
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-18 · ✍️ Xingjian Wang, Zhao Wang, Taihang Hu +14 more
+📅 2026-08-19 · ✍️ Bo Liu, Simon Yu, Yiding Jiang +15 more
 
-Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterogeneous supervision according to the dependencies among generative capabilities. We present a \textbf...
+Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18076v1)
-
----
-
-### 2. Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-18 · ✍️ Iryna Hartsock, Cesar Lam, Christopher Otteni +4 more
-
-Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radiologists in 2023 and 2024. A multi-agent AI pipeline was developed to perform report structuring and ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18072v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19197v1)
 
 ---
 
-### 3. On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification
+### 2. ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-18 · ✍️ Qinyuan Ye, Yu Li, Yada Pruksachatkun +2 more
+📅 2026-08-19 · ✍️ Jayjun Lee, Jessica Yin, Asif Rana +7 more
 
-Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along t...
+We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT pretrains a dexterous policy on a generic object reposing task, then post-trains downstream policies...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18066v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19182v1)
 
 ---
 
-### 4. EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing
+### 3. Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-19 · ✍️ Zhu Zhang, Jixun Wang, Xiaoang Xu +6 more
+
+On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constraints. Task-specific verifiers, in contrast, evaluate task completion at the response level and may ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19181v1)
+
+---
+
+### 4. Image-Guided Pavement Defect Recognition in GPR Data with novel 3D Deep Learning Architecture
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-08-18 · ✍️ Jiayi Song, Shijie Huang, Fangtai Wu +5 more
+📅 2026-08-19 · ✍️ Yuandong Pan, Linjun Lu, Mudan Wang +6 more
 
-High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models remain constrained to resolutions below 1K due to quadratic attention complexity and prohibitive memory requirements. A prevalent workaround employs a two-stage pipeline: editing at low resolution followed by independent super-resolution. However, this approach suffers from two cri...
+Ground Penetrating Radar (GPR) is a widely adopted non-destructive sensing technology for subsurface inspection in civil and transportation engineering. Despite its potential for pavement condition assessment, the large-scale application of GPR in automated inspection has two key challenges: the scarcity of annotated real-world datasets and the lack of deep learning models designed for the unique ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18063v1)
-
----
-
-### 5. TokEval: A Tokenizer Evaluation Suite
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-18 · ✍️ Clara Meister
-
-Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce TokEval, a framework of tokenizer evaluation metrics that goes beyond standard measures like fertil...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18062v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19177v1)
 
 ---
 
-### 6. The concentration game: Bayesian updating, regret, and information
+### 5. Finetuning Strategies for Querying Sounds by Vocal Imitation
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-19 · ✍️ Aditya Bhattacharjee, Christos Plachouras, Sungkyun Chang +1 more
+
+This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include det...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19174v1)
+
+---
+
+### 6. Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-18 · ✍️ Akshay Balsubramani
+📅 2026-08-19 · ✍️ Sotirios P. Chatzis, Loukas Papadoulas
 
-We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies the comparator-class variational form that a wide class of concentration phenomena share. The terminal payoff is the most a comparator can gain at fixed relative entropy from the prior, and the one-step...
+Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also reports, in closed form and at no extra cost, how far it should be trusted. We introduce Lévy Attentio...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18061v1)
-
----
-
-### 7. Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-18 · ✍️ Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev +1 more
-
-Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We study this condition using two large-scale surveys of active users of a major dating platform (N=2,894 ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18058v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19171v1)
 
 ---
 
-### 8. HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance
+### 7. Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-18 · ✍️ Xiao Wang, Shun Ren Yang, Hui Nien Hung
+📅 2026-08-19 · ✍️ Zachary Speck, Asa Shepard
 
-Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that essentially every on-road vehicle is replanned every decision period. We propose HLSR, a selective hybrid live--forecast vehicle rerouting framework that fuses live edge speeds with short-horizon forecas...
+A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one batch. We ran that counterfactual 24 times at a small scale. We trained 32 GPT-2 models at 124M parameters from scratch on OpenWebText, over four conditions and eight seeds. At step 200 of 9,536, at pe...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18056v1)
-
----
-
-### 9. Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-18 · ✍️ Veronika Spieker, Wenqi Huang, Cemre Ariyurek +5 more
-
-Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor primitives have shown promising results without the need for large training datasets, but have not addressed the additional dimension of dynamic contrast. We propose a multi-dimensional, primitive ba...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18055v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19168v1)
 
 ---
 
-### 10. StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-18 · ✍️ Yining Hua, Hongbin Na, Yifan Zhou +3 more
-
-AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18050v1)
-
----
-
-### 11. Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation
+### 8. ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-18 · ✍️ Hollis Robbins
+📅 2026-08-19 · ✍️ Thales Bertaglia, Catalina Goanta, Gerasimos Spanakis +1 more
 
-Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learned from a corpus do not supply. Phase exists only between meanings: it determines how coactivated mea...
+ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted to SponsorBlock, an open-source crowdsourced browser extension whose users mark sponsor segments so that others can skip them. We pair the segment with its available transcript, video and channel info...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18041v1)
-
----
-
-### 12. Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-18 · ✍️ Travis Zhang, Christian Belardi, Justin Lovelace +4 more
-
-Sampling from a diffusion model typically requires many forward passes through a large neural network, making generation computationally expensive. While much work has focused on efficient solvers and samplers, comparatively little attention has been paid to selecting the sampling timesteps themselves. A recent line of work optimizes theoretically derived surrogates for sample quality rather than ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18040v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19165v1)
 
 ---
 
-### 13. Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors
+### 9. Interpretable AI predicts a 2026 summer dry anomaly in central China
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-18 · ✍️ Mahdi Saberi, Yaşar Utku Alçalar, Merve Gülle +2 more
+📅 2026-08-19 · ✍️ Anran Wang, Wen Shi, Yong Luo +5 more
 
-MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that magnitude-only measurements may provide complementary information for signal recovery. However, their use in MRI reconstruction remains largely unexplored, due to lack of practical settings where informative magnitude measurements c...
+Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning model that translates dynamical circulation predictions into precipitation estimates. Predictions initialized from March to May consistently indicate a dry anomaly over central China in summer 2026. Ret...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18036v1)
-
----
-
-### 14. Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-18 · ✍️ Zongzheng Zhang, Jijun Wang, Saining Zhang +8 more
-
-Traffic elements such as traffic lights and road signs play a fundamental role in human driving decisions and should naturally influence end-to-end driving performance. However, existing end-to-end driving research predominantly focuses on dynamic road participants (e.g., vehicles and pedestrians), while the role of traffic elements remains largely unexplored. The community still lacks a systemati...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18035v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19163v1)
 
 ---
 
-### 15. Deep Academic Survey: Stateful Agentic Closed-Loop Paradigm for Academic Survey Automation
+### 10. Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-18 · ✍️ Zhikai Xu, Zhucun Xue, Teng Hu +3 more
+📅 2026-08-19 · ✍️ Ramneet Kaur, Pradyumna Chari, Ramesh Raskar +3 more
 
-Academic surveys play a central role in organizing rapidly expanding scholarly literature, yet their construction requires extensive paper analysis, coherent knowledge organization, fine-grained citation support, and reliable manuscript assembly. Existing Deep Research and automated survey generation systems address parts of this process, but typically do not coordinate paper understanding, litera...
+Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communication channels. For every monitored decision, VLA links the private latent-state record and channel st...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.18034v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19161v1)
+
+---
+
+### 11. Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-19 · ✍️ Tomasz R. Bielecki, Thibaut Mastrolia, Haoze Yan
+
+We study stochastic control of multivariate Hawkes-driven stochastic differential equations with machine learning algorithms in a non-Markovian setting. Due to the path dependence of the memory of the Hawkes intensity, this problem does not fall within classical stochastic control theory outside particular Markovian kernels. We first develop a finite-dimensional Markovianization procedure and algo...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19151v1)
+
+---
+
+### 12. Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-19 · ✍️ Tate Berenbaum, Muthaiah Venkatachalam
+
+Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models beyond the capability of any single one. We use pipeline parallelism: a model is split by layer into pe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19147v1)
+
+---
+
+### 13. Geometric Iterative Retrieval for Neural Audio Codec Resynthesis
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-19 · ✍️ Leo Schmidt-Traub, Frédéric Berdoz, Luca A. Lanzendörfer +1 more
+
+Neural audio codecs based on Residual Vector Quantization (RVQ) have become the dominant discrete representation for token-based general audio generation, yet resynthesizing high-quality audio from coarse codec tokens remains an open problem and bounds the fidelity of every system that generates them. Prior work has framed resynthesis as a choice between discrete token prediction and continuous re...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19141v1)
+
+---
+
+### 14. Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-19 · ✍️ George Andrikopoulos
+
+Frontier language models are compared, marketed, and benchmarked on capability -- what their best or average output can achieve. I argue this measures the wrong axis. The models have saturated accuracy: their mean output lands on the target. What now separates one system from another in practice is precision: how tightly concentrated their outputs are around that target across repeated, identical ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19140v1)
+
+---
+
+### 15. SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-19 · ✍️ Zhenyao Cui, Siyuan Kan, Siyang Li +2 more
+
+Accurate visual decoding can reveal how the brain represents visual information and recover perceived content from neural signals such as electroencephalography (EEG), with potential for neural communication. However, current EEG-to-image retrieval methods perform far below their within-subject counterparts for new users without labeled calibration, limiting real-world deployment. To understand th...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.19134v1)
 
 ---
 
