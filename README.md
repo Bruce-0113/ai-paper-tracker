@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-20 02:16 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-21 02:22 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. SPADE: Self-Play in Adaptive Synthetic Executable Environments
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-19 · ✍️ Bo Liu, Simon Yu, Yiding Jiang +15 more
-
-Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19197v1)
-
----
-
-### 2. ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-19 · ✍️ Jayjun Lee, Jessica Yin, Asif Rana +7 more
-
-We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT pretrains a dexterous policy on a generic object reposing task, then post-trains downstream policies...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19182v1)
-
----
-
-### 3. Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-19 · ✍️ Zhu Zhang, Jixun Wang, Xiaoang Xu +6 more
-
-On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constraints. Task-specific verifiers, in contrast, evaluate task completion at the response level and may ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19181v1)
-
----
-
-### 4. Image-Guided Pavement Defect Recognition in GPR Data with novel 3D Deep Learning Architecture
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-19 · ✍️ Yuandong Pan, Linjun Lu, Mudan Wang +6 more
-
-Ground Penetrating Radar (GPR) is a widely adopted non-destructive sensing technology for subsurface inspection in civil and transportation engineering. Despite its potential for pavement condition assessment, the large-scale application of GPR in automated inspection has two key challenges: the scarcity of annotated real-world datasets and the lack of deep learning models designed for the unique ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19177v1)
-
----
-
-### 5. Finetuning Strategies for Querying Sounds by Vocal Imitation
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-19 · ✍️ Aditya Bhattacharjee, Christos Plachouras, Sungkyun Chang +1 more
-
-This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include det...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19174v1)
-
----
-
-### 6. Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention
+### 1. Information on trajectories: martingales and random times
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-19 · ✍️ Sotirios P. Chatzis, Loukas Papadoulas
+📅 2026-08-20 · ✍️ Akshay Balsubramani
 
-Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also reports, in closed form and at no extra cost, how far it should be trusted. We introduce Lévy Attentio...
+Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a relative entropy, resolved by the chain rule into per-step con...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19171v1)
-
----
-
-### 7. Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-19 · ✍️ Zachary Speck, Asa Shepard
-
-A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one batch. We ran that counterfactual 24 times at a small scale. We trained 32 GPT-2 models at 124M parameters from scratch on OpenWebText, over four conditions and eight seeds. At step 200 of 9,536, at pe...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19168v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20337v1)
 
 ---
 
-### 8. ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos
+### 2. ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-19 · ✍️ Thales Bertaglia, Catalina Goanta, Gerasimos Spanakis +1 more
+📅 2026-08-20 · ✍️ Sahil Kale, Ian Harris
 
-ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted to SponsorBlock, an open-source crowdsourced browser extension whose users mark sponsor segments so that others can skip them. We pair the segment with its available transcript, video and channel info...
+Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19165v1)
-
----
-
-### 9. Interpretable AI predicts a 2026 summer dry anomaly in central China
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-19 · ✍️ Anran Wang, Wen Shi, Yong Luo +5 more
-
-Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning model that translates dynamical circulation predictions into precipitation estimates. Predictions initialized from March to May consistently indicate a dry anomaly over central China in summer 2026. Ret...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19163v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20338v1)
 
 ---
 
-### 10. Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication
+### 3. 4DAnyone: Create Anyone in 4D from a Casual Monocular Video
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-08-19 · ✍️ Ramneet Kaur, Pradyumna Chari, Ramesh Raskar +3 more
+📅 2026-08-20 · ✍️ Yudong Jin, Tao Xie, Qihang Zhang +6 more
 
-Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communication channels. For every monitored decision, VLA links the private latent-state record and channel st...
+We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS recons...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19161v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20335v1)
 
 ---
 
-### 11. Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions
+### 4. WithEveryone: Unified Planning and Identity Grounding for Group Image Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-20 · ✍️ Hengyuan Xu, Qixun Wang, Yiji Cheng +5 more
+
+Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images u...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20336v1)
+
+---
+
+### 5. Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-20 · ✍️ Taihang Hu, Zhao Wang, Zuan Gao +18 more
+
+We present Swift-Image, a compact unified model for text-to-image generation, single-image editing, and multi-image editing. Our goal is to explore how far a relatively small visual generator can be pushed through systematic training engineering under a constrained computational budget. Swift-Image adopts an efficient 6B single-stream DiT and a progressive training pipeline that evolves from broad...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20334v1)
+
+---
+
+### 6. G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-20 · ✍️ Shiao Xie, Siyu Chen, Jianwei Lv +3 more
+
+Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20331v1)
+
+---
+
+### 7. $TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-19 · ✍️ Tomasz R. Bielecki, Thibaut Mastrolia, Haoze Yan
+📅 2026-08-20 · ✍️ Parampreet Singh, Anushka Singh, Sumit Kumar +1 more
 
-We study stochastic control of multivariate Hawkes-driven stochastic differential equations with machine learning algorithms in a non-Markovian setting. Due to the path dependence of the memory of the Hawkes intensity, this problem does not fall within classical stochastic control theory outside particular Markovian kernels. We first develop a finite-dimensional Markovianization procedure and algo...
+Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classifier. Existing targets, however, suffer from inherent ambiguity: they assign overlapping confidence ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19151v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20326v1)
 
 ---
 
-### 12. Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets
+### 8. A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-20 · ✍️ Anton Lambrecht, Reda El Hail, Xianjun Jiao +5 more
+
+Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In addi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20322v1)
+
+---
+
+### 9. An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-20 · ✍️ Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli +2 more
+
+Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from stude...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20320v1)
+
+---
+
+### 10. Inducing Task Models from Computer-Use Traces
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-20 · ✍️ Yucheng Jiang, Zora Zhiruo Wang, Ruishi Chen +1 more
+
+Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20319v1)
+
+---
+
+### 11. AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-20 · ✍️ Yizhe Chi, Wenyi Li, Deyao Hong +7 more
+
+Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20318v1)
+
+---
+
+### 12. Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-19 · ✍️ Tate Berenbaum, Muthaiah Venkatachalam
+📅 2026-08-20 · ✍️ Adam Fisch, Shubhendu Trivedi, Fantine Huot +5 more
 
-Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models beyond the capability of any single one. We use pipeline parallelism: a model is split by layer into pe...
+Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noi...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19147v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20316v1)
 
 ---
 
-### 13. Geometric Iterative Retrieval for Neural Audio Codec Resynthesis
+### 13. Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-19 · ✍️ Leo Schmidt-Traub, Frédéric Berdoz, Luca A. Lanzendörfer +1 more
+📅 2026-08-20 · ✍️ Jun Ni Du, Lukas Adamek, Maxim Kryukov +4 more
 
-Neural audio codecs based on Residual Vector Quantization (RVQ) have become the dominant discrete representation for token-based general audio generation, yet resynthesizing high-quality audio from coarse codec tokens remains an open problem and bounds the fidelity of every system that generates them. Prior work has framed resynthesis as a choice between discrete token prediction and continuous re...
+Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that enc...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19141v1)
-
----
-
-### 14. Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-19 · ✍️ George Andrikopoulos
-
-Frontier language models are compared, marketed, and benchmarked on capability -- what their best or average output can achieve. I argue this measures the wrong axis. The models have saturated accuracy: their mean output lands on the target. What now separates one system from another in practice is precision: how tightly concentrated their outputs are around that target across repeated, identical ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19140v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20315v1)
 
 ---
 
-### 15. SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval
+### 14. MidTool: Mid-training Data Synthesis for Agentic Tool Use
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-19 · ✍️ Zhenyao Cui, Siyuan Kan, Siyang Li +2 more
+📅 2026-08-20 · ✍️ Fengqing Jiang, Yite Wang, Boyi Liu +5 more
 
-Accurate visual decoding can reveal how the brain represents visual information and recover perceived content from neural signals such as electroencephalography (EEG), with potential for neural communication. However, current EEG-to-image retrieval methods perform far below their within-subject counterparts for new users without labeled calibration, limiting real-world deployment. To understand th...
+Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as math and science, and can also improve agentic capabilities in software-engineering settings. In this work, we study the parallel but less explored agentic capability: general tool us...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.19134v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20314v1)
+
+---
+
+### 15. Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-20 · ✍️ Liang Xu, Chengqun Yang, Zili Lin +6 more
+
+The capability to perceive and synthesize human-human interactions is fundamental to developing intelligent digital human systems. However, existing datasets and modeling approaches are fundamentally constrained by low-fidelity kinematics, the omission of dexterous hand gestures and a severe lack of rich multimodal annotations. Furthermore, fragmented interaction representations and inconsistent e...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.20312v1)
 
 ---
 
