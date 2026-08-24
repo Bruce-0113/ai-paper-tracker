@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-23 02:23 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-24 02:22 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Information on trajectories: martingales and random times
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-20 · ✍️ Akshay Balsubramani
-
-Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a relative entropy, resolved by the chain rule into per-step con...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20337v1)
-
----
-
-### 2. ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-20 · ✍️ Sahil Kale, Ian Harris
-
-Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20338v1)
-
----
-
-### 3. 4DAnyone: Create Anyone in 4D from a Casual Monocular Video
+### 1. OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-08-20 · ✍️ Yudong Jin, Tao Xie, Qihang Zhang +6 more
+📅 2026-08-21 · ✍️ Xianyun Sun, Chaoyou Fu, Zhengye Zhang +6 more
 
-We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS recons...
+Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, user goals, and prior knowledge to provide effective help. Evaluating this is rather challenging, as t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20335v1)
-
----
-
-### 4. WithEveryone: Unified Planning and Identity Grounding for Group Image Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-20 · ✍️ Hengyuan Xu, Qixun Wang, Yiji Cheng +5 more
-
-Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images u...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20336v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21360v1)
 
 ---
 
-### 5. Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models
+### 2. Primal Acceleration of Newton's Method
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-20 · ✍️ Taihang Hu, Zhao Wang, Zuan Gao +18 more
+📅 2026-08-21 · ✍️ Nikita Doikov
 
-We present Swift-Image, a compact unified model for text-to-image generation, single-image editing, and multi-image editing. Our goal is to explore how far a relatively small visual generator can be pushed through systematic training engineering under a constrained computational budget. Swift-Image adopts an efficient 6B single-stream DiT and a progressive training pipeline that evolves from broad...
+We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional residual. To the best of our knowledge, this is the first sec...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20334v1)
-
----
-
-### 6. G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-20 · ✍️ Shiao Xie, Siyu Chen, Jianwei Lv +3 more
-
-Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20331v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21359v1)
 
 ---
 
-### 7. $TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval
+### 3. VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-21 · ✍️ Elaine Lau, Thanuka Udumulla, Lee Izhaki-Tavor +3 more
+
+In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech ind...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21357v1)
+
+---
+
+### 4. AI with Authority, from Application to Silicon
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-21 · ✍️ Jason Hickey
+
+For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work at scale. In five weeks, one researcher on c...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21356v1)
+
+---
+
+### 5. PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-20 · ✍️ Parampreet Singh, Anushka Singh, Sumit Kumar +1 more
+📅 2026-08-21 · ✍️ Yoshitaka Inoue, Minoh Jeong, Alfred Hero +2 more
 
-Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classifier. Existing targets, however, suffer from inherent ambiguity: they assign overlapping confidence ...
+Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transition...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20326v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21349v1)
 
 ---
 
-### 8. A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection
+### 6. Truthful Calibration Measures for Sequential Prediction
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-20 · ✍️ Anton Lambrecht, Reda El Hail, Xianjun Jiao +5 more
+📅 2026-08-21 · ✍️ Anagha Gokul, Jason Hartline, Lunjia Hu +2 more
 
-Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In addi...
+Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab et al. (2024) proposed an approximately truthful calibration measure for online prediction, leaving open whether exact truthfulness is compatible with completeness and soundness.   We resolve this ques...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20322v1)
-
----
-
-### 9. An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-08-20 · ✍️ Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli +2 more
-
-Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from stude...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20320v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21348v1)
 
 ---
 
-### 10. Inducing Task Models from Computer-Use Traces
+### 7. Asymmetric Capacity Allocation in Self-Refinement Pipelines
 
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-20 · ✍️ Yucheng Jiang, Zora Zhiruo Wang, Ruishi Chen +1 more
+📅 2026-08-21 · ✍️ Zhuoyi Yang, Ian G. Harris, Salar Hashemitaheri +7 more
 
-Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing ...
+Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resour...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20319v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21345v1)
 
 ---
 
-### 11. AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement
+### 8. TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-20 · ✍️ Yizhe Chi, Wenyi Li, Deyao Hong +7 more
+📅 2026-08-21 · ✍️ Vladimir Bataev, Lilit Grigoryan, Andrei Andrusenko +3 more
 
-Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns ...
+Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20318v1)
-
----
-
-### 12. Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-20 · ✍️ Adam Fisch, Shubhendu Trivedi, Fantine Huot +5 more
-
-Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20316v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21343v1)
 
 ---
 
-### 13. Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records
+### 9. Across-Design Uncertainty in Short Pricing Panels: Evidence from Simulated Price Trajectories
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-20 · ✍️ Jun Ni Du, Lukas Adamek, Maxim Kryukov +4 more
+📅 2026-08-21 · ✍️ Pedro Cadahia Delgado
 
-Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that enc...
+Short observational pricing panels can contain many observations while offering only a small number of distinct price movements. This paper studies the inferential consequences of that distinction in a synthetic data-generating process calibrated to a sparse pricing regime. We separate uncertainty conditional on a realised price trajectory from variation in estimation error across alternative traj...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20315v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21334v1)
 
 ---
 
-### 14. MidTool: Mid-training Data Synthesis for Agentic Tool Use
+### 10. Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-21 · ✍️ David P. Stonko
+
+Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a renal transplant artery off the iliac instead of the aorta as unexpected rather than impossible), in ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21332v1)
+
+---
+
+### 11. Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-21 · ✍️ Afonso Baldo, Hugo Pitorro, Areti Vassilopoulos +5 more
+
+Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through an annotation campaign with five licensed psychologists, and scaled with a judge-based approach tha...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21325v1)
+
+---
+
+### 12. Time-Aware Tranformer-Based Prediction Model for AECOPD
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-21 · ✍️ Weihao Qu, Ling Zheng, Dongyang Wang +2 more
+
+The rapid symptom change of Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) makes it critical to have time-sensitive prediction models. However, most current machine learning models studying AECOPD use clinical and laboratory data, which will inevitably cause latency. To ensure timely detection of AECOPD and minimize latency, this paper focuses on home monitoring scenarios whe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21324v1)
+
+---
+
+### 13. Unified Branch-and-Bound Search for the Steiner Traveling Salesman Problem on Graphs of Convex Sets
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-20 · ✍️ Fengqing Jiang, Yite Wang, Boyi Liu +5 more
+📅 2026-08-21 · ✍️ Jingtao Tang, Hang Ma
 
-Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as math and science, and can also improve agentic capabilities in software-engineering settings. In this work, we study the parallel but less explored agentic capability: general tool us...
+We formalize the Steiner Traveling Salesman Problem (Steiner-TSP) on Graphs of Convex Sets (GCS), which seeks a minimum-cost closed trajectory through required convex sets while allowing optional transit vertices and revisits. To explore the resulting infinite solution space, we propose a unified branch-and-bound search over rooted walk prefixes. Additive lower-bound-graph costs bound committed pr...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20314v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21319v1)
 
 ---
 
-### 15. Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis
+### 14. From Regulation to Implementation: A Critical Evaluation of LLM-Assisted Regulatory Compliance in Industry
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-20 · ✍️ Liang Xu, Chengqun Yang, Zili Lin +6 more
+📅 2026-08-21 · ✍️ Adriana Watson, Marco Bücheler, Grant Richards
 
-The capability to perceive and synthesize human-human interactions is fundamental to developing intelligent digital human systems. However, existing datasets and modeling approaches are fundamentally constrained by low-fidelity kinematics, the omission of dexterous hand gestures and a severe lack of rich multimodal annotations. Furthermore, fragmented interaction representations and inconsistent e...
+The European Union (EU) has emerged as a leading regulatory body in the development of sustainability and privacy regulations. While new regulation requirements vary, many include a documentation artifact to ensure compliance. Notably, the Ecodesign for Sustainable Products Regulation (ESPR) introduces Digital Product Passports (DPPs) for life cycle transparency, while the General Data Protection ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.20312v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21317v1)
+
+---
+
+### 15. Prompt-Model Interaction Reaches the Fixed Points: A deterministic, task-free structural readout -- and the factorizations of it that failed
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-21 · ✍️ Nicolás Vera Zúñiga
+
+That a prompt's effect is not a property of the prompt is established: prompts optimised for one model degrade on another, and rankings reorder under neutral reformatting. That evidence is about task accuracy, which cannot say whether the interaction is a fact about task machinery or about the conditional distribution itself. We ask on a readout with no task in it: the fixed-point structure of the...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.21315v1)
 
 ---
 
