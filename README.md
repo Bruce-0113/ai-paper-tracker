@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-08-31 06:43 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-01 06:02 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-28 · ✍️ Vaibhav Mehandiratta, Saket Ramchandra
-
-We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a general computational implementation in which the solution on each edge of the graph is approximated by a neural network, while a unified graph-based loss function enforces the governing equations togeth...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28589v1)
-
----
-
-### 2. Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-28 · ✍️ Nan Wang, Mohit Yadav, Jonathan Wulff +5 more
-
-Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive several joints through a single cable, so fewer motors are need...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28578v1)
-
----
-
-### 3. Learning a Size-Weight Frontier for Synthetic-Augmented Inference
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-28 · ✍️ Chengpiao Huang, Kaizheng Wang
-
-Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synthetic-augmented inference across a population of related tasks. It characterizes synthetic augmentation by the number of synthetic observations and their weight. Central to our fra...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28576v1)
-
----
-
-### 4. SignRR: Retrieve and Refine Real Motion for Sign Language Production
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-28 · ✍️ Fidel Omar Tito Cruz, Angie Sanchez Marquina, Summy Farfan +1 more
-
-Sign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. Prior work mainly follows two paradigms. Generative models synthesize motion from a learned prior or from noise, without reference to an observed signing instance, making rare hand configurations and signer-specific articulation difficult to preserve. Retrieval-ba...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28568v1)
-
----
-
-### 5. GeBDA: Building Damage Assessment as Text-Based Sequence Prediction
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-08-28 · ✍️ Olivier Dietrich, Krishna Sapkota, Konrad Schindler +1 more
-
-Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressive sequence generation alone. We cast BDA as predicting a variable-length set of bounding boxes, each...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28567v1)
-
----
-
-### 6. On two proofs of $d^2$ mixing of weighted Dikin walks
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-28 · ✍️ Yuansi Chen, Yunbum Kook
-
-We study the mixing time of weighted Dikin walks for sampling from exponential distributions on polytopes and truncated positive-semidefinite (PSD) cones. Our first result gives a general total-variation mixing bound under strong self-concordance, $\barν$-symmetry, and mixed-trace regularity on the local metric. The key idea is to control the Metropolis--Hastings acceptance probability on a high-p...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28566v1)
-
----
-
-### 7. Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-28 · ✍️ Lorenzo Rizzi, Arie Wortsman Zurich, Bruno Loureiro
-
-We study kernel ridge regression under anisotropic Gaussian data, where the input covariance decays as a power law with exponent $α\geq 0$ for polynomial inner-product kernels. We derive asymptotically sharp expressions for the kernel spectrum and the generalization error in the polynomial high-dimensional regime $n=Θ(d^κ)$, revealing how anisotropy reshapes the learning curves. For weak anisotrop...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28564v1)
-
----
-
-### 8. A Formal Limitation on Learning Human Language From Textual Corpora
+### 1. Context-Aware Interleaved Batching for WhisperX
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-08-28 · ✍️ Emily Cheng, Ryan Cotterell
+📅 2026-08-31 · ✍️ Carlos Bain, Max Bain
 
-Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hidden states of contemporary large language models. Modeling language use as a joint distribution over meanings, contexts, and utterances, we derive upper bounds on the probability that a decoder recov...
+While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops. To achieve the best of both worlds, we propose Context-Aware Interleaved Batching. By usin...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28560v1)
-
----
-
-### 9. Blog: Survey of Optimizers
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-28 · ✍️ Ruoran Xu
-
-Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training horizons to policies over time, and from mathematical update rules to state representations that must survive sharding and low-precision computation. This survey organizes recent optimizers and training...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28557v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31170v1)
 
 ---
 
-### 10. Logos: An Agent Harness on a Cross-Process Bus
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-28 · ✍️ Hanzhang Jia, Liheng Zeng, Hao Cheng +2 more
-
-Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capability is a component carrying a tracked inverse, and agents are assembled as plugins. This plugin form is carried by a single process sharing one context, a carrier that places all components in one phys...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28553v1)
-
----
-
-### 11. Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining
+### 2. Constant Individual Regret in General Games
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-08-28 · ✍️ Kia Kazemi-Nia, Harsh Bandhey, Philip J. Freda +1 more
+📅 2026-08-31 · ✍️ Mingyang Liu, Gabriele Farina, Asuman Ozdaglar
 
-As a precursor to high-dimensional biomedical data modeling, reliable feature selection can reduce computational expense, improve modeling performance, and yield simpler, more interpretable models. However, most filter-based feature selection methods struggle to detect feature interactions, while wrapper or embedded feature selection methods are computationally expensive. Relief-based algorithms (...
+Uncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon. We remove this dependence for every finite $N$-player normal-form game under full-information feedback. We introduce \emph{ECHO-OFTRL}: optimistic follow-the-regularized-leader (OFTRL) equipped with an EMA cascade for high-order o...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28552v1)
-
----
-
-### 12. Video Generative Models as Geometry Learner
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-28 · ✍️ Haosen Yang, Jifei Song, Zhensong Zhang +2 more
-
-Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-specific geometry models (for depth and surface normal estimation) independently, losing the opportunity of exploring the intrinsic correlation of these geometric targets, or (ii) ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28549v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31166v1)
 
 ---
 
-### 13. DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-08-28 · ✍️ Aaryan Ajay Sharma, Sai Nishanth Padala, Seganrasan Subramanian
-
-Model merging combines multiple task-specific fine-tuned LLMs into a single multi-task model without additional training. However, merged models are known to suffer from representation bias: systematic drift between the merged model's hidden states and those of each individual source model. Prior work (Yang et al., 2024a) study and mitigate this bias for encoder-based vision models using a lightwe...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28547v1)
-
----
-
-### 14. An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-08-28 · ✍️ Javier Aguilar Martín
-
-A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the omission is an annular freeze mode enclosing an unreachable interior. The gate quotient makes the question precise: acceptance-with-certainty determines the model exactly on the re...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28541v1)
-
----
-
-### 15. InstructMesh: Selective Refinement of Generative 3D Models for Fabrication
+### 3. SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-08-28 · ✍️ Faraz Faruqi, Ahmed Katary, Demircan Tas +10 more
+📅 2026-08-31 · ✍️ Weiqi Wang, Zhi Li, Yudong Lei +7 more
 
-Recent advances in generative AI allow users to create 3D models from text or images. However, these models prioritize visual plausibility over geometric accuracy, often generating results with flaws that compromise their intended use post-fabrication. We present InstructMesh, an interactive post-generation refinement tool that enables selective repair of generative 3D models through region select...
+Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols discard task semantics, leaving rewards hand-crafted and behavior drifting from what control verified.We introduce Semantically UNified (SUN) Programs, typed executab...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2608.28534v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31167v1)
+
+---
+
+### 4. BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-31 · ✍️ Yiling Yao, Wenjuan Zhang, Bowen Wang +3 more
+
+The bidirectional reflectance factor (BRF) characterizes the directional radiative properties of terrestrial surfaces. However, existing three-dimensional (3D) radiative transfer models require complex scene construction and computationally intensive radiative transfer solvers, limiting efficient generation of multi-angle hyperspectral reflectance imagery. 3D Gaussian Splatting (3DGS) offers an ef...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31159v1)
+
+---
+
+### 5. Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-31 · ✍️ Shijun Zhang
+
+Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\boldsymbolθ_f=\mathcal{G}(\boldsymbolξ_f)$, where $\mathcal{G}\colon\mathbb{R}^M\to\mathbb{R}^{P_Φ}$ is a parameter generator and $\boldsymbolξ_f\in\mathbb{R}^M$ is a latent representation of the target fun...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31157v1)
+
+---
+
+### 6. Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-31 · ✍️ Yisen Xi
+
+The 2025--2026 AI market has seen a wave of stealth releases: frontier models launched anonymously on developer platforms under codenames. For their users, identity determines data-handling terms, supply-chain risk, and capability expectations. No validated methodology exists for black-box identity verification of anonymous models: practitioner checklists lack accuracy evidence, and self-identific...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31142v1)
+
+---
+
+### 7. Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-31 · ✍️ Riya Ahuja, Tim Kacprowski, Roya Shiasi Sardoabi
+
+BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining entity-preserving windows, trigger-centered chunking, proposition-first extraction, tiered trigger prio...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31139v1)
+
+---
+
+### 8. OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-31 · ✍️ Hamed Babaei Giglou, Sören Auer, Peio Popov +2 more
+
+Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recently, Large Language Model (LLM)-based approaches. Although modern OA frameworks provide unified ecosystems for deploying these heterogeneous aligners, mechanisms for systematically reconciling their complementary and som...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31137v1)
+
+---
+
+### 9. Implementing neural network mixed-effects models in Template Model Builder (TMB)
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-31 · ✍️ Nan Zheng, Hoi Yiu Cheung, Vibhu Sharma +2 more
+
+Neural network mixed-effects models (NMMs) have gained traction by combining the strong representation and predictive power of artificial neural networks with the capacity of mixed-effects modeling to capture complex correlation structures. However, existing estimation approaches rely heavily on manual derivations of objective functions and gradients, which inherently forces simplifying approximat...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31133v1)
+
+---
+
+### 10. DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-31 · ✍️ Yung Wei Shueh, Zhi-Jie Chen, Chia-Hsuan Hsu +9 more
+
+Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on-premise multi-agent system for one-year type 2 diabetes mellitus (T2DM) risk screening and guideline-grounded report generation from electronic health records (EHRs). The system integrates calibrated...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31128v1)
+
+---
+
+### 11. On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-31 · ✍️ Guy Emerson
+
+The motivation for this paper is the investigation of the trade-offs implicit in probabilistic models used in machine learning. Models are often used to make predictions in the form of conditional probabilities. However, a pair of conditional distributions p(x|y) and p(y|x) may not be compatible with any joint distribution p(x,y). Given two such conditionals, determining if there exists a compatib...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31120v1)
+
+---
+
+### 12. PaperGym: Rubric-Centered Evolution for Research-Plan Generation
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-08-31 · ✍️ Yuhan Wang, Zhengxi Lu, Yuchen Yan +6 more
+
+Research planning is the decisive capability of AI scientists. Yet a research plan admits no verifiable answer, so reinforcement learning lacks the environment it requires: tasks paired with a critic. Rubrics extracted from scientific papers can supply the critic. Existing pipelines, however, draw the question and the criteria from the same content, so the reward can be earned by paraphrase. The r...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31119v1)
+
+---
+
+### 13. When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-08-31 · ✍️ Hamed Babaei Giglou, Sören Auer, Jennifer D'Souza
+
+The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning dense and Mixture-of-Experts variants from the Qwen3.5 and Qwen3.6 lineages, together with proprietary GPT release variants, using the OntoLearner retrieval-augmented generation pipeline. All models are evaluated with th...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31118v1)
+
+---
+
+### 14. "Train classical, deploy quantum" requires rethinking generalization
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-08-31 · ✍️ Snehal Raj, Natansh Mathur, Alejandro Perdomo-Ortiz
+
+Generative models have become central across science and industry, from image and text synthesis to the design of molecules and materials. Quantum generative models are considered one of the most promising applications for quantum computers, since a quantum circuit naturally produces samples from the distribution it encodes, and for suitable circuits that distribution is believed to be hard for an...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31117v1)
+
+---
+
+### 15. BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-08-31 · ✍️ Pradyumn Goyal, Yizhak Ben-Shabat, Hsueh-Ti Derek Liu +6 more
+
+We introduce BLARM, a feed-forward method for video-driven 3D mesh animation. Given a monocular video and a static object mesh, BLARM predicts a temporally coherent animated mesh whose motion follows the video. Rather than relying on explicit rigs or directly regressing high-dimensional vertex motion, we represent animation using a compact set of learned, time-varying rigid motion components and t...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2608.31113v1)
 
 ---
 
