@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-02 05:28 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-03 05:29 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-01 · ✍️ Penghao Wu, Haiwen Diao, Weichen Fan +3 more
-
-While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the representation, task, and system levels in a controlled, structurally native setting without pretra...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01607v1)
-
----
-
-### 2. Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-01 · ✍️ Himil Vasava, Ming Jiang
-
-LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturbation taxonomy across the Readability and Adequacy dimensions of NLG quality, a generation pipeline t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01604v1)
-
----
-
-### 3. Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-01 · ✍️ Kefeng Duan, Dewu Zheng, Yanlin Wang +7 more
-
-Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents so...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01603v1)
-
----
-
-### 4. Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-01 · ✍️ Kefeng Duan, Dewu Zheng, Yanlin Wang +8 more
-
-The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented generation (RAG) to provide repository-specific context. Despite improving repository-context retrieval,...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01601v1)
-
----
-
-### 5. CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-01 · ✍️ Damien Sileo, Dimitri Kachler
-
-Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It combines a controlled formal setting with programs executed against Cordis, a runtime that manages c...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01600v1)
-
----
-
-### 6. UI-VISA: U-Net Initialized Vascular Image Segmentation Architecture
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-01 · ✍️ Asees Kaur, Suzanne S. Sindi, Erica M. Rutter
-
-Accurate segmentation of vascular structures in digital subtraction angiography (DSA) images remains challenging due to the thin, elongated, and branching nature of blood vessels. Pixel-wise deep learning approaches such as U-Net achieve strong general-purpose segmentation performance but often produce fragmented or discontinuous predictions in fine vascular regions, since they do not explicitly e...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01598v1)
-
----
-
-### 7. The Rise of Verbal Reinforcement Learning
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-01 · ✍️ Kshitij Tayal, Arun Sharma, Genta Indra Winata +2 more
-
-Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first unified account of it. We organize the field around a single axis, \textit{when} verbal feedback takes ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01597v1)
-
----
-
-### 8. Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation
+### 1. A Common Measure of Communication for Speech Brain-Computer Interfaces
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-01 · ✍️ Haoyuan Deng, Haichao Liu, Wenkai Guo +6 more
+📅 2026-09-02 · ✍️ Dulhan Jayalath, Benjamin Ballyk, Oiwi Parker Jones
 
-Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predicts and values the contact consequences of its actions. Facet-0 unifies multimodal representation learning and reinforcement learning (RL) post-training around a joint action-wrench proposal: a causal...
+Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so thei...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01596v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02887v1)
 
 ---
 
-### 9. Mechanism Design for Alignment and Control
+### 2. SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-02 · ✍️ Junchao Huang, Guian Fang, Shengju Qian +15 more
+
+We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, camera geometry, visual quality, motion, and captioning styles, while video generators use distinct representations and architectures. Naive d...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02886v1)
+
+---
+
+### 3. Discriminative World Models for Web Agents
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-02 · ✍️ Kelvin Li, Dhruv Pendharkar, Anish Pahilajani +6 more
+
+Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downst...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02885v1)
+
+---
+
+### 4. Graph Machine: Towards Better Pretraining via Edges
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-02 · ✍️ Lintai Hou
+
+We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially accessible state size to $O(1)$. Instead, GM uses edges - pointer-like objects updated differentiably by ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02881v1)
+
+---
+
+### 5. GRADSOLVE: fast exact gradients for ODE ensembles on GPUs
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-02 · ✍️ Alessio Spurio Mancini
+
+Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solver...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02876v1)
+
+---
+
+### 6. Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-02 · ✍️ Yutong Liu, Nan Huang, Xu Cao +1 more
+
+Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visual reasoning underexplored. True visual generative intelligence demands "Reasoning-to-Generation", an ability to infer latent rules from vis...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02864v1)
+
+---
+
+### 7. Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-09-01 · ✍️ Dirk Bergemann, Andrew Koh, Stephen Morris
+📅 2026-09-02 · ✍️ Cagri Temel
 
-We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-sided imitation structure---capabilities can be concealed but not counterfeited---yields a revelation principle, a characterization of imple...
+Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensures every autonomous action can be traced back to sensor evidence through documented causal chains. Th...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01595v1)
-
----
-
-### 10. StudentSim: Training LLM-based Student Simulators
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-01 · ✍️ Ke Yang, Chenglong Wang, Michel Galley +4 more
-
-AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to collect from real learners. Student simulators can provide this signal as a proxy, yet existing approaches are limited: state-tracking models fit student behavior but struggle to process explanations or c...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01591v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02861v1)
 
 ---
 
-### 11. Designing Proactive Thought Partners for Writing
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-01 · ✍️ Chao Zhang, Abe Davis, Chih-Wei Chen +1 more
-
-Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete. This paper studies the design space of proactive thought partners: AI agents that proactively offer cust...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01588v1)
-
----
-
-### 12. The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-01 · ✍️ Jundong Hu, Shekar Ramachandran
-
-Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization damage occurs and how to allocate a small additional precision budget. Using causal mixed-precision intervention as ground truth (raise each layer to 8-bit in turn and measure the accuracy it recovers) ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01587v1)
-
----
-
-### 13. A Benchmark for Vehicle Attribute Classification in Cross-Domain Surveillance Scenarios
+### 8. PlantC2USeg: Cross-Scale Consistent Pre-Training for Few-Shot Unified Plant Point Cloud Segmentation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-01 · ✍️ Sergio M. Silva, Otavio T. Remer, Gabriel E. Lima +3 more
+📅 2026-09-02 · ✍️ Yu Tian, Xintong Jiang, Jan Franklin Adamowski +2 more
 
-Vehicle attribute analysis is a key component of Intelligent Transportation Systems (ITS), supporting applications such as vehicle identification, traffic monitoring, and forensic investigation. However, models trained under controlled conditions often degrade in real surveillance scenarios due to changes in viewpoint, occlusion, illumination, and sensor characteristics. This paper introduces Unco...
+Modern crop breeding demands precise organ-level analysis for trait quantification, making plant point cloud segmentation (PPCS) increasingly important. However, conventional deep learning approaches rely heavily on densely annotated datasets that are labor-intensive to acquire. Unified PPCS adaptation from distribution-shifted examples with minimal additional training remains challenging. To addr...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01584v1)
-
----
-
-### 14. SpatialGuard: Harness-Guided Verifiable Spatial Reasoning for Text-to-Image Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-01 · ✍️ Ziyun Qian, Zizhi Chen, Yizhou Liu +3 more
-
-Complex 3D spatial text to image generation requires models to convert natural language into stable visual geometry, not merely semantic appearance. Existing prompt-driven or layout-conditioned methods improve controllability, but often lack an optimizable and verifiable spatial intermediary before visual sampling. As a result, object relations, occlusion, visibility, and camera constraints can de...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01582v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02860v1)
 
 ---
 
-### 15. Closing Cost-Quality Gap in Document VLMs: Difficulty-Aware Data Curation and Quality-Adjusted Deployment Economics
+### 9. User Feedback Provides a Unique Signal that LLMs Can not Detect
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-09-01 · ✍️ Maksim Evdokimov, Matvey Ivanov, Dmitrii Tsiupin +3 more
+📅 2026-09-02 · ✍️ Shachar Don-Yehiya, Leshem Choshen, Omri Abend
 
-Extracting structured fields from hundreds of millions of documents annually remains costly in regulated industries: bespoke OCR cascades cover only a fraction of workflows, privacy rules preclude external models, and existing open-source VLMs that clear quality thresholds cost more to serve than human annotation. We present a deployed document-understanding system built on a Mixture-of-Experts VL...
+Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conception by demonstrating that user feedback is a highly actionable signal for improvement, and that its perceived ineffectiveness stems from a...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.01575v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02859v1)
+
+---
+
+### 10. Improved Gradient Descent Lower Bounds Beyond Nesterov
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-02 · ✍️ Yuhan Ye, Kaizhao Liu
+
+We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $Ω(n^{-2})$ first-order oracle lower bound of Nemirovsky and Yudin, we prove an $Ω(n^{-1.6342})$ non-anytime lower bound and an $Ω(n^{-1.2408})$ anytime lower bound. These improve the recent $Ω(n^{-1.932})$ non-anytime lower bound of Ma and Chen and the $Ω(...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02855v1)
+
+---
+
+### 11. MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-02 · ✍️ Aidan Bradshaw, Marco Giordano, David Rode +8 more
+
+The 3D center of mass (CoM) is a primary quantity in the biomechanical analysis of sport, rehabilitation, and clinical movement, yet existing 3D pose tracking, mesh recovery, and multi-view triangulation methods either optimize 3D keypoint accuracy without anatomical constraints or carry compute and capture infrastructure too heavy to deploy where CoM tracking is most useful. As a result, the metr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02854v1)
+
+---
+
+### 12. The Implications of Linguistic Illegibility for LLM Security
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-02 · ✍️ James Mickens
+
+LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic illegibility'' to broadly refer to scenarios in which an LLM's externalized or mechanistically-probed la...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02852v1)
+
+---
+
+### 13. Post-Training Language Models for Gold-Medal Performance in Coding Competitions
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-09-02 · ✍️ Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi +2 more
+
+Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem curation, synthetic reasoning traces, supervised fine-tuning (SFT), and reinforcement learning (RL). Using 22,000 curated problems, we train Ne...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02849v1)
+
+---
+
+### 14. RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-02 · ✍️ Xiaolei Lang, Ze Kang, Zehao Huang +1 more
+
+Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. However, existing methods bridge the two with rendered images or explicit 3D representations such as point maps or 3D Gaussians. Generation is thus conditioned on a lossy and imper...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02847v1)
+
+---
+
+### 15. UE5M3 FP4 Block Scaling for Stable Language Model Pretraining
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-02 · ✍️ Robert Hu, Carlo Luschi, Paul Balanca
+
+Stable 4-bit floating-point (FP4) pretraining is difficult because the E2M1 payload represents only a narrow range of magnitudes. NVIDIA's Transformer Engine \nv{} recipe addresses this with current-tensor scaling, a randomized Hadamard transform (RHT), and bfloat16 (BF16) final layers, adding work outside the FP4 matrix multiplications. We instead pair E2M1 payloads with unsigned E5M3 (\ue{}) blo...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.02846v1)
 
 ---
 
