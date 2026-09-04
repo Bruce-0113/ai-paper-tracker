@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-03 05:29 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-04 05:34 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. A Common Measure of Communication for Speech Brain-Computer Interfaces
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-02 · ✍️ Dulhan Jayalath, Benjamin Ballyk, Oiwi Parker Jones
-
-Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so thei...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02887v1)
-
----
-
-### 2. SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models
+### 1. Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-02 · ✍️ Junchao Huang, Guian Fang, Shengju Qian +15 more
+📅 2026-09-03 · ✍️ Shravan Venkatraman, Wenshuai Zhao, Mohammad Hassan Vali +1 more
 
-We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, camera geometry, visual quality, motion, and captioning styles, while video generators use distinct representations and architectures. Naive d...
+We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view of the same clip recovers the running state more accurately. This view serves as the teacher, while a...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02886v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04203v1)
 
 ---
 
-### 3. Discriminative World Models for Web Agents
+### 2. TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-03 · ✍️ Adeela Islam, Zorah Lähner, Vittorio Murino +1 more
+
+While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representations, whereas recent generative models over functional maps suffer from high inference cost, limited i...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04202v1)
+
+---
+
+### 3. Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-03 · ✍️ Chin-Yang Lin, Yang-Che Sun, Cheng Sun +5 more
+
+Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; o...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04201v1)
+
+---
+
+### 4. Principia: Relational Physics Tests for Video Models
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-03 · ✍️ Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan +1 more
+
+Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships ho...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04200v1)
+
+---
+
+### 5. Compile by Training: Turning Natural-Language Specifications into Local Neural Functions
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-03 · ✍️ Yuntian Deng, Pengyu Nie, Stuart Shieber
+
+Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to tra...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04199v1)
+
+---
+
+### 6. Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-02 · ✍️ Kelvin Li, Dhruv Pendharkar, Anish Pahilajani +6 more
+📅 2026-09-03 · ✍️ Haoyaun Zhu, Jie Zhang
 
-Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downst...
+Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption: the same request, sent to the same model name, reads the same tomorrow. We audited that assumption in two preregistered campaigns with every threshold fixed in advance; neither got past validating its instrument. Across 52,988...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02885v1)
-
----
-
-### 4. Graph Machine: Towards Better Pretraining via Edges
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-02 · ✍️ Lintai Hou
-
-We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially accessible state size to $O(1)$. Instead, GM uses edges - pointer-like objects updated differentiably by ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02881v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04198v1)
 
 ---
 
-### 5. GRADSOLVE: fast exact gradients for ODE ensembles on GPUs
+### 7. ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-09-02 · ✍️ Alessio Spurio Mancini
+📅 2026-09-03 · ✍️ Lihao Liu, Peng Tang, Kunwar Yashraj Singh +1 more
 
-Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solver...
+Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and propose ESPO (Error-Structured Prompt Optimization), which decomposes prompt optimization into three...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02876v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04197v1)
 
 ---
 
-### 6. Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation
+### 8. Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-02 · ✍️ Yutong Liu, Nan Huang, Xu Cao +1 more
+📅 2026-09-03 · ✍️ Kang Liao, Yihang Luo, Xiao-Ming Wu +7 more
 
-Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visual reasoning underexplored. True visual generative intelligence demands "Reasoning-to-Generation", an ability to infer latent rules from vis...
+We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and reconstruction without relying on external offline modules. To reliably construct and interact with 3D worlds, our framework jointly models three native world states: physics (gravity field and latitude), geometry (depth), and appearance (image), togeth...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02864v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04196v1)
 
 ---
 
-### 7. Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework
+### 9. Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-03 · ✍️ Kevin Du, Alexander Hoyle, Laura Ruis +1 more
+
+Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, evaluate faithfulness, and provide step-level supervision via process reward models and generative critics. These practices rely on the text of a reasoning step carrying information about its function...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04194v1)
+
+---
+
+### 10. One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-03 · ✍️ Adheesh Sunil Juvekar, Onkar Kishor Susladkar, Kiet A. Nguyen +6 more
+
+Video editing spans diverse editing paradigms, yet achieving high-quality instruction-guided and subject-guided editing within a single unified framework remains challenging. We introduce EditVid, a training-free framework combining sparse causal memory for local coherence, correspondence-based post-attention token injection for long-range identity preservation, and soft latent blending for edit l...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04190v1)
+
+---
+
+### 11. Robust PAC Learning of Concurrent Stochastic Games
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-03 · ✍️ Angel Y. He, David Parker
+
+We introduce the first Probably Approximately Correct (PAC) learning framework for general-sum concurrent stochastic games (CSGs) with transition uncertainty, while addressing the challenge of Nash equilibrium (NE) existence. Our algorithm maintains data-driven $L^1$ confidence sets over transition kernels and solves a robust CSG to compute a social-welfare optimal $\varepsilon$-NE, using a robust...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04189v1)
+
+---
+
+### 12. Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-03 · ✍️ Ye-Chan Kim, Seunghee Choi, SeungJu Cha +4 more
+
+Weakly-Supervised Dense Video Captioning aims to localize and describe multiple events in untrimmed videos given only an ordered set of event-level captions per video. Recent work synthesizes auxiliary transition captions via LLM to provide additional vision-language alignment, but these captions lack visual grounding and are rigidly assigned to every inter-event gap at a fixed location and durati...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04183v1)
+
+---
+
+### 13. Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-03 · ✍️ Joseph Lee, Yidi Huang, Dokyoon Kim +2 more
+
+Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally helpful for learning. We design controlled experiments to isolate this. First, we confirm that repetition is necessary for acquisition and clarify that paraphrasing helps only at smaller batch sizes. Second, holding the...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04180v1)
+
+---
+
+### 14. A Computationally Feasible Framework for Causal Probabilistic Explanation
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-09-02 · ✍️ Cagri Temel
+📅 2026-09-03 · ✍️ Rafal Urbaniak, Sam Witty, Daniel Waxman +7 more
 
-Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensures every autonomous action can be traced back to sensor evidence through documented causal chains. Th...
+Explaining why a specific outcome occurred, and which inputs deserve the blame or credit, is central to philosophical, scientific, and policy analysis. Existing tools split into two camps. The theory of actual causality (AC) gives principled verdicts, but only for toy-sized models, because computing them requires enumerating counterfactual scenarios. Scalable attribution methods like SHAP (or even...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02861v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04177v1)
 
 ---
 
-### 8. PlantC2USeg: Cross-Scale Consistent Pre-Training for Few-Shot Unified Plant Point Cloud Segmentation
+### 15. Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-02 · ✍️ Yu Tian, Xintong Jiang, Jan Franklin Adamowski +2 more
+📅 2026-09-03 · ✍️ Denis M. Akola, David F. Fouhey
 
-Modern crop breeding demands precise organ-level analysis for trait quantification, making plant point cloud segmentation (PPCS) increasingly important. However, conventional deep learning approaches rely heavily on densely annotated datasets that are labor-intensive to acquire. Unified PPCS adaptation from distribution-shifted examples with minimal additional training remains challenging. To addr...
+3D Foundation Models (3DFMs) such as VGGT have recently pushed the boundaries of 3D vision by predicting rich unified representations with feed-foward transformers. The scene representations learned by these models enable strong performance on multiple 3D vision tasks. In this paper, we investigate using their internal representations to infer 3D in the scene from new views. Our hypothesis is that...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02860v1)
-
----
-
-### 9. User Feedback Provides a Unique Signal that LLMs Can not Detect
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-02 · ✍️ Shachar Don-Yehiya, Leshem Choshen, Omri Abend
-
-Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conception by demonstrating that user feedback is a highly actionable signal for improvement, and that its perceived ineffectiveness stems from a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02859v1)
-
----
-
-### 10. Improved Gradient Descent Lower Bounds Beyond Nesterov
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-02 · ✍️ Yuhan Ye, Kaizhao Liu
-
-We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $Ω(n^{-2})$ first-order oracle lower bound of Nemirovsky and Yudin, we prove an $Ω(n^{-1.6342})$ non-anytime lower bound and an $Ω(n^{-1.2408})$ anytime lower bound. These improve the recent $Ω(n^{-1.932})$ non-anytime lower bound of Ma and Chen and the $Ω(...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02855v1)
-
----
-
-### 11. MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-02 · ✍️ Aidan Bradshaw, Marco Giordano, David Rode +8 more
-
-The 3D center of mass (CoM) is a primary quantity in the biomechanical analysis of sport, rehabilitation, and clinical movement, yet existing 3D pose tracking, mesh recovery, and multi-view triangulation methods either optimize 3D keypoint accuracy without anatomical constraints or carry compute and capture infrastructure too heavy to deploy where CoM tracking is most useful. As a result, the metr...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02854v1)
-
----
-
-### 12. The Implications of Linguistic Illegibility for LLM Security
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-02 · ✍️ James Mickens
-
-LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic illegibility'' to broadly refer to scenarios in which an LLM's externalized or mechanistically-probed la...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02852v1)
-
----
-
-### 13. Post-Training Language Models for Gold-Medal Performance in Coding Competitions
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-02 · ✍️ Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi +2 more
-
-Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem curation, synthetic reasoning traces, supervised fine-tuning (SFT), and reinforcement learning (RL). Using 22,000 curated problems, we train Ne...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02849v1)
-
----
-
-### 14. RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-02 · ✍️ Xiaolei Lang, Ze Kang, Zehao Huang +1 more
-
-Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. However, existing methods bridge the two with rendered images or explicit 3D representations such as point maps or 3D Gaussians. Generation is thus conditioned on a lossy and imper...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02847v1)
-
----
-
-### 15. UE5M3 FP4 Block Scaling for Stable Language Model Pretraining
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-02 · ✍️ Robert Hu, Carlo Luschi, Paul Balanca
-
-Stable 4-bit floating-point (FP4) pretraining is difficult because the E2M1 payload represents only a narrow range of magnitudes. NVIDIA's Transformer Engine \nv{} recipe addresses this with current-tensor scaling, a randomized Hadamard transform (RHT), and bfloat16 (BF16) final layers, adding work outside the FP4 matrix multiplications. We instead pair E2M1 payloads with unsigned E5M3 (\ue{}) blo...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.02846v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.04174v1)
 
 ---
 
