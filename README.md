@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-10 05:39 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-11 05:38 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Programmable World Model
+### 1. SenseNova-U1.5: Towards Native Unified Visual Intelligence
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-09 · ✍️ Zheng-Hui Huang, Guixu Lin, Jiacheng Lin +8 more
+📅 2026-09-10 · ✍️ Haiwen Diao, Jiahao Wang, Chenjing Ding +62 more
 
-Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state evolution from visual observation generation. An agent translates natural-language instructions int...
+We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully curated generation and editing data, improved task formulation, structural prompt enhancement, and ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10540v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11929v1)
 
 ---
 
-### 2. IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications
+### 2. GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-10 · ✍️ Boning Li, Longbo Huang
+
+Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small, interdependent gather and scatter steps issued through a generic tree interface. On a GPU every kernel finishes in microseconds, so kernel launches and framework dispatch dominate the ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11923v1)
+
+---
+
+### 3. General Quantification of Covariate and Concept Shifts
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-10 · ✍️ Hongbo Chen, Li Charlie Xia
+
+Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that existing definition of concept shift breaks when the source and target supports mismatch. Leveraging ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11918v1)
+
+---
+
+### 4. Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-09-10 · ✍️ Atindra Jha, Margaret Li, Jure Leskovec +2 more
+
+As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored for recently dominant sparse architectures such as Mixture-of-Experts (MoE), despite their increased compute efficiency. We vary data repetit...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11917v1)
+
+---
+
+### 5. Can Edge-Deployable Vision-Language Models Identify Species?
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-10 · ✍️ William Zhou, Mayukha Siripuram, Xiao Yan +2 more
+
+Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relevant class to evaluate for species identification. We test whether models in this deployment-relevant 2--8B range carry genuine taxonomic knowledge, evaluating four such VLMs (Qwen3-VL 2B/4B/8B, Gemma3...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11916v1)
+
+---
+
+### 6. Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-10 · ✍️ Masahiro Kato, Daiki Honma, Taka Kato
+
+Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative Marketing Mix Modeling (GMMM) to estimate the causal effects of Generative Engine Optimization (GEO) and Generative Engine Marketing (GEM). For GEO, GMMM combines repeated generated answers with ques...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11915v1)
+
+---
+
+### 7. Distance generalization in transformers: why bother with positional encoding?
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-09-09 · ✍️ Yiling Ma, Yilun Zhao, Sihong Wu +2 more
+📅 2026-09-10 · ✍️ Daniel Henrik Nevermann, Claudius Gros
 
-A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method w...
+Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance when inter-token distances are changed between training and inference, while keeping a fixed context length. We construct two synthetic delay copy tasks, both involving finite distance...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10539v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11913v1)
 
 ---
 
-### 3. Likelihood-free inference with nuisance parameters through normalizing flows
+### 8. Artificial Id: Drive and Persistent Alignment in Agentic AI
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-10 · ✍️ Yakov Pyotr Shkolnikov
+
+Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verification, stopping rules and other behavioral transitions are specified externally. We propose an artificial id, an adaptive internal drive fo...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11911v1)
+
+---
+
+### 9. From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-09 · ✍️ Phil Assheton
+📅 2026-09-10 · ✍️ Nitesh V. Chawla, Paulo Benanti
 
-We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the sense of minimum average KL-divergence of its $p$-values versus uniform and we argue that it can be ...
+Artificial Intelligence does more than create a governance problem. It can also reveal where institutions have already failed to provide responsiveness, belonging, care, and accountability. Once deployed, AI becomes an intervention in those conditions. It can repair, compound, substitute for, or conceal the failures it encounters. Responsible AI must therefore evaluate both the system and the inst...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10534v1)
-
----
-
-### 4. Guiding Image-to-3D Generation with Test-Time Partial Observations
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-09 · ✍️ Jerred Chen, Simon Weber, Ronald Clark
-
-Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric observations of the object may be available at test time. We introduce a training-free framework for inco...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10531v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11910v1)
 
 ---
 
-### 5. A positive resolution of the gap-entropy conjecture
+### 10. TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-09 · ✍️ P. M. Aronow, Nathan Kallus, Patrick Lopatto
+📅 2026-09-10 · ✍️ Akshaj Gupta, Hwi Joo Park, Andrea Guzman +5 more
 
-We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\sum_{i\ne *}Δ_i^{-2}$. Let $p_r$ be the fraction of $H$ contributed by arms with $2^{-(r+1)}<Δ_i\le2^{-r}$, and let $\mathrm{Ent}(I)=\...
+Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often assign notes to incorrect string-fret combinations; and they are typically trained on clean recordings, limiting their generalization to noisy real-world audio. To address these challenges, we propose...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10529v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11904v1)
 
 ---
 
-### 6. Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch
+### 11. MindTopo: Can Foundation Models Reason in Topological Space?
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-10 · ✍️ Yunfei Ge, Anbang Liu, Qineng Wang +9 more
+
+Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understanding, yet foundation-model evaluations largely focus on metric or viewpoint-dependent relations. We introduce MindTopo, a benchmark of topolo...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11900v1)
+
+---
+
+### 12. Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-10 · ✍️ Weitong Cai, Hang Zhang, Yukai Huang +6 more
+
+Long-video understanding on edge devices must reason over hours of content under tight compute and bandwidth budgets. Subsampling visual tokens loses temporal structure, while text-only video memories lose fine-grained visual attributes. We observe a visual-textual duality: language memories carry long-range temporal structure better than dense frames, while pixels remain decisive for attribute-le...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11899v1)
+
+---
+
+### 13. CausalArena: Benchmarking Causal Discovery in the Foundation Model Era
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-09 · ✍️ Xiaoyu Li, Andi Han, Jiaojiao Jiang +1 more
+📅 2026-09-10 · ✍️ Zi-Rong Li, Si-Yang Liu, Tian-Zuo Wang +1 more
 
-Language generation in the limit asks for valid unseen elements from every exhaustive positive presentation of an unknown infinite language. We characterize this task for arbitrary families over a countable universe. Generation is possible exactly when each target can be assigned a finite positive witness so that the targets activated by any finite sample have an infinite common intersection. The ...
+Causal discovery aims to uncover causal structures from data and is fundamental to scientific reasoning and intervention-based decision making. Its evaluation relies heavily on structural causal models (SCMs), which specify a causal graph together with the mechanisms that generate data, yet existing studies differ substantially in graph families, mechanisms, and evaluation protocols. The emergence...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10525v1)
-
----
-
-### 7. Precision in Rice Variety Classification using Stacking-Based Ensemble Learning
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-09 · ✍️ Md. Masudul Islam, Galib Muhammad Shahriar Himel, Md. Golam Moazzam +1 more
-
-Rice, a staple food for a significant portion of the global population, exhibits remarkable diversity in its varieties, presenting substantial challenges for accurate identification by consumers, traders, and farmers. This complexity often facilitates fraudulent practices, such as the unauthorized mixing of rice types, which undermines quality and trust in the supply chain. Despite its critical im...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10524v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11897v1)
 
 ---
 
-### 8. Show-Harness: Just a VLM Agent Can Play Robots
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-09 · ✍️ Yanzhe Chen, Zechen Bai, Zhijun Cao +7 more
-
-Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to "play" robots through a compact semantic interface linking intent to action. Show-Harness exposes discrete semantic action units that VLMs can naturally reason over, while emb...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10522v1)
-
----
-
-### 9. BrainTaskonomy: Learning How to Pretrain and What to Transfer in fMRI Foundation Models
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-09 · ✍️ Junfeng Xia, Wenhao Ye, Junxiang Zhang +3 more
-
-fMRI foundation models increasingly aggregate heterogeneous data across brain states, cohorts, and acquisition settings, yet pretraining domains are commonly treated as a flat mixture and downstream tasks are adapted independently. We study whether measured learning relations can organize both stages without modifying the backbone. During pretraining, a lightweight Brain-DiT proxy estimates diffic...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10518v1)
-
----
-
-### 10. Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-09 · ✍️ Ashwin Nayak, Xingyu Zhou
-
-We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. For sufficiently small $\varepsilon$, estimating an unknown state on $\mathbb{C}^d$ of rank at most $r$ to trace norm error $\varepsilon$ with constant success probability requires, and is achievable with, $$   Θ\left(   \frac{dr}{\varepsilon^2}   \max\left\...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10514v1)
-
----
-
-### 11. DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-09 · ✍️ Nisarga Nilavadi, Ralf Römer, Moritz Reuss +5 more
-
-Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we introduce DUET-DINO, a simultaneous cross-view latent world model that jointly learns action-conditioned pr...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10506v1)
-
----
-
-### 12. Quantum Feature Engineering for Credit Default Prediction: When and Why IQP Circuits Help Linear Classifiers
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-09 · ✍️ Menachem Finkelstein, Diana Legziel Levy, Zohar Yakhini +1 more
-
-Credit default prediction is a tabular classification problem in which modest gains in F1 translate directly into reduced financial exposure. We ask whether Instantaneous Quantum Polynomial-time (IQP) circuits can produce features that improve a classifier over both its raw classical baseline and Kernel PCA - the strongest unsupervised classical non-linear alternative - at an equal feature budget....
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10505v1)
-
----
-
-### 13. Field Converter: Geometry-Initialized Temporal Residual Refinement for World-Grounded Player Pose Estimation from Soccer Broadcasts
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-09 · ✍️ Simon Khan, Laurent Gajny, Jennyfer Lecompte +1 more
-
-Recovering 3D human pose from monocular sports broadcasts remains challenging when players must be localized in a shared metric world coordinate system rather than only reconstructed relative to their own body. We introduce Field Converter, a geometry-initialized temporal residual framework for world-grounded 3D player pose estimation from calibrated soccer broadcasts. Our method first uses camera...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10498v1)
-
----
-
-### 14. Cross-Model Agreement as a Deployment-Time Reliability Signal for Automatic Polyp Segmentation
+### 14. 3D Point Splatting for mmWave Radar Novel View Synthesis
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-09 · ✍️ Siddharth Gupta, Jitin Singla
+📅 2026-09-10 · ✍️ Adnan Armouti, Yixuan Gao, Rajalakshmi Nandakumar
 
-In real-time colonoscopy, ground-truth annotations are unavailable at inference, so polyp segmentation models can fail silently. We propose Referee-Based Quality Estimation (RBQE), a reference-free framework measuring agreement between a primary segmentation model and an independently trained referee on the same image. RBQE is evaluated on a standardized 1,223-image external benchmark drawn from f...
+Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forward model directly with explicit material modeling and complex outputs, but do not scale to the multi-...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10495v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11894v1)
 
 ---
 
-### 15. IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier
+### 15. Nuha-Speech: Building General-Purpose Arabic Speech-LLMs
 
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-09-09 · ✍️ Blake Stenstrom, Charangan Vasantharajan, Brian Sathianathan
+📅 2026-09-10 · ✍️ Yingzhi Wang, Reem Alhazzani, Muhammad Alqurishi
 
-Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It has three parts. A gold-blind capability-binding preflight verifies that a route can execute the evalua...
+As Speech Large Language Models (speech-LLMs) become increasingly multilingual, Arabic remains significantly underrepresented, highlighting the need for dedicated infrastructure to train and evaluate Arabic speech-LLMs.   To address this gap, we introduce Nuha-Speech, a comprehensive initiative to develop general-purpose Arabic speech-LLMs spanning dataset construction, model training, and systema...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.10494v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.11892v1)
 
 ---
 
