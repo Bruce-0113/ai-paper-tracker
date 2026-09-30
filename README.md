@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-29 06:36 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-30 06:19 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-28 · ✍️ Srinjay Sarkar, Prakhar Kaushik, Soumava Paul +1 more
-
-Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variability. We present FurE, an efficient strand-based animal fur reconstruction method that recovers a per-s...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35770v1)
-
----
-
-### 2. Telescopic Language Models
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-28 · ✍️ Zhilin Guo, Boqiao Zhang, Hakan Aktas +14 more
-
-One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a full anchor. At every step, one randomly truncated prefix of the capacity axis is trained against the...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35769v1)
-
----
-
-### 3. PDMD: Projected Distribution Matching Distillation for Video Diffusion Models
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-28 · ✍️ Zimo Wang, Junkun Yuan, Angtian Wang +9 more
-
-Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturation and artifacts. We trace this instability to critic errors, which enter successive student updates...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35768v1)
-
----
-
-### 4. Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-28 · ✍️ Yijia Fan, Ziqi Huang, Zhongang Cai +5 more
-
-Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image generation must be learned jointly, over the whole loop. Supervised fine-tuning (SFT) on reflection...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35767v1)
-
----
-
-### 5. Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-28 · ✍️ András Kovács, Alexander Conroy, Daniel Hershcovich +1 more
-
-Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Tales. Drawing on the commentary to a critical edition, we construct a benchmark of 189 annotated refe...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35765v1)
-
----
-
-### 6. Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose
+### 1. Point2Part: Unified 3D Partitioning from Point Prompts
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-28 · ✍️ Zhilin Guo, Boqiao Zhang, Oszkár Urbán +8 more
+📅 2026-09-29 · ✍️ Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma +3 more
 
-Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies between sessions, and streams drift or drop out. On a new 35-take single-subject benchmark pairing an earbud head inertial measurement unit (IMU) with two smart-insole foot IMUs (SAM-3D-Body pseudo-ground-truth label...
+Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the entire shape, where the predicted parts are non-overlapping and jointly recover the entire shape. O...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35764v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38180v1)
 
 ---
 
-### 7. Unifying Distributional Training for One-Step Visual Generation
+### 2. Skill-Space Shooting for Autonomous Robot Policy Improvement
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-29 · ✍️ Zihang Rui, Renhao Wang, Haoxu Huang +1 more
+
+Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic systems offer a way to reduce this reliance on human effort by using foundation models to autonomously ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38178v1)
+
+---
+
+### 3. Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-09-29 · ✍️ Jaewoo Jung, Hyeonseo Yu, Honggyu An +10 more
+
+Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work attempts to close this gap by injecting 3D awareness into MLLMs, either by boosting fine-grained pix...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38177v1)
+
+---
+
+### 4. Breakdown of Local Denoising as Semantic Speciation
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-28 · ✍️ Chi Zhang, Haoyang Shi, Yueyi Liu +9 more
+📅 2026-09-29 · ✍️ Guangkuo Liu, Mert Okyay, Yifan F. Zhang +3 more
 
-\emph{Distributional training} provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce \emph{a unified theoretical framework} that separates distribution modeling from matching discrepancy and connects global objectives to pointwise feature updates through Wasserstein gradient flow. Under this framework, F...
+The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context windows become insufficient for generation. Motivated by evidence of their near-concurrence in a variety of frontier models, we investigate their relationship through the spatial distribution of sema...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35763v1)
-
----
-
-### 8. Scaling Long-Form Story Generation via Narrative State Tracking
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-28 · ✍️ Zhennan Wan, Jianfei Chen
-
-LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leaving their ability to scale to full-length novels underexplored. In this work, we introduce Narrative S...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35759v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38176v1)
 
 ---
 
-### 9. TokenCast: Forecasting Token Consumption During LLM Agent Execution
+### 5. Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-29 · ✍️ Zihan Wang, Zhen Wu, Pieter Abbeel +6 more
+
+Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with objects, poses a practical barrier to scaling this approach. We propose PRISM, a real-to-sim-to-real frame...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38172v1)
+
+---
+
+### 6. Adversarial Training for Pixel Diffusion
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-29 · ✍️ Xin Lin, Zhifei Zhang, Yuqian Zhou +4 more
+
+Pixel diffusion models generate RGB images directly, avoiding the bottleneck of an autoencoder, yet their outputs still systematically underrepresent fine-scale natural-image statistics. We show that adversarial learning provides an effective post-training correction for this deficiency. Starting from a pretrained model, we retain its original diffusion or flow-matching objective and add an advers...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38170v1)
+
+---
+
+### 7. STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-29 · ✍️ Bingchen Yao, Haobo Xu, Haokun Lin +6 more
+
+Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors propagate through successive state updates. We discover that the impact of these errors depends on two c...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38169v1)
+
+---
+
+### 8. LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-09-28 · ✍️ Chaoqian Ouyang, Ling Yue, Libin Zheng +7 more
+📅 2026-09-29 · ✍️ Yi Pan, Haocheng Xi, Kan Zhu +10 more
 
-When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call. The total consumption of a task is therefore hard to predict before execution and the prediction mu...
+Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state remains a major inference bottleneck. Quantization offers a natu...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35760v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38166v1)
 
 ---
 
-### 10. Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control
+### 9. Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-29 · ✍️ Joseph Metcalfe, Sara Sharifzadeh, Fabio Caraffini
+
+The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being missed on both fronts, as a drive for the most novel concepts or the largest datasets pushes finer details to the side. In this paper, we present our hybrid transformer-convolutional model, Cropland Parall...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38165v1)
+
+---
+
+### 10. Rethinking Representations for World-Action Modeling
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-29 · ✍️ Haoyi Jiang, Liu Liu, Xinjiang Wang +12 more
+
+World-action models jointly learn robot policies and predict future observations, making the representation space an interface between control and prediction. We study the design of this space through controlled comparisons, finding that neither reconstruction fidelity nor pre-trained perceptual features alone ensure effective policy learning. These findings motivate ReWAM, a representation-centri...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38163v1)
+
+---
+
+### 11. A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-28 · ✍️ Min Kim, José Leonardo Brenes, Fred Hadaegh +1 more
+📅 2026-09-29 · ✍️ Jianru Shen
 
-We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) to recent last-layer adaptive disturbance-rejection methods. Specifically, we introduce a statistically principled hard expectation-maximization (hard-EM) procedure, with a Kalman smoother in the hard...
+Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number from below and the symmetric difference from above, each scaled by $2/n$ where $n$ is the number of ver...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35758v1)
-
----
-
-### 11. Neural Harmonic Measure Operator
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-28 · ✍️ Jinjin He, Sinan Wang, Yuchen Sun +1 more
-
-We introduce Neural Harmonic Measure Operator (NHMO), a neural solver for elliptic PDE problems on variable-shape domains. The harmonic measure of a domain is the boundary probability distribution that, integrated against any boundary data, returns the Dirichlet Laplace solution. It depends only on the geometry, not on the boundary data. NHMO parameterizes the density of this measure as a transfor...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35752v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38161v1)
 
 ---
 
-### 12. How to Loop MoE: Flatten the Experts, Untie the Attention
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-28 · ✍️ Shouren Wang, Chuang Ma, Mohsen Hariri +6 more
-
-Looped Transformers reuse one block of layers several times: by spending extra computation they push a model of fixed size further, and so use its parameters more fully; while sparse mixture-of-experts (MoE) models activate only a few of many experts for each token. Looped MoE bridges these two design philosophies and gives MoE models new potential for better expert usage, but it raises a question...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35751v1)
-
----
-
-### 13. KV-streams for Efficient Compaction in Agentic Reinforcement Learning
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-28 · ✍️ Emiliano Penaloza, Dane Malenfant, Dheeraj Vattikonda +15 more
-
-Scaling the horizon of agentic LLMs is bottlenecked by the need to fit ever longer context traces in GPU memory. Context compaction has been the most popular mechanism to alleviate this issue, keeping GPU memory constant for a given trace. Unfortunately, most compaction strategies rely on prefilling the LLM context many times over, hindering training throughput. To alleviate this bottleneck and en...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35750v1)
-
----
-
-### 14. Towards Communication-Efficient Social Intelligence in Language Agents
+### 12. EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-09-28 · ✍️ Linxiao Gong, Yijie Xu, Tianfu Wang +7 more
+📅 2026-09-29 · ✍️ Kuan-Po Huang, Haohe Liu, Puyuan Peng +5 more
 
-Socially intelligent language agents must negotiate, coordinate, and resolve conflicting preferences while respecting the time and attention of both participants. Balancing these demands is challenging because agents must convey enough to address a partner's constraints and advance their goals without adding words that do not help the interaction. In this paper, we propose Teacher-Assisted Communi...
+Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving controllability by additional training is costly in both computation and emotion-labeled speech training data. We therefore study vector steering, a training-free approach that modifies the internal representations of a frozen model. CoCoEmo, a conventional vector steering method for e...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35749v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38157v1)
 
 ---
 
-### 15. Improving Test-Time Scaling with Adaptive Looped Transformers
+### 13. DMA$^2$: Pixel-space Distribution Matching with Adversarial and Anchor Losses
 
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-28 · ✍️ Yichen You, Tianyu Fu, Aosong Feng +4 more
+📅 2026-09-29 · ✍️ Xin Lin, Zhifei Zhang, Yuqian Zhou +6 more
 
-Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-com...
+Distribution matching distillation (DMD) provides a general framework for few-step diffusion generation, but its modern text-to-image instantiations have been developed primarily around latent diffusion. It therefore overlooks key properties and design opportunities of native RGB. We revisit two DMD interfaces for pixel-space teachers. On the teacher-matching side, diagnostics show low-noise RGB m...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.35748v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38156v1)
+
+---
+
+### 14. Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-09-29 · ✍️ Hui Ren, Lei Fan, Henry Pao +5 more
+
+Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the "...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38155v1)
+
+---
+
+### 15. LongLive-Plug: Once-for-All Distillation for Video Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-09-29 · ✍️ Shuai Yang, Luozhou Wang, Wei Huang +9 more
+
+Video diffusion models are increasingly developed into specialized models for diverse downstream tasks, and this development often includes a distillation stage, for example to accelerate sampling or to improve long-video generation. This stage is typically repeated for every specialized model. We introduce LongLive-Plug, a once-for-all distillation framework that learns reusable capabilities as L...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.38154v1)
 
 ---
 
