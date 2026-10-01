@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-09-30 06:19 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-01 06:54 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Point2Part: Unified 3D Partitioning from Point Prompts
+### 1. Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-29 · ✍️ Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma +3 more
+📅 2026-09-30 · ✍️ Hongyuan Tao, Xinggang Wang, Lianghui Zhu +7 more
 
-Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the entire shape, where the predicted parts are non-overlapping and jointly recover the entire shape. O...
+We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantization bottleneck. The latter requires modality-dependent objectives and sampling procedures. Fully con...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38180v1)
-
----
-
-### 2. Skill-Space Shooting for Autonomous Robot Policy Improvement
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-29 · ✍️ Zihang Rui, Renhao Wang, Haoxu Huang +1 more
-
-Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic systems offer a way to reduce this reliance on human effort by using foundation models to autonomously ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38178v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40362v1)
 
 ---
 
-### 3. Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering
+### 2. Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green) ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-29 · ✍️ Jaewoo Jung, Hyeonseo Yu, Honggyu An +10 more
+📅 2026-09-30 · ✍️ Tian Xia, Minghao Liu, Yiqing Liang +2 more
 
-Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work attempts to close this gap by injecting 3D awareness into MLLMs, either by boosting fine-grained pix...
+Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We therefore evaluate and optimize for AUROC, a threshold-free score that ranks positives above negatives...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38177v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40361v1)
 
 ---
 
-### 4. Breakdown of Local Denoising as Semantic Speciation
+### 3. Semifactual Credit-Augmented Policy Optimization
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-09-30 · ✍️ Junshu Pan, Zhizhang Fu, Shulin Huang +5 more
+
+Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underlying problem and its answer. Our analysis reveals substantial variation in token-level sensitivity an...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40360v1)
+
+---
+
+### 4. Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-29 · ✍️ Guangkuo Liu, Mert Okyay, Yifan F. Zhang +3 more
+📅 2026-09-30 · ✍️ Dulhan Jayalath, Oiwi Parker Jones
 
-The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context windows become insufficient for generation. Motivated by evidence of their near-concurrence in a variety of frontier models, we investigate their relationship through the spatial distribution of sema...
+We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data. In the influential work of d'Ascoli et al. (2025), time series of brain activity from subjects perceiving continuous speech are segmented into fixed-length windows starting at each word. A neural network then generates predictions for all of the words in a ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38176v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40359v1)
 
 ---
 
-### 5. Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+### 5. Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-29 · ✍️ Zihan Wang, Zhen Wu, Pieter Abbeel +6 more
+📅 2026-09-30 · ✍️ Liming Lu, Xianzheng Ma, Wenkun He +14 more
 
-Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with objects, poses a practical barrier to scaling this approach. We propose PRISM, a real-to-sim-to-real frame...
+Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38172v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40358v1)
 
 ---
 
-### 6. Adversarial Training for Pixel Diffusion
+### 6. ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-30 · ✍️ Xinghao Chen, Xiangbo Gao, Jiongze Yu +2 more
+
+Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and product labels, while preserving the surrounding content, motion, and camera dynamics. Although scene te...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40356v1)
+
+---
+
+### 7. AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-29 · ✍️ Xin Lin, Zhifei Zhang, Yuqian Zhou +4 more
+📅 2026-09-30 · ✍️ Jiahao Zhang, Yeying Fan, Moitreya Chatterjee +5 more
 
-Pixel diffusion models generate RGB images directly, avoiding the bottleneck of an autoencoder, yet their outputs still systematically underrepresent fine-scale natural-image statistics. We show that adversarial learning provides an effective post-training correction for this deficiency. Starting from a pretrained model, we retain its original diffusion or flow-matching objective and add an advers...
+The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we introduce AssemblyWorld, an interactive 3D environment in which agents inspect rendered views and manipul...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38170v1)
-
----
-
-### 7. STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-29 · ✍️ Bingchen Yao, Haobo Xu, Haokun Lin +6 more
-
-Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors propagate through successive state updates. We discover that the impact of these errors depends on two c...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38169v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40353v1)
 
 ---
 
-### 8. LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-29 · ✍️ Yi Pan, Haocheng Xi, Kan Zhu +10 more
-
-Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state remains a major inference bottleneck. Quantization offers a natu...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38166v1)
-
----
-
-### 9. Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data
+### 8. Image Classifiers are Efficient Self-Supervised Video Representation Learners
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-29 · ✍️ Joseph Metcalfe, Sara Sharifzadeh, Fabio Caraffini
+📅 2026-09-30 · ✍️ Owais Iqbal, Sudipta Sarkar, Shyam Marjit +3 more
 
-The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being missed on both fronts, as a drive for the most novel concepts or the largest datasets pushes finer details to the side. In this paper, we present our hybrid transformer-convolutional model, Cropland Parall...
+We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transformers by representing videos as super images which are grids composed of frames sampled from videos. Fr...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38165v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40347v1)
 
 ---
 
-### 10. Rethinking Representations for World-Action Modeling
+### 9. Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-29 · ✍️ Haoyi Jiang, Liu Liu, Xinjiang Wang +12 more
+📅 2026-09-30 · ✍️ Zhihao Sun, Liu Liu, Xinjiang Wang +6 more
 
-World-action models jointly learn robot policies and predict future observations, making the representation space an interface between control and prediction. We study the design of this space through controlled comparisons, finding that neither reconstruction fidelity nor pre-trained perceptual features alone ensure effective policy learning. These findings motivate ReWAM, a representation-centri...
+Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive downstream robot gains and how to use such data throughout the training pipeline. We present a system...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38163v1)
-
----
-
-### 11. A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-29 · ✍️ Jianru Shen
-
-Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number from below and the symmetric difference from above, each scaled by $2/n$ where $n$ is the number of ver...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38161v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40341v1)
 
 ---
 
-### 12. EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation
+### 10. EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-09-29 · ✍️ Kuan-Po Huang, Haohe Liu, Puyuan Peng +5 more
+📅 2026-09-30 · ✍️ Young-Jun Lee, Jinheon Baek, Soyeong Jeong +5 more
 
-Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving controllability by additional training is costly in both computation and emotion-labeled speech training data. We therefore study vector steering, a training-free approach that modifies the internal representations of a frozen model. CoCoEmo, a conventional vector steering method for e...
+Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retr...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38157v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40340v1)
 
 ---
 
-### 13. DMA$^2$: Pixel-space Distribution Matching with Adversarial and Anchor Losses
+### 11. Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-09-30 · ✍️ Razan El Mais, Ali Chehab, Ibrahim Issa +1 more
+
+Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs). Many decoder-only LLMs employ weight tying between input and output embeddings, a design choice originally introduced for parameter efficiency and improved language modeling performance in the non-private setting. However, the impact of weight tying ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40335v1)
+
+---
+
+### 12. I Have a Stream: Making Self-Supervised Learning Work on Continuous Video
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-29 · ✍️ Xin Lin, Zhifei Zhang, Yuqian Zhou +6 more
+📅 2026-09-30 · ✍️ Ivan Martinović, Lukas Knobel, Yuki M. Asano
 
-Distribution matching distillation (DMD) provides a general framework for few-step diffusion generation, but its modern text-to-image instantiations have been developed primarily around latent diffusion. It therefore overlooks key properties and design opportunities of native RGB. We revisit two DMD interfaces for pixel-space teachers. On the teacher-matching side, diagnostics show low-noise RGB m...
+Self-supervised learning draws inspiration from infant visual development, yet standard training pipelines bear little resemblance to it: images are independently sampled and globally shuffled across epochs. We study self-supervised learning from continuous video streams, where frames are consumed in temporal order using strict sliding-window batches, without global reshuffling or multi-epoch repl...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38156v1)
-
----
-
-### 14. Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-29 · ✍️ Hui Ren, Lei Fan, Henry Pao +5 more
-
-Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the "...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38155v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40333v1)
 
 ---
 
-### 15. LongLive-Plug: Once-for-All Distillation for Video Generation
+### 13. Turbo Harness: Instance-Adaptive Harness Optimization
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-09-29 · ✍️ Shuai Yang, Luozhou Wang, Wei Huang +9 more
+📅 2026-09-30 · ✍️ Tunyu Zhang, Hao Wang, Kai Xu +1 more
 
-Video diffusion models are increasingly developed into specialized models for diverse downstream tasks, and this development often includes a distillation stage, for example to accelerate sampling or to improve long-video generation. This stage is typically repeated for every specialized model. We introduce LongLive-Plug, a once-for-all distillation framework that learns reusable capabilities as L...
+Automating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically produce a single global harness that is applied uniformly across task instances. However, a harness that works well on average may not be optimal for every instance. We introduce Turbo Harness, a framework that can adapt a globally optimize...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.38154v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40330v1)
+
+---
+
+### 14. WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-30 · ✍️ Ziyan Jiang, Jingbo Yang, Jiabao Ji +5 more
+
+As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have show...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40325v1)
+
+---
+
+### 15. Cogentic: Multi-Agent Orchestration for Automated Proof Discovery
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-09-30 · ✍️ Yang Cai, Vineet Gupta, Yanchen Jiang +4 more
+
+We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conjectures, overcoming subtle technical obstructions, and retaining intermediate progress over a long hori...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2609.40324v1)
 
 ---
 
