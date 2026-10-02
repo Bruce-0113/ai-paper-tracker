@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-01 06:54 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-02 06:45 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces
+### 1. Moore, Escher, Penrose: A Conformal Golden Braid
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-30 · ✍️ Hongyuan Tao, Xinggang Wang, Lianghui Zhu +7 more
+📅 2026-10-01 · ✍️ Sophia Feldman, Assaf Shocher
 
-We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantization bottleneck. The latter requires modality-dependent objectives and sampling procedures. Fully con...
+I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about his 1956 lithograph Print Gallery. Nearly half a century later, a mathematical analysis related its ge...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40362v1)
-
----
-
-### 2. Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-30 · ✍️ Tian Xia, Minghao Liu, Yiqing Liang +2 more
-
-Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We therefore evaluate and optimize for AUROC, a threshold-free score that ranks positives above negatives...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40361v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02210v1)
 
 ---
 
-### 3. Semifactual Credit-Augmented Policy Optimization
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-09-30 · ✍️ Junshu Pan, Zhizhang Fu, Shulin Huang +5 more
-
-Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underlying problem and its answer. Our analysis reveals substantial variation in token-level sensitivity an...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40360v1)
-
----
-
-### 4. Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-09-30 · ✍️ Dulhan Jayalath, Oiwi Parker Jones
-
-We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data. In the influential work of d'Ascoli et al. (2025), time series of brain activity from subjects perceiving continuous speech are segmented into fixed-length windows starting at each word. A neural network then generates predictions for all of the words in a ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40359v1)
-
----
-
-### 5. Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model
+### 2. Sphere Encoder 2
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-30 · ✍️ Liming Lu, Xianzheng Ma, Wenkun He +14 more
+📅 2026-10-01 · ✍️ Kaiyu Yue, Sean McLeish, Ruchit Rawal +3 more
 
-Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We ...
+Sphere Encoder is an autoencoder that generates images by decoding random points from a high-dimensional latent sphere. We identify two limitations of the original formulation that reduce its generation quality. First, random points concentrate near the equator relative to the pole on an encoded latent, but the training rotation never reaches this region, leaving a gap that limits one-step generat...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40358v1)
-
----
-
-### 6. ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-30 · ✍️ Xinghao Chen, Xiangbo Gao, Jiongze Yu +2 more
-
-Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and product labels, while preserving the surrounding content, motion, and camera dynamics. Although scene te...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40356v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02208v1)
 
 ---
 
-### 7. AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents
+### 3. One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-01 · ✍️ Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev
+
+3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a dist...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02207v1)
+
+---
+
+### 4. KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-01 · ✍️ Pengfei Li, Naufal Suryanto, Sicheng Zhang +1 more
+
+LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02206v1)
+
+---
+
+### 5. ROWBench: Do Video Models Render What the Program Specifies?
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-30 · ✍️ Jiahao Zhang, Yeying Fan, Moitreya Chatterjee +5 more
+📅 2026-10-01 · ✍️ Zheng-Hui Huang, Guixu Lin, Yu-Ju Tsai +6 more
 
-The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we introduce AssemblyWorld, an interactive 3D environment in which agents inspect rendered views and manipul...
+Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-speci...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40353v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02205v1)
 
 ---
 
-### 8. Image Classifiers are Efficient Self-Supervised Video Representation Learners
+### 6. Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-01 · ✍️ Yen-Jen Wang, Haozhe Jiang, Shuying Deng +7 more
+
+Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constru...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02204v1)
+
+---
+
+### 7. Embedding Prediction Helps Image Generation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-30 · ✍️ Owais Iqbal, Sudipta Sarkar, Shyam Marjit +3 more
+📅 2026-10-01 · ✍️ Sihan Xu, Ji Xie, Zilin Wang +2 more
 
-We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transformers by representing videos as super images which are grids composed of frames sampled from videos. Fr...
+In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next continuous embedding in a sequence. In generation, the clean image follows the noisy image, so its embed...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40347v1)
-
----
-
-### 9. Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-09-30 · ✍️ Zhihao Sun, Liu Liu, Xinjiang Wang +6 more
-
-Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive downstream robot gains and how to use such data throughout the training pipeline. We present a system...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40341v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02203v1)
 
 ---
 
-### 10. EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery
+### 8. ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research
 
-![CL](https://img.shields.io/badge/cs.CL-green)
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-09-30 · ✍️ Young-Jun Lee, Jinheon Baek, Soyeong Jeong +5 more
+📅 2026-10-01 · ✍️ Sohyeon Kim, Yoonho Lee, Bo Liu +11 more
 
-Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retr...
+What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Us...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40340v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02202v1)
 
 ---
 
-### 11. Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?
+### 9. SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-01 · ✍️ Tianjiao Yu, Xinzhuo Li, Yifan Shen +4 more
+
+High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly connected shapes. We introduce SILSA, a topology-aware 3D generat...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02201v1)
+
+---
+
+### 10. VISTA: A Visual Harness for Reasoning in an Interactive World
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-01 · ✍️ Qiushi Han, Keya Hu, Linlu Qiu +2 more
+
+We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness that gives a general-purpose multimodal model long-horizon vision. VISTA allows the model to directly perceive the environment through visual observations and maintains a lossless vi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02200v1)
+
+---
+
+### 11. TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-30 · ✍️ Razan El Mais, Ali Chehab, Ibrahim Issa +1 more
+📅 2026-10-01 · ✍️ Jichao Jiang, Cristian McGee, El Houcine Bergou +2 more
 
-Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs). Many decoder-only LLMs employ weight tying between input and output embeddings, a design choice originally introduced for parameter efficiency and improved language modeling performance in the non-private setting. However, the impact of weight tying ...
+Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense state. The recently introduced Muon optimizer reduces optimizer memory through matrix-valued updates. S...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40335v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02199v1)
 
 ---
 
-### 12. I Have a Stream: Making Self-Supervised Learning Work on Continuous Video
+### 12. FERPO: Forward Entropy-Regularized Policy Optimization
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-01 · ✍️ Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv
+
+Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potentially leading to unreliable policy updates. We propose Forward Entropy-Regularized Policy Optimizati...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02198v1)
+
+---
+
+### 13. HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-30 · ✍️ Ivan Martinović, Lukas Knobel, Yuki M. Asano
+📅 2026-10-01 · ✍️ Tahira Kazimi, Shubhankar Borse, Munawar Hayat +2 more
 
-Self-supervised learning draws inspiration from infant visual development, yet standard training pipelines bear little resemblance to it: images are independently sampled and globally shuffled across epochs. We study self-supervised learning from continuous video streams, where frames are consumed in temporal order using strict sliding-window batches, without global reshuffling or multi-epoch repl...
+Video generation models have achieved remarkable visual fidelity and have strong potential to become general-purpose world simulators. Despite this progress, they still fail to generate videos which adhere to laws of physics. The problem becomes even more apparent in realistic settings where multiple physical principles must work together within the same video; for example, "a balloon floating upw...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40333v1)
-
----
-
-### 13. Turbo Harness: Instance-Adaptive Harness Optimization
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-09-30 · ✍️ Tunyu Zhang, Hao Wang, Kai Xu +1 more
-
-Automating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically produce a single global harness that is applied uniformly across task instances. However, a harness that works well on average may not be optimal for every instance. We introduce Turbo Harness, a framework that can adapt a globally optimize...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40330v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02197v1)
 
 ---
 
-### 14. WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents
+### 14. InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-09-30 · ✍️ Ziyan Jiang, Jingbo Yang, Jiabao Ji +5 more
+📅 2026-10-01 · ✍️ Zhuo Lin, Sirui Xu, Liuyu Bian +2 more
 
-As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have show...
+We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface bet...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40325v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02196v1)
 
 ---
 
-### 15. Cogentic: Multi-Agent Orchestration for Automated Proof Discovery
+### 15. Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-09-30 · ✍️ Yang Cai, Vineet Gupta, Yanchen Jiang +4 more
+📅 2026-10-01 · ✍️ Akshay Balsubramani
 
-We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conjectures, overcoming subtle technical obstructions, and retaining intermediate progress over a long hori...
+The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge aga...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2609.40324v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.02195v1)
 
 ---
 
