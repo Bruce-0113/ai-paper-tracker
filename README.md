@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-04 06:38 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-05 06:34 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Moore, Escher, Penrose: A Conformal Golden Braid
+### 1. Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-02 · ✍️ Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan +5 more
+
+This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is not because of a lack of supervisory signal, but rather due to inconspicuous architectural choices: \...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03717v1)
+
+---
+
+### 2. MoSE3: Learning World-Space SE(3) at Every Pixel
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-01 · ✍️ Sophia Feldman, Assaf Shocher
+📅 2026-10-02 · ✍️ Jiahuan Cheng, Zhiyi Li, Tian Xia +3 more
 
-I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about his 1956 lithograph Print Gallery. Nearly half a century later, a mathematical analysis related its ge...
+Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3, the first feed-forward model that predicts dense SE(3) motion from monocular RGB video, producing full 6-DoF rig...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02210v1)
-
----
-
-### 2. Sphere Encoder 2
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-01 · ✍️ Kaiyu Yue, Sean McLeish, Ruchit Rawal +3 more
-
-Sphere Encoder is an autoencoder that generates images by decoding random points from a high-dimensional latent sphere. We identify two limitations of the original formulation that reduce its generation quality. First, random points concentrate near the equator relative to the pole on an encoded latent, but the training rotation never reaches this region, leaving a gap that limits one-step generat...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02208v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03716v1)
 
 ---
 
-### 3. One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars
+### 3. 4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-01 · ✍️ Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev
+📅 2026-10-02 · ✍️ Ruihong Shen, Žiga Kovačič, Peter Kulits +6 more
 
-3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a dist...
+We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02207v1)
-
----
-
-### 4. KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-01 · ✍️ Pengfei Li, Naufal Suryanto, Sicheng Zhang +1 more
-
-LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02206v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03715v1)
 
 ---
 
-### 5. ROWBench: Do Video Models Render What the Program Specifies?
+### 4. What Should World Models Forget? Stratified Retention for Continual Adaptation
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-01 · ✍️ Zheng-Hui Huang, Guixu Lin, Yu-Ju Tsai +6 more
+📅 2026-10-02 · ✍️ Nishit Anand, Ramani Duraiswami, Dinesh Manocha
 
-Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-speci...
+Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, which changes, so knowledge that was accurate when acquired may later become false, and discarding i...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02205v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03713v1)
 
 ---
 
-### 6. Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents
+### 5. RNADyn: A Benchmark for Generating and Understanding RNA Dynamics
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-02 · ✍️ Yiming Huang, Lennart Bastian, Hanqun Cao +2 more
+
+Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives. Here, we introduce RNADynBench, a standardized RNA molecular dynamics (MD) benchmark with 2585 quality-co...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03712v1)
+
+---
+
+### 6. EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-01 · ✍️ Yen-Jen Wang, Haozhe Jiang, Shuying Deng +7 more
+📅 2026-10-02 · ✍️ Kush Hari, Justin Kerr, Nidhya Shivakumar +7 more
 
-Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constru...
+Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The resulting images are processed foveally by allocating more visual tokens to the image centers, focusing computation on t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02204v1)
-
----
-
-### 7. Embedding Prediction Helps Image Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-01 · ✍️ Sihan Xu, Ji Xie, Zilin Wang +2 more
-
-In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next continuous embedding in a sequence. In generation, the clean image follows the noisy image, so its embed...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02203v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03710v1)
 
 ---
 
-### 8. ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research
+### 7. From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-02 · ✍️ Kuangyu Ding, Gesualdo Scutari
+
+We study the minimization of sums of smooth strongly convex functions over undirected graphs, with each function held by one agent and communication restricted to neighbors in the graph. Existing decentralized methods, whether based on gossip or on routing over spanning trees, typically   use the network to mix or aggregate information to enable   {\it prescribed} local optimization   updates. Wha...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03709v1)
+
+---
+
+### 8. LESSER: Post-Training Data Selection with Output-Layer Gradients
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-02 · ✍️ Lyuxin David Zhang, Eric Wong, Surbhi Goel +1 more
+
+The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training data by how well their gradients align with those of a small validation set. However, ranking with full-parameter gradients requires an expensive backward pass on every sample, making computation intractable for large candi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03702v1)
+
+---
+
+### 9. Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-02 · ✍️ Neel Varma, Andrew Rufail, Dipika Khullar +1 more
+
+Self-supervised Vision Transformers (ViTs), such as DINOv2, learn rich visual representations, but the functions of their internal tokens remain poorly understood. Recent architectures introduce dedicated register tokens to reduce high-norm out- lier patch tokens that emerge in background re- gions, yet the semantic and functional roles of both token types have not been fully established. In this ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03698v1)
+
+---
+
+### 10. Language Models that Play Chess and Explain Their Moves
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-02 · ✍️ Adithya Bhaskar, Jeffrey Cheng, Danqi Chen
+
+Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen, a 4B-parameter chess-language model that can explain its moves and plans while playing at the level...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03695v1)
+
+---
+
+### 11. Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-02 · ✍️ Jungkyu Park, Dhruva Biswas, Joseph Cappadona +22 more
+
+Scarcity of labeled data limits development of deep learning biomarkers in oncology. We develop a two-stage AI model predicting pathological complete response (pCR) to neoadjuvant therapy in breast cancer. The first stage learns the transcriptome from histopathology using 8,742 patients across 32 cancer types, corroborated by pathologist review and spatial agreement with measured expression. This ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03693v1)
+
+---
+
+### 12. FlowHMR: Physically Plausible Motion Capture from Video
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-02 · ✍️ Zhanke Wang, Chengfeng Zhao, Qing Shuai +8 more
+
+We present FlowHMR, a framework for recovering physically plausible global 3D human motion from monocular video. Previous learning-based methods typically regress human motion directly from video and train the network with geometric supervision. However, recovering human motion from monocular video is inherently ambiguous in depth, and direct regression tends to collapse toward an averaged solutio...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03691v1)
+
+---
+
+### 13. SigLIP2 for aerial fire risk classification
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-02 · ✍️ Yunus Serhat Bıçakçı
+
+We examine the transfer of a pretrained SigLIP2 image encoder to seven class fire risk classification from aerial imagery. We introduce a reproducible partition of the public FireRisk training mirror and an implementation that records data provenance, preprocessing and model selection. Two initial runs compare a frozen encoder probe with full model adaptation. On the validation partition, full ada...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03689v1)
+
+---
+
+### 14. Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-02 · ✍️ Fedor Sergeev, Markus Heinonen, Daniel Waxman +4 more
+
+The dynamics of cells, organisms, and fluids are often modeled as probability distributions evolving over time. Reconstructing and extrapolating this evolution from unpaired snapshots requires assumptions about the underlying process. Wasserstein gradient flows are a common choice, but they cannot describe conservative or periodic dynamics. Lagrangian mechanics in Wasserstein space covers both, bu...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03679v1)
+
+---
+
+### 15. FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-10-01 · ✍️ Sohyeon Kim, Yoonho Lee, Bo Liu +11 more
+📅 2026-10-02 · ✍️ Hui Chen, Xuan Qi, James Xu Zhao +5 more
 
-What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Us...
+LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framewo...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02202v1)
-
----
-
-### 9. SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-01 · ✍️ Tianjiao Yu, Xinzhuo Li, Yifan Shen +4 more
-
-High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly connected shapes. We introduce SILSA, a topology-aware 3D generat...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02201v1)
-
----
-
-### 10. VISTA: A Visual Harness for Reasoning in an Interactive World
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-01 · ✍️ Qiushi Han, Keya Hu, Linlu Qiu +2 more
-
-We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness that gives a general-purpose multimodal model long-horizon vision. VISTA allows the model to directly perceive the environment through visual observations and maintains a lossless vi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02200v1)
-
----
-
-### 11. TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-01 · ✍️ Jichao Jiang, Cristian McGee, El Houcine Bergou +2 more
-
-Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense state. The recently introduced Muon optimizer reduces optimizer memory through matrix-valued updates. S...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02199v1)
-
----
-
-### 12. FERPO: Forward Entropy-Regularized Policy Optimization
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-01 · ✍️ Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv
-
-Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potentially leading to unreliable policy updates. We propose Forward Entropy-Regularized Policy Optimizati...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02198v1)
-
----
-
-### 13. HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-01 · ✍️ Tahira Kazimi, Shubhankar Borse, Munawar Hayat +2 more
-
-Video generation models have achieved remarkable visual fidelity and have strong potential to become general-purpose world simulators. Despite this progress, they still fail to generate videos which adhere to laws of physics. The problem becomes even more apparent in realistic settings where multiple physical principles must work together within the same video; for example, "a balloon floating upw...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02197v1)
-
----
-
-### 14. InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-01 · ✍️ Zhuo Lin, Sirui Xu, Liuyu Bian +2 more
-
-We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface bet...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02196v1)
-
----
-
-### 15. Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-01 · ✍️ Akshay Balsubramani
-
-The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge aga...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.02195v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.03675v1)
 
 ---
 
