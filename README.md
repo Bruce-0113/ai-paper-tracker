@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-05 06:34 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-07 06:52 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis
+### 1. World Models' Last Exam in Physics
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-06 · ✍️ Mingju Gao, Qingle Liu, Yuzhao Peng +8 more
+
+Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely focus on mechanics. We introduce World Models' Last Exam in Physics, a measurement-based benchmark for ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08791v1)
+
+---
+
+### 2. Building Rome from a Single Image
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-06 · ✍️ Jiraphon Yenphraphai, Fang Li, Tianshuo Xu +5 more
+
+Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on indoor scenes, since diverse 3D data for outdoor scenes are quite limited. In this work, we present ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08790v1)
+
+---
+
+### 3. QF3: Fast Flow RL with Filtered Q-Gradients
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-06 · ✍️ Chung Min Kim, Brent Yi, David McAllister +7 more
+
+Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning them from scratch through interaction. We introduce QF3 (Fast Flow RL with Filtered Q-Gradients), an online off-policy RL algorithm that trains a flow policy with flow matching plus the critic's action g...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08789v1)
+
+---
+
+### 4. Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-06 · ✍️ Kevin Zhang, Stephen Bates
+
+Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understood. In this work, we provide such a foundation using a decision-theoretic generalization of entropy ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08785v1)
+
+---
+
+### 5. 4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-02 · ✍️ Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan +5 more
+📅 2026-10-06 · ✍️ Shiqi Li, Sean Cho, Yijie Li +3 more
 
-This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is not because of a lack of supervisory signal, but rather due to inconspicuous architectural choices: \...
+Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D hand-object interactions from coarse but informative estimates produced by vision foundation models. C...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03717v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08782v1)
 
 ---
 
-### 2. MoSE3: Learning World-Space SE(3) at Every Pixel
+### 6. IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-06 · ✍️ Ziyu Chen, Yilun Zhao, Jiashuo Sun +3 more
+
+Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack structured supervision for how papers should be synthesized. We introduce IdeaAnchor, a paradigm for t...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08781v1)
+
+---
+
+### 7. DepthWorld: 3D World Model for Robot Manipulation
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-06 · ✍️ Jai Bardhan, Josef Sivic, Vladimir Petrik
+
+World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look correct frame-by-frame but do not compose into a consistent 3D world. Closing this gap requires pro...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08780v1)
+
+---
+
+### 8. ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-02 · ✍️ Jiahuan Cheng, Zhiyi Li, Tian Xia +3 more
+📅 2026-10-06 · ✍️ Zhenghong Zhou, Zhe Lin, Jiebo Luo +1 more
 
-Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3, the first feed-forward model that predicts dense SE(3) motion from monocular RGB video, producing full 6-DoF rig...
+Current video editors can insert objects but often struggle to make them participate in interactions such as being picked up or manipulated. We introduce ALIVE, a framework that makes inserted objects "alive" through coherent interactions with the source video's contents, using an edited first frame and an instruction naming only the added object. We curate 35,800 editing pairs combining 3D-render...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03716v1)
-
----
-
-### 3. 4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-02 · ✍️ Ruihong Shen, Žiga Kovačič, Peter Kulits +6 more
-
-We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03715v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08779v1)
 
 ---
 
-### 4. What Should World Models Forget? Stratified Retention for Continual Adaptation
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-02 · ✍️ Nishit Anand, Ramani Duraiswami, Dinesh Manocha
-
-Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, which changes, so knowledge that was accurate when acquired may later become false, and discarding i...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03713v1)
-
----
-
-### 5. RNADyn: A Benchmark for Generating and Understanding RNA Dynamics
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-02 · ✍️ Yiming Huang, Lennart Bastian, Hanqun Cao +2 more
-
-Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives. Here, we introduce RNADynBench, a standardized RNA molecular dynamics (MD) benchmark with 2585 quality-co...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03712v1)
-
----
-
-### 6. EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-02 · ✍️ Kush Hari, Justin Kerr, Nidhya Shivakumar +7 more
-
-Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The resulting images are processed foveally by allocating more visual tokens to the image centers, focusing computation on t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03710v1)
-
----
-
-### 7. From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-02 · ✍️ Kuangyu Ding, Gesualdo Scutari
-
-We study the minimization of sums of smooth strongly convex functions over undirected graphs, with each function held by one agent and communication restricted to neighbors in the graph. Existing decentralized methods, whether based on gossip or on routing over spanning trees, typically   use the network to mix or aggregate information to enable   {\it prescribed} local optimization   updates. Wha...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03709v1)
-
----
-
-### 8. LESSER: Post-Training Data Selection with Output-Layer Gradients
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-02 · ✍️ Lyuxin David Zhang, Eric Wong, Surbhi Goel +1 more
-
-The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training data by how well their gradients align with those of a small validation set. However, ranking with full-parameter gradients requires an expensive backward pass on every sample, making computation intractable for large candi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03702v1)
-
----
-
-### 9. Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-02 · ✍️ Neel Varma, Andrew Rufail, Dipika Khullar +1 more
-
-Self-supervised Vision Transformers (ViTs), such as DINOv2, learn rich visual representations, but the functions of their internal tokens remain poorly understood. Recent architectures introduce dedicated register tokens to reduce high-norm out- lier patch tokens that emerge in background re- gions, yet the semantic and functional roles of both token types have not been fully established. In this ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03698v1)
-
----
-
-### 10. Language Models that Play Chess and Explain Their Moves
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-02 · ✍️ Adithya Bhaskar, Jeffrey Cheng, Danqi Chen
-
-Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen, a 4B-parameter chess-language model that can explain its moves and plans while playing at the level...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03695v1)
-
----
-
-### 11. Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-02 · ✍️ Jungkyu Park, Dhruva Biswas, Joseph Cappadona +22 more
-
-Scarcity of labeled data limits development of deep learning biomarkers in oncology. We develop a two-stage AI model predicting pathological complete response (pCR) to neoadjuvant therapy in breast cancer. The first stage learns the transcriptome from histopathology using 8,742 patients across 32 cancer types, corroborated by pathologist review and spatial agreement with measured expression. This ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03693v1)
-
----
-
-### 12. FlowHMR: Physically Plausible Motion Capture from Video
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-02 · ✍️ Zhanke Wang, Chengfeng Zhao, Qing Shuai +8 more
-
-We present FlowHMR, a framework for recovering physically plausible global 3D human motion from monocular video. Previous learning-based methods typically regress human motion directly from video and train the network with geometric supervision. However, recovering human motion from monocular video is inherently ambiguous in depth, and direct regression tends to collapse toward an averaged solutio...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03691v1)
-
----
-
-### 13. SigLIP2 for aerial fire risk classification
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-02 · ✍️ Yunus Serhat Bıçakçı
-
-We examine the transfer of a pretrained SigLIP2 image encoder to seven class fire risk classification from aerial imagery. We introduce a reproducible partition of the public FireRisk training mirror and an implementation that records data provenance, preprocessing and model selection. Two initial runs compare a frozen encoder probe with full model adaptation. On the validation partition, full ada...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03689v1)
-
----
-
-### 14. Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-02 · ✍️ Fedor Sergeev, Markus Heinonen, Daniel Waxman +4 more
-
-The dynamics of cells, organisms, and fluids are often modeled as probability distributions evolving over time. Reconstructing and extrapolating this evolution from unpaired snapshots requires assumptions about the underlying process. Wasserstein gradient flows are a common choice, but they cannot describe conservative or periodic dynamics. Lagrangian mechanics in Wasserstein space covers both, bu...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03679v1)
-
----
-
-### 15. FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution
+### 9. Sherpa: Teaching LLMs to Teach Adaptively
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-10-02 · ✍️ Hui Chen, Xuan Qi, James Xu Zhao +5 more
+📅 2026-10-06 · ✍️ Weixian Xu, Yanzhe Zhang, Zora Zhiruo Wang +2 more
 
-LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framewo...
+Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what good teaching looks like. However, these signals are often not grounded in individual student learnin...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.03675v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08778v1)
+
+---
+
+### 10. CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-06 · ✍️ Shangye Song, Dong Gong, Hong Jia +2 more
+
+Interactive video world models need to generate each video chunk efficiently while responding faithfully to user controls. Many systems use chunk-wise autoregressive generation with few-step denoising, but each chunk still requires several costly denoising iterations. Training-free caching can reduce this cost, yet existing policies make reuse decisions primarily from model-internal denoising dyna...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08777v1)
+
+---
+
+### 11. Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-06 · ✍️ Ankit Sonthalia, Haritz Puerto, Alexander Rubinstein +2 more
+
+Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workloads? We call this ability "bottling": the ability to turn general capabilities into task-specific solutions that balance answer quality and amortised cost. We introduce BOTTLED, a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08775v1)
+
+---
+
+### 12. AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-06 · ✍️ Sarim Hashmi, Mukul Ranjan, Kshitij Mishra +3 more
+
+Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the train...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08773v1)
+
+---
+
+### 13. Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-06 · ✍️ Liao Ma, Jiayi Song, Yunfeng Wu +2 more
+
+Diffusion Transformers (DiTs) have achieved strong performance in image and video generation, but the quadratic complexity of full attention makes high-resolution generation computationally expensive. Window attention offers an efficient alternative, yet existing methods face a practical trade-off: partitioned window attention typically achieves computational efficiency consistent with its theoret...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08772v1)
+
+---
+
+### 14. Data Leakage in Patch-Based Hyperspectral Image Classification: Quantifying the Impact of Spatial Overlap
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-06 · ✍️ Mohammed Q. Alkhatib
+
+Patch-based learning improves hyperspectral image (HSI) classification by exploiting local spectral-spatial information, but random train-test sampling from the same image can cause spatial patch overlap, leading to data leakage and optimistic performance estimates. This paper investigates same-class train-test spatial overlap in patch-based HSI classification using two measures: overlap percentag...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08770v1)
+
+---
+
+### 15. Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-06 · ✍️ Luke Bhan, Miroslav Krstic, Yuanyuan Shi
+
+We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second bounda...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.08764v1)
 
 ---
 
