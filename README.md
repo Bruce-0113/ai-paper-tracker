@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-07 06:52 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-08 07:01 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. World Models' Last Exam in Physics
+### 1. Tetris3D: 3D Scene Generation With Objects That Fit Together
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-06 · ✍️ Mingju Gao, Qingle Liu, Yuzhao Peng +8 more
+📅 2026-10-07 · ✍️ Jaeyeong Kim, Jinhyuk Jang, Jongmin Lee +2 more
 
-Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely focus on mechanics. We introduce World Models' Last Exam in Physics, a measurement-based benchmark for ...
+We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08791v1)
-
----
-
-### 2. Building Rome from a Single Image
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-06 · ✍️ Jiraphon Yenphraphai, Fang Li, Tianshuo Xu +5 more
-
-Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on indoor scenes, since diverse 3D data for outdoor scenes are quite limited. In this work, we present ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08790v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10539v1)
 
 ---
 
-### 3. QF3: Fast Flow RL with Filtered Q-Gradients
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-06 · ✍️ Chung Min Kim, Brent Yi, David McAllister +7 more
-
-Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning them from scratch through interaction. We introduce QF3 (Fast Flow RL with Filtered Q-Gradients), an online off-policy RL algorithm that trains a flow policy with flow matching plus the critic's action g...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08789v1)
-
----
-
-### 4. Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-06 · ✍️ Kevin Zhang, Stephen Bates
-
-Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understood. In this work, we provide such a foundation using a decision-theoretic generalization of entropy ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08785v1)
-
----
-
-### 5. 4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction
+### 2. Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-06 · ✍️ Shiqi Li, Sean Cho, Yijie Li +3 more
+📅 2026-10-07 · ✍️ Shravan Chaudhari, William Paul, Suchi Saria +2 more
 
-Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D hand-object interactions from coarse but informative estimates produced by vision foundation models. C...
+As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities. We present Ledg...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08782v1)
-
----
-
-### 6. IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-06 · ✍️ Ziyu Chen, Yilun Zhao, Jiashuo Sun +3 more
-
-Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack structured supervision for how papers should be synthesized. We introduce IdeaAnchor, a paradigm for t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08781v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10538v1)
 
 ---
 
-### 7. DepthWorld: 3D World Model for Robot Manipulation
+### 3. Decoupling Exploration from Optimization in RLVR
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-07 · ✍️ Saif Punjwani, Micah Goldblum
+
+Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality. B...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10536v1)
+
+---
+
+### 4. EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-07 · ✍️ Hongru Cai, Ran Wei, Wenjie Wang +4 more
+
+Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge storage from general-purpose computation, offering a promising route to updating factual knowledge wh...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10533v1)
+
+---
+
+### 5. Long-WAM: Scaling the Context of World-Action Models
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-06 · ✍️ Jai Bardhan, Josef Sivic, Vladimir Petrik
+📅 2026-10-07 · ✍️ Wei Huang, Bohan Zhang, Chenzhi Liu +13 more
 
-World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look correct frame-by-frame but do not compose into a consistent 3D world. Closing this gap requires pro...
+Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foun...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08780v1)
-
----
-
-### 8. ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-06 · ✍️ Zhenghong Zhou, Zhe Lin, Jiebo Luo +1 more
-
-Current video editors can insert objects but often struggle to make them participate in interactions such as being picked up or manipulated. We introduce ALIVE, a framework that makes inserted objects "alive" through coherent interactions with the source video's contents, using an edited first frame and an instruction naming only the added object. We curate 35,800 editing pairs combining 3D-render...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08779v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10528v1)
 
 ---
 
-### 9. Sherpa: Teaching LLMs to Teach Adaptively
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-06 · ✍️ Weixian Xu, Yanzhe Zhang, Zora Zhiruo Wang +2 more
-
-Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what good teaching looks like. However, these signals are often not grounded in individual student learnin...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08778v1)
-
----
-
-### 10. CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-06 · ✍️ Shangye Song, Dong Gong, Hong Jia +2 more
-
-Interactive video world models need to generate each video chunk efficiently while responding faithfully to user controls. Many systems use chunk-wise autoregressive generation with few-step denoising, but each chunk still requires several costly denoising iterations. Training-free caching can reduce this cost, yet existing policies make reuse decisions primarily from model-internal denoising dyna...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08777v1)
-
----
-
-### 11. Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-06 · ✍️ Ankit Sonthalia, Haritz Puerto, Alexander Rubinstein +2 more
-
-Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workloads? We call this ability "bottling": the ability to turn general capabilities into task-specific solutions that balance answer quality and amortised cost. We introduce BOTTLED, a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08775v1)
-
----
-
-### 12. AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-06 · ✍️ Sarim Hashmi, Mukul Ranjan, Kshitij Mishra +3 more
-
-Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the train...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08773v1)
-
----
-
-### 13. Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-06 · ✍️ Liao Ma, Jiayi Song, Yunfeng Wu +2 more
-
-Diffusion Transformers (DiTs) have achieved strong performance in image and video generation, but the quadratic complexity of full attention makes high-resolution generation computationally expensive. Window attention offers an efficient alternative, yet existing methods face a practical trade-off: partitioned window attention typically achieves computational efficiency consistent with its theoret...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08772v1)
-
----
-
-### 14. Data Leakage in Patch-Based Hyperspectral Image Classification: Quantifying the Impact of Spatial Overlap
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-06 · ✍️ Mohammed Q. Alkhatib
-
-Patch-based learning improves hyperspectral image (HSI) classification by exploiting local spectral-spatial information, but random train-test sampling from the same image can cause spatial patch overlap, leading to data leakage and optimistic performance estimates. This paper investigates same-class train-test spatial overlap in patch-based HSI classification using two measures: overlap percentag...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08770v1)
-
----
-
-### 15. Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion
+### 6. Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-06 · ✍️ Luke Bhan, Miroslav Krstic, Yuanyuan Shi
+📅 2026-10-07 · ✍️ Aleksandar Armacki, Haoyuan Cai, Ali H. Sayed
 
-We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second bounda...
+Heavy-tailed noise has been widely observed in modern machine learning, motivating the use of methods like gradient clipping and normalization. While these methods are well understood in centralized settings, much less is known in decentralized ones, where applying a nonlinearity to local gradients affects both optimization and consensus. Recent works on decentralized non-convex optimization have ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.08764v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10527v1)
+
+---
+
+### 7. Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-07 · ✍️ Mikey Watts, Yuchen Cui
+
+Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: $π_{0.5}$ turns on a LIBERO stove 100% of the time for "switch on the stove" and 2% for "switch on the hot plate", and a $π_0$ checkpoint finetuned with rephrase augmenta...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10526v1)
+
+---
+
+### 8. GRACE: Generation-aware latent compression for efficient video generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-07 · ✍️ Jiyoung Kim, Paul Hyunbin Cho, Jisu Nam +5 more
+
+Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10524v1)
+
+---
+
+### 9. Distilling Graph Geometry: Knowledge Gap from GNNs to MLPs
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-07 · ✍️ Zhewei Chen, Hao Zhu, Jiaojiao Jiang +1 more
+
+GNN-to-MLP distillation aims to retain the predictive accuracy of a message-passing teacher while deploying a graph-free MLP at inference. Existing methods mainly transfer node-wise predictions or use confidence-based reweighting, but they do not specify where the student should preserve the teacher's graph-induced geometry. We show that this omission leads to two spectral failure modes in the stu...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10520v1)
+
+---
+
+### 10. Why Forget-Only Unlearning Needs Memorization
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-07 · ✍️ Luka Radić, Vikrant Singhal, Amartya Sanyal
+
+Machine unlearning asks for a deletion algorithm whose output is close to retraining from scratch without the selected forget examples. In this work, we study forget-only unlearning, where the deletion algorithm receives only the trained model and the examples to forget, with no retained data or extra training information. We ask whether forget-only unlearning is always possible. We first show tha...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10519v1)
+
+---
+
+### 11. RoboJEPA: Scaling Robotic Latent World Models
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-07 · ✍️ Artem Zholus, Nicolas Beltran-Velez, Jianhao Yuan +9 more
+
+Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and traine...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10515v1)
+
+---
+
+### 12. SciExam for ENSO: Can AI Agents Build Climate Models?
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-07 · ✍️ Yinling Zhang, Langchen Liu, Dongbin Xiu +4 more
+
+Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of which can tell whether a new scientific model is valid. The AI Science Exam for El Nino-Southern Oscillation (SciExam for ENSO) is a benchmark in which agents build low-order stochastic models of ENSO,...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10513v1)
+
+---
+
+### 13. Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-07 · ✍️ Chen Xu, Yunqi Li, Binbin Huang +3 more
+
+Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address this problem, we propose JoHan, a unified generative framework that recovers hand motion directly from video sequences without relying on intermediate per-frame pose predictions. Trai...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10512v1)
+
+---
+
+### 14. Your Prompt Should Do More: Effects of Retrieval Instructions in Embedding Models
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-07 · ✍️ Amanda Myntti, Jenna Kanerva, Veronika Laippala +1 more
+
+Prompted embedding models have recently received increasing attention, particularly for retrieval, where detailed retrieval instructions are provided as part of the retrieval prompt. Several new datasets and studies have examined this setting, showing that the current embedding models often struggle to follow such instructions reliably. In this paper, we study the mechanism of how instructions act...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10508v1)
+
+---
+
+### 15. RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-07 · ✍️ Yilun Hao, Krishna Sayana, Isabella Ye +4 more
+
+Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmented Generation (RAG) relies on fixed similarity-based retrieval, while agentic variants adapt queries and tool use but remain largely retrieval-centric. However, in many tasks, the evidence required for a solution is not explicitly present in any single source i...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.10507v1)
 
 ---
 
