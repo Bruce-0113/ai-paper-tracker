@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-11 06:50 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-12 07:00 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-08 · ✍️ Jusuk Lee, Sungha Kim, Yeonsoo Park +8 more
-
-While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for br...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12470v1)
-
----
-
-### 2. Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-08 · ✍️ Ritesh Thawkar, Shubham Patle, Shravan Venkatraman +1 more
-
-Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter content that should be preserved. In this work, we strive to improve a pretrained image editor using o...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12469v1)
-
----
-
-### 3. DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-08 · ✍️ Junyan Li, Ruizhi Li, Yu Liu +6 more
-
-We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodimen...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12468v1)
-
----
-
-### 4. CSF: Contextual Safety Filtering for Motion Generators
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-08 · ✍️ Lizhi Yang, Yiling Hou, Yao Tang +4 more
-
-Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning. We introduce contextual saf...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12467v1)
-
----
-
-### 5. On the estimation and validity of AI time horizons---a statistical look at the METR plot
+### 1. Can Language Models Play the Wikipedia Game?
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-08 · ✍️ Drew T. Nguyen, William Fithian
+📅 2026-10-09 · ✍️ Alexander Hickey, Joanna Knight, James Bishop
 
-METR's 50\% time horizon measures the human completion time of software tasks that an AI solves with 50\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time. Our fitted spline can...
+Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links. We compared sentence embed...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12466v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13948v1)
 
 ---
 
-### 6. A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control
+### 2. Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-09 · ✍️ Xudong Cai, Ruijie Zhu, Haoliang Shang +5 more
+
+In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13947v1)
+
+---
+
+### 3. Splat2Act: From Captured Scenes to Personalized VLA Manipulation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-09 · ✍️ Xiaomeng Ye, Krishna Jaganathan, Gyubeum Lim +3 more
+
+A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real demonstrations in every user's environment is prohibitively expensive. We present Splat2Act, an automa...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13945v1)
+
+---
+
+### 4. InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-09 · ✍️ Xuanlang Dai, Jiazi Bu, Yujie Zhou +5 more
+
+Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representations and the consistency of their underlying denoising dynamics remain underexplored. In this work, ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13944v1)
+
+---
+
+### 5. Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-09 · ✍️ Yucheng Yang, Xiaoxiao Sun, Shusheng Yang +2 more
+
+Multimodal diffusion transformers (MMDiTs) allow the evolving image to update internal text representations through joint attention. These representations then guide subsequent image updates, raising a question: does this feedback help correct deviations from the prompt, or preserve them? We find that image-to-text (I2T) feedback can preserve the objects and attributes already represented in the e...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13941v1)
+
+---
+
+### 6. Hide and Seek: HIDE Concepts to SEEK explanations for black box models
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-09 · ✍️ Bhanu Tokas, Rahul Nair, Rockwell Jackson +1 more
+
+Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide imag...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13935v1)
+
+---
+
+### 7. Constructive Bounds for the Topological Expressivity of Neural Networks
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-08 · ✍️ Octi Zhang, Mateo Guaman Castro, Patrick Yin +4 more
+📅 2026-10-09 · ✍️ Kosio Beshkov
 
-General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse simulator resets, combined with massively para...
+The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary $β(Φ^{-1}(0))$. Despite its popularity, this measure is not as useful for regression and other probl...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12465v1)
-
----
-
-### 7. From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-08 · ✍️ Abbas Raftari
-
-In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12463v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13931v1)
 
 ---
 
-### 8. What 30,000 Hours of Ego-centric Video Does Not Teach
+### 8. Chronos Policy: Learning Robot Policies on Physical Time
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-08 · ✍️ Jiahua Dong, Anurag Bagchi, Yash Jangir +7 more
+📅 2026-10-09 · ✍️ Changhao Wang, Jaden Clark, Shuran Song
 
-World models offer a promising alternative to physics-based simulators, yet remain far from practical deployment. We ask how far scaling ego-centric human video takes them, using a dataset of 30,000 hours spanning over 1,000 scene types and 14,000 contributors. Rather than relying on opaque downstream metrics, we directly evaluate agent and object-interaction fidelity on a challenging out-of-distr...
+Robot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. This assumption breaks when observation rates or delays vary, or when inference latency changes. We introduce Chronos Policy, which makes physical time explicit by conditioning on observation capture times and desired action execution times. We study t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12464v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13929v1)
 
 ---
 
-### 9. OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs
+### 9. AI Models Can Provably Hide Arbitrary Capabilities
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-09 · ✍️ Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas +1 more
+
+Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trig...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13928v1)
+
+---
+
+### 10. Can machines reason non-verbally?
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-08 · ✍️ You-Zhe Xie, Ting-Wei Chou, Yu-Hsuan Li +3 more
+📅 2026-10-09 · ✍️ Shaheer U. Saeed, Zion Tse, Gregory Slabaugh +2 more
 
-Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we...
+Modern machines can solve equations, follow logic and reason through language, yet they still struggle with problems that require visual non-verbal reasoning. This is evident even in advanced systems such as DeepSeek, ChatGPT and Gemini, which remain limited on visual tasks such as completing abstract patterns or delineating ambiguous regions-of-interest. Unlike explicit intermediate steps in verb...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12461v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13925v1)
 
 ---
 
-### 10. WorldGuide: Goal-Directed Video World Model for Procedural Task Execution
+### 11. KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-09 · ✍️ Tianyi Wu
+
+A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averaged divergence $\mathbb{E}_U D_{\mathrm{KL}}(p\|q_U)$ with the output-law divergence $D_{\mathrm{KL}}(p\|\mathbb{E}_U q_U)$, in nats. Rounds commit independent draws from exact conditional marginals fr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13924v1)
+
+---
+
+### 12. Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-09 · ✍️ Sajjad Baghaeea, Aimin Lib, Shanmugarajan Balasubramanian +1 more
+
+Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are inherently goal-oriented: transmission resources should be alloca...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13923v1)
+
+---
+
+### 13. DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-09 · ✍️ Daniel Szelogowski
+
+Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical insomnia and boundary instability in narcolepsy type 1. Here, we present DyssomniaNN: a multi-scale biophysical computational framework coupling Borbély's two-process regulation of sleep homeostasis and...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13918v1)
+
+---
+
+### 14. Designing Protein Structures from Natural Language
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-09 · ✍️ Joseph Lee, Yanjing Li, Bo Qiang +7 more
+
+A central challenge in de novo protein design is generating proteins with desired structural and functional properties. Existing design models typically require a dedicated input representation for each property, limiting the design objectives they support. We develop Prompteina, the first all-atom structure generation model that supports new and broader design objectives specified in natural lang...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13917v1)
+
+---
+
+### 15. Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-08 · ✍️ Ankan Deria, Komal Kumar, Hisham Cholakkal +2 more
+📅 2026-10-09 · ✍️ Junkai Liu, Le Zhang
 
-Video generators and video-based world models can synthesize plausible visual trajectories, but long-horizon procedural tasks require generation to adapt to what has actually been produced. A model must determine the next action from its generated state, execute that action, and recognize when the task is complete. Open-loop generation cannot adapt to execution outcomes, while existing closed-loop...
+Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. However, random cropping implicitly treats all spatial regions as equally worth observing, despite anatomical priors and spatial redundancy that make regions inherently unequal in their value for representation learning. To this end, we first show through controlled crop-quality manipula...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12459v1)
-
----
-
-### 11. OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-08 · ✍️ Zhongyu Yang, Jiale Tao, Ruitao Chen +9 more
-
-Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-off: whole-caption scores provide coverage without localization, local probes provide localization without coverage, and...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12458v1)
-
----
-
-### 12. Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-08 · ✍️  Nhan,  Tran, Neal Wadhwa +2 more
-
-On a film set, the camera move is committed during a take. Generative video reshooting lets filmmakers change it afterward, but may require hallucinating unrecorded content, a gap sometimes discovered only after leaving the set. We present Hybrid Cinematography, a workflow that bridges physical capture and generative reshooting to manage hallucination risk while filmmakers can still act on it. Usi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12455v1)
-
----
-
-### 13. BrickBench: Evaluating Agentic Brick Design
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-08 · ✍️ Peter Kulits, Yiqing Xu, R. Kenny Jones +2 more
-
-We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12452v1)
-
----
-
-### 14. VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-08 · ✍️ Boyao Han, Chen Shi, Jingjing Qian +2 more
-
-Vision-Language-Action (VLA) models have emerged as powerful foundations for robotic manipulation, but their reliance on fixed camera configurations during training makes them brittle to changes in camera count or pose during deployment. To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning. VersaCamVLA ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12451v1)
-
----
-
-### 15. One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-08 · ✍️ Adrian Bulat, Yassine Ouali, Georgios Tzimiropoulos
-
-In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate program...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.12448v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.13915v1)
 
 ---
 
