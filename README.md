@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-13 07:24 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-14 05:52 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Can Language Models Play the Wikipedia Game?
+### 1. ChunkAct: Action Chunking for Agentic Robotics
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-13 · ✍️ Bingxin Xu, Wenrui Bao, Xinxin Liu +3 more
+
+Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primitive requires a round of LLM reasoning over the full interaction history, so the cos...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18874v1)
+
+---
+
+### 2. LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-13 · ✍️ Wenxuan Guo, Yingping Liang, Zhaoguo Wang +11 more
+
+Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical interactions and their consequences. We introduce \textbf{LoopWAM}, a closed-loop world-action model...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18873v1)
+
+---
+
+### 3. EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-13 · ✍️ Yunsong Zhou, Xuekun Jiang, Haiqi Shen +11 more
+
+Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18872v1)
+
+---
+
+### 4. Dog-Breed Text-to-image Flow Matching from Pretraining to Fine-Tuning on 4 Consumer GPUs
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-13 · ✍️ Reyhaneh Esmailizadeh, Xingjian Leng, Zhanhao Liang +1 more
+
+We generally perceive that training text-to-image diffusion models requires heavy compute: it is true if we aim at a comprehensive frontier model. This understanding prevents people from training their own models when getting started in the field. We develop MiniDog, a framework that enables pretraining diffusion transformers in 55 minutes and fine-tuning in another 15 minutes on four 3090 GPUs. F...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18870v1)
+
+---
+
+### 5. Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-13 · ✍️ Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu
+
+Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser. ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18871v1)
+
+---
+
+### 6. What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-13 · ✍️ Mingxuan Yan, Litian Gong, Dihong Huang +19 more
+
+How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets. Additional comparis...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18869v1)
+
+---
+
+### 7. Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-13 · ✍️ Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh +3 more
+
+Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18868v1)
+
+---
+
+### 8. PLAYGROUND: Progressive Layout Generation with Render-Grounded Planning
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-13 · ✍️ Jaeho Lee, Junhwan Heo, Junghyun Park +5 more
+
+Generating editable graphic designs requires arranging visual and textual elements into a coherent composition while preserving their content and editability. Although recent MLLM-based approaches employ iterative generation and visual refinement to reflect the real-world design workflows, their high-level plans are predetermined prior to execution, limiting their adaptability as the design evolve...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18865v1)
+
+---
+
+### 9. Data Free Training of Diffusion Models for Lattice Field Theories
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-13 · ✍️ Dennis Grinwald, Ankur Singha, Khaled Kahouli +2 more
+
+Sampling equilibrium field configurations remains a major computational bottleneck in lattice field theory, motivating the development of generative samplers that can produce independent configurations. Diffusion models are promising for this purpose, but their standard denoising score matching objective requires samples from the target distribution, seemingly reintroducing the original sampling p...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18863v1)
+
+---
+
+### 10. DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-13 · ✍️ Minghao Luo, Liang Chen
+
+Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning words like "wait", which can reduce accuracy. We propose Doubt...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18862v1)
+
+---
+
+### 11. AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-09 · ✍️ Alexander Hickey, Joanna Knight, James Bishop
+📅 2026-10-13 · ✍️ Xin Gao, Yifan Yang, Xin Li +13 more
 
-Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links. We compared sentence embed...
+Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13948v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18860v1)
 
 ---
 
-### 2. Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark
+### 12. Hybrid Reasoning Agents
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-13 · ✍️ Jiaru Zou, Yunzhe Qi, Sirui Chen +5 more
+
+How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18861v1)
+
+---
+
+### 13. Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-09 · ✍️ Xudong Cai, Ruijie Zhu, Haoliang Shang +5 more
+📅 2026-10-13 · ✍️ Aimon Rahman, Joymallya Chakraborty, Vidit Bansal +1 more
 
-In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive ...
+Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly because each image adds many visual tokens, increasing encoding and attention demands. Existing techniques that address the above issue, including visual token pruning, token merging, visual token compression, learned resampling, hierarchical compression, retri...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13947v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18858v1)
 
 ---
 
-### 3. Splat2Act: From Captured Scenes to Personalized VLA Manipulation
+### 14. PixelMoE: Scaling Pixel-Space Diffusion with LLM-Style Mixture-of-Experts
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-09 · ✍️ Xiaomeng Ye, Krishna Jaganathan, Gyubeum Lim +3 more
+📅 2026-10-13 · ✍️ Ruixiao Dong, Jianmin Bao, Bozhi Luan +6 more
 
-A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real demonstrations in every user's environment is prohibitively expensive. We present Splat2Act, an automa...
+Pixel-space diffusion models provide an appealing alternative to latent-space diffusion models by directly modeling raw images without relying on a learned tokenizer. However, scaling pixel-space models has predominantly followed dense strategies, tightly coupling model capacity with active computation. In this work, we show that standard LLM-style Mixture-of-Experts (MoE) architectures can be eff...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13945v1)
-
----
-
-### 4. InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-09 · ✍️ Xuanlang Dai, Jiazi Bu, Yujie Zhou +5 more
-
-Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representations and the consistency of their underlying denoising dynamics remain underexplored. In this work, ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13944v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18857v1)
 
 ---
 
-### 5. Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-09 · ✍️ Yucheng Yang, Xiaoxiao Sun, Shusheng Yang +2 more
-
-Multimodal diffusion transformers (MMDiTs) allow the evolving image to update internal text representations through joint attention. These representations then guide subsequent image updates, raising a question: does this feedback help correct deviations from the prompt, or preserve them? We find that image-to-text (I2T) feedback can preserve the objects and attributes already represented in the e...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13941v1)
-
----
-
-### 6. Hide and Seek: HIDE Concepts to SEEK explanations for black box models
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-09 · ✍️ Bhanu Tokas, Rahul Nair, Rockwell Jackson +1 more
-
-Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide imag...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13935v1)
-
----
-
-### 7. Constructive Bounds for the Topological Expressivity of Neural Networks
+### 15. Exact Topological Compliance: Generating Persistence-Equivalent Graphs
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-09 · ✍️ Kosio Beshkov
+📅 2026-10-13 · ✍️ Mattie Ji, Indradyumna Roy, Vikas Garg
 
-The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary $β(Φ^{-1}(0))$. Despite its popularity, this measure is not as useful for regression and other probl...
+Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing topology-aware generative models rely on soft regularization, producing graphs whose PDs may only be approximately similar. We initiate a principled investigation of the generation problem: produce gr...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13931v1)
-
----
-
-### 8. Chronos Policy: Learning Robot Policies on Physical Time
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-09 · ✍️ Changhao Wang, Jaden Clark, Shuran Song
-
-Robot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. This assumption breaks when observation rates or delays vary, or when inference latency changes. We introduce Chronos Policy, which makes physical time explicit by conditioning on observation capture times and desired action execution times. We study t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13929v1)
-
----
-
-### 9. AI Models Can Provably Hide Arbitrary Capabilities
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-09 · ✍️ Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas +1 more
-
-Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trig...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13928v1)
-
----
-
-### 10. Can machines reason non-verbally?
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-09 · ✍️ Shaheer U. Saeed, Zion Tse, Gregory Slabaugh +2 more
-
-Modern machines can solve equations, follow logic and reason through language, yet they still struggle with problems that require visual non-verbal reasoning. This is evident even in advanced systems such as DeepSeek, ChatGPT and Gemini, which remain limited on visual tasks such as completing abstract patterns or delineating ambiguous regions-of-interest. Unlike explicit intermediate steps in verb...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13925v1)
-
----
-
-### 11. KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-09 · ✍️ Tianyi Wu
-
-A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averaged divergence $\mathbb{E}_U D_{\mathrm{KL}}(p\|q_U)$ with the output-law divergence $D_{\mathrm{KL}}(p\|\mathbb{E}_U q_U)$, in nats. Rounds commit independent draws from exact conditional marginals fr...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13924v1)
-
----
-
-### 12. Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-09 · ✍️ Sajjad Baghaeea, Aimin Lib, Shanmugarajan Balasubramanian +1 more
-
-Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are inherently goal-oriented: transmission resources should be alloca...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13923v1)
-
----
-
-### 13. DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-09 · ✍️ Daniel Szelogowski
-
-Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical insomnia and boundary instability in narcolepsy type 1. Here, we present DyssomniaNN: a multi-scale biophysical computational framework coupling Borbély's two-process regulation of sleep homeostasis and...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13918v1)
-
----
-
-### 14. Designing Protein Structures from Natural Language
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-09 · ✍️ Joseph Lee, Yanjing Li, Bo Qiang +7 more
-
-A central challenge in de novo protein design is generating proteins with desired structural and functional properties. Existing design models typically require a dedicated input representation for each property, limiting the design objectives they support. We develop Prompteina, the first all-atom structure generation model that supports new and broader design objectives specified in natural lang...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13917v1)
-
----
-
-### 15. Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-09 · ✍️ Junkai Liu, Le Zhang
-
-Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. However, random cropping implicitly treats all spatial regions as equally worth observing, despite anatomical priors and spatial redundancy that make regions inherently unequal in their value for representation learning. To this end, we first show through controlled crop-quality manipula...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.13915v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.18856v1)
 
 ---
 
