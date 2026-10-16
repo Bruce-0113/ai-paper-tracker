@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-15 05:36 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-16 05:30 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Can Learning to Answer Spatial Questions Improve Novel-View Generation?
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-14 · ✍️ Jahyeok Koo, Hyeonseo Yu, Seungho Jang +4 more
-
-Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and inter-object relationships. In this work, we investigate whether 3D language understanding can provi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20610v1)
-
----
-
-### 2. Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
+### 1. LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-14 · ✍️ Huixuan Cheng, Bike Zhang, Shankar Sastry +1 more
+📅 2026-10-15 · ✍️ Zhixu Li, Keqian Tang, Litian Gong +7 more
 
-Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight s...
+Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied a...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20606v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22372v1)
 
 ---
 
-### 3. Representation Conditioning for Generation
+### 2. Gen4P: Video Generators are 4D Perceivers
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-14 · ✍️ Saeed Razavi, Xingjian Leng, Liang Zheng
+📅 2026-10-15 · ✍️ Yitong Xia, Zeren Jiang, Chuanxia Zheng
 
-Representation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to the diffusion backbone. While this objective is achieved at early layers by back-propagating the ali...
+We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a single encoder pass and predicts the requested 4D attributes through a lightweight cross-attention decode...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20608v1)
-
----
-
-### 4. Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-14 · ✍️ Zhefei Gong, Hefeifei Jiang, Zehao Wang +1 more
-
-Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manipulation), a systematic framework for stable and sample-efficient real-world fine-tuning of complex M...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20607v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22371v1)
 
 ---
 
-### 5. VITAL: From Visual Motion to Precise Action
+### 3. Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-14 · ✍️ Ao Liang, Youquan Liu, Mingxiao Li +7 more
+📅 2026-10-15 · ✍️ SeungJu Cha, Ye-Chan Kim, HyunGee Kim +2 more
 
-World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which trajectories are reconstructed from recorded future images. Even without the need for future prediction, ...
+Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computation. Existing method addresses this by preserving prompt-aligned foreground regions, thereby protectin...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20604v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22370v1)
 
 ---
 
-### 6. CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation
+### 4. SoftCache: Adaptive Step Size Caching for Diffusion Transformers
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-14 · ✍️ Xiaoli Xu, Zhengtao Wu, Zhengze Xu +8 more
+📅 2026-10-15 · ✍️ Shimon Malnick, Nadav Orenstein, Ohad Fried +1 more
 
-We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop Agent (PERL-Agent) distills heterogeneous SKU metadata into concise selling-point text lists throug...
+Diffusion and flow models generate a sample over iterative steps, each a full pass through a large network, and that pass dominates generation cost. Training-free caching accelerates them by reusing activations from recent evaluations instead of recomputing them. Dynamic caching methods decide when to refresh by accumulating a cheap probe of the network input into a staleness signal and spending a...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20603v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22369v1)
 
 ---
 
-### 7. DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning
+### 5. Discovering state-of-the-art quantum circuits with large language models
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-15 · ✍️ Andi Gu, Alek H. Kemeny, Susanne F. Yelin +1 more
+
+Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents uniqu...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22367v1)
+
+---
+
+### 6. T2-z: Test-Time Optimization of Environment Latents for Robotic World Models
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-15 · ✍️ Chenyuan Zhou, Yining Hong, Huang Huang +9 more
+
+Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z for test-time optimization of environment latents, which augments a robotic world model with a learn...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22364v1)
+
+---
+
+### 7. Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-14 · ✍️ Qihang Cao, Haoyuan Li, Zihan Guo +8 more
+📅 2026-10-15 · ✍️ Zirui Wu, Chen Guo, Tianjian Jiang +11 more
 
-Achieving general spatial intelligence requires a unified understanding of both static 3D and dynamic 4D. However, we find that existing models struggle to excel at both: 3D post-training can weaken dynamic understanding, while 4D-specialized models often lack strong static 3D reasoning. Our analysis reveals that this spatial--dynamic interference is highly non-uniform across parameter groups, wit...
+We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera trajectories from video; Predict, which generates visual futures under prescribed actions; and Plan, which jointly generate...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20598v1)
-
----
-
-### 8. Co-Evolving Acting and Forecasting for Language Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-14 · ✍️ Haofei Yu, Yixing Chen, Yining Zhao +6 more
-
-Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate steps largely unused. Prior work exploits this supervision through value targets that estimate per-step success probabilities or observation targets that fit environment response. Both...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20597v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22363v1)
 
 ---
 
-### 9. GeoThinker-$F$: Endogenous Predictive World Representations for Fast Spatial Intelligence
+### 8. CoDA: Co-Evolution of Data Engines and Action Policies
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-15 · ✍️ Tianjiao Yu, Zhilin Ou, Yifan Shen +5 more
+
+Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and an action policy co-evolve through a shared heterogeneous memory of e...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22362v1)
+
+---
+
+### 9. Grounding Generative Verification in 3D Content
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-14 · ✍️ Haoyuan Li, Qihang Cao, Huanyuan Zhou +10 more
+📅 2026-10-15 · ✍️ Shuanglin Li, Jiaying Lin, Shuquan Ye
 
-Existing geometry-aware Multimodal Large Language Models (MLLMs) increasingly rely on external 3D encoders to provide structural priors, but executing these additional encoder paths at inference introduces substantial latency and computational overhead. We propose GeoThinker-$F$, an efficient framework that internalizes spatiotemporal perception by transforming causal MLLM hidden states into predi...
+Recent advances in multimodal large language models (MLLMs) and 3D generation have expanded 3D understanding and synthesis. However, beyond visual fidelity, task-specific correctness grounded in 3D evidence remains a major challenge. We argue that building reliable 3D systems requires not only stronger generation and reasoning, but also verification feedback that identifies unmet requirements and ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20592v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22360v1)
 
 ---
 
-### 10. Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting
+### 10. PathFM: Fast Generative Forecasting of Multivariate Trajectories
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-15 · ✍️ Jiachen Yao, Xiyuan Zhang, Annan Yu +5 more
+
+Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing, yet point and marginal scores do not reveal it. To model thi...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22358v1)
+
+---
+
+### 11. DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-14 · ✍️ Seungmi Choi, Ji-Hyoun Choi, Suhyun Jo +2 more
+📅 2026-10-15 · ✍️ Han Su, Meng Tian, Tianyu Huang +7 more
 
-Feed-forward 3D Gaussian Splatting (3DGS) methods enable efficient reconstruction of 3D scenes from sparse multi-view images in a single forward pass, without scene-specific optimization. However, existing feed-forward scene-coding pipelines first generate a complete Gaussian representation and then encode its geometry and appearance attributes separately, often involving non-differentiable operat...
+Vision-language models still struggle to understand 3D spatial relations across views and update spatial judgments as the observer moves. A common approach fuses 3D reconstruction features into visual tokens, but aligning these features with pretrained semantic representations remains challenging under limited spatial supervision. We propose DK-VLM with Dual-Kernel Attention, which computes attent...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20590v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22356v1)
 
 ---
 
-### 11. Your Transformer Is Secretly Elastic
+### 12. OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-15 · ✍️ Bowei Liu, Xinchen Zhang, Xuhuan Li +10 more
+
+Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-g...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22355v1)
+
+---
+
+### 13. Rethinking Routing Exploration in Modern Mixture-of-Experts
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-14 · ✍️ Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts +1 more
+📅 2026-10-15 · ✍️ Bingcong Li, Hao Ma, Michael Muehlebach +2 more
 
-Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to commit to a model based on hardware and latency constraints. This rigidity is often suboptimal under varying query loads. We introduce a retraining-free method that elastifies pre-tr...
+Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The former increases expressiveness by enabling more expert combinations at a fixed activation ratio, and the latter introduces experts that are active for every token. We identify an e...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20588v1)
-
----
-
-### 12. Price of Anarchy of First-Price Auctions in Agentic Markets
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-14 · ✍️ Shubhendu Trivedi, Jacob Eisenstein, Alekh Agarwal +3 more
-
-An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in which the highest bidder pays its bid and receives the prompt, are a natural way to allocate prompts in such a market, ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20587v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22353v1)
 
 ---
 
-### 13. Continuum Attention
+### 14. SUPRA-TEX: 3D Generation with Super-Aligned Texture
 
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-14 · ✍️ Afshin Khadangi
+📅 2026-10-15 · ✍️ Chen Yang, Jiemin Fang, Fanpeng Meng +5 more
 
-We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponential relevance density along the curve. Integrating the density and interpolated values yields exact normalized attention from closed form exponential moments, including half token ...
+Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine details through implicit image-feature conditioning. To resolve these challenges, we introduce SUPRA-Tex, built on the princip...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20586v1)
-
----
-
-### 14. Learnable Hodge-Laplacian Driven Mixture of Experts for Steady-PDE Surrogates on Coarse Unstructured Meshes
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-14 · ✍️ Stavros Nousias, Akis Nousias, Konstantinos Gkrispanis
-
-Current approaches for steady partial differential equations surrogate models on unstructured meshes apply a single mixing mechanism to the whole solution. This paper proposes an architecture that partitions the solution among vanilla transformer experts, each focused on a different spectral scale. The partition is built from a discrete Hodge Laplacian $L_0=\star_0^{-1} d_0^{\top}\star_1 d_0$, tha...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20585v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22352v1)
 
 ---
 
-### 15. Player-1: Learning to Play from Synthetic Experience
+### 15. FDE-Gym: The Last Mile of AI Delivery
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-10-14 · ✍️ Mingyu Ouyang, Yiran Wang, Siyuan Hu +9 more
+📅 2026-10-15 · ✍️ Dongxu Yang, Hongda Yan, Renxin Wang +23 more
 
-Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game state...
+Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.20584v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.22350v1)
 
 ---
 
