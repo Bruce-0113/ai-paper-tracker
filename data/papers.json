@@ -1,313 +1,292 @@
 {
-  "updated": "2026-10-18T05:28:32.861760+00:00",
+  "updated": "2026-10-19T05:47:01.045386+00:00",
   "papers": [
     {
-      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-      "url": "http://arxiv.org/abs/2610.22372v1",
-      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied a",
+      "title": "Learning to Correct Geometry in Generated Videos",
+      "url": "http://arxiv.org/abs/2610.23856v1",
+      "summary": "Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most visible motion comes from dynamic objects captured by static or weakly moving cameras, leaving only spa",
       "authors": [
-        "Zhixu Li",
-        "Keqian Tang",
-        "Litian Gong",
-        "Jingyu Yao",
-        "Wenqian Zhang",
-        "Tianze Xu",
-        "Zehao Wang",
-        "Yuping Wang",
-        "Junge Zhang",
-        "Jiachen Li"
+        "Weijie Lyu",
+        "Tiancheng Shen",
+        "Jason Li",
+        "Yujing Wang",
+        "Xiaoyuan Wang",
+        "Haobo Yuan",
+        "Yizhou Zhao",
+        "Ming-Hsuan Yang"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "categories": [
-        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "url": "http://arxiv.org/abs/2610.23854v1",
+      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction ($\\boldsymbol{x_0}$-prediction)",
+      "authors": [
+        "Soumik Mukhopadhyay",
+        "Long Mai",
+        "Abhinav Shrivastava",
+        "Aniruddha Mahapatra"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "url": "http://arxiv.org/abs/2610.23847v1",
+      "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling. I",
+      "authors": [
+        "Dongyoon Hahm",
+        "Woogyeol Jin",
+        "Dennis Wei",
+        "Yi Zhou",
+        "Nathalie Baracaldo",
+        "Kimin Lee"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CL",
         "cs.AI",
         "cs.LG"
       ]
     },
     {
-      "title": "Gen4P: Video Generators are 4D Perceivers",
-      "url": "http://arxiv.org/abs/2610.22371v1",
-      "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a single encoder pass and predicts the requested 4D attributes through a lightweight cross-attention decode",
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "url": "http://arxiv.org/abs/2610.23845v1",
+      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry under",
       "authors": [
-        "Yitong Xia",
-        "Zeren Jiang",
-        "Chuanxia Zheng"
+        "Shicheng Liu",
+        "Krista Opsahl-Ong",
+        "Andrew Drozdov",
+        "Julian Killingback",
+        "Arnav Singhvi",
+        "Ronak Pradeep",
+        "Michael Bendersky",
+        "James C. Dickerson",
+        "Monica S. Lam"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
-      "url": "http://arxiv.org/abs/2610.22370v1",
-      "summary": "Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computation. Existing method addresses this by preserving prompt-aligned foreground regions, thereby protectin",
-      "authors": [
-        "SeungJu Cha",
-        "Ye-Chan Kim",
-        "HyunGee Kim",
-        "Sungho Koh",
-        "Dong-Jin Kim"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "SoftCache: Adaptive Step Size Caching for Diffusion Transformers",
-      "url": "http://arxiv.org/abs/2610.22369v1",
-      "summary": "Diffusion and flow models generate a sample over iterative steps, each a full pass through a large network, and that pass dominates generation cost. Training-free caching accelerates them by reusing activations from recent evaluations instead of recomputing them. Dynamic caching methods decide when to refresh by accumulating a cheap probe of the network input into a staleness signal and spending a",
-      "authors": [
-        "Shimon Malnick",
-        "Nadav Orenstein",
-        "Ohad Fried",
-        "Shai Avidan"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Discovering state-of-the-art quantum circuits with large language models",
-      "url": "http://arxiv.org/abs/2610.22367v1",
-      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents uniqu",
-      "authors": [
-        "Andi Gu",
-        "Alek H. Kemeny",
-        "Susanne F. Yelin",
-        "Mikhail D. Lukin"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "quant-ph",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
-      "url": "http://arxiv.org/abs/2610.22364v1",
-      "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z for test-time optimization of environment latents, which augments a robotic world model with a learn",
-      "authors": [
-        "Chenyuan Zhou",
-        "Yining Hong",
-        "Huang Huang",
-        "Yunfan Jiang",
-        "Wenlong Huang",
-        "David Held",
-        "Vitor Campagnolo Guizilini",
-        "Yue Wang",
-        "Li Fei-Fei",
-        "Jiajun Wu",
-        "Leonidas Guibas",
-        "Yejin Choi"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.RO",
         "cs.AI",
-        "cs.CV"
+        "cs.CL"
       ]
     },
     {
-      "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
-      "url": "http://arxiv.org/abs/2610.22363v1",
-      "summary": "We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera trajectories from video; Predict, which generates visual futures under prescribed actions; and Plan, which jointly generate",
+      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "url": "http://arxiv.org/abs/2610.23841v1",
+      "summary": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice ",
       "authors": [
-        "Zirui Wu",
-        "Chen Guo",
-        "Tianjian Jiang",
-        "Zeren Jiang",
-        "Zeming Li",
-        "Lingchen Yang",
-        "Longteng Duan",
-        "Ying Xue",
-        "Handi Yin",
-        "Shenyuan Gao",
-        "Martin R. Oswald",
-        "Jun Zhang",
-        "Ping Tan",
-        "Jie Song"
+        "Xinhao Liu",
+        "Yunsheng Tian",
+        "Yuheng Qiu",
+        "Pieter Abbeel",
+        "Xi Chen",
+        "Guanya Shi",
+        "Chen Feng"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "categories": [
         "cs.CV",
         "cs.RO"
       ]
     },
     {
-      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
-      "url": "http://arxiv.org/abs/2610.22362v1",
-      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and an action policy co-evolve through a shared heterogeneous memory of e",
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "url": "http://arxiv.org/abs/2610.23839v1",
+      "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanati",
       "authors": [
-        "Tianjiao Yu",
-        "Zhilin Ou",
-        "Yifan Shen",
-        "Xinzhuo Li",
-        "Yuanzhe Liu",
-        "Onkar Kishor Susladkar",
-        "Fan Wang",
-        "Ismini Lourentzou"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Grounding Generative Verification in 3D Content",
-      "url": "http://arxiv.org/abs/2610.22360v1",
-      "summary": "Recent advances in multimodal large language models (MLLMs) and 3D generation have expanded 3D understanding and synthesis. However, beyond visual fidelity, task-specific correctness grounded in 3D evidence remains a major challenge. We argue that building reliable 3D systems requires not only stronger generation and reasoning, but also verification feedback that identifies unmet requirements and ",
-      "authors": [
-        "Shuanglin Li",
-        "Jiaying Lin",
-        "Shuquan Ye"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "url": "http://arxiv.org/abs/2610.22358v1",
-      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing, yet point and marginal scores do not reveal it. To model thi",
-      "authors": [
-        "Jiachen Yao",
-        "Xiyuan Zhang",
-        "Annan Yu",
-        "Boran Han",
-        "Abdul Fatir Ansari",
-        "Shuai Zhang",
-        "Michael Bohlke-Schneider",
-        "Bernie Wang"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
-      "url": "http://arxiv.org/abs/2610.22356v1",
-      "summary": "Vision-language models still struggle to understand 3D spatial relations across views and update spatial judgments as the observer moves. A common approach fuses 3D reconstruction features into visual tokens, but aligning these features with pretrained semantic representations remains challenging under limited spatial supervision. We propose DK-VLM with Dual-Kernel Attention, which computes attent",
-      "authors": [
-        "Han Su",
-        "Meng Tian",
-        "Tianyu Huang",
-        "Mingyu Gao",
-        "Lennox Wei",
-        "Dongxu Li",
-        "Jianhua Han",
-        "Hang Xu",
-        "Xiaohe Wu",
-        "Wangmeng Zuo"
-      ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
-      "url": "http://arxiv.org/abs/2610.22355v1",
-      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-g",
-      "authors": [
-        "Bowei Liu",
-        "Xinchen Zhang",
-        "Xuhuan Li",
-        "Tianlin Zhang",
-        "Kaian Jiang",
-        "Jingwei Liu",
-        "Congyang Zhao",
-        "Yifei Qian",
-        "Junhong Liu",
-        "Zhiheng Li",
-        "Yujiu Yang",
-        "Yang Cai",
+        "Jianyuan Zhong",
+        "Chenwei Wu",
+        "Zhaochen Yu",
+        "Xixian Jiang",
+        "Xuewei Li",
+        "Hao Xiao",
+        "Xilin Dai",
+        "Junyang Wang",
+        "Jiaru Zou",
+        "Zhiqing Cui",
+        "Boyuan Zheng",
+        "Jing Xiong",
+        "Zhen Zhang",
+        "Qiang Gao",
+        "Michael Morley",
+        "Luis Nakayama",
+        "Qiang Xu",
+        "Liyue Shen",
+        "Tao Gui",
+        "Leo Anthony Celi",
+        "James Zou",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
         "Ling Yang"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "categories": [
         "cs.CL"
       ]
     },
     {
-      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
-      "url": "http://arxiv.org/abs/2610.22353v1",
-      "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The former increases expressiveness by enabling more expert combinations at a fixed activation ratio, and the latter introduces experts that are active for every token. We identify an e",
+      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+      "url": "http://arxiv.org/abs/2610.23834v1",
+      "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding the",
       "authors": [
-        "Bingcong Li",
-        "Hao Ma",
-        "Michael Muehlebach",
-        "Niao He",
-        "Yi Ma"
+        "Felix Frohnert",
+        "Adrián Pérez-Salinas",
+        "Sebastian Lange",
+        "Marcus Schwaebisch",
+        "Evert van Nieuwenburg",
+        "Vedran Dunjko"
       ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "categories": [
+        "quant-ph",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "url": "http://arxiv.org/abs/2610.23831v1",
+      "summary": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner. We introduce ReDiST, a student-conditioned trace-construction and distillation framework for evidence-ric",
+      "authors": [
+        "Shaoang Li",
+        "Yanhang Shi",
+        "Yufei Li",
+        "Mingfu Liang",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Xi Liu",
+        "Jian Li"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation",
+      "url": "http://arxiv.org/abs/2610.23830v1",
+      "summary": "A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize this tradeoff under repeated noisy signals and risk-dependent attrition: in the canonical model, a length-$τ$ observation prefix identifies exactly the latent risk moments $m_j=\\mathbb E[p^j]$ for $j=",
+      "authors": [
+        "Rama AlHamidi",
+        "Rasul Khanbayov",
+        "Erchin Serpedin",
+        "Hasan Kurban"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+      "url": "http://arxiv.org/abs/2610.23827v1",
+      "summary": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with quality-of-transmission",
+      "authors": [
+        "Anis Bekri",
+        "Amar Abane",
+        "Van Sy Mai",
+        "Abdella Battou",
+        "Saddek Bensalem"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "quant-ph",
         "cs.LG",
-        "cs.AI"
+        "cs.NI"
       ]
     },
     {
-      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
-      "url": "http://arxiv.org/abs/2610.22352v1",
-      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine details through implicit image-feature conditioning. To resolve these challenges, we introduce SUPRA-Tex, built on the princip",
+      "title": "Self-Building Labs",
+      "url": "http://arxiv.org/abs/2610.23826v1",
+      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce",
       "authors": [
-        "Chen Yang",
-        "Jiemin Fang",
-        "Fanpeng Meng",
-        "Zihao Huang",
-        "Jichen Pang",
-        "Guanjun Wu",
-        "Zhikuan Bao",
-        "Qi Tian"
+        "Jiaru Bai",
+        "Yuchi Zhao",
+        "Han Hao",
+        "Miroslav Bogdanovic",
+        "Yang Cao",
+        "Varinia Bernales",
+        "Alán Aspuru-Guzik"
       ],
-      "published": "2026-10-15",
-      "categories": [
-        "cs.CV",
-        "cs.GR"
-      ]
-    },
-    {
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "url": "http://arxiv.org/abs/2610.22350v1",
-      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
-      "authors": [
-        "Dongxu Yang",
-        "Hongda Yan",
-        "Renxin Wang",
-        "Baoli Zhang",
-        "Haojia Zuo",
-        "Ying Zhao",
-        "Youmin Chen",
-        "Xiaojian Liao",
-        "Congming Gao",
-        "Tianyang Jiang",
-        "Yixiao Chen",
-        "Qing Wang",
-        "Zhiguo Yu",
-        "Xiaqing Li",
-        "Yuhao Zhang",
-        "Jiawen Sun",
-        "Renzhe Xu",
-        "De Mi",
-        "Tiancheng Wu",
-        "Xianya Fu",
-        "Xuanlu Zhao",
-        "Bo Feng",
-        "Meixuan Ren",
-        "Guanming Lin",
-        "Ziheng Zhou",
-        "Xinhua Wang"
-      ],
-      "published": "2026-10-15",
+      "published": "2026-10-16",
       "categories": [
         "cs.AI",
-        "cs.CL",
-        "cs.SE"
+        "cs.MA",
+        "cs.RO"
+      ]
+    },
+    {
+      "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+      "url": "http://arxiv.org/abs/2610.23825v1",
+      "summary": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and goodness-of-fit assessment as an alternative to standard discrepancy statistics, e.g. $χ^2$. While versatile, the evidence is notoriously difficult to compute, even when the likelihood is available. In bo",
+      "authors": [
+        "Kai Lehman",
+        "Jameson Dong",
+        "Carolina Cuesta-Lazaro",
+        "Niall Jeffrey",
+        "Benjamin D. Wandelt",
+        "Francisco Villaescusa-Navarro",
+        "Sven Krippendorf",
+        "Jochen Weller"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "stat.ML",
+        "astro-ph.CO",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere",
+      "url": "http://arxiv.org/abs/2610.23821v1",
+      "summary": "Many of the most important datasets in the physical sciences live natively on the sphere, and these data often carry no preferred position or orientation. Using methods that do not reflect this symmetry leads to far higher simulation requirements, which can be catastrophic for scientific analyses (forcing reliance on cheap, imperfect models that bias results). We present a novel spherical implemen",
+      "authors": [
+        "Joshua Williamson",
+        "Niall Jeffrey",
+        "Lorne Whiteway"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "stat.ML",
+        "astro-ph.CO",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2610.23820v1",
+      "summary": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by m",
+      "authors": [
+        "Tianmeng Hu",
+        "Biao Luo",
+        "Ke Li"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding",
+      "url": "http://arxiv.org/abs/2610.23818v1",
+      "summary": "Speculative decoding typically characterizes speedup by draft tokens accepted per verification round. Lossless verification preserves the target model's output distribution and thus expected completion length, making this metric a meaningful efficiency proxy. Relaxed (lossy) verification accepts tokens that lossless verification would reject, potentially altering that distribution. We identify a l",
+      "authors": [
+        "Chiatzen Wang",
+        "Bill Xu",
+        "Haochen Gu",
+        "Hongyang Zhang"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CL"
       ]
     }
   ]

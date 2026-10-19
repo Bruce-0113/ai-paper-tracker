@@ -1,0 +1,293 @@
+{
+  "updated": "2026-10-19T05:47:01.045386+00:00",
+  "papers": [
+    {
+      "title": "Learning to Correct Geometry in Generated Videos",
+      "url": "http://arxiv.org/abs/2610.23856v1",
+      "summary": "Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most visible motion comes from dynamic objects captured by static or weakly moving cameras, leaving only spa",
+      "authors": [
+        "Weijie Lyu",
+        "Tiancheng Shen",
+        "Jason Li",
+        "Yujing Wang",
+        "Xiaoyuan Wang",
+        "Haobo Yuan",
+        "Yizhou Zhao",
+        "Ming-Hsuan Yang"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "url": "http://arxiv.org/abs/2610.23854v1",
+      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction ($\\boldsymbol{x_0}$-prediction)",
+      "authors": [
+        "Soumik Mukhopadhyay",
+        "Long Mai",
+        "Abhinav Shrivastava",
+        "Aniruddha Mahapatra"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "url": "http://arxiv.org/abs/2610.23847v1",
+      "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling. I",
+      "authors": [
+        "Dongyoon Hahm",
+        "Woogyeol Jin",
+        "Dennis Wei",
+        "Yi Zhou",
+        "Nathalie Baracaldo",
+        "Kimin Lee"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "url": "http://arxiv.org/abs/2610.23845v1",
+      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry under",
+      "authors": [
+        "Shicheng Liu",
+        "Krista Opsahl-Ong",
+        "Andrew Drozdov",
+        "Julian Killingback",
+        "Arnav Singhvi",
+        "Ronak Pradeep",
+        "Michael Bendersky",
+        "James C. Dickerson",
+        "Monica S. Lam"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "url": "http://arxiv.org/abs/2610.23841v1",
+      "summary": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice ",
+      "authors": [
+        "Xinhao Liu",
+        "Yunsheng Tian",
+        "Yuheng Qiu",
+        "Pieter Abbeel",
+        "Xi Chen",
+        "Guanya Shi",
+        "Chen Feng"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "url": "http://arxiv.org/abs/2610.23839v1",
+      "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanati",
+      "authors": [
+        "Jianyuan Zhong",
+        "Chenwei Wu",
+        "Zhaochen Yu",
+        "Xixian Jiang",
+        "Xuewei Li",
+        "Hao Xiao",
+        "Xilin Dai",
+        "Junyang Wang",
+        "Jiaru Zou",
+        "Zhiqing Cui",
+        "Boyuan Zheng",
+        "Jing Xiong",
+        "Zhen Zhang",
+        "Qiang Gao",
+        "Michael Morley",
+        "Luis Nakayama",
+        "Qiang Xu",
+        "Liyue Shen",
+        "Tao Gui",
+        "Leo Anthony Celi",
+        "James Zou",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
+        "Ling Yang"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+      "url": "http://arxiv.org/abs/2610.23834v1",
+      "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding the",
+      "authors": [
+        "Felix Frohnert",
+        "Adrián Pérez-Salinas",
+        "Sebastian Lange",
+        "Marcus Schwaebisch",
+        "Evert van Nieuwenburg",
+        "Vedran Dunjko"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "quant-ph",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "url": "http://arxiv.org/abs/2610.23831v1",
+      "summary": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner. We introduce ReDiST, a student-conditioned trace-construction and distillation framework for evidence-ric",
+      "authors": [
+        "Shaoang Li",
+        "Yanhang Shi",
+        "Yufei Li",
+        "Mingfu Liang",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Xi Liu",
+        "Jian Li"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation",
+      "url": "http://arxiv.org/abs/2610.23830v1",
+      "summary": "A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize this tradeoff under repeated noisy signals and risk-dependent attrition: in the canonical model, a length-$τ$ observation prefix identifies exactly the latent risk moments $m_j=\\mathbb E[p^j]$ for $j=",
+      "authors": [
+        "Rama AlHamidi",
+        "Rasul Khanbayov",
+        "Erchin Serpedin",
+        "Hasan Kurban"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+      "url": "http://arxiv.org/abs/2610.23827v1",
+      "summary": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with quality-of-transmission",
+      "authors": [
+        "Anis Bekri",
+        "Amar Abane",
+        "Van Sy Mai",
+        "Abdella Battou",
+        "Saddek Bensalem"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "quant-ph",
+        "cs.LG",
+        "cs.NI"
+      ]
+    },
+    {
+      "title": "Self-Building Labs",
+      "url": "http://arxiv.org/abs/2610.23826v1",
+      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce",
+      "authors": [
+        "Jiaru Bai",
+        "Yuchi Zhao",
+        "Han Hao",
+        "Miroslav Bogdanovic",
+        "Yang Cao",
+        "Varinia Bernales",
+        "Alán Aspuru-Guzik"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.RO"
+      ]
+    },
+    {
+      "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+      "url": "http://arxiv.org/abs/2610.23825v1",
+      "summary": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and goodness-of-fit assessment as an alternative to standard discrepancy statistics, e.g. $χ^2$. While versatile, the evidence is notoriously difficult to compute, even when the likelihood is available. In bo",
+      "authors": [
+        "Kai Lehman",
+        "Jameson Dong",
+        "Carolina Cuesta-Lazaro",
+        "Niall Jeffrey",
+        "Benjamin D. Wandelt",
+        "Francisco Villaescusa-Navarro",
+        "Sven Krippendorf",
+        "Jochen Weller"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "stat.ML",
+        "astro-ph.CO",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere",
+      "url": "http://arxiv.org/abs/2610.23821v1",
+      "summary": "Many of the most important datasets in the physical sciences live natively on the sphere, and these data often carry no preferred position or orientation. Using methods that do not reflect this symmetry leads to far higher simulation requirements, which can be catastrophic for scientific analyses (forcing reliance on cheap, imperfect models that bias results). We present a novel spherical implemen",
+      "authors": [
+        "Joshua Williamson",
+        "Niall Jeffrey",
+        "Lorne Whiteway"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "stat.ML",
+        "astro-ph.CO",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2610.23820v1",
+      "summary": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by m",
+      "authors": [
+        "Tianmeng Hu",
+        "Biao Luo",
+        "Ke Li"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding",
+      "url": "http://arxiv.org/abs/2610.23818v1",
+      "summary": "Speculative decoding typically characterizes speedup by draft tokens accepted per verification round. Lossless verification preserves the target model's output distribution and thus expected completion length, making this metric a meaningful efficiency proxy. Relaxed (lossy) verification accepts tokens that lossless verification would reject, potentially altering that distribution. We identify a l",
+      "authors": [
+        "Chiatzen Wang",
+        "Bill Xu",
+        "Haochen Gu",
+        "Hongyang Zhang"
+      ],
+      "published": "2026-10-16",
+      "categories": [
+        "cs.CL"
+      ]
+    }
+  ]
+}
