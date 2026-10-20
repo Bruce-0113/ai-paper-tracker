@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-19 05:47 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-20 05:41 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Learning to Correct Geometry in Generated Videos
+### 1. Text-to-Image Generative Modeling Without Language Pretraining
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-16 · ✍️ Weijie Lyu, Tiancheng Shen, Jason Li +5 more
+📅 2026-10-19 · ✍️ Keshigeyan Chandrasegaran, Yue Zhao, Armin W. Thomas +5 more
 
-Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most visible motion comes from dynamic objects captured by static or weakly moving cameras, leaving only spa...
+Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scratch on GPIC, a dataset of 100M image-text pairs. Halcyon-0.52B outperforms LlamaGen-XL/8 (48.0 vs. 63...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23856v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26863v1)
 
 ---
 
-### 2. Rethinking the design space of Vanilla Pixel Diffusion Transformers
+### 2. OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-19 · ✍️ Yu Zhou, Cheng-Fu Yang, Rui Sun +8 more
+
+Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements o...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26860v1)
+
+---
+
+### 3. Can It Actually Work? Synthesizing Functional CAD Mechanisms
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-19 · ✍️ Wenqian Zhang, Yangyi Huang, Zigeng Xu +2 more
+
+While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mec...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26861v1)
+
+---
+
+### 4. Reinforcement Learning with Visually Attributable On-Policy Self-Distillation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-16 · ✍️ Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava +1 more
+📅 2026-10-19 · ✍️ Shiao Xie, Siyu Chen, Jianwei Lv +2 more
 
-Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\boldsymbol{u}$-prediction) with clean image prediction ($\boldsymbol{x_0}$-prediction)...
+Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teacher equipped with an evidence-centered visual view. However, the resulting corrections may conflate v...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23854v1)
-
----
-
-### 3. Behavioral Couplings: From Formation to Behavioral Emergence in Language Models
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-16 · ✍️ Dongyoon Hahm, Woogyeol Jin, Dennis Wei +3 more
-
-Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which fine-tuning on one brings out another, as a behavioral coupling. I...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23847v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26856v1)
 
 ---
 
-### 4. AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-16 · ✍️ Shicheng Liu, Krista Opsahl-Ong, Andrew Drozdov +6 more
-
-Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) database, a widely used U.S. cancer registry under...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23845v1)
-
----
-
-### 5. StopWatch: Goal Grounding for Object-goal Navigation
+### 5. VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-16 · ✍️ Xinhao Liu, Yunsheng Tian, Yuheng Qiu +4 more
+📅 2026-10-19 · ✍️ Sangbeom Lim, Seoung Wug Oh, Heeji Yoon +2 more
 
-Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice ...
+Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chunk of just 6 to 24 frames, so even ordinary videos span multiple chunks. Because each chunk is matted...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23841v1)
-
----
-
-### 6. DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-16 · ✍️ Jianyuan Zhong, Chenwei Wu, Zhaochen Yu +21 more
-
-Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanati...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23839v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26857v1)
 
 ---
 
-### 7. Task-aligned spectral inductive biases in parameterized quantum circuits
+### 6. Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-16 · ✍️ Felix Frohnert, Adrián Pérez-Salinas, Sebastian Lange +3 more
+📅 2026-10-19 · ✍️ Tianqi Liu, Hanfei Zhao, Qifeng Liang +12 more
 
-Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that specifies how the signal should be probed. We show that encoding the...
+World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23834v1)
-
----
-
-### 8. Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-16 · ✍️ Shaoang Li, Yanhang Shi, Yufei Li +6 more
-
-A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner. We introduce ReDiST, a student-conditioned trace-construction and distillation framework for evidence-ric...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23831v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26855v1)
 
 ---
 
-### 9. Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation
+### 7. InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-16 · ✍️ Rama AlHamidi, Rasul Khanbayov, Erchin Serpedin +1 more
+📅 2026-10-19 · ✍️ Yi-Chuan Huang, Hao-Jen Chien, Zheng-Hui Huang +3 more
 
-A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize this tradeoff under repeated noisy signals and risk-dependent attrition: in the canonical model, a length-$τ$ observation prefix identifies exactly the latent risk moments $m_j=\mathbb E[p^j]$ for $j=...
+Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23830v1)
-
----
-
-### 10. Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-16 · ✍️ Anis Bekri, Amar Abane, Van Sy Mai +2 more
-
-Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with quality-of-transmission...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23827v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26853v1)
 
 ---
 
-### 11. Self-Building Labs
+### 8. CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-19 · ✍️ Zehao Wang, Jianpeng Yao, Yuping Wang +9 more
+
+Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate pred...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26852v1)
+
+---
+
+### 9. Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-19 · ✍️ Sheng-Wei Zhang, Hsi-An Chen, Yan-Ting Liou +3 more
+
+Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26851v1)
+
+---
+
+### 10. GenOlympiad: Benchmarking Frontier Image Models at Their Capability Boundaries
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-19 · ✍️ Xi Hu, Martin Bell, Liang Zheng
+
+Text-to-image models have made tremendous progress and can produce high-quality images. However, a question which would be asked in any other discipline is where the frontier models fall short. We introduce GenOlympiad, a benchmark which provides the most challenging text prompts from nine capability axes for stress-testing frontier text-to-image models. The assessed capabilities include generatin...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26850v1)
+
+---
+
+### 11. Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-19 · ✍️ Zekai Li, Jiayi Yu, Jinlu Zhang +8 more
+
+In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget. The analys...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26848v1)
+
+---
+
+### 12. WeAct: Dynamic Weight Switching as Agent Actions
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-19 · ✍️ Rui Shi, Xunjian Yin, Jiacheng Sang +2 more
+
+Long-horizon agents must learn heterogeneous capabilities from interleaved trajectories. Updating shared parameters to learn new capabilities can degrade previously acquired ones, resulting in catastrophic forgetting. As a trajectory unfolds, different stages may require different capabilities, yet conventional joint training and static adapter merging maintain a fixed parameter configuration thro...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26847v1)
+
+---
+
+### 13. Train An Imaginative Agent
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-16 · ✍️ Jiaru Bai, Yuchi Zhao, Han Hao +4 more
+📅 2026-10-19 · ✍️ Jiaxin Ge, Junyi Zhang, Tianning Chai +9 more
 
-Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce...
+A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback from the real environment is sparse or actions are irreversible. We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative. Agim...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23826v1)
-
----
-
-### 12. ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-16 · ✍️ Kai Lehman, Jameson Dong, Carolina Cuesta-Lazaro +5 more
-
-The evidence, $\mathcal{Z} = p(x | \mathcal{M})$, of a data-generating model $\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and goodness-of-fit assessment as an alternative to standard discrepancy statistics, e.g. $χ^2$. While versatile, the evidence is notoriously difficult to compute, even when the likelihood is available. In bo...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23825v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26845v1)
 
 ---
 
-### 13. Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere
+### 14. AnyGoal: On World Model Generalization Beyond Expert Rollouts
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-16 · ✍️ Joshua Williamson, Niall Jeffrey, Lorne Whiteway
+📅 2026-10-19 · ✍️ Heejeong Nam, Divyat Mahajan, Quentin Le Lidec +2 more
 
-Many of the most important datasets in the physical sciences live natively on the sphere, and these data often carry no preferred position or orientation. Using methods that do not reflect this symmetry leads to far higher simulation requirements, which can be catastrophic for scientific analyses (forcing reliance on cheap, imperfect models that bias results). We present a novel spherical implemen...
+The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23821v1)
-
----
-
-### 14. CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-16 · ✍️ Tianmeng Hu, Biao Luo, Ke Li
-
-Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by m...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23820v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26844v1)
 
 ---
 
-### 15. Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding
+### 15. LatComm: Reusable Context Compression for Latent Communication between Large Language Models
 
-![CL](https://img.shields.io/badge/cs.CL-green)
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-16 · ✍️ Chiatzen Wang, Bill Xu, Haochen Gu +1 more
+📅 2026-10-19 · ✍️ Huawei Lin, Jinting Liu, Tan Yu +1 more
 
-Speculative decoding typically characterizes speedup by draft tokens accepted per verification round. Lossless verification preserves the target model's output distribution and thus expected completion length, making this metric a meaningful efficiency proxy. Relaxed (lossy) verification accepts tokens that lossless verification would reject, potentially altering that distribution. We identify a l...
+Systems that combine several large language models (LLMs) often use one context for many questions. When the context is passed between models as text, the receiving model processes all of its tokens again for every question. Avoiding this cost requires a context representation that is compact, reusable across questions, and readable by a different LLM. Existing compression and latent communication...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.23818v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.26840v1)
 
 ---
 
