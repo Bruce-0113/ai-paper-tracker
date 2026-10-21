@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-20 05:41 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-21 05:45 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Text-to-Image Generative Modeling Without Language Pretraining
+### 1. Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs
 
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CV](https://img.shields.io/badge/cs.CV-blue)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-19 · ✍️ Keshigeyan Chandrasegaran, Yue Zhao, Armin W. Thomas +5 more
+📅 2026-10-20 · ✍️ Noam Rotstein, Yoad Tewel, Chen Tessler +5 more
 
-Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scratch on GPIC, a dataset of 100M image-text pairs. Halcyon-0.52B outperforms LlamaGen-XL/8 (48.0 vs. 63...
+Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates th...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26863v1)
-
----
-
-### 2. OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-19 · ✍️ Yu Zhou, Cheng-Fu Yang, Rui Sun +8 more
-
-Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements o...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26860v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28632v1)
 
 ---
 
-### 3. Can It Actually Work? Synthesizing Functional CAD Mechanisms
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-19 · ✍️ Wenqian Zhang, Yangyi Huang, Zigeng Xu +2 more
-
-While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mec...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26861v1)
-
----
-
-### 4. Reinforcement Learning with Visually Attributable On-Policy Self-Distillation
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-19 · ✍️ Shiao Xie, Siyu Chen, Jianwei Lv +2 more
-
-Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teacher equipped with an evidence-centered visual view. However, the resulting corrections may conflate v...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26856v1)
-
----
-
-### 5. VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token
+### 2. AEON: Unifying Video and 3D World Models
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-19 · ✍️ Sangbeom Lim, Seoung Wug Oh, Heeji Yoon +2 more
+📅 2026-10-20 · ✍️ Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu +1 more
 
-Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chunk of just 6 to 24 frames, so even ordinary videos span multiple chunks. Because each chunk is matted...
+Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes but often yield static, less realistic observations. We present AEON, a unified framework that bridge...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26857v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28631v1)
 
 ---
 
-### 6. Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
+### 3. SolarRenderer: Few-Step Generative Reference Rendering
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-19 · ✍️ Tianqi Liu, Hanfei Zhao, Qifeng Liang +12 more
+📅 2026-10-20 · ✍️ Guian Fang, Shengju Qian, Dongyue Lu +6 more
 
-World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr...
+Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26855v1)
-
----
-
-### 7. InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-19 · ✍️ Yi-Chuan Huang, Hao-Jen Chien, Zheng-Hui Huang +3 more
-
-Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26853v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28630v1)
 
 ---
 
-### 8. CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting
+### 4. GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-19 · ✍️ Zehao Wang, Jianpeng Yao, Yuping Wang +9 more
+📅 2026-10-20 · ✍️ Yazhuo Liu, Kunqing Ding, Xiaoguo Gong +8 more
 
-Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate pred...
+Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the structure and deformation of general grain boundaries (GBs). Although general GBs constitute the vast majo...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26852v1)
-
----
-
-### 9. Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-19 · ✍️ Sheng-Wei Zhang, Hsi-An Chen, Yan-Ting Liou +3 more
-
-Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26851v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28629v1)
 
 ---
 
-### 10. GenOlympiad: Benchmarking Frontier Image Models at Their Capability Boundaries
+### 5. Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking
 
-![CV](https://img.shields.io/badge/cs.CV-blue)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-19 · ✍️ Xi Hu, Martin Bell, Liang Zheng
+📅 2026-10-20 · ✍️ Yuxuan Kuang, Jiashun Wang, Yixuan Sun +5 more
 
-Text-to-image models have made tremendous progress and can produce high-quality images. However, a question which would be asked in any other discipline is where the frontier models fall short. We introduce GenOlympiad, a benchmark which provides the most challenging text prompts from nine capability axes for stress-testing frontier text-to-image models. The assessed capabilities include generatin...
+Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement learning generalizes to arbitrary object poses but, lacking any human prior, converges to unnatural and unreliable finger strategies; motion tracking...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26850v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28628v1)
 
 ---
 
-### 11. Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy
+### 6. UniWALM: Unified World Action Language Model for Embodied Robot Control
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-19 · ✍️ Zekai Li, Jiayi Yu, Jinlu Zhang +8 more
+📅 2026-10-20 · ✍️ Rahul Sajnani, Diego Romeres, Mingyuan Zhang +9 more
 
-In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget. The analys...
+Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision target. We ask: can jointly generating language enrich this shared representation, improving manipula...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26848v1)
-
----
-
-### 12. WeAct: Dynamic Weight Switching as Agent Actions
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-19 · ✍️ Rui Shi, Xunjian Yin, Jiacheng Sang +2 more
-
-Long-horizon agents must learn heterogeneous capabilities from interleaved trajectories. Updating shared parameters to learn new capabilities can degrade previously acquired ones, resulting in catastrophic forgetting. As a trajectory unfolds, different stages may require different capabilities, yet conventional joint training and static adapter merging maintain a fixed parameter configuration thro...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26847v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28626v1)
 
 ---
 
-### 13. Train An Imaginative Agent
+### 7. PsycheMME: A Psychology-Informed Benchmark for Social Understanding and Interaction in Videos
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-20 · ✍️ Heran Hu, Yuhang Dong, Zhucun Xue +3 more
+
+Understanding human needs and selecting responses require distinct judgments that aggregate accuracy can obscure. We introduce PsycheMME, a video benchmark informed by psychology, with eight capabilities spanning grounding, states, needs, interaction decisions, memory, and risk. Drawing on Social Information Processing and the Perception-Action Cycle, this organization separates human understandin...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28625v1)
+
+---
+
+### 8. Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-19 · ✍️ Jiaxin Ge, Junyi Zhang, Tianning Chai +9 more
+📅 2026-10-20 · ✍️ Jad Yammine, Malek Wahidi, Abrar Anwar +3 more
 
-A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback from the real environment is sparse or actions are irreversible. We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative. Agim...
+Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For example, explaining recurring aisle blockages can require reviewing video from multiple robots across several shifts. We present IndustrialRemembr, a shared spatiotemporal memory system that extends N...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26845v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28624v1)
 
 ---
 
-### 14. AnyGoal: On World Model Generalization Beyond Expert Rollouts
+### 9. Planning under Noise with Neural Operators
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-20 · ✍️ Michael Chen, Hong Chul Nam, Xi Deng +1 more
+
+Planning under uncertain control execution noise requires reliable feedback policies across diverse environments. We introduce Planning Under Noise (PUN), a neural operator that learns noise-aware value fields for planning in unseen geometries. Building on an established screened-Poisson formulation of stochastic optimal control, we address two challenges: specifying boundary conditions that suppo...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28623v1)
+
+---
+
+### 10. MindView: Benchmarking Generative Multi-View Spatial Intelligence
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-20 · ✍️ Yanbo Wang, Siqi Luo, Siyu Zhang +9 more
+
+Spatial intelligence has recently been assessed through generative tasks such as spatially grounded image editing, yet language-guided generation of spatially consistent views from partial multi-view observations remains underexplored. We introduce MindView, a benchmark for generative multi-view spatial intelligence with 1,500 samples from 513 scenes across three indoor datasets. Its seven tasks f...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28622v1)
+
+---
+
+### 11. Adaptive Multi-Token Prediction: How far should we go?
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-20 · ✍️ Emile Anand, Mohammed Rehan Parwani, Xinyuan Cao
+
+Multi-token prediction (MTP) can accelerate language-model decoding by drafting several tokens and verifying them in a single target-model pass. However, the best speculation horizon changes with context: longer drafts offer greater amortization when reliable, but can waste compute on suffixes discarded after a rejection. Unlike autoregressive drafting, where a stopping rule can decide token by to...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28619v1)
+
+---
+
+### 12. Efficient Edge-aware Attention Network for Graph Generation
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-20 · ✍️ Vincent Jung, Alba Carballo-Castro, Yiming Qin +2 more
+
+Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware attention implementations, limiting their scalability. The adaptation is, however, non-trivial: edge and graph-level features must be injected into pairwise attention scores, graph masks must be respe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28618v1)
+
+---
+
+### 13. NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-20 · ✍️ Qingming Li, Ruiyan Sun, Satoshi Nakamura
+
+Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and speech times to named picture elements and retrieves utterances for predefined scene events. Narrative-spatial descriptors summarize coverage and temporal organization. A frozen language model contrast...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28616v1)
+
+---
+
+### 14. KoalaGS: Complexity-Aware Continuous Level of Detail for Gaussian Splatting
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-20 · ✍️ Radu Beche, Raoul de Charette
+
+Deploying a trained 3D Gaussian Splatting scene under shrinking compute budgets requires one primitive set to remain effective when rendered at smaller prefixes. In this continuous level of detail (LoD) setting, the challenge is to decide which Gaussians should retain capacity as the budget decreases. A pilot study on 3DGS-MCMC reconstructions shows that image complexity, computed from the input v...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28615v1)
+
+---
+
+### 15. Semantic Observability for Autonomous Systems Diagnostics
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-19 · ✍️ Heejeong Nam, Divyat Mahajan, Quentin Le Lidec +2 more
+📅 2026-10-20 · ✍️ Jitendra Solanki, Anand Todkar, Ziran Min
 
-The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, ...
+Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards. We ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26844v1)
-
----
-
-### 15. LatComm: Reusable Context Compression for Latent Communication between Large Language Models
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-19 · ✍️ Huawei Lin, Jinting Liu, Tan Yu +1 more
-
-Systems that combine several large language models (LLMs) often use one context for many questions. When the context is passed between models as text, the receiving model processes all of its tokens again for every question. Avoiding this cost requires a context representation that is compact, reusable across questions, and readable by a different LLM. Existing compression and latent communication...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.26840v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.28611v1)
 
 ---
 
