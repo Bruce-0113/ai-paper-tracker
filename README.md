@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-22 05:47 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-23 05:46 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-21 · ✍️ Zhennan Wan, Jianfei Chen
-
-Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend on external corpora or stronger teacher models, which become ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30132v1)
-
----
-
-### 2. Rethinking Video Autoencoders for Interactive World Models
+### 1. A Unified Framework for Image-to-3D Part Generation via Variable Granularity
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-21 · ✍️ Adrien Ramanana Rahary, Yutong Bai, Nicolas Dufour +2 more
+📅 2026-10-22 · ✍️ Qiwen Gu, Xin Zhou, Xiwu Chen +3 more
 
-Video world models predict future frames from past frames and actions. They serve as simulators in which agents train, plan or are evaluated, and that humans can control interactively. They generate in the latent space of a video autoencoder, whose compression sets their cost per frame and how long each action waits to take effect. Yet world models often reuse the autoencoders of text-to-video gen...
+Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-granularity geometric conditions within a single model. By seamlessly integrating heterogeneous inputs,...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30129v1)
-
----
-
-### 3. Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-21 · ✍️ Zhanshuo Cao, Jiakai Tang, Yuqi Zhou +2 more
-
-Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require. Most converge after shall...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30128v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31671v1)
 
 ---
 
-### 4. VoxProg: 3D Spatial Reasoning through Voxel Programming
+### 2. Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-22 · ✍️ Yunfei Xie, Howard H. Qian, Shiyi Lan +2 more
+
+Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality:...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31670v1)
+
+---
+
+### 3. Reading, Writing, Sharing, and Interacting with the World through Video
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-21 · ✍️ Zhichao Zhai, Menglei Zhao, Guikun Chen +4 more
+📅 2026-10-22 · ✍️ Shengqiong Wu, Meng Luo, Bobo Li +5 more
 
-Language models' abilities to interpret tasks and generate programs offer a promising basis for 3D spatial reasoning. Yet following spatial instructions in 3D scenes requires programs to construct geometric references that language leaves implicit. In this work, we introduce VoxProg, which formulates 3D object placement through voxel programming: a language model translates task interpretations in...
+Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30127v1)
-
----
-
-### 5. PhysiCalWorld: In-Context Physics Calibration for World Models
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-21 · ✍️ Yunhao Luo, Wentao He, Yinpei Dai +5 more
-
-Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrating these physics factors for world models, predictions tend to regress toward an empirical prior and...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30125v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31668v1)
 
 ---
 
-### 6. A Quasipolynomial Algorithm for $\ell_\infty$ Contractions
+### 4. Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-22 · ✍️ Mahdi Salmani, Adel Javanmard, Devansh Gupta +1 more
+
+Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the su...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31667v1)
+
+---
+
+### 5. Phase Transition from Random Features to Fully Trainable Networks
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-21 · ✍️ Ashkan Soleymani, Gabriele Farina
+📅 2026-10-22 · ✍️ Xin He, Huan Lao, Xiliang Lu +1 more
 
-We give an algorithm for computing an $\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\ell_\infty$ norm in time $\log(1/\eps)^{O(\log^2 d)}$. At its core, our method uses a boosting argument to geometrically shrink a search region. Among other consequences, our algorithm implies that simple stochastic games can be solved in quasipolynomial time....
+Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and observes analogous behavior in training errors: a rapid but smooth initial improvement followed by dim...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30122v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31663v1)
 
 ---
 
-### 7. ALPS: Visual State Encoders for World Models
+### 6. Reliable AI-Assisted Decisions via Selective Auditing
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-22 · ✍️ Isaac Gibbs, Elise L. Han, Ryan J. Tibshirani +1 more
+
+We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may propose a decision, while a separate verifier agent evaluates it and outputs a ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31662v1)
+
+---
+
+### 7. SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-22 · ✍️ Sy-Tuyen Ho, Anirudh Satheesh, Soham Chawathe +4 more
+
+Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a suspect model's generated outputs. Existing approaches often tr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31659v1)
+
+---
+
+### 8. Cost-Aware Abstention for LLM-Based IT Ticket Classification
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-22 · ✍️ Sachin Gupta
+
+Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four lar...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31657v1)
+
+---
+
+### 9. METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-22 · ✍️ Ali Najar, Hosein Hasani, Amir Kooshan Fattah +2 more
+
+Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31656v1)
+
+---
+
+### 10. BrickWright: Agentic Creation of Physically Feasible Brick Builds
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-21 · ✍️ Yanqing Liu, Letian Zhang, Chengzhi Liu +5 more
+📅 2026-10-22 · ✍️ Ava Pun, Kevin Dai, Sally Chen +7 more
 
-World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However, existing encoders typically specialize in only one or two of these capabilities; we therefore introdu...
+Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physical...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30120v1)
-
----
-
-### 8. Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-21 · ✍️ Imon Banerjee, Pierre Alquier
-
-We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed cycle lengths and retains explicit terms for truncation and the cycle ending after the observation horizon. Selecting a tuning parameter from a finite deterministic collection gives a version of Bernst...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30119v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31651v1)
 
 ---
 
-### 9. The role of locality and weight sharing in convolutional neural networks
+### 11. EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-21 · ✍️ Francesco Mori, Melanie Weber
+📅 2026-10-22 · ✍️ Qijin Zhang, Hanzhen Wang, Yuehan Zhao +4 more
 
-The success of convolutional neural networks is often attributed to locality and weight sharing. However, how these two properties separately shape learning, and how their effects depend on the spatial correlations of natural images, remain poorly understood. We address these questions in a teacher-student model with a convolutional teacher acting on $P$ input positions with correlation $c$ betwee...
+Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LL...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30118v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31650v1)
 
 ---
 
-### 10. Environment Duels: A Microcosm of LLM Co-Evolution
+### 12. Gate3DGen: A Pre-processing Model that Selectively Purifies Real-World Images for 3D Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-22 · ✍️ Xiaolin Li, Zihao Huang, Fanpeng Meng +5 more
+
+Single-image 3D generation has achieved high fidelity on curated benchmarks, yet degrades sharply on real-world images with uneven illumination, blur, and occlusions. Purifying such inputs requires deciding when to intervene and preserving the visual cues needed for 3D generation, while leaving clean inputs unchanged. We introduce Gate3DGen, a selective pre-processing model that gates image inputs...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31649v1)
+
+---
+
+### 13. Low-Bit N-Gram Embeddings for Language Models
 
 ![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-21 · ✍️ Shibo Jin, Zhiqiu Xu, Yiling Zou +2 more
+📅 2026-10-22 · ✍️ Stephen Chung, Wenyu Du
 
-Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role in this ecosystem, as a creator and as a solver? We introduce Environment Duels, a dynamic agentic benchmark that evaluates both capabilities on interactive environments. Each model...
+Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory. We t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30116v1)
-
----
-
-### 11. The End of Consensus Research?
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-21 · ✍️ Clément Burgelin, Rachid Guerraoui, Zicong Hong +5 more
-
-Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requires combining protocol knowledge, correctness reasoning, implementation, and experimental evaluation. We report on how AI helped us discover A-greement, a new co...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30114v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31646v1)
 
 ---
 
-### 12. Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research
+### 14. OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields
 
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-21 · ✍️ Houde Qian, Zheng Jiang, Wenyi Li +9 more
+📅 2026-10-22 · ✍️ Namitha Guruprasad, Abhay Yadav, Cheng Peng +2 more
 
-Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete this loop and produce strategies that work beyond the research period. We introdu...
+Monocular models recover 3D geometry from a single image in one pass, but most assume a pinhole camera and produce distorted geometry on the wide-angle imagery produced by fisheye and panoramic lenses. Camera-aware models remove this assumption by predicting a per-pixel ray field. However, they represent different camera geometries using a single fixed basis to capture both the overall camera proj...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30113v1)
-
----
-
-### 13. Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-21 · ✍️ Shayan Hundrieser, Tudor Manole
-
-We analyze the problem of estimating univariate Gaussian mixture densities using the nonparametric maximum likelihood estimator (NPMLE) based on $n$ independent and identically distributed samples. We show that the unconstrained NPMLE achieves the minimax optimal rate $\log(n)/n$ in squared Hellinger distance, when the true mixing measure is sub-Gaussian. In addition, we show that when the true mi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30109v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31645v1)
 
 ---
 
-### 14. Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use
+### 15. GigaBench: Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-21 · ✍️ Yanzhe Chen, Ziyi Yang, Jifeng Zhu +14 more
+📅 2026-10-22 · ✍️ Matteo Fusconi, Alex Costanzino, Pierluigi Zama Ramirez +1 more
 
-Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This rais...
+Learnable Representations (LRs) can fit parametric families of functions to diverse kinds of signals. These emergent neural-native data formats are gathering interest in the scientific community due to their compactness, resolution-agnosticism and amenability to direct neural processing. On the other hand, gigapixel images are becoming increasingly widespread across a variety of scientific, cultur...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30108v1)
-
----
-
-### 15. Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-21 · ✍️ Yunpeng Mei, Xiaowen Zhu, Chenyu Wang +5 more
-
-Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. We introduce the Velocity Ambiguity Profile (VAP), $\mathcal{A}_v(t)$, the time-local Bayes-risk floor of velocity prediction, and decompose time-resolved loss as $L_N(t)=\mathcal{A}_v...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.30107v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.31644v1)
 
 ---
 
