@@ -1,0 +1,315 @@
+{
+  "updated": "2026-10-27T06:00:32.591947+00:00",
+  "papers": [
+    {
+      "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+      "url": "http://arxiv.org/abs/2610.35868v1",
+      "summary": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which brings the capabilities of pretrained language models to retrieval using decision models that jointly",
+      "authors": [
+        "Chao Wan",
+        "Paul Jünger",
+        "Beixi Du",
+        "Bodong Liu",
+        "Navaneetha Krishnan",
+        "Kilian Q. Weinberger"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Center-of-Mass Interpretation of Evolution Strategies",
+      "url": "http://arxiv.org/abs/2610.35865v1",
+      "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a particle and its reward as the particle's mass. Before scorin",
+      "authors": [
+        "Akshat Gupta"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+      "url": "http://arxiv.org/abs/2610.35866v1",
+      "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a shared experimental environment by separating admissibility ",
+      "authors": [
+        "Xi Chen",
+        "Chongjian Ge",
+        "Yiran Xu",
+        "Yiqun Mei",
+        "Henrik I. Christensen",
+        "Hao Tan",
+        "Ziwen Chen",
+        "Hanwen Jiang"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "url": "http://arxiv.org/abs/2610.35864v1",
+      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 23",
+      "authors": [
+        "Muxi Diao",
+        "Wenbin Xu",
+        "Lele Yang",
+        "Xuyang Ma",
+        "Yuzhe Chen",
+        "Jiankang Chen",
+        "Kaiyu Jiang",
+        "Changyi Liu",
+        "Haoyu Zhang",
+        "Hongyi Fu",
+        "Jianxiong Wang",
+        "Tianke Zhang",
+        "Haonan Fan",
+        "Yingxin Li",
+        "Bingyi Li",
+        "Xu Wang",
+        "Xuanyu Zheng",
+        "Bin Wen",
+        "Tingting Gao",
+        "Han Li",
+        "Wentao Zhang",
+        "Weiran Xu",
+        "Kongming Liang",
+        "Zhanyu Ma"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "url": "http://arxiv.org/abs/2610.35862v1",
+      "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld gri",
+      "authors": [
+        "Sihang Li",
+        "Xiaofeng Guo",
+        "Jinkun Cao",
+        "Charlie Cheng",
+        "Ruihan Yang",
+        "Chen Feng",
+        "Guanya Shi",
+        "Haozhi Qi"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG",
+        "eess.SY"
+      ]
+    },
+    {
+      "title": "Do vision models know that three is three?",
+      "url": "http://arxiv.org/abs/2610.35857v1",
+      "summary": "Do vision models encode the transition $2{\\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they \"understand\" that clean${\\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (LRH) answers this for language models: concept changes correspond to directions in (language) embeddi",
+      "authors": [
+        "Ankit Sonthalia",
+        "Arnas Uselis",
+        "Seong Joon Oh"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "On the stability of learning",
+      "url": "http://arxiv.org/abs/2610.35856v1",
+      "summary": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently available at any given synapse. In this work, we show that if gradient information is noisy and only intermittently available, learning may be uns",
+      "authors": [
+        "John J. Vastola"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "q-bio.NC",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "FL4N: Feed-forward Latent Model for 4D Novel View Synthesis",
+      "url": "http://arxiv.org/abs/2610.35854v1",
+      "summary": "4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representations, which are prone to temporal inconsistency and severe rendering artifacts. We present FL4N, the first feed-forward latent 4D NVS model. Instead of",
+      "authors": [
+        "Eunbeen Hong",
+        "Hyeonseo Yu",
+        "Honggyu An",
+        "Jooho Son",
+        "Hyunah Ko",
+        "Soowon Son",
+        "Chaehyun Kim",
+        "Jahyeok Koo",
+        "Jisoo Kim",
+        "Junhwa Hur",
+        "Seungryong Kim"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+      "url": "http://arxiv.org/abs/2610.35850v1",
+      "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substantial latency and hindering real-time deployment. Simply reducing the number of den",
+      "authors": [
+        "Guowen Zhang",
+        "Liyi Chen",
+        "Xu Hu",
+        "Pengfei Wang",
+        "Jingfan Chen",
+        "Chenhang He",
+        "Lei Zhang"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+      "url": "http://arxiv.org/abs/2610.35847v1",
+      "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clinical reasoning across the cancer care continuum, using nasopharyngeal carcinoma a",
+      "authors": [
+        "Wei-Wei Zhang",
+        "Pengkai Wang",
+        "Yan Li",
+        "Zhijie Sang",
+        "Guan-Qun Zhou",
+        "Jun-Yan Li",
+        "Shu-Han Zhou",
+        "Pei-Wen Liu",
+        "Ting-Xi Tang",
+        "Min Tang",
+        "Zhitian Hou",
+        "Jianmin Wu",
+        "Jian Guan",
+        "i Lin",
+        "Hongxia Yang",
+        "Ying Sun"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
+      "url": "http://arxiv.org/abs/2610.35846v1",
+      "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language model. We evaluate target-update construction and merging strategies for adapting th",
+      "authors": [
+        "Yuchen Zhang",
+        "Haralambos Mouratidis",
+        "Ravi Shekhar"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Work Agents: Systems, Capabilities, and Optimization",
+      "url": "http://arxiv.org/abs/2610.35845v1",
+      "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems co",
+      "authors": [
+        "Zishan Xu",
+        "Enjun Du",
+        "Mingqi Gao",
+        "Cheng Yang",
+        "Junhao Shen",
+        "Zirong Chen",
+        "Zhiyuan Yao",
+        "Yifu Guo",
+        "Yuquan Lu",
+        "Jinyang Huang",
+        "Zhengxi Lu",
+        "Siyi Liu",
+        "Ziyu Zheng",
+        "Yongqi Zhang",
+        "Difan Zou",
+        "Weiwen Liu"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "MedVTok: A General-Purpose Medical Visual Tokenizer",
+      "url": "http://arxiv.org/abs/2610.35842v1",
+      "summary": "Multimodal medical AI requires a common visual interface for encoding heterogeneous imaging evidence for patient condition modeling. However, existing medical visual tokenizers are often tied to a specific dimension and imaging modality, forcing multimodal systems to rely on fragmented and poorly reusable representations. We introduce MedVTok, a general-purpose visual tokenizer that maps 2D images",
+      "authors": [
+        "Chenglong Ma",
+        "Yuanfeng Ji",
+        "Junzhi Ning",
+        "Jiyao Liu",
+        "Yujie Wei",
+        "Shaohao Rui",
+        "Chaoyang Zhang",
+        "Wenjie Li",
+        "Wenhao Tang",
+        "Cheng Tang",
+        "Wei Li",
+        "Shujian Gao",
+        "Yujie Zhang",
+        "Ying Chen",
+        "Zilong Li",
+        "Zongyuan Ge",
+        "Diping Song",
+        "Jin Ye",
+        "Ming Hu",
+        "Junjun He",
+        "Hongming Shan"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "I-HITL: Inalienable Human-in-the-Loop",
+      "url": "http://arxiv.org/abs/2610.35835v1",
+      "summary": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly.   We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only wi",
+      "authors": [
+        "Samuel Breckenridge",
+        "Dani Vilardell",
+        "Wenhao Wang",
+        "Fan Zhang",
+        "Ari Juels"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
+      "url": "http://arxiv.org/abs/2610.35833v1",
+      "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous bandwidth constraints, and consequently may choose different numbers of quantization levels to represent the information they sen",
+      "authors": [
+        "Shreya Meel",
+        "Sennur Ulukus",
+        "Itzhak Tamo"
+      ],
+      "published": "2026-10-26",
+      "categories": [
+        "cs.IT",
+        "cs.CR",
+        "cs.LG",
+        "cs.NI",
+        "eess.SP"
+      ]
+    }
+  ]
+}
