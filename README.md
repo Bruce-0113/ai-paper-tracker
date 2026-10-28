@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-27 06:00 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-28 06:39 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Retriever-Free Retrieval: Navigating Documents with Decision Models
+### 1. Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-26 · ✍️ Chao Wan, Paul Jünger, Beixi Du +3 more
+📅 2026-10-27 · ✍️ Prakhar Kaushik, Soumava Paul, Alan Yuille
 
-While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which brings the capabilities of pretrained language models to retrieval using decision models that jointly...
+Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image representation. Hexels exploit locally planar regions with smoothly va...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35868v1)
-
----
-
-### 2. Center-of-Mass Interpretation of Evolution Strategies
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-26 · ✍️ Akshat Gupta
-
-Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a particle and its reward as the particle's mass. Before scorin...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35865v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37668v1)
 
 ---
 
-### 3. Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling
+### 2. ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-27 · ✍️ Chaehyun Kim, Chi-Pin Huang, Jisoo Kim +4 more
+
+Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37666v1)
+
+---
+
+### 3. Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-27 · ✍️ Jialv Zou, Xiaotong Li, Zhengrong Yue +6 more
+
+Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37662v1)
+
+---
+
+### 4. When Should We Intervene at Test Time?
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-26 · ✍️ Xi Chen, Chongjian Ge, Yiran Xu +5 more
+📅 2026-10-27 · ✍️ Jiahao Zhang, Xinling Wen, Liangliang Li +1 more
 
-As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a shared experimental environment by separating admissibility ...
+Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failures and cannot tell a model when to use an intervention. Target labels can guide this decision, but ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35866v1)
-
----
-
-### 4. VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-26 · ✍️ Muxi Diao, Wenbin Xu, Lele Yang +21 more
-
-Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 23...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35864v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37658v1)
 
 ---
 
-### 5. Learning Force-Reactive Humanoid Loco-Manipulation
+### 5. Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-10-26 · ✍️ Sihang Li, Xiaofeng Guo, Jinkun Cao +5 more
+📅 2026-10-27 · ✍️ Igor Shilov, Xiaoxue Yang, Alexander Panfilov +6 more
 
-Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld gri...
+We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS on Llama-3.3-70B-Instruct and GPT-OSS-20B...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35862v1)
-
----
-
-### 6. Do vision models know that three is three?
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-26 · ✍️ Ankit Sonthalia, Arnas Uselis, Seong Joon Oh
-
-Do vision models encode the transition $2{\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they "understand" that clean${\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (LRH) answers this for language models: concept changes correspond to directions in (language) embeddi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35857v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37657v1)
 
 ---
 
-### 7. On the stability of learning
+### 6. Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-26 · ✍️ John J. Vastola
+📅 2026-10-27 · ✍️ Aakash Sarkar, Ananya Mukherjee, Motoshige Sato
 
-Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently available at any given synapse. In this work, we show that if gradient information is noisy and only intermittently available, learning may be uns...
+Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rotated independently (per-entity frame freedom), three things follow. In the pure-gau...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35856v1)
-
----
-
-### 8. FL4N: Feed-forward Latent Model for 4D Novel View Synthesis
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-26 · ✍️ Eunbeen Hong, Hyeonseo Yu, Honggyu An +8 more
-
-4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representations, which are prone to temporal inconsistency and severe rendering artifacts. We present FL4N, the first feed-forward latent 4D NVS model. Instead of...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35854v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37656v1)
 
 ---
 
-### 9. OSWAM: An Effective World Action Model with One-Step Action Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-26 · ✍️ Guowen Zhang, Liyi Chen, Xu Hu +4 more
-
-Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substantial latency and hindering real-time deployment. Simply reducing the number of den...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35850v1)
-
----
-
-### 10. Patient-specific rubric-based evaluation of large language models across longitudinal cancer care
+### 7. KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-26 · ✍️ Wei-Wei Zhang, Pengkai Wang, Yan Li +13 more
+📅 2026-10-27 · ✍️ Wenqing Peng, Michael Boy, Zhi-Song Liu
 
-Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clinical reasoning across the cancer care continuum, using nasopharyngeal carcinoma a...
+Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are developed. We present KPPax, a kinetic preprocessor that generates differentiable, just-in-time compiled, and vectorisable chemistry code in JAX fr...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35847v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37655v1)
 
 ---
 
-### 11. Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR
+### 8. Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-27 · ✍️ Ian Chuang, Hiya Shah, Vamsi Chilamkur +2 more
+
+Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarely measured. We study in-hand object pose reaching, a task that demands diverse a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37652v1)
+
+---
+
+### 9. GEPA-Curator: Curated Learning for Self Improving Agents
 
 ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-10-26 · ✍️ Yuchen Zhang, Haralambos Mouratidis, Ravi Shekhar
+📅 2026-10-27 · ✍️ Zack Yu, Nicholas Lee, Minjae Lee +8 more
 
-Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language model. We evaluate target-update construction and merging strategies for adapting th...
+Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. We argue that such failures may not provide useful learni...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35846v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37651v1)
 
 ---
 
-### 12. Work Agents: Systems, Capabilities, and Optimization
+### 10. Can LLMs Uncover Hidden Physical Laws through Free Exploration?
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-27 · ✍️ Zhen Yang, Wen Wang, Xander Xu +1 more
+
+Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To evaluate this ability, we introduce LongChang, an automated framewor...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37649v1)
+
+---
+
+### 11. Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-26 · ✍️ Zishan Xu, Enjun Du, Mingqi Gao +13 more
+📅 2026-10-27 · ✍️ Andrew Szot, Samira Abnar, Omar Attia +5 more
 
-As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems co...
+We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls the diversity of generated environments along the axes of tools, tasks, and the d...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35845v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37648v1)
 
 ---
 
-### 13. MedVTok: A General-Purpose Medical Visual Tokenizer
+### 12. MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-27 · ✍️ Athanasios Glentis, Dawei Li, Mingyi Hong
+
+Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \emph{accumulated effective learning rate}, $C_T=\sum_{t<T}η_t/\|W_t\|_F$, where $η_t$ is the nominal learning rat...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37647v1)
+
+---
+
+### 13. Multi-State Linear Attention with Generalized Second-Order Routing
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-27 · ✍️ Hee Seung Hwang, Sanghyuk Chun, Xindi Wu +2 more
+
+Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more efficient by splitting the context into segments and compressing each in its own memory state. MSLA aggregates the information extracted from...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37645v1)
+
+---
+
+### 14. Metacognitive Decoding: Efficient Inference for Diffusion Language Agents
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-27 · ✍️ Mingyu Zhao, Shuhang Lin, Ligong Han +5 more
+
+Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller that guides diffusion generation according to the needs of the current response and the agent's interaction with the environment. It learns whe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37642v1)
+
+---
+
+### 15. Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-26 · ✍️ Chenglong Ma, Yuanfeng Ji, Junzhi Ning +18 more
+📅 2026-10-27 · ✍️ Siyoon Jin, Dahyun Chung, Honggyu An +5 more
 
-Multimodal medical AI requires a common visual interface for encoding heterogeneous imaging evidence for patient condition modeling. However, existing medical visual tokenizers are often tied to a specific dimension and imaging modality, forcing multimodal systems to rely on fragmented and poorly reusable representations. We introduce MedVTok, a general-purpose visual tokenizer that maps 2D images...
+Cross-view object correspondence identifies the same object across views. However, existing methods often rely on frame-wise matching or sequential tracking, which can propagate correspondence errors under appearance changes or occlusions. Therefore, we introduce cross-view temporal object correspondence, which requires preserving object identity across both views and time from a query mask. To ad...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35842v1)
-
----
-
-### 14. I-HITL: Inalienable Human-in-the-Loop
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-26 · ✍️ Samuel Breckenridge, Dani Vilardell, Wenhao Wang +2 more
-
-Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly.   We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only wi...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35835v1)
-
----
-
-### 15. Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-26 · ✍️ Shreya Meel, Sennur Ulukus, Itzhak Tamo
-
-In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous bandwidth constraints, and consequently may choose different numbers of quantization levels to represent the information they sen...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.35833v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.37633v1)
 
 ---
 
