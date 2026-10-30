@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-29 06:46 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-10-30 06:49 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction
+### 1. Elucidating the Design Space of LM Data Attribution
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-29 · ✍️ Steven Yu, Sheng-Yu Wang, Kimia Hamidieh +2 more
+
+Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introd...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40655v1)
+
+---
+
+### 2. Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-29 · ✍️ Moshe Shenfeld, Eliad Tsfadia, Katrina Ligett
+
+An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less. Removing them first would restore the smaller scale, but the removal must itself be private.   We i...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40654v1)
+
+---
+
+### 3. Micro-Edits: Computational Support for Fine-Scale Edits in Film
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-29 · ✍️ Nhan Tran, Hijung Valentina Shin, Abe Davis +1 more
+
+In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to shots that highlight a specific character's reactions to important moments. These small, detailed edit...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40653v1)
+
+---
+
+### 4. Rethinking Neural Thickets Without Weight Perturbations
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-29 · ✍️ Nicolas Dufour, Elouan Gardès, Amil Dravid +2 more
+
+The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen a...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40649v1)
+
+---
+
+### 5. Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers
 
 ![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-27 · ✍️ Prakhar Kaushik, Soumava Paul, Alan Yuille
+📅 2026-10-29 · ✍️ Jiongfan Yang, Weichen Fan, Haiwen Diao +2 more
 
-Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image representation. Hexels exploit locally planar regions with smoothly va...
+Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37668v1)
-
----
-
-### 2. ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-27 · ✍️ Chaehyun Kim, Chi-Pin Huang, Jisoo Kim +4 more
-
-Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37666v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40647v1)
 
 ---
 
-### 3. Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-27 · ✍️ Jialv Zou, Xiaotong Li, Zhengrong Yue +6 more
-
-Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37662v1)
-
----
-
-### 4. When Should We Intervene at Test Time?
+### 6. Adaptive Scenario Generation for KL-DRO Around a Learned Density Model
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-27 · ✍️ Jiahao Zhang, Xinling Wen, Liangliang Li +1 more
+📅 2026-10-29 · ✍️ Aron Brenner, Saurabh Amin
 
-Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failures and cannot tell a model when to use an intervention. Target labels can guide this decision, but ...
+Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the record, whereas a transport ball also contains distributions supp...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37658v1)
-
----
-
-### 5. Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-27 · ✍️ Igor Shilov, Xiaoxue Yang, Alexander Panfilov +6 more
-
-We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS on Llama-3.3-70B-Instruct and GPT-OSS-20B...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37657v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40644v1)
 
 ---
 
-### 6. Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops
+### 7. Luggage re-identification: A study of strategies towards a real-world application
 
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-27 · ✍️ Aakash Sarkar, Ananya Mukherjee, Motoshige Sato
+📅 2026-10-29 · ✍️ Quentin Dhôte, Romaric Audigier
 
-Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rotated independently (per-entity frame freedom), three things follow. In the pure-gau...
+Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While exi...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37656v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40643v1)
 
 ---
 
-### 7. KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry
+### 8. From extreme weather to agricultural consequences with agentic AI
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-27 · ✍️ Wenqing Peng, Michael Boy, Zhi-Song Liu
+📅 2026-10-29 · ✍️ Minghan Yu, Mengyu Dai, Yixin Wen +1 more
 
-Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are developed. We present KPPax, a kinetic preprocessor that generates differentiable, just-in-time compiled, and vectorisable chemistry code in JAX fr...
+Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricultural hazards from physically interpretable weather indices examined by causal analysis, and the fi...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37655v1)
-
----
-
-### 8. Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-27 · ✍️ Ian Chuang, Hiya Shah, Vamsi Chilamkur +2 more
-
-Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarely measured. We study in-hand object pose reaching, a task that demands diverse a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37652v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40641v1)
 
 ---
 
-### 9. GEPA-Curator: Curated Learning for Self Improving Agents
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-27 · ✍️ Zack Yu, Nicholas Lee, Minjae Lee +8 more
-
-Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. We argue that such failures may not provide useful learni...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37651v1)
-
----
-
-### 10. Can LLMs Uncover Hidden Physical Laws through Free Exploration?
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-27 · ✍️ Zhen Yang, Wen Wang, Xander Xu +1 more
-
-Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To evaluate this ability, we introduce LongChang, an automated framewor...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37649v1)
-
----
-
-### 11. Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-27 · ✍️ Andrew Szot, Samira Abnar, Omar Attia +5 more
-
-We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls the diversity of generated environments along the axes of tools, tasks, and the d...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37648v1)
-
----
-
-### 12. MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-27 · ✍️ Athanasios Glentis, Dawei Li, Mingyi Hong
-
-Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \emph{accumulated effective learning rate}, $C_T=\sum_{t<T}η_t/\|W_t\|_F$, where $η_t$ is the nominal learning rat...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37647v1)
-
----
-
-### 13. Multi-State Linear Attention with Generalized Second-Order Routing
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-27 · ✍️ Hee Seung Hwang, Sanghyuk Chun, Xindi Wu +2 more
-
-Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more efficient by splitting the context into segments and compressing each in its own memory state. MSLA aggregates the information extracted from...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37645v1)
-
----
-
-### 14. Metacognitive Decoding: Efficient Inference for Diffusion Language Agents
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-27 · ✍️ Mingyu Zhao, Shuhang Lin, Ligong Han +5 more
-
-Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller that guides diffusion generation according to the needs of the current response and the agent's interaction with the environment. It learns whe...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37642v1)
-
----
-
-### 15. Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence
+### 9. SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-27 · ✍️ Siyoon Jin, Dahyun Chung, Honggyu An +5 more
+📅 2026-10-29 · ✍️ Derong Jin, Xiyi Chen, Ming C. Lin +1 more
 
-Cross-view object correspondence identifies the same object across views. However, existing methods often rely on frame-wise matching or sequential tracking, which can propagate correspondence errors under appearance changes or occlusions. Therefore, we introduce cross-view temporal object correspondence, which requires preserving object identity across both views and time from a query mask. To ad...
+Recent progress in visual scene generation has extended beyond static 3D scenes toward the more challenging problem of generating dynamic 4D scenes from minimal input. However, sound, despite being intrinsically coupled with dynamic objects and events, remains largely unmodeled in prior work. We introduce Video-to-4DAVScene, a new task that turns a video into an explorable, time-varying 4D audio-v...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.37633v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40640v1)
+
+---
+
+### 10. world2vec: Mechanistic world models through latent dynamics learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-29 · ✍️ Tobias Schmidt, Rodrigo Gonzalez Laiz, Krisztián Szuppinger +1 more
+
+World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true sy...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40637v1)
+
+---
+
+### 11. Probing Spatial State Representations in Visual Foundation Models
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-29 · ✍️ Baiqiao Yin, Zhongang Cai, Ruisi Wang +3 more
+
+An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models provide representations that support such a state? We study this question through ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40636v1)
+
+---
+
+### 12. SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-29 · ✍️ Fnu Aryan, Yaqi Xie, Joseph Campbell +6 more
+
+As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic ap...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40632v1)
+
+---
+
+### 13. ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-29 · ✍️ Qiyao Ma, Xiaodong Liu, Weiwei Yang +9 more
+
+Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and existing defenses inherit the weakness, supervising the surface form...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40627v1)
+
+---
+
+### 14. Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-29 · ✍️ Chengyang He, Wenlong Zhang, Koduvayur Subbalakshmi +1 more
+
+Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and each is a temporal hypothesis that only a significance test over the right records can settle. The veri...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40619v1)
+
+---
+
+### 15. An ODE-based Sampler for Discrete Diffusion Models
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-29 · ✍️ Samson Gourevitch, Yazid Janati, Eric Moulines +3 more
+
+The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion models and answer it affirmatively by introducing exponentia...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.40618v1)
 
 ---
 

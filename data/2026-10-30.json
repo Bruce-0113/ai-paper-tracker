@@ -1,0 +1,259 @@
+{
+  "updated": "2026-10-30T06:49:55.609150+00:00",
+  "papers": [
+    {
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "url": "http://arxiv.org/abs/2610.40655v1",
+      "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introd",
+      "authors": [
+        "Steven Yu",
+        "Sheng-Yu Wang",
+        "Kimia Hamidieh",
+        "Antonio Torralba",
+        "David Bau"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+      "url": "http://arxiv.org/abs/2610.40654v1",
+      "summary": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less. Removing them first would restore the smaller scale, but the removal must itself be private.   We i",
+      "authors": [
+        "Moshe Shenfeld",
+        "Eliad Tsfadia",
+        "Katrina Ligett"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
+      "url": "http://arxiv.org/abs/2610.40653v1",
+      "summary": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to shots that highlight a specific character's reactions to important moments. These small, detailed edit",
+      "authors": [
+        "Nhan Tran",
+        "Hijung Valentina Shin",
+        "Abe Davis",
+        "Mackenzie Leake"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.HC",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "url": "http://arxiv.org/abs/2610.40649v1",
+      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen a",
+      "authors": [
+        "Nicolas Dufour",
+        "Elouan Gardès",
+        "Amil Dravid",
+        "Patrick Pérez",
+        "Loic Landrieu"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "url": "http://arxiv.org/abs/2610.40647v1",
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu",
+      "authors": [
+        "Jiongfan Yang",
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Zhongang Cai",
+        "Ziwei Liu"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
+      ]
+    },
+    {
+      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+      "url": "http://arxiv.org/abs/2610.40644v1",
+      "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the record, whereas a transport ball also contains distributions supp",
+      "authors": [
+        "Aron Brenner",
+        "Saurabh Amin"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "eess.SY",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "url": "http://arxiv.org/abs/2610.40643v1",
+      "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While exi",
+      "authors": [
+        "Quentin Dhôte",
+        "Romaric Audigier"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "url": "http://arxiv.org/abs/2610.40641v1",
+      "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricultural hazards from physically interpretable weather indices examined by causal analysis, and the fi",
+      "authors": [
+        "Minghan Yu",
+        "Mengyu Dai",
+        "Yixin Wen",
+        "Haizhao Yang"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "physics.ao-ph",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization",
+      "url": "http://arxiv.org/abs/2610.40640v1",
+      "summary": "Recent progress in visual scene generation has extended beyond static 3D scenes toward the more challenging problem of generating dynamic 4D scenes from minimal input. However, sound, despite being intrinsically coupled with dynamic objects and events, remains largely unmodeled in prior work. We introduce Video-to-4DAVScene, a new task that turns a video into an explorable, time-varying 4D audio-v",
+      "authors": [
+        "Derong Jin",
+        "Xiyi Chen",
+        "Ming C. Lin",
+        "Ruohan Gao"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.CV",
+        "cs.SD"
+      ]
+    },
+    {
+      "title": "world2vec: Mechanistic world models through latent dynamics learning",
+      "url": "http://arxiv.org/abs/2610.40637v1",
+      "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true sy",
+      "authors": [
+        "Tobias Schmidt",
+        "Rodrigo Gonzalez Laiz",
+        "Krisztián Szuppinger",
+        "Steffen Schneider"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Probing Spatial State Representations in Visual Foundation Models",
+      "url": "http://arxiv.org/abs/2610.40636v1",
+      "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models provide representations that support such a state? We study this question through ",
+      "authors": [
+        "Baiqiao Yin",
+        "Zhongang Cai",
+        "Ruisi Wang",
+        "Qiwei Liang",
+        "Lei Yang",
+        "Ziwei Liu"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
+      "url": "http://arxiv.org/abs/2610.40632v1",
+      "summary": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic ap",
+      "authors": [
+        "Fnu Aryan",
+        "Yaqi Xie",
+        "Joseph Campbell",
+        "Woojun Kim",
+        "Kwonjoon Lee",
+        "Hossein Nourkhiz Mahjoub",
+        "Ehsan Moradi-Pari",
+        "Katia Sycara",
+        "Simon Stepputtis"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "url": "http://arxiv.org/abs/2610.40627v1",
+      "summary": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and existing defenses inherit the weakness, supervising the surface form",
+      "authors": [
+        "Qiyao Ma",
+        "Xiaodong Liu",
+        "Weiwei Yang",
+        "Mingqian Feng",
+        "Chengquan Guo",
+        "Jialin Song",
+        "Carolyn Buractaon",
+        "Zhe Zhao",
+        "Junshan Zhang",
+        "Sandeep Atluri",
+        "Christopher White",
+        "Jianfeng Gao"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
+      "url": "http://arxiv.org/abs/2610.40619v1",
+      "summary": "Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and each is a temporal hypothesis that only a significance test over the right records can settle. The veri",
+      "authors": [
+        "Chengyang He",
+        "Wenlong Zhang",
+        "Koduvayur Subbalakshmi",
+        "Ping Wang"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ]
+    },
+    {
+      "title": "An ODE-based Sampler for Discrete Diffusion Models",
+      "url": "http://arxiv.org/abs/2610.40618v1",
+      "summary": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion models and answer it affirmatively by introducing exponentia",
+      "authors": [
+        "Samson Gourevitch",
+        "Yazid Janati",
+        "Eric Moulines",
+        "Eric P. Xing",
+        "Alain Durmus",
+        "Giacomo Zanella"
+      ],
+      "published": "2026-10-29",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ]
+    }
+  ]
+}
