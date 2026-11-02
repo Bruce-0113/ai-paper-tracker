@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-01 07:09 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-02 07:18 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Elucidating the Design Space of LM Data Attribution
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-29 · ✍️ Steven Yu, Sheng-Yu Wang, Kimia Hamidieh +2 more
-
-Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introd...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40655v1)
-
----
-
-### 2. Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-29 · ✍️ Moshe Shenfeld, Eliad Tsfadia, Katrina Ligett
-
-An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less. Removing them first would restore the smaller scale, but the removal must itself be private.   We i...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40654v1)
-
----
-
-### 3. Micro-Edits: Computational Support for Fine-Scale Edits in Film
+### 1. GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-29 · ✍️ Nhan Tran, Hijung Valentina Shin, Abe Davis +1 more
+📅 2026-10-30 · ✍️ Nattakorn Kittisut, Roy M. Gabriel, Marly van Assen +4 more
 
-In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to shots that highlight a specific character's reactions to important moments. These small, detailed edit...
+Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight experts repeatedly read the same 80 chest X-rays (CXRs). We compared individual readers with three-, five-...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40653v1)
-
----
-
-### 4. Rethinking Neural Thickets Without Weight Perturbations
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-10-29 · ✍️ Nicolas Dufour, Elouan Gardès, Amil Dravid +2 more
-
-The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40649v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42152v1)
 
 ---
 
-### 5. Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers
+### 2. Latent Reasoning in Continuous Space for Unified Multimodal Models
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-29 · ✍️ Jiongfan Yang, Weichen Fan, Haiwen Diao +2 more
+📅 2026-10-30 · ✍️ Byungwoo Jeon, Yoonwoo Jeong, Hyunseok Lee +2 more
 
-Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu...
+Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribut...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40647v1)
-
----
-
-### 6. Adaptive Scenario Generation for KL-DRO Around a Learned Density Model
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-10-29 · ✍️ Aron Brenner, Saurabh Amin
-
-Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the record, whereas a transport ball also contains distributions supp...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40644v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42149v1)
 
 ---
 
-### 7. Luggage re-identification: A study of strategies towards a real-world application
+### 3. Flide: Accelerating Decision Inference with Exact State Forking
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-10-29 · ✍️ Quentin Dhôte, Romaric Audigier
+📅 2026-10-30 · ✍️ Bobo Li, Jiajia Song, Hao Fei +2 more
 
-Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While exi...
+Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40643v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42148v1)
 
 ---
 
-### 8. From extreme weather to agricultural consequences with agentic AI
+### 4. Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-10-29 · ✍️ Minghan Yu, Mengyu Dai, Yixin Wen +1 more
+📅 2026-10-30 · ✍️ Ales Kubicek, Andrea Caciolai, Liangzu Peng +7 more
 
-Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricultural hazards from physically interpretable weather indices examined by causal analysis, and the fi...
+Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which a dedicated indexer selects a subset of keys for the attention. Yet current methods of indexing eith...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40641v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42147v1)
 
 ---
 
-### 9. SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization
+### 5. Hierarchical World Models with Implicit Dynamics
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-10-30 · ✍️ Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui +4 more
+
+Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implic...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42146v1)
+
+---
+
+### 6. SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-29 · ✍️ Derong Jin, Xiyi Chen, Ming C. Lin +1 more
+📅 2026-10-30 · ✍️ Kuankuan Cheng, Haocheng Yuan, Changjian Li
 
-Recent progress in visual scene generation has extended beyond static 3D scenes toward the more challenging problem of generating dynamic 4D scenes from minimal input. However, sound, despite being intrinsically coupled with dynamic objects and events, remains largely unmodeled in prior work. We introduce Video-to-4DAVScene, a new task that turns a video into an explorable, time-varying 4D audio-v...
+Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior work has primarily focused on geometry-aware shape abstraction, where the objective is to approxima...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40640v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42145v1)
 
 ---
 
-### 10. world2vec: Mechanistic world models through latent dynamics learning
+### 7. RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-10-30 · ✍️ Shengguang Wu, Suning Huang, Cherie Ho +3 more
+
+Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In Rob...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42141v1)
+
+---
+
+### 8. Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-29 · ✍️ Tobias Schmidt, Rodrigo Gonzalez Laiz, Krisztián Szuppinger +1 more
+📅 2026-10-30 · ✍️ Vitaly Feldman, Audra McMillan, Kunal Talwar
 
-World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true sy...
+In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random allocation, result in variable batch sizes. The privacy guarantee of th...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40637v1)
-
----
-
-### 11. Probing Spatial State Representations in Visual Foundation Models
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-10-29 · ✍️ Baiqiao Yin, Zhongang Cai, Ruisi Wang +3 more
-
-An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models provide representations that support such a state? We study this question through ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40636v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42139v1)
 
 ---
 
-### 12. SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors
+### 9. ReLift: Dense 3D Tracking as Lifted Trajectory Repair
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-10-29 · ✍️ Fnu Aryan, Yaqi Xie, Joseph Campbell +6 more
+📅 2026-10-30 · ✍️ Assaf Singer, Maroun Khriesh, Noam Rotstein +2 more
 
-As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic ap...
+Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that strong pretrained 2D trackers and 3D geometry models provide an effective foundation: lifted trajectorie...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40632v1)
-
----
-
-### 13. ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-10-29 · ✍️ Qiyao Ma, Xiaodong Liu, Weiwei Yang +9 more
-
-Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and existing defenses inherit the weakness, supervising the surface form...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40627v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42136v1)
 
 ---
 
-### 14. Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses
+### 10. A Better Critic Matters for Distribution Matching Distillation
 
-![CL](https://img.shields.io/badge/cs.CL-green)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-29 · ✍️ Chengyang He, Wenlong Zhang, Koduvayur Subbalakshmi +1 more
+📅 2026-10-30 · ✍️ Zongze Wu, Xianbang Wang, Zhengyang Geng +5 more
 
-Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and each is a temporal hypothesis that only a significance test over the right records can settle. The veri...
+Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. We investigate what the critic needs, in capacity and in information, to provide a reliable training signal. On the capacity side, controlled experiments across seven SiT model sizes on ImageNet show that increasing t...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40619v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42135v1)
 
 ---
 
-### 15. An ODE-based Sampler for Discrete Diffusion Models
+### 11. Instance-dependent sequential limits as an exact information ledger
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-10-29 · ✍️ Samson Gourevitch, Yazid Janati, Eric Moulines +3 more
+📅 2026-10-30 · ✍️ Akshay Balsubramani
 
-The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion models and answer it affirmatively by introducing exponentia...
+Instance-dependent limits for bandit regret, sequential tests, best-arm identification and Markov decision processes are proved by one chain. It runs from a divergence decomposition through data processing to a statistic, a testing step that turns a class guarantee into a requirement on the history, and optimization over alternatives and allocations. Only the first step is an identity. This work w...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2610.40618v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42133v1)
+
+---
+
+### 12. DecisionRank: On-Policy Distillation for Decision-Model Rerankers
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-10-30 · ✍️ Yanran Wu, Dian Yu, Chongyang Bai +10 more
+
+Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42128v1)
+
+---
+
+### 13. Physiological Trajectories and Observation Patterns in ICU Mortality Prediction: Transportability Under Changing Measurement Conditions
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-30 · ✍️ Benjamin T. Pike
+
+Objective: To distinguish the transferable predictive value of physiological trajectories from that of observation patterns in ICU mortality prediction, and to assess whether measurement timing affects performance independently of observation quantity.   Materials and Methods: In-hospital mortality was predicted at 48 hours using MIMIC-III, MIMIC-IV, and eICU. Nested representations progressively ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42126v1)
+
+---
+
+### 14. Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-30 · ✍️ Binghua Li, Mengzhe Li, Denny Wu +1 more
+
+Understanding how gradient descent learns features remains a central challenge in neural network theory. We study this question in a minimal multi-index setting that already exhibits rich multi-phase gradient dynamics: a well-specified two-neuron ReLU teacher-student model under isotropic Gaussian inputs, trained by population gradient flow from small initialization. We show that the dynamics are ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42118v1)
+
+---
+
+### 15. Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-10-30 · ✍️ Vitaly Feldman, Moshe Shenfeld
+
+In the random allocation sampling scheme each user's data is used in $k$ steps chosen randomly and uniformly from a sequence of $t$ steps. This scheme is known to improve on Poisson sampling in private optimization and in communication-efficient aggregation. The existing privacy loss distribution (PLD) accountant for this scheme runs in time quadratic in the inverse of the accuracy parameter $α$ (...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2610.42117v1)
 
 ---
 

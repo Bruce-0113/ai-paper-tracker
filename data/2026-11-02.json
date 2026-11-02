@@ -1,0 +1,266 @@
+{
+  "updated": "2026-11-02T07:18:25.534204+00:00",
+  "papers": [
+    {
+      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
+      "url": "http://arxiv.org/abs/2610.42152v1",
+      "summary": "Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight experts repeatedly read the same 80 chest X-rays (CXRs). We compared individual readers with three-, five-",
+      "authors": [
+        "Nattakorn Kittisut",
+        "Roy M. Gabriel",
+        "Marly van Assen",
+        "Mohammadreza Zandehshahvar",
+        "Carlo N. De Cecco",
+        "Elizabeth A. Krupinski",
+        "Ali Adibi"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CV",
+        "cs.HC",
+        "eess.IV",
+        "eess.SP"
+      ]
+    },
+    {
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "url": "http://arxiv.org/abs/2610.42149v1",
+      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribut",
+      "authors": [
+        "Byungwoo Jeon",
+        "Yoonwoo Jeong",
+        "Hyunseok Lee",
+        "Minsu Cho",
+        "Jinwoo Shin"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "url": "http://arxiv.org/abs/2610.42148v1",
+      "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, ",
+      "authors": [
+        "Bobo Li",
+        "Jiajia Song",
+        "Hao Fei",
+        "Wynne Hsu",
+        "Mong Li Lee"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+      "url": "http://arxiv.org/abs/2610.42147v1",
+      "summary": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which a dedicated indexer selects a subset of keys for the attention. Yet current methods of indexing eith",
+      "authors": [
+        "Ales Kubicek",
+        "Andrea Caciolai",
+        "Liangzu Peng",
+        "Sukrit Sumant",
+        "Benjamin Hoover",
+        "Fraser Greenlee",
+        "Ruairidh M. Battleday",
+        "Radim Urban",
+        "Torsten Hoefler",
+        "James C. R. Whittington"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "url": "http://arxiv.org/abs/2610.42146v1",
+      "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implic",
+      "authors": [
+        "Gaoyue Zhou",
+        "Yvonne Wu",
+        "Zichen Jeff Cui",
+        "Nicolas Ballas",
+        "Mido Assran",
+        "Lerrel Pinto",
+        "Yann LeCun"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid",
+      "url": "http://arxiv.org/abs/2610.42145v1",
+      "summary": "Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior work has primarily focused on geometry-aware shape abstraction, where the objective is to approxima",
+      "authors": [
+        "Kuankuan Cheng",
+        "Haocheng Yuan",
+        "Changjian Li"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "url": "http://arxiv.org/abs/2610.42141v1",
+      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In Rob",
+      "authors": [
+        "Shengguang Wu",
+        "Suning Huang",
+        "Cherie Ho",
+        "Ria Doshi",
+        "Hao Zhu",
+        "Serena Yeung-Levy"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+      "url": "http://arxiv.org/abs/2610.42139v1",
+      "summary": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random allocation, result in variable batch sizes. The privacy guarantee of th",
+      "authors": [
+        "Vitaly Feldman",
+        "Audra McMillan",
+        "Kunal Talwar"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ]
+    },
+    {
+      "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
+      "url": "http://arxiv.org/abs/2610.42136v1",
+      "summary": "Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that strong pretrained 2D trackers and 3D geometry models provide an effective foundation: lifted trajectorie",
+      "authors": [
+        "Assaf Singer",
+        "Maroun Khriesh",
+        "Noam Rotstein",
+        "Yoni Kasten",
+        "Or Litany"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "A Better Critic Matters for Distribution Matching Distillation",
+      "url": "http://arxiv.org/abs/2610.42135v1",
+      "summary": "Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. We investigate what the critic needs, in capacity and in information, to provide a reliable training signal. On the capacity side, controlled experiments across seven SiT model sizes on ImageNet show that increasing t",
+      "authors": [
+        "Zongze Wu",
+        "Xianbang Wang",
+        "Zhengyang Geng",
+        "Mingdeng Cao",
+        "Zhoutong Zhang",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Ruiming Cao"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Instance-dependent sequential limits as an exact information ledger",
+      "url": "http://arxiv.org/abs/2610.42133v1",
+      "summary": "Instance-dependent limits for bandit regret, sequential tests, best-arm identification and Markov decision processes are proved by one chain. It runs from a divergence decomposition through data processing to a statistic, a testing step that turns a class guarantee into a requirement on the history, and optimization over alternatives and allocations. Only the first step is an identity. This work w",
+      "authors": [
+        "Akshay Balsubramani"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.LG",
+        "cs.IT",
+        "math.ST",
+        "stat.ML"
+      ]
+    },
+    {
+      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+      "url": "http://arxiv.org/abs/2610.42128v1",
+      "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge",
+      "authors": [
+        "Yanran Wu",
+        "Dian Yu",
+        "Chongyang Bai",
+        "Jieyi Zhang",
+        "Rui Liu",
+        "Tianyi Chen",
+        "Shike Mei",
+        "Hang Cui",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Chunwei Liu",
+        "Xi Liu"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Physiological Trajectories and Observation Patterns in ICU Mortality Prediction: Transportability Under Changing Measurement Conditions",
+      "url": "http://arxiv.org/abs/2610.42126v1",
+      "summary": "Objective: To distinguish the transferable predictive value of physiological trajectories from that of observation patterns in ICU mortality prediction, and to assess whether measurement timing affects performance independently of observation quantity.   Materials and Methods: In-hospital mortality was predicted at 48 hours using MIMIC-III, MIMIC-IV, and eICU. Nested representations progressively ",
+      "authors": [
+        "Benjamin T. Pike"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ]
+    },
+    {
+      "title": "Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics",
+      "url": "http://arxiv.org/abs/2610.42118v1",
+      "summary": "Understanding how gradient descent learns features remains a central challenge in neural network theory. We study this question in a minimal multi-index setting that already exhibits rich multi-phase gradient dynamics: a well-specified two-neuron ReLU teacher-student model under isotropic Gaussian inputs, trained by population gradient flow from small initialization. We show that the dynamics are ",
+      "authors": [
+        "Binghua Li",
+        "Mengzhe Li",
+        "Denny Wu",
+        "Tianhao Wang"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "title": "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
+      "url": "http://arxiv.org/abs/2610.42117v1",
+      "summary": "In the random allocation sampling scheme each user's data is used in $k$ steps chosen randomly and uniformly from a sequence of $t$ steps. This scheme is known to improve on Poisson sampling in private optimization and in communication-efficient aggregation. The existing privacy loss distribution (PLD) accountant for this scheme runs in time quadratic in the inverse of the accuracy parameter $α$ (",
+      "authors": [
+        "Vitaly Feldman",
+        "Moshe Shenfeld"
+      ],
+      "published": "2026-10-30",
+      "categories": [
+        "cs.LG"
+      ]
+    }
+  ]
+}
