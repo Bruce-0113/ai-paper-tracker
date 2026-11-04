@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-03 07:37 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-04 07:16 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations
+### 1. DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-02 · ✍️ Jason Jingzhou Liu, Tony Tao, Deepak Pathak +1 more
+📅 2026-11-03 · ✍️ Jisoo Kim, Chaehyun Kim, Junsu Kim +6 more
 
-Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combines reconstructed scene geometry with demonstrated head and gripper trajectories to determine robot ...
+Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embod...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03647v1)
-
----
-
-### 2. Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov +1 more
-
-General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the complete system. We present Pixel, a co-designed full-stack system for learning general-purpose mobile man...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03648v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05377v1)
 
 ---
 
-### 3. EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-02 · ✍️ Yujiao Shen, Jiahe Song, Haitian Li +2 more
-
-Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We introduce EgoActionBench, a benchmark that represents continuous human manipulation as temporally lo...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03646v1)
-
----
-
-### 4. From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-11-02 · ✍️ Paulius Skaisgiris, Thomas Pammer, Veronika Semmelrock +3 more
-
-Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style question answering. Despite these advances, purely neural LLMs continue to struggle with elementary logical reasoning problems and lack the determinism, soundness, and reliability characteristic of symbolic...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03641v1)
-
----
-
-### 5. WebHarbor: Docking Real Websites for Evolving GUI Agent Environments
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Zhaoyang Wang, Qianhui Wu, Boyu Gou +54 more
-
-GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We propose WebHarbor, a suite of 153 executable and docke...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03634v1)
-
----
-
-### 6. Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Catherine Li, Jingchu Gai, Andrej Risteski +2 more
-
-Muon has recently emerged as a promising optimizer for pretraining large language models, offering a speedup over AdamW in minimizing pretraining loss. However, it remains unclear whether Muon's advantage persists after fine-tuning. In this paper, we study the downstream behavior of Muon and AdamW and uncover a surprising trend: beyond a sufficiently large pretraining data budget, AdamW outperform...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03633v1)
-
----
-
-### 7. Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Ziqi Pang, Yu-Xiong Wang
-
-Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding multiple inputs x for equations f(x)=y, where f is a non-bijective string function. This setting makes r...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03627v1)
-
----
-
-### 8. Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-02 · ✍️ Rafal Karp, Gene Liu, Shih-Hsin Li +10 more
-
-We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plugins in a two-stage workflow. First, world simulation generates gameplay while recording the world s...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03626v1)
-
----
-
-### 9. FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Tomas Duncun, Jonah Ellison, Mateo Ruiz +2 more
-
-Group-based reinforcement learning with verifiable rewards (RLVR) learns only from prompts whose sampled completions disagree: all-pass and all-fail groups produce zero relative advantage and burn generation budget without moving the policy. Adaptive schedulers try to steer rollouts toward informative prompts, yet they rely on per-prompt pass-rate trackers that entangle two quantities evolving at ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03625v1)
-
----
-
-### 10. Thought-deciphering via hierarchical EEG-to-text alignment
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Xiaopeng Mao, Morten Mørup, Xin Xu +2 more
-
-Communication is important for our well-being, but it can be impaired by disabilities, such as locked-in syndrome (LIS), cerebral palsy (CP), and dysarthria. Non-invasive brain-to-text brain-computer interfaces (BCIs) offer a promising solution by providing an alternative communication pathway for people with communication disabilities. However, most recent breakthroughs have relied on large, cumb...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03623v1)
-
----
-
-### 11. D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Marius Memmel, Shawn Yin, Urvi Rutia +9 more
-
-Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptions or relative temporal ranking designs. Naive prompting of frontier models collapses into a binary success detector that fails to capture nuanced, no...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03622v1)
-
----
-
-### 12. Strategist: Evolving Reasoning with Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-02 · ✍️ Taiming Lu, Qi Xu, Zhigang Hua +1 more
-
-A model is only half of an AI agent system. The other half is the inference strategy: the reasoning procedure that turns model calls into a response. Today that second half is written by hand, and the experience of building one strategy never carries to the next. We introduce Strategist, a meta-agent that evolves inference strategies across tasks. Each strategy is written as a blueprint,executable...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03618v1)
-
----
-
-### 13. Tracing the Scientific Discovery Capacity of LLMs to Their Training Data
+### 2. From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence
 
 ![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-02 · ✍️ Arda Uzunoglu, Mahler Revsine, Michael Schatz +4 more
+📅 2026-11-03 · ✍️ Hao Fei
 
-Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. How can we trace the scientific discovery capacity of LLMs to their training data? We study this question as one of missing probability mass and develop a theoretical account in which monofacts-the facts observed once during training-set the discovery capaci...
+For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03617v1)
-
----
-
-### 14. Benchmark Prediction with Sparse and Unpaired Cached Responses
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-02 · ✍️ Hayden Helm, Avijit Ghosh, Ben Johnson +1 more
-
-Evaluating a generative model on all queries from all available benchmark tasks is prohibitively expensive. As such, models are often evaluated on different subsets of tasks and/or different subsets of queries from a given task. The resulting collection of responses and the corresponding (model, task) score matrix are sparse and unpaired. In this paper, we introduce the Product Kernel Perspective ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03614v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05376v1)
 
 ---
 
-### 15. Efficient Closure Learning in Dynamical Systems: A Comparison of Data-Assimilated and Embedded Approaches
+### 3. Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-11-03 · ✍️ Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy +2 more
+
+Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct indepe...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05373v1)
+
+---
+
+### 4. PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-02 · ✍️ Rileigh Bandy, Teresa Portone, Mohammad Khalil +2 more
+📅 2026-11-03 · ✍️ Yuhan Liu, Xinqi Liu, Zixuan Dong +2 more
 
-Increased computing power has transformed computational science and improved predictive capabilities for complex systems, but many phenomena still exceed current simulation capabilities or require rapid evaluations for fast design iterations. Closure models address this challenge by approximating unresolved effects in reduced or incomplete dynamical systems. Data-driven closures offer a flexible m...
+Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse mapping, execution depends on hand-tuned controllers, and training data on physical robots are costly to collect. We presen...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.03612v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05372v1)
+
+---
+
+### 5. GUILD: Guided Iterative Data Collection for Imitation Learning
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-03 · ✍️ Shivin Dass, Kevin Nguyen, Rohan Yelandur +2 more
+
+Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall policy performance. Recent work has shown that curating such unguided datasets can substantially improve policy performance, but these approach...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05368v1)
+
+---
+
+### 6. Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-03 · ✍️ Zhipeng Zhong, Matthew Coombes, Cunjia Liu
+
+Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys. We present a LiDARbased reference-generation pipeline for evaluating the zero-shot performance of feed-forward visual-geometry models alongside conventional structure-from-motion (SfM) method...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05361v1)
+
+---
+
+### 7. GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-03 · ✍️ Qi Yang, Yingzhan Xu, Kai Zhang +1 more
+
+This paper presents GSCV++, a lightweight pipeline for 3D {G}aussian {S}platting (GS) sequences {C}ompression with standard {V}ideo codecs. To meet the requirements of low-complexity and hardware compatibility from the industry, GSCV++ jointly improves preprocessing, 3D-to-2D mapping, and practical video compression configuration of GS compression. First, for preprocessing, energy-adaptive inter-f...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05359v1)
+
+---
+
+### 8. Suppressing Misaligned Behaviors in Language Models, Durably
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-03 · ✍️ Luxi He, Pengcheng Jiang, Jifan Zhang +2 more
+
+Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narrow-trigger organism misbehaves only when the prompt contains a specific cue: it che...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05358v1)
+
+---
+
+### 9. Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-03 · ✍️ Teerawat Tongloy, Jiraporn Pongsopa, Rangsan Jomtarak
+
+When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\langle q|k\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With its denominators held at their values for the input, each class probability is a polynomial in the word amplitudes, so i...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05355v1)
+
+---
+
+### 10. OpenBrain: An Auditable Generated-Label Release for Whole-Brain MRI Parcellation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-03 · ✍️ Qizhen Lan, Yu-Chun Hsu, Yuxiang Wei +5 more
+
+Automatic tools can now generate whole-brain MRI parcellations at cohort scale, but generated-label releases often provide little evidence about which cases are reliable enough to reuse. We introduce OpenBrain, a confidence-aware release of 35,838 provenance-verified OpenNeuro T1w cases from 607 source datasets. OpenBrain is organized as an auditable case-record release rather than a directory of ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05348v1)
+
+---
+
+### 11. Agnostic Learning by Imitating
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-03 · ✍️ Sílvia Casacuberta, Parikshit Gopalan, Varun Kanade +3 more
+
+Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive and negative labels as well as the best member of the class, or training a generative model whose outputs are indistinguishable from real data by all members of the class? We prove that these two fundam...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05346v1)
+
+---
+
+### 12. Adversarial Speculative Reasoning Improves Long Horizon Agents
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-03 · ✍️ Hongyin Luo, Wei Fang, Lijie Yang +5 more
+
+Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-horizon agent reasoning. Measuring frontier open-weight models on complex agentic task...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05345v1)
+
+---
+
+### 13. A Circuit for In-Context Learning
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-03 · ✍️ Andrew Gao, William Gao
+
+In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a single forward pass. Prior work found candidate parts but not how they compose. We give the composition for few-shot sentence classification w...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05344v1)
+
+---
+
+### 14. Weight-space programming for auditing clinical decision networks
+
+![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-03 · ✍️ Humza Nusrat, Omar Nusrat
+
+Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the training data. Frontier language models have recently been reported to read and write the raw weights of small neural networks, an ability called weight-space programming. The purpose of this study was to determine whether such a m...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05341v1)
+
+---
+
+### 15. MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-11-03 · ✍️ Omar Nusrat
+
+Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging, nuclear medicine and radiation protection, up to clinical tasks such as a TG-51 ca...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.05340v1)
 
 ---
 
