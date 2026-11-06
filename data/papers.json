@@ -1,347 +1,272 @@
 {
-  "updated": "2026-11-05T07:43:43.353846+00:00",
+  "updated": "2026-11-06T07:41:50.039075+00:00",
   "papers": [
     {
-      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
-      "url": "http://arxiv.org/abs/2611.06918v1",
-      "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "url": "http://arxiv.org/abs/2611.08487v1",
+      "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is",
       "authors": [
-        "Weichen Fan",
-        "Haiwen Diao",
-        "Penghao Wu",
-        "Siyuan Hu",
-        "Ziqi Huang",
-        "Tianqi Liu",
-        "Mingze Sun",
-        "Ziyi Wang",
-        "Zhongang Cai",
-        "Hanming Deng",
-        "Quan Wang",
-        "Lei Yang",
-        "Lewei Lu",
-        "Fangzhou Hong",
-        "Zhaoxi Chen",
-        "Dahua Lin",
-        "Ziwei Liu"
+        "Jonathan Kozaczuk",
+        "Zheng Dong",
+        "Noyan Evirgen",
+        "Keivan Majidi",
+        "Eddie K. H. Ng",
+        "Chris Porter",
+        "Qi Zhao",
+        "Jia Geng",
+        "Changmao Li",
+        "Brandon R. Feng"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
+      "url": "http://arxiv.org/abs/2611.08486v1",
+      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main",
+      "authors": [
+        "Xiaoqi Zhao",
+        "Youwei Pang",
+        "Kailai Zhou"
+      ],
+      "published": "2026-11-05",
       "categories": [
         "cs.CV"
       ]
     },
     {
-      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
-      "url": "http://arxiv.org/abs/2611.06914v1",
-      "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social simulation. One plausible hypothesis is that this brittleness reflects",
+      "title": "Where and Why is Grounded Reasoning Useful?",
+      "url": "http://arxiv.org/abs/2611.08485v1",
+      "summary": "Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning is most useful. To do so, we introduce a chain-of-thought analysis method to measure how much a mode",
       "authors": [
-        "Mattia Greiche",
-        "Reihaneh Rabbany",
-        "Maximilian Puelma Touzel"
+        "David Yan",
+        "Le Xue",
+        "Forrest Huang",
+        "Qiuyi Zhang",
+        "Dustin Tran",
+        "Andrew M. Dai",
+        "Yinfei Yang"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "categories": [
-        "cs.MA",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "http://arxiv.org/abs/2611.08483v1",
+      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework",
+      "authors": [
+        "Qile Jiang",
+        "George Em Karniadakis"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.AI",
+        "cs.NE"
+      ]
+    },
+    {
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "url": "http://arxiv.org/abs/2611.08478v1",
+      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ende",
+      "authors": [
+        "Taiming Lu",
+        "Sachin Konan",
+        "Zhuang Liu"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.AI",
         "cs.CL",
         "cs.LG"
       ]
     },
     {
-      "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
-      "url": "http://arxiv.org/abs/2611.06912v1",
-      "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench evaluates ten learned and five classical methods on three regimes: a laminar cylinder wake across Reynolds numbers, two-dimensi",
+      "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+      "url": "http://arxiv.org/abs/2611.08477v1",
+      "summary": "Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-adaptive action renderer provides video-native representations for multidirectional action-video learn",
       "authors": [
-        "Nicolas Tricard",
-        "Linzheng Wang",
-        "Jason Chen",
-        "Sili Deng"
+        "Yanlin Jin",
+        "Bowen Yang",
+        "Cheng Zhang",
+        "Yifan Yang",
+        "Zhe Li",
+        "Jianfei Cai",
+        "Kai Zhu"
       ],
-      "published": "2026-11-04",
-      "categories": [
-        "physics.flu-dyn",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-      "url": "http://arxiv.org/abs/2611.06911v1",
-      "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainl",
-      "authors": [
-        "Fei Lin",
-        "Tengchao Zhang",
-        "Ziyang Gong",
-        "Xiaotong Yu",
-        "Bohan Zhang",
-        "Yifan Zhou",
-        "Qihao Yang",
-        "Ji Dai",
-        "Dong Li",
-        "Yining Jiang",
-        "Qinghua Ni",
-        "Jun Huang",
-        "Qiang Zhang",
-        "Yue Zhou",
-        "Zhihang Zhong",
-        "Yonglin Tian",
-        "Fei-Yue Wang",
-        "Xue Yang"
-      ],
-      "published": "2026-11-04",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "url": "http://arxiv.org/abs/2611.06910v1",
-      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
-      "authors": [
-        "Bingran You",
-        "Wenjun Ke",
-        "Ria Rosenauer",
-        "Bo Liu",
-        "Wenbo Chen",
-        "Min Chen",
-        "Shuqi Xu",
-        "Yue Ma",
-        "Jiechao Feng",
-        "Bo Chen",
-        "Xiangkai Sun",
-        "Jiarui Liu",
-        "Jinen Guo",
-        "Zeyu Zhou",
-        "Xu Huang",
-        "Zhuohan Li",
-        "Haoyu Li",
-        "Heguang Lin",
-        "Lijie Ding",
-        "Yadong Zeng",
-        "Kangqi Zhang",
-        "Xinge Liu",
-        "Hanwen Liu",
-        "Zhenghong Li",
-        "Alexander von Recum",
-        "Yuchen Zhu",
-        "Felix Schwarzfischer",
-        "Yizhou Zhao",
-        "Jicheng Wang",
-        "Binxu Li",
-        "Qian Yu",
-        "Chan Li",
-        "Cheng Dai",
-        "Di Wang",
-        "Haoyu Zhang",
-        "Jiankai Sun",
-        "Kaituo Feng",
-        "Mian Qin",
-        "Ruihong Yin",
-        "Yiqun Luo",
-        "Weiwei Wu",
-        "Shihong Pan",
-        "Tsung Yeh Hsieh",
-        "Xiao Huang",
-        "Yan Zhang",
-        "Sihan Li",
-        "Zirui Ren",
-        "Zengji Tu",
-        "Kyoung Whan Choe",
-        "Ke Sun",
-        "Vincenzo Galia",
-        "Vaisakhi Mishra",
-        "Jiashu He",
-        "Hongyang Wang",
-        "Zhiheng Yang",
-        "Shubham Gaur",
-        "Yifan Gu",
-        "Shuyi Wang",
-        "Zihao Zuo",
-        "Steven Dillmann",
-        "Yiyou Sun",
-        "Xinyang Han",
-        "Hanchung Lee",
-        "Molei Tao",
-        "Yue Zhao",
-        "Shilong Liu",
-        "Yuchen Wu",
-        "Xuandong Zhao",
-        "Xiangyi Li",
-        "Florian Brand",
-        "Gerbrand Ceder",
-        "Hartmut Haeffner"
-      ],
-      "published": "2026-11-04",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Perceptive Humanoid Motion from Simulation",
-      "url": "http://arxiv.org/abs/2611.06908v1",
-      "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture d",
-      "authors": [
-        "Siyuan Hu",
-        "Abulikemu Abuduweili",
-        "Yue Meng",
-        "Shipeng Liu",
-        "Quentin Leboutet",
-        "Chen Chen",
-        "Matthias Müller",
-        "Vladlen Koltun"
-      ],
-      "published": "2026-11-04",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
-      "url": "http://arxiv.org/abs/2611.06905v1",
-      "summary": "The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization capabilities, they typically require an adaptation phase to achieve sufficient performance in deployment. Iterated self-improvement via reinforcement learning (RL) has demonstrated ",
-      "authors": [
-        "Michal Korniak",
-        "Marco Bagatella",
-        "Ralf Römer",
-        "Michal Nauman",
-        "Yarden As",
-        "Pranav Vignesh",
-        "Manan Agarwal",
-        "Leander Diaz-Bone",
-        "Piotr Zalewski",
-        "Mikołaj Czarnecki",
-        "Lenart Treven",
-        "Shashwat Saxena",
-        "Sreyas Venkataraman",
-        "Sarvesh Patil",
-        "Zhiyuan Zhou",
-        "Daniel Marta",
-        "Oier Mees",
-        "Nur Muhammad Mahi Shafiullah",
-        "Carmelo Sferrazza",
-        "Bhavya Sukhija",
-        "Angela P. Schoellig",
-        "Andreas Krause",
-        "Max Simchowitz",
-        "Andrew Wagenmaker"
-      ],
-      "published": "2026-11-04",
-      "categories": [
-        "cs.LG",
-        "cs.RO"
-      ]
-    },
-    {
-      "title": "Motion-guided Contrastive Regularization For Latent World Models",
-      "url": "http://arxiv.org/abs/2611.06901v1",
-      "summary": "JEPA-style world models learn action-conditioned latent dynamics without reconstructing observations, but distributional regularization alone does not ensure that their representations preserve information needed for control. We identify static collapse, a failure mode in which the encoder preserves episode-specific static content while suppressing manipulation-relevant state changes. Because stat",
-      "authors": [
-        "Yiwen Chen",
-        "Qiqi Hou",
-        "Jisoo Jeong",
-        "Yinhao Zhu",
-        "Huaizu Jiang",
-        "Amir Said"
-      ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "categories": [
         "cs.CV"
       ]
     },
     {
-      "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
-      "url": "http://arxiv.org/abs/2611.06899v1",
-      "summary": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already computes. Apparent height is largely unchanged by occlusion, because the detected ",
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "url": "http://arxiv.org/abs/2611.08472v1",
+      "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark",
       "authors": [
-        "Chibueze Praise Onyenweaku",
-        "Toyibat Adele",
-        "Sikirulahi Opeyemi Abdulkareem",
-        "Obed Honour Eje"
+        "Linrong Cai",
+        "Taiming Lu",
+        "Haozhe Chen",
+        "Zhuang Liu"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "categories": [
-        "cs.CV",
+        "cs.LG",
         "cs.AI"
       ]
     },
     {
-      "title": "Procedural Adversarial Learning",
-      "url": "http://arxiv.org/abs/2611.06890v1",
-      "summary": "For many computer vision tasks, neural networks can be trained to produce a low average error, yet they still fail on seemingly simple scenes. Reducing these failures requires first finding them, but they may not be in a fixed dataset. We study procedural adversarial learning (PAL), a framework of minimax training and adversarial evaluation which searches the input space of a procedural generator ",
+      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+      "url": "http://arxiv.org/abs/2611.08469v1",
+      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism ",
       "authors": [
-        "Jack Nugent",
-        "Jia Deng"
+        "Linqian Wu",
+        "Diaoxuan He"
       ],
-      "published": "2026-11-04",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
-      "url": "http://arxiv.org/abs/2611.06888v1",
-      "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for p",
-      "authors": [
-        "Siyi Yu"
-      ],
-      "published": "2026-11-04",
-      "categories": [
-        "cs.AI",
-        "cs.HC",
-        "econ.GN"
-      ]
-    },
-    {
-      "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
-      "url": "http://arxiv.org/abs/2611.06879v1",
-      "summary": "The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget, past improvement or features fitted to one benchmark, and few test an optimizer's implicit assumptions online. AMM (Adaptive Multi Mode) routes a known budget among quasi-Newton, trust-region, coordinate, multistart and evolution-strategy optim",
-      "authors": [
-        "Benjamin Jacob Bodner"
-      ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "categories": [
         "cs.LG",
-        "cs.NE",
+        "cs.AI",
+        "q-bio.NC"
+      ]
+    },
+    {
+      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+      "url": "http://arxiv.org/abs/2611.08465v1",
+      "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residual stream directions from a subject model to text exemplars that strongly activate those directions. ",
+      "authors": [
+        "Celeste De Schamphelaere",
+        "Juan J. Vazquez",
+        "Ari Spiesberger",
+        "Tomáš Gavenčiak",
+        "Gavin Leech",
+        "Euan Ong",
+        "Jiahai Feng"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+      "url": "http://arxiv.org/abs/2611.08457v1",
+      "summary": "Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the small or vanishing step sizes regime, where GD resembles a continuous-time flow. However, such step sizes can make training inefficient and are rarely used in practice. In this paper, we study the AT ",
+      "authors": [
+        "Yi Feng",
+        "Andrea Paudice"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG",
         "math.OC"
       ]
     },
     {
-      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
-      "url": "http://arxiv.org/abs/2611.06876v1",
-      "summary": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency. We observe that structured summary slots can retain information when generated independently. Based on this observation, we present SpecCompact, a framework that a",
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "url": "http://arxiv.org/abs/2611.08453v1",
+      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimiz",
       "authors": [
-        "Yulu An",
-        "Yifei Feng",
-        "Xiangyang Yin"
+        "Zeyu Leo Liu",
+        "Yang Li",
+        "Bo Pang",
+        "Emre Can Acikgoz",
+        "Xuan-Phi Nguyen",
+        "Anurag Koul",
+        "Srijan Bansal",
+        "Erik Nijkamp",
+        "Shafiq Joty",
+        "Semih Yavuz"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "categories": [
+        "cs.LG",
         "cs.CL"
       ]
     },
     {
-      "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
-      "url": "http://arxiv.org/abs/2611.06874v1",
-      "summary": "Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet) that preserves message-passing symmetry while enhancing the decoder's learning capa",
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "url": "http://arxiv.org/abs/2611.08452v1",
+      "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independe",
       "authors": [
-        "Samira Malek"
+        "Yubo Wang",
+        "Rui Meng",
+        "Jaehyun Nam",
+        "Tomas Pfister",
+        "Jinsung Yoon"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "categories": [
         "cs.AI"
       ]
     },
     {
-      "title": "PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories",
-      "url": "http://arxiv.org/abs/2611.06870v1",
-      "summary": "Existing continuous space-time video super-resolution methods often infer motion from only two endpoint frames and model the two motion directions independently, making them vulnerable to ambiguous correspondence and inconsistent trajectories. We introduce a continuous STVSR framework that combines long-context encoding, continuous HR feature lifting, and an endpoint-anchored PixelSpline. Long-ran",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "url": "http://arxiv.org/abs/2611.08449v1",
+      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "authors": [
-        "Wanqi Yuan",
-        "Nianyi Li"
+        "Yu-Cheng Chou",
+        "Shihao Wang",
+        "Jin Huang",
+        "Chi-Pin Huang",
+        "Chiao-An Yang",
+        "Xianzhe Fan",
+        "Jing Wang",
+        "Zhiqi Li",
+        "Yuanguo Kuang",
+        "Ruijie Zheng",
+        "Johan Bjorck",
+        "Sifei Liu",
+        "Hang Su",
+        "Abhishek Badki",
+        "Lei Zhang",
+        "Alan Yuille",
+        "Linxi \"Jim'' Fan",
+        "Jan Kautz",
+        "Zhiding Yu"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "categories": [
+        "cs.RO",
         "cs.CV"
+      ]
+    },
+    {
+      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
+      "url": "http://arxiv.org/abs/2611.08445v1",
+      "summary": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker's behavioral regime persists and can switch within an episode, and each action combines an operation with state-dependent arguments whose feasible values change over time. We capture both with a hidde",
+      "authors": [
+        "Angel Daruna",
+        "Michael Cogswell",
+        "Tixiao Shan",
+        "Yi Yao",
+        "Han-Pang Chiu",
+        "Ajay Divakaran"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
+      "url": "http://arxiv.org/abs/2611.08441v1",
+      "summary": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each fra",
+      "authors": [
+        "Hongsen Cao",
+        "Chia-Yen Chiang",
+        "Mona Jaber",
+        "Meihui Wang",
+        "Yasmin Fathy"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
       ]
     }
   ]

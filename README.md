@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-05 07:43 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-06 07:41 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. From Pixels to Actions - Towards Native Vision-Language-Action Policies
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-04 · ✍️ Weichen Fan, Haiwen Diao, Penghao Wu +14 more
-
-Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06918v1)
-
----
-
-### 2. A Framework for Context Enrichment and Selective Robustness in LLM Social Agents
-
-![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-04 · ✍️ Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel
-
-Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social simulation. One plausible hypothesis is that this brittleness reflects...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06914v1)
-
----
-
-### 3. FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors
+### 1. User Embeddings are Superpositions of Interpretable Behavioral Modes
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-04 · ✍️ Nicolas Tricard, Linzheng Wang, Jason Chen +1 more
+📅 2026-11-05 · ✍️ Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen +7 more
 
-Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench evaluates ten learned and five classical methods on three regimes: a laminar cylinder wake across Reynolds numbers, two-dimensi...
+User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06912v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08487v1)
 
 ---
 
-### 4. BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
+### 2. Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-05 · ✍️ Xiaoqi Zhao, Youwei Pang, Kailai Zhou
+
+Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08486v1)
+
+---
+
+### 3. Where and Why is Grounded Reasoning Useful?
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-05 · ✍️ David Yan, Le Xue, Forrest Huang +4 more
+
+Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning is most useful. To do so, we introduce a chain-of-thought analysis method to measure how much a mode...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08485v1)
+
+---
+
+### 4. SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-04 · ✍️ Fei Lin, Tengchao Zhang, Ziyang Gong +15 more
+📅 2026-11-05 · ✍️ Qile Jiang, George Em Karniadakis
 
-Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainl...
+LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06911v1)
-
----
-
-### 5. FrontierPhysics: Evaluating Agents for End-to-End Physics Research
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-11-04 · ✍️ Bingran You, Wenjun Ke, Ria Rosenauer +69 more
-
-AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06910v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08483v1)
 
 ---
 
-### 6. Perceptive Humanoid Motion from Simulation
+### 5. Scientist World: Grow a Research World for AI-Scientists
 
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-04 · ✍️ Siyuan Hu, Abulikemu Abuduweili, Yue Meng +5 more
+📅 2026-11-05 · ✍️ Taiming Lu, Sachin Konan, Zhuang Liu
 
-Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture d...
+AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ende...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06908v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08478v1)
 
 ---
 
-### 7. Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement
+### 6. EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-05 · ✍️ Yanlin Jin, Bowen Yang, Cheng Zhang +4 more
+
+Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-adaptive action renderer provides video-native representations for multidirectional action-video learn...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08477v1)
+
+---
+
+### 7. XStack: A Benchmark for ML Repo Migration
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-05 · ✍️ Linrong Cai, Taiming Lu, Haozhe Chen +1 more
+
+ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08472v1)
+
+---
+
+### 8. Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-05 · ✍️ Linqian Wu, Diaoxuan He
+
+Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08469v1)
+
+---
+
+### 9. Towards interpreting any residual stream direction by scaling activation inversion
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-05 · ✍️ Celeste De Schamphelaere, Juan J. Vazquez, Ari Spiesberger +4 more
+
+To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residual stream directions from a subject model to text exemplars that strongly activate those directions. ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08465v1)
+
+---
+
+### 10. Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-04 · ✍️ Michal Korniak, Marco Bagatella, Ralf Römer +21 more
+📅 2026-11-05 · ✍️ Yi Feng, Andrea Paudice
 
-The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization capabilities, they typically require an adaptation phase to achieve sufficient performance in deployment. Iterated self-improvement via reinforcement learning (RL) has demonstrated ...
+Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the small or vanishing step sizes regime, where GD resembles a continuous-time flow. However, such step sizes can make training inefficient and are rarely used in practice. In this paper, we study the AT ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06905v1)
-
----
-
-### 8. Motion-guided Contrastive Regularization For Latent World Models
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-04 · ✍️ Yiwen Chen, Qiqi Hou, Jisoo Jeong +3 more
-
-JEPA-style world models learn action-conditioned latent dynamics without reconstructing observations, but distributional regularization alone does not ensure that their representations preserve information needed for control. We identify static collapse, a failure mode in which the encoder preserves episode-specific static content while suppressing manipulation-relevant state changes. Because stat...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06901v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08457v1)
 
 ---
 
-### 9. Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues
+### 11. Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-11-04 · ✍️ Chibueze Praise Onyenweaku, Toyibat Adele, Sikirulahi Opeyemi Abdulkareem +1 more
+📅 2026-11-05 · ✍️ Zeyu Leo Liu, Yang Li, Bo Pang +7 more
 
-Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already computes. Apparent height is largely unchanged by occlusion, because the detected ...
+On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimiz...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06899v1)
-
----
-
-### 10. Procedural Adversarial Learning
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-04 · ✍️ Jack Nugent, Jia Deng
-
-For many computer vision tasks, neural networks can be trained to produce a low average error, yet they still fail on seemingly simple scenes. Reducing these failures requires first finding them, but they may not be in a fixed dataset. We study procedural adversarial learning (PAL), a framework of minimax training and adversarial evaluation which searches the input space of a procedural generator ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06890v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08453v1)
 
 ---
 
-### 11. Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure
+### 12. ReproBridge: Building Reproducibility into ML Research Artifacts
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-04 · ✍️ Siyi Yu
+📅 2026-11-05 · ✍️ Yubo Wang, Rui Meng, Jaehyun Nam +2 more
 
-Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for p...
+Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independe...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06888v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08452v1)
 
 ---
 
-### 12. Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes
+### 13. VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-05 · ✍️ Yu-Cheng Chou, Shihao Wang, Jin Huang +16 more
+
+Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08449v1)
+
+---
+
+### 14. A Hidden Markov Preference Model for Online Prediction of Adversary Actions
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-04 · ✍️ Benjamin Jacob Bodner
+📅 2026-11-05 · ✍️ Angel Daruna, Michael Cogswell, Tixiao Shan +3 more
 
-The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget, past improvement or features fitted to one benchmark, and few test an optimizer's implicit assumptions online. AMM (Adaptive Multi Mode) routes a known budget among quasi-Newton, trust-region, coordinate, multistart and evolution-strategy optim...
+A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker's behavioral regime persists and can switch within an episode, and each action combines an operation with state-dependent arguments whose feasible values change over time. We capture both with a hidde...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06879v1)
-
----
-
-### 13. SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-04 · ✍️ Yulu An, Yifei Feng, Xiangyang Yin
-
-LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency. We observe that structured summary slots can retain information when generated independently. Based on this observation, we present SpecCompact, a framework that a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06876v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08445v1)
 
 ---
 
-### 14. Learning to Decode Linear Codes with Generalized Belief Propagation Network
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-11-04 · ✍️ Samira Malek
-
-Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet) that preserves message-passing symmetry while enhancing the decoder's learning capa...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06874v1)
-
----
-
-### 15. PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories
+### 15. Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-11-04 · ✍️ Wanqi Yuan, Nianyi Li
+📅 2026-11-05 · ✍️ Hongsen Cao, Chia-Yen Chiang, Mona Jaber +2 more
 
-Existing continuous space-time video super-resolution methods often infer motion from only two endpoint frames and model the two motion directions independently, making them vulnerable to ambiguous correspondence and inconsistent trajectories. We introduce a continuous STVSR framework that combines long-context encoding, continuous HR feature lifting, and an endpoint-anchored PixelSpline. Long-ran...
+Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each fra...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.06870v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.08441v1)
 
 ---
 
