@@ -1,0 +1,273 @@
+{
+  "updated": "2026-11-07T06:51:01.434994+00:00",
+  "papers": [
+    {
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "url": "http://arxiv.org/abs/2611.08487v1",
+      "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is",
+      "authors": [
+        "Jonathan Kozaczuk",
+        "Zheng Dong",
+        "Noyan Evirgen",
+        "Keivan Majidi",
+        "Eddie K. H. Ng",
+        "Chris Porter",
+        "Qi Zhao",
+        "Jia Geng",
+        "Changmao Li",
+        "Brandon R. Feng"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
+      "url": "http://arxiv.org/abs/2611.08486v1",
+      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main",
+      "authors": [
+        "Xiaoqi Zhao",
+        "Youwei Pang",
+        "Kailai Zhou"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Where and Why is Grounded Reasoning Useful?",
+      "url": "http://arxiv.org/abs/2611.08485v1",
+      "summary": "Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning is most useful. To do so, we introduce a chain-of-thought analysis method to measure how much a mode",
+      "authors": [
+        "David Yan",
+        "Le Xue",
+        "Forrest Huang",
+        "Qiuyi Zhang",
+        "Dustin Tran",
+        "Andrew M. Dai",
+        "Yinfei Yang"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "http://arxiv.org/abs/2611.08483v1",
+      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework",
+      "authors": [
+        "Qile Jiang",
+        "George Em Karniadakis"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.AI",
+        "cs.NE"
+      ]
+    },
+    {
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "url": "http://arxiv.org/abs/2611.08478v1",
+      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ende",
+      "authors": [
+        "Taiming Lu",
+        "Sachin Konan",
+        "Zhuang Liu"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+      "url": "http://arxiv.org/abs/2611.08477v1",
+      "summary": "Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-adaptive action renderer provides video-native representations for multidirectional action-video learn",
+      "authors": [
+        "Yanlin Jin",
+        "Bowen Yang",
+        "Cheng Zhang",
+        "Yifan Yang",
+        "Zhe Li",
+        "Jianfei Cai",
+        "Kai Zhu"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "url": "http://arxiv.org/abs/2611.08472v1",
+      "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark",
+      "authors": [
+        "Linrong Cai",
+        "Taiming Lu",
+        "Haozhe Chen",
+        "Zhuang Liu"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+      "url": "http://arxiv.org/abs/2611.08469v1",
+      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism ",
+      "authors": [
+        "Linqian Wu",
+        "Diaoxuan He"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.NC"
+      ]
+    },
+    {
+      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+      "url": "http://arxiv.org/abs/2611.08465v1",
+      "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residual stream directions from a subject model to text exemplars that strongly activate those directions. ",
+      "authors": [
+        "Celeste De Schamphelaere",
+        "Juan J. Vazquez",
+        "Ari Spiesberger",
+        "Tomáš Gavenčiak",
+        "Gavin Leech",
+        "Euan Ong",
+        "Jiahai Feng"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+      "url": "http://arxiv.org/abs/2611.08457v1",
+      "summary": "Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the small or vanishing step sizes regime, where GD resembles a continuous-time flow. However, such step sizes can make training inefficient and are rarely used in practice. In this paper, we study the AT ",
+      "authors": [
+        "Yi Feng",
+        "Andrea Paudice"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ]
+    },
+    {
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "url": "http://arxiv.org/abs/2611.08453v1",
+      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimiz",
+      "authors": [
+        "Zeyu Leo Liu",
+        "Yang Li",
+        "Bo Pang",
+        "Emre Can Acikgoz",
+        "Xuan-Phi Nguyen",
+        "Anurag Koul",
+        "Srijan Bansal",
+        "Erik Nijkamp",
+        "Shafiq Joty",
+        "Semih Yavuz"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "url": "http://arxiv.org/abs/2611.08452v1",
+      "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independe",
+      "authors": [
+        "Yubo Wang",
+        "Rui Meng",
+        "Jaehyun Nam",
+        "Tomas Pfister",
+        "Jinsung Yoon"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "url": "http://arxiv.org/abs/2611.08449v1",
+      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
+      "authors": [
+        "Yu-Cheng Chou",
+        "Shihao Wang",
+        "Jin Huang",
+        "Chi-Pin Huang",
+        "Chiao-An Yang",
+        "Xianzhe Fan",
+        "Jing Wang",
+        "Zhiqi Li",
+        "Yuanguo Kuang",
+        "Ruijie Zheng",
+        "Johan Bjorck",
+        "Sifei Liu",
+        "Hang Su",
+        "Abhishek Badki",
+        "Lei Zhang",
+        "Alan Yuille",
+        "Linxi \"Jim'' Fan",
+        "Jan Kautz",
+        "Zhiding Yu"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
+      "url": "http://arxiv.org/abs/2611.08445v1",
+      "summary": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker's behavioral regime persists and can switch within an episode, and each action combines an operation with state-dependent arguments whose feasible values change over time. We capture both with a hidde",
+      "authors": [
+        "Angel Daruna",
+        "Michael Cogswell",
+        "Tixiao Shan",
+        "Yi Yao",
+        "Han-Pang Chiu",
+        "Ajay Divakaran"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
+      "url": "http://arxiv.org/abs/2611.08441v1",
+      "summary": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each fra",
+      "authors": [
+        "Hongsen Cao",
+        "Chia-Yen Chiang",
+        "Mona Jaber",
+        "Meihui Wang",
+        "Yasmin Fathy"
+      ],
+      "published": "2026-11-05",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ]
+    }
+  ]
+}
