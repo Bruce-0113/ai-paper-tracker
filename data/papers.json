@@ -1,272 +1,265 @@
 {
-  "updated": "2026-11-08T06:56:51.219642+00:00",
+  "updated": "2026-11-09T07:40:59.616419+00:00",
   "papers": [
     {
-      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
-      "url": "http://arxiv.org/abs/2611.08487v1",
-      "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is",
+      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "url": "http://arxiv.org/abs/2611.09894v1",
+      "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and ex",
       "authors": [
-        "Jonathan Kozaczuk",
-        "Zheng Dong",
-        "Noyan Evirgen",
-        "Keivan Majidi",
-        "Eddie K. H. Ng",
-        "Chris Porter",
-        "Qi Zhao",
-        "Jia Geng",
-        "Changmao Li",
-        "Brandon R. Feng"
+        "Chaoyang Wang",
+        "Sicheng Gao",
+        "Junan Hu",
+        "Kunyang Li",
+        "Dongyang Chen",
+        "Yiyang Zhou",
+        "Huaxiu Yao",
+        "Yong Jae Lee",
+        "Radu Timofte",
+        "Yuzhang Shang"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "On Agentic Manipulation Policies",
+      "url": "http://arxiv.org/abs/2611.09892v1",
+      "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly,",
+      "authors": [
+        "Chen Chen",
+        "Omid Bagherieh",
+        "Naveen Nikamanth Appiah Balaji",
+        "Jesse T. Gonzalez",
+        "Negin Heravi",
+        "Fahad Islam",
+        "Xueting Li",
+        "Jean-Baptiste Regli",
+        "Kejia Ren",
+        "Petr Švec",
+        "David J. Yoon",
+        "Matthias Müller",
+        "Vladlen Koltun"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
         "cs.LG"
       ]
     },
     {
-      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
-      "url": "http://arxiv.org/abs/2611.08486v1",
-      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "url": "http://arxiv.org/abs/2611.09891v1",
+      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning cachin",
       "authors": [
-        "Xiaoqi Zhao",
-        "Youwei Pang",
-        "Kailai Zhou"
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Saurav Muralidharan",
+        "Shizhe Diao",
+        "Pavlo Molchanov"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Where and Why is Grounded Reasoning Useful?",
-      "url": "http://arxiv.org/abs/2611.08485v1",
-      "summary": "Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning is most useful. To do so, we introduce a chain-of-thought analysis method to measure how much a mode",
-      "authors": [
-        "David Yan",
-        "Le Xue",
-        "Forrest Huang",
-        "Qiuyi Zhang",
-        "Dustin Tran",
-        "Andrew M. Dai",
-        "Yinfei Yang"
-      ],
-      "published": "2026-11-05",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-      "url": "http://arxiv.org/abs/2611.08483v1",
-      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework",
-      "authors": [
-        "Qile Jiang",
-        "George Em Karniadakis"
-      ],
-      "published": "2026-11-05",
-      "categories": [
-        "cs.AI",
-        "cs.NE"
-      ]
-    },
-    {
-      "title": "Scientist World: Grow a Research World for AI-Scientists",
-      "url": "http://arxiv.org/abs/2611.08478v1",
-      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ende",
-      "authors": [
-        "Taiming Lu",
-        "Sachin Konan",
-        "Zhuang Liu"
-      ],
-      "published": "2026-11-05",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
-      "url": "http://arxiv.org/abs/2611.08477v1",
-      "summary": "Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-adaptive action renderer provides video-native representations for multidirectional action-video learn",
-      "authors": [
-        "Yanlin Jin",
-        "Bowen Yang",
-        "Cheng Zhang",
-        "Yifan Yang",
-        "Zhe Li",
-        "Jianfei Cai",
-        "Kai Zhu"
-      ],
-      "published": "2026-11-05",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "XStack: A Benchmark for ML Repo Migration",
-      "url": "http://arxiv.org/abs/2611.08472v1",
-      "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark",
-      "authors": [
-        "Linrong Cai",
-        "Taiming Lu",
-        "Haozhe Chen",
-        "Zhuang Liu"
-      ],
-      "published": "2026-11-05",
-      "categories": [
-        "cs.LG",
         "cs.AI"
       ]
     },
     {
-      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-      "url": "http://arxiv.org/abs/2611.08469v1",
-      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism ",
+      "title": "On the (non-)closedness of the set of ReLU networks",
+      "url": "http://arxiv.org/abs/2611.09887v1",
+      "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d$. Consequently, every coercive, weakly lower semicontinuous energy on this space attains its minimum over $\\mathcal{N}_N$. This covers the Deep Ritz method with convex integrands, Sobolev training an",
       "authors": [
-        "Linqian Wu",
-        "Diaoxuan He"
+        "Eloi Martinet",
+        "Leon Bungert"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "categories": [
         "cs.LG",
-        "cs.AI",
-        "q-bio.NC"
-      ]
-    },
-    {
-      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
-      "url": "http://arxiv.org/abs/2611.08465v1",
-      "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residual stream directions from a subject model to text exemplars that strongly activate those directions. ",
-      "authors": [
-        "Celeste De Schamphelaere",
-        "Juan J. Vazquez",
-        "Ari Spiesberger",
-        "Tomáš Gavenčiak",
-        "Gavin Leech",
-        "Euan Ong",
-        "Jiahai Feng"
-      ],
-      "published": "2026-11-05",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
-      "url": "http://arxiv.org/abs/2611.08457v1",
-      "summary": "Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the small or vanishing step sizes regime, where GD resembles a continuous-time flow. However, such step sizes can make training inefficient and are rarely used in practice. In this paper, we study the AT ",
-      "authors": [
-        "Yi Feng",
-        "Andrea Paudice"
-      ],
-      "published": "2026-11-05",
-      "categories": [
-        "cs.LG",
+        "math.CA",
+        "math.FA",
+        "math.NA",
         "math.OC"
       ]
     },
     {
-      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
-      "url": "http://arxiv.org/abs/2611.08453v1",
-      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimiz",
+      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+      "url": "http://arxiv.org/abs/2611.09882v1",
+      "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent. In contrast, we present a conditional flow matching fr",
       "authors": [
-        "Zeyu Leo Liu",
-        "Yang Li",
-        "Bo Pang",
-        "Emre Can Acikgoz",
-        "Xuan-Phi Nguyen",
-        "Anurag Koul",
-        "Srijan Bansal",
-        "Erik Nijkamp",
-        "Shafiq Joty",
-        "Semih Yavuz"
+        "Aadya Agrawal",
+        "Ho Kei Cheng",
+        "Alexander Schwing"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "categories": [
-        "cs.LG",
-        "cs.CL"
+        "cs.CV",
+        "cs.LG"
       ]
     },
     {
-      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
-      "url": "http://arxiv.org/abs/2611.08452v1",
-      "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independe",
+      "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
+      "url": "http://arxiv.org/abs/2611.09880v1",
+      "summary": "Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structu",
       "authors": [
-        "Yubo Wang",
-        "Rui Meng",
-        "Jaehyun Nam",
-        "Tomas Pfister",
-        "Jinsung Yoon"
+        "Aaron Sun",
+        "Yachan Liu",
+        "Ping Yang",
+        "Peng Bai",
+        "Subhransu Maji"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+      "url": "http://arxiv.org/abs/2611.09878v1",
+      "summary": "The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and a local feature is dilation-invariant if and only if it factors through the scale-normalized jet or, without the scale, through the retraction onto the weighted sphere of the grading. Under unknown Ga",
+      "authors": [
+        "Tanush Shaska"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2611.09872v1",
+      "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because populatio",
+      "authors": [
+        "Haoyu Wang",
+        "Ru Wang",
+        "Yuanyuan Wang",
+        "Jiaxian Guo",
+        "Mingming Gong"
+      ],
+      "published": "2026-11-06",
       "categories": [
         "cs.AI"
       ]
     },
     {
-      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-      "url": "http://arxiv.org/abs/2611.08449v1",
-      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
+      "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
+      "url": "http://arxiv.org/abs/2611.09868v1",
+      "summary": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increasingly important. However, aggressively quantized models often perform poorly on reasoning tasks. We observe larger activation fluctuations during the first decoding steps of reasoning. Calibration tha",
       "authors": [
-        "Yu-Cheng Chou",
-        "Shihao Wang",
-        "Jin Huang",
-        "Chi-Pin Huang",
-        "Chiao-An Yang",
-        "Xianzhe Fan",
-        "Jing Wang",
-        "Zhiqi Li",
-        "Yuanguo Kuang",
-        "Ruijie Zheng",
-        "Johan Bjorck",
-        "Sifei Liu",
-        "Hang Su",
-        "Abhishek Badki",
-        "Lei Zhang",
-        "Alan Yuille",
-        "Linxi \"Jim'' Fan",
-        "Jan Kautz",
-        "Zhiding Yu"
+        "Xingyu Liu",
+        "Xiangyang Yin",
+        "Tianhua Xia",
+        "Haiyu Wang",
+        "Sai Qian Zhang"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.CL"
       ]
     },
     {
-      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
-      "url": "http://arxiv.org/abs/2611.08445v1",
-      "summary": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker's behavioral regime persists and can switch within an episode, and each action combines an operation with state-dependent arguments whose feasible values change over time. We capture both with a hidde",
+      "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+      "url": "http://arxiv.org/abs/2611.09866v1",
+      "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated surgical scene descriptions could reduce this burden by leveraging recurring surgical activities and prior knowledge.   Methods: We propose GRAC (Grap",
       "authors": [
-        "Angel Daruna",
-        "Michael Cogswell",
-        "Tixiao Shan",
-        "Yi Yao",
-        "Han-Pang Chiu",
-        "Ajay Divakaran"
+        "Rochak Dhakal",
+        "Chen Zhao",
+        "Soup Cobb",
+        "Xin Qian",
+        "Xiaofeng Yang",
+        "Weihua Zhou"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+      "url": "http://arxiv.org/abs/2611.09864v1",
+      "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dyn",
+      "authors": [
+        "Xun Tu",
+        "Minghao Zou",
+        "Karthik Desingh"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
         "cs.LG"
       ]
     },
     {
-      "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
-      "url": "http://arxiv.org/abs/2611.08441v1",
-      "summary": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each fra",
+      "title": "Flow-Guided Target-Space Alignment via Path Consistency",
+      "url": "http://arxiv.org/abs/2611.09863v1",
+      "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, successful alignment should preserve both the global structure of the target distribution and the instance-level correspondence observed in paired source--t",
       "authors": [
-        "Hongsen Cao",
-        "Chia-Yen Chiang",
-        "Mona Jaber",
-        "Meihui Wang",
-        "Yasmin Fathy"
+        "Ruizhi Yuan",
+        "Zeqiu Yu",
+        "Wei Gao",
+        "Wei Chen",
+        "Xiwei Tang",
+        "Lu Tang"
       ],
-      "published": "2026-11-05",
+      "published": "2026-11-06",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Super-resolved digital terrain models for GEDI geolocation correction: agreement with airborne LiDAR DTM-based corrections at the beam level, not the footprint level",
+      "url": "http://arxiv.org/abs/2611.09854v1",
+      "summary": "The Global Ecosystem Dynamics Investigation (GEDI) mission measures three-dimensional forest structure with a LiDAR aboard the International Space Station. GEDI observations have geolocation errors of about 10 m, which cause misalignment with other remote sensing data and reduce the accuracy of downstream tasks. Matching GEDI ground elevations against high-resolution digital terrain models (DTMs) ",
+      "authors": [
+        "Natsuki Yuda",
+        "Shinichiro Shirota"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "physics.geo-ph"
+      ]
+    },
+    {
+      "title": "Health-System-Wide Mapping of Demographic Information in Routine Clinical Histopathology",
+      "url": "http://arxiv.org/abs/2611.09851v1",
+      "summary": "The extent to which demographic-associated information is detectable across organs and disease states in routine clinical histopathology remains unclear. Here, we analyzed 1.3 million hematoxylin and eosin whole-slide images from 257,322 patients across 25 organs, using pathology foundation-model representations and multiple-instance learning to systematically map information associated with sex, ",
+      "authors": [
+        "Shengjia Chen",
+        "Ruchika Verma",
+        "Kevin Clare",
+        "Paula Restrepo",
+        "Jannes Jegminat",
+        "Eugenia Alleva",
+        "Kuan-lin Huang",
+        "Aryeh Stock",
+        "Brandon Veremis",
+        "Thomas Fuchs",
+        "Gabriele Campanella"
+      ],
+      "published": "2026-11-06",
       "categories": [
         "cs.CV",
-        "eess.IV"
+        "q-bio.QM"
+      ]
+    },
+    {
+      "title": "How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages",
+      "url": "http://arxiv.org/abs/2611.09848v1",
+      "summary": "Can a sender that only computes hashes, with a language model only at the receiver, transmit short human text more cheaply than a classical sender trained on the same domain? We answer with one pre-registered run on 1,000 English user utterances from Taskmaster-1. The primary endpoint is the cost per message to deliver 100% of the messages (hash bits, plus a 2-byte negative acknowledgement and the",
+      "authors": [
+        "Marcelo Samoilenko"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.IT",
+        "cs.CL"
       ]
     }
   ]

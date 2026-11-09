@@ -1,0 +1,266 @@
+{
+  "updated": "2026-11-09T07:40:59.616419+00:00",
+  "papers": [
+    {
+      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "url": "http://arxiv.org/abs/2611.09894v1",
+      "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and ex",
+      "authors": [
+        "Chaoyang Wang",
+        "Sicheng Gao",
+        "Junan Hu",
+        "Kunyang Li",
+        "Dongyang Chen",
+        "Yiyang Zhou",
+        "Huaxiu Yao",
+        "Yong Jae Lee",
+        "Radu Timofte",
+        "Yuzhang Shang"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "On Agentic Manipulation Policies",
+      "url": "http://arxiv.org/abs/2611.09892v1",
+      "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly,",
+      "authors": [
+        "Chen Chen",
+        "Omid Bagherieh",
+        "Naveen Nikamanth Appiah Balaji",
+        "Jesse T. Gonzalez",
+        "Negin Heravi",
+        "Fahad Islam",
+        "Xueting Li",
+        "Jean-Baptiste Regli",
+        "Kejia Ren",
+        "Petr Švec",
+        "David J. Yoon",
+        "Matthias Müller",
+        "Vladlen Koltun"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "url": "http://arxiv.org/abs/2611.09891v1",
+      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning cachin",
+      "authors": [
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Saurav Muralidharan",
+        "Shizhe Diao",
+        "Pavlo Molchanov"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "On the (non-)closedness of the set of ReLU networks",
+      "url": "http://arxiv.org/abs/2611.09887v1",
+      "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d$. Consequently, every coercive, weakly lower semicontinuous energy on this space attains its minimum over $\\mathcal{N}_N$. This covers the Deep Ritz method with convex integrands, Sobolev training an",
+      "authors": [
+        "Eloi Martinet",
+        "Leon Bungert"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.LG",
+        "math.CA",
+        "math.FA",
+        "math.NA",
+        "math.OC"
+      ]
+    },
+    {
+      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+      "url": "http://arxiv.org/abs/2611.09882v1",
+      "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent. In contrast, we present a conditional flow matching fr",
+      "authors": [
+        "Aadya Agrawal",
+        "Ho Kei Cheng",
+        "Alexander Schwing"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
+      "url": "http://arxiv.org/abs/2611.09880v1",
+      "summary": "Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structu",
+      "authors": [
+        "Aaron Sun",
+        "Yachan Liu",
+        "Ping Yang",
+        "Peng Bai",
+        "Subhransu Maji"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+      "url": "http://arxiv.org/abs/2611.09878v1",
+      "summary": "The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and a local feature is dilation-invariant if and only if it factors through the scale-normalized jet or, without the scale, through the retraction onto the weighted sphere of the grading. Under unknown Ga",
+      "authors": [
+        "Tanush Shaska"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2611.09872v1",
+      "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because populatio",
+      "authors": [
+        "Haoyu Wang",
+        "Ru Wang",
+        "Yuanyuan Wang",
+        "Jiaxian Guo",
+        "Mingming Gong"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
+      "url": "http://arxiv.org/abs/2611.09868v1",
+      "summary": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increasingly important. However, aggressively quantized models often perform poorly on reasoning tasks. We observe larger activation fluctuations during the first decoding steps of reasoning. Calibration tha",
+      "authors": [
+        "Xingyu Liu",
+        "Xiangyang Yin",
+        "Tianhua Xia",
+        "Haiyu Wang",
+        "Sai Qian Zhang"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+      "url": "http://arxiv.org/abs/2611.09866v1",
+      "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated surgical scene descriptions could reduce this burden by leveraging recurring surgical activities and prior knowledge.   Methods: We propose GRAC (Grap",
+      "authors": [
+        "Rochak Dhakal",
+        "Chen Zhao",
+        "Soup Cobb",
+        "Xin Qian",
+        "Xiaofeng Yang",
+        "Weihua Zhou"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+      "url": "http://arxiv.org/abs/2611.09864v1",
+      "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dyn",
+      "authors": [
+        "Xun Tu",
+        "Minghao Zou",
+        "Karthik Desingh"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Flow-Guided Target-Space Alignment via Path Consistency",
+      "url": "http://arxiv.org/abs/2611.09863v1",
+      "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, successful alignment should preserve both the global structure of the target distribution and the instance-level correspondence observed in paired source--t",
+      "authors": [
+        "Ruizhi Yuan",
+        "Zeqiu Yu",
+        "Wei Gao",
+        "Wei Chen",
+        "Xiwei Tang",
+        "Lu Tang"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Super-resolved digital terrain models for GEDI geolocation correction: agreement with airborne LiDAR DTM-based corrections at the beam level, not the footprint level",
+      "url": "http://arxiv.org/abs/2611.09854v1",
+      "summary": "The Global Ecosystem Dynamics Investigation (GEDI) mission measures three-dimensional forest structure with a LiDAR aboard the International Space Station. GEDI observations have geolocation errors of about 10 m, which cause misalignment with other remote sensing data and reduce the accuracy of downstream tasks. Matching GEDI ground elevations against high-resolution digital terrain models (DTMs) ",
+      "authors": [
+        "Natsuki Yuda",
+        "Shinichiro Shirota"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "physics.geo-ph"
+      ]
+    },
+    {
+      "title": "Health-System-Wide Mapping of Demographic Information in Routine Clinical Histopathology",
+      "url": "http://arxiv.org/abs/2611.09851v1",
+      "summary": "The extent to which demographic-associated information is detectable across organs and disease states in routine clinical histopathology remains unclear. Here, we analyzed 1.3 million hematoxylin and eosin whole-slide images from 257,322 patients across 25 organs, using pathology foundation-model representations and multiple-instance learning to systematically map information associated with sex, ",
+      "authors": [
+        "Shengjia Chen",
+        "Ruchika Verma",
+        "Kevin Clare",
+        "Paula Restrepo",
+        "Jannes Jegminat",
+        "Eugenia Alleva",
+        "Kuan-lin Huang",
+        "Aryeh Stock",
+        "Brandon Veremis",
+        "Thomas Fuchs",
+        "Gabriele Campanella"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.CV",
+        "q-bio.QM"
+      ]
+    },
+    {
+      "title": "How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages",
+      "url": "http://arxiv.org/abs/2611.09848v1",
+      "summary": "Can a sender that only computes hashes, with a language model only at the receiver, transmit short human text more cheaply than a classical sender trained on the same domain? We answer with one pre-registered run on 1,000 English user utterances from Taskmaster-1. The primary endpoint is the cost per message to deliver 100% of the messages (hash bits, plus a 2-byte negative acknowledgement and the",
+      "authors": [
+        "Marcelo Samoilenko"
+      ],
+      "published": "2026-11-06",
+      "categories": [
+        "cs.IT",
+        "cs.CL"
+      ]
+    }
+  ]
+}
