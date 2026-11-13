@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-12 07:58 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-13 07:37 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-11-10 · ✍️ Emre Kutlusan, Yongmin Li
-
-Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new cl...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14519v1)
-
----
-
-### 2. Toward Foundation Detection Models via Example-Based Grounding in EM-DETR
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-11-10 · ✍️ Sheethal Bhat, Bogdan Georgescu, Awais Mansoor +3 more
-
-DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14518v1)
-
----
-
-### 3. TorchCurves: Differentiable Parametric Curves
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Alex Shtoff
-
-We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly with the surrounding model or produced by another network. T...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14516v1)
-
----
-
-### 4. AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-10 · ✍️ Zijian Zhang, Rizhen Hu, Jiangweizhi Peng +4 more
-
-Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into guidance, but their design and adaptation are largely left to humans ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14515v1)
-
----
-
-### 5. Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Ziang Liu, James J. Kim, Yijia Dai +1 more
-
-LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover that alternative, we introduce Contrastive Discovery, which rep...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14514v1)
-
----
-
-### 6. Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Megha Srivastava, Michael H. Lim, Allison M. Keys +2 more
-
-Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-b...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14511v1)
-
----
-
-### 7. When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Yeyuan Liu
-
-Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wiring with how the models are tuned: a connectome fixes who connects to whom, not the excitability, gains or plasticity rates the model also needs, and modellers often tune these until the real-wiring m...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14508v1)
-
----
-
-### 8. Continual-ARC: Measuring Skill Acquisition over a Working Lifetime
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Daniel Lenton
-
-Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14505v1)
-
----
-
-### 9. Emergent Biological Capabilities in a Foundation Model for Molecular Interactions
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Adi Mashiach
-
-Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabili...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14504v1)
-
----
-
-### 10. Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion
+### 1. Back to Pixels: Lifting Latent Video Diffusion into Pixel Space
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-11-10 · ✍️ Alexandre Garcia-Duran, Alejandro Rodriguez-Garcia, Manuel Molano-Mazón +3 more
+📅 2026-11-12 · ✍️ Yanke Song, Shuo Chen, Chris Rockwell +9 more
 
-Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We address this by benchmarking a task-optimized, continuous-time recurrent neural network of the fly visu...
+Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block....
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14498v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17336v1)
 
 ---
 
-### 11. RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval
+### 2. Unbundling Multimodal Vision Encoding
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-12 · ✍️ Ellis Brown, Chris Hoang, Shengyi Qian +9 more
+
+How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e....
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17334v1)
+
+---
+
+### 3. TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-11-10 · ✍️ Tanishq Rachamalla, Srishti Kaushik, Muhammad Attique Khan +2 more
+📅 2026-11-12 · ✍️ Chin-Yang Lin, Ryo Hachiuma, Jaesung Choe +6 more
 
-Cross-sensor remote sensing image retrieval aims to find scenes with the same content across heterogeneous sensors, such as SAR and optical or panchromatic (PAN) and multispectral (MS) imagery, without manual labels. Existing self-supervised methods either reconstruct sensor-specific pixel detail, align each image only with its co-registered twin, or rely on large transformers with 118-173M parame...
+Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a ligh...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14496v1)
-
----
-
-### 12. Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Howard Zhang, Chuck Arvin, Logan Brown +3 more
-
-Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics), applied to two a...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14493v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17331v1)
 
 ---
 
-### 13. ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows
+### 4. ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-12 · ✍️ Jie Wang, Tong Zhu, JiaHao Kuang +8 more
+
+Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. In academia, limited compute and inconsistent...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17332v1)
+
+---
+
+### 5. ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-12 · ✍️ Guangyuan Sui, Yunzhong Hou, Chi Harold Liu
+
+Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation waypoints from language instructions. To solve this, we introduce the Prototypical Visual Imagination f...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17330v1)
+
+---
+
+### 6. Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-12 · ✍️ Zeynep Yıldız, Satchit Chatterji, Ercan Atam +1 more
+
+Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gr...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17329v1)
+
+---
+
+### 7. K2V: Generative Keyframing For Physically Plausible Video Generation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-12 · ✍️ Felix O'Mahony, Daniel Olmeda Reino, Roberto Cipolla +1 more
+
+Video diffusion models are able to generate samples with high-quality appearance and textural qualities. However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simultaneously and exclusively within the diffusion process.We propose to resolve these issues by redistri...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17324v1)
+
+---
+
+### 8. AgentSSL: Can MLE Agents Leverage Unlabeled Data?
 
 ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-10 · ✍️ Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya +6 more
+📅 2026-11-12 · ✍️ Ethan Lin, Akanksha Sarkar, Ziang Liu +2 more
 
-Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM...
+Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we i...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14492v1)
-
----
-
-### 14. TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time Series Analytics
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-10 · ✍️ Peng Chen, Yihang Wang, Zhongwen Rao +6 more
-
-Time series analytics has been widely applied across various domains. While existing time series foundation models (TSFMs) have demonstrated promising results, they still face two major challenges: 1) Most TSFMs mainly rely on stacking Transformer layers to increase parameter size, lacking the ability to adaptively model complex time series patterns from multi-domain data. 2) Current TSFMs are pri...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14491v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17323v1)
 
 ---
 
-### 15. Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game
+### 9. BrickFlow: Connectivity-Guided Brick Reconstruction
 
-![AI](https://img.shields.io/badge/cs.AI-orange)
+![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-11-10 · ✍️ Muhan Gao, Hangxiao Zhu, Xinqi Su +3 more
+📅 2026-11-12 · ✍️ Peter Kulits, Cordelia Schmid
 
-Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published pap...
+Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial and highly sensitive to small pose errors. To learn a prior over how parts fit together, we train a s...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.14487v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17321v1)
+
+---
+
+### 10. Learning When Diffusion Language Models Should Regenerate
+
+![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-11-12 · ✍️ Minhae Oh, Jeonghye Kim, Jinwoo Koo +4 more
+
+Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains fixed. These findings motivate DiVR , a ve...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17320v1)
+
+---
+
+### 11. Spatial Foundry: A Multimodal Dataset for Spatial Intelligence
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-12 · ✍️ Ethan Lin, Yang Song
+
+Spatial intelligence requires connecting visual observations to the geometry, objects, and persistent state of an environment. Images alone leave these relationships implicit, while disconnected annotations make it difficult to study appearance, camera motion, and scene changes under a common reference. We introduce Spatial Foundry, a collection of 5,280 furnished residential 3D scene configuratio...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17318v1)
+
+---
+
+### 12. CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-11-12 · ✍️ Peiwen Li, Harshit Verma, Sophia Zhou +6 more
+
+Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds. We introduce Coding-Repository Memory (CoReMem)...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17316v1)
+
+---
+
+### 13. Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-11-12 · ✍️ Abigail L. Tenenbaum, R. Thomas McCoy
+
+Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly. We study neural networks that have been optimized via meta-learning, a technique that exposes a network to many related functions to facilitate its subsequent learning of similar functions. Pri...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17314v1)
+
+---
+
+### 14. Sketching Language Models for Context Attribution
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-12 · ✍️ Christopher Liaw, Aranyak Mehta, Grigoris Velegkas +1 more
+
+Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all LOO values to error proportional to $\varepsilon$ with constant probability using $...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17313v1)
+
+---
+
+### 15. Classical Energies Learn to Reason 1,000x Faster than Looped Models
+
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-12 · ✍️ Benjamin Hoover, Hugh Blayney, James C. R. Whittington
+
+Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem d...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.17309v1)
 
 ---
 
