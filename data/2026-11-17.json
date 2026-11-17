@@ -1,0 +1,272 @@
+{
+  "updated": "2026-11-17T08:50:48.840623+00:00",
+  "papers": [
+    {
+      "title": "Latent Lattice Language Models",
+      "url": "http://arxiv.org/abs/2611.21608v1",
+      "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently a",
+      "authors": [
+        "Shivam Duggal",
+        "Zongze Wu",
+        "William T. Freeman",
+        "Antonio Torralba",
+        "Richard Zhang",
+        "Eli Shechtman"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "url": "http://arxiv.org/abs/2611.21605v1",
+      "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on c",
+      "authors": [
+        "Huawei Lin",
+        "Jinting Liu",
+        "Tongyan Wang",
+        "Xuyang Chen",
+        "Ruihua Shi",
+        "Zhichao Xu",
+        "Jiaxin Qin",
+        "Guoshenghui Zhao",
+        "Baijian Yang",
+        "Yingjie Victor Chen",
+        "Tan Yu",
+        "Weijie Zhao"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "FaceJev: Direct Visual Decisions for Face Forgery Detection",
+      "url": "http://arxiv.org/abs/2611.21604v1",
+      "summary": "Face forgery detection methods often perform well on seen manipulations but generalize poorly to unseen ones. Multimodal Large Language Models (MLLMs) can recognize facial parts and assess their visual plausibility. Existing MLLM-based methods typically express these judgments through textual explanations, but seldom treat individual part decisions as explicit learning targets. We present FaceJev,",
+      "authors": [
+        "Siran Peng",
+        "Tianshuo Zhang",
+        "Yibo Xue",
+        "Ajian Liu",
+        "Haoyuan Zhang",
+        "Weisong Zhao",
+        "Shuhuan Chen",
+        "Xiangyu Zhu",
+        "Zhen Lei"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
+      "url": "http://arxiv.org/abs/2611.21602v1",
+      "summary": "The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and eastern North Pacific tropical cyclones from the 2002-2023 hurricane seasons, we analyze the discussion text and its combin",
+      "authors": [
+        "Ilia Azizi",
+        "Frederick Iat-Hin Tam",
+        "Marc-Olivier Boldi",
+        "Valérie Chavez-Demoulin",
+        "Tom Beucler"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "How VLMs Plan What's Next",
+      "url": "http://arxiv.org/abs/2611.21600v1",
+      "summary": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding heads match the relevant text tokens against the image and resolve them into pointers to the matched im",
+      "authors": [
+        "Rohit Gandikota",
+        "Arnab Sen Sharma",
+        "Adam Belfki",
+        "David Bau"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks",
+      "url": "http://arxiv.org/abs/2611.21599v1",
+      "summary": "We introduce Hyperlyve (Hyperplane Partitioned Lyapunov Verification and Enumeration), a framework for proving the asymptotic stability of nonlinear dynamical systems, including those with neural network controllers. Hyperlyve learns and formally certifies continuous piecewise-affine (CPA) neural Lyapunov functions within a counterexample-guided inductive synthesis (CEGIS) loop. Hyperlyve's key in",
+      "authors": [
+        "Brian Yarbrough",
+        "Jesse Wayment",
+        "Jingbo Wang",
+        "Philip E. Paré",
+        "Shreyas Sundaram"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "eess.SY",
+        "cs.CG",
+        "cs.LG",
+        "cs.LO",
+        "math.DS"
+      ]
+    },
+    {
+      "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+      "url": "http://arxiv.org/abs/2611.21598v1",
+      "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradi",
+      "authors": [
+        "Blas Eugenio Vicco Zarate",
+        "Miguel Hernán Vicco"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NE"
+      ]
+    },
+    {
+      "title": "Optimal Autoregressive Chain-of-Thought Learning via Bagging",
+      "url": "http://arxiv.org/abs/2611.21597v1",
+      "summary": "We study how to learn an autoregressive next-token generator $f\\colonΣ^\\star\\toΣ$ from a class $\\mathcal{F}$, given chain-of-thought (CoT) demonstrations of length $T$ generated by $f$. We present a simple algorithm based on bagging, which outputs a majority vote of generators that are trained to be CoT-consistent on bootstrap samples of the training data. For binary token sets, it achieves the op",
+      "authors": [
+        "Awni Altabaa",
+        "John Lafferty",
+        "Omar Montasser"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
+      "url": "http://arxiv.org/abs/2611.21596v1",
+      "summary": "In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representation is dominated by a component shared by different inputs. A batch-normalized projector removes this component, so regularization after the projector cannot correct it, and the differences between rep",
+      "authors": [
+        "Junhan Sun",
+        "Yigui Feng",
+        "Mingzhe Liu",
+        "Haoyan Xu",
+        "Lei Ye",
+        "Ziqi Han",
+        "Hanru Bai",
+        "Yanzhao Zhang",
+        "Hao Zhao",
+        "Guofeng Zhang"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
+      "url": "http://arxiv.org/abs/2611.21594v1",
+      "summary": "Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of SkyWater 130 nm (SKY130) transistors at 77 K using a neural surrogate of NGSpice. The surrogate maps compact-model parameters and device geometry to the complete set of output and transfer characterist",
+      "authors": [
+        "Aaron Wang",
+        "Olivia Gzamouranis",
+        "Vaibhav Lohia",
+        "Hershel Fei Xun Weiner",
+        "Olivia Seidel",
+        "Richard Cavanaugh",
+        "Giuseppe Di Guglielmo",
+        "Nhan Tran",
+        "Davide Braga"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "physics.ins-det",
+        "cs.ET",
+        "cs.LG",
+        "physics.app-ph"
+      ]
+    },
+    {
+      "title": "Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering",
+      "url": "http://arxiv.org/abs/2611.21586v1",
+      "summary": "Job titles and job descriptions alone provide limited insight into how technical roles differ in a changing job market. To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from LinkedIn in the United States between December 2025 and October ",
+      "authors": [
+        "Yisong Cao",
+        "Leah Kim",
+        "Brian Wright",
+        "Ali Rivera"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts",
+      "url": "http://arxiv.org/abs/2611.21584v1",
+      "summary": "Training with MXFP4, a 4-bit microscaling format, is non-deterministic: identical inputs can produce different results across parallelism layouts and GPU vendors. These differences complicate debugging and training audits and can cause training and inference engines to disagree. We present CertiSum to make MXFP4 training bitwise invariant across runs, parallelism layouts, and GPU vendors. Its key ",
+      "authors": [
+        "Steve Rhyner",
+        "Yubo Gao",
+        "Stefan de Lasa",
+        "Sankeerth Durvasula",
+        "Nandita Vijaykumar"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ]
+    },
+    {
+      "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+      "url": "http://arxiv.org/abs/2611.21579v1",
+      "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-",
+      "authors": [
+        "Jaime C. Acosta",
+        "Anantaa Kotal",
+        "Aritran Piplai"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+      "url": "http://arxiv.org/abs/2611.21577v1",
+      "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessarily bound to a verified provider identity. This paper studies this gap as tool-",
+      "authors": [
+        "Zeynab Anbiaee",
+        "Sajjad Dadkhah",
+        "Ali A. Ghorbani"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "DynSurvX: Time-Resolved Explanations for Dynamic Survival Predictions",
+      "url": "http://arxiv.org/abs/2611.21571v1",
+      "summary": "Recent survival models integrating longitudinal data achieve strong predictive performance, but their predictions are often difficult to interpret, limiting their clinical use. We propose DynSurvX, a model-agnostic explainability framework for dynamic survival prediction with mixed static and longitudinal covariates. Based on Shapley values, DynSurvX introduces a hierarchical two-phase strategy th",
+      "authors": [
+        "Van Tuan Nguyen",
+        "Agathe Guilloux"
+      ],
+      "published": "2026-11-16",
+      "categories": [
+        "cs.LG"
+      ]
+    }
+  ]
+}
