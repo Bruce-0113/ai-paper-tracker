@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-17 08:50 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-18 08:14 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. Latent Lattice Language Models
+### 1. Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange) ![CL](https://img.shields.io/badge/cs.CL-green)
 
-📅 2026-11-16 · ✍️ Shivam Duggal, Zongze Wu, William T. Freeman +3 more
+📅 2026-11-17 · ✍️ Giannis Daras, Marios Papachristou, Adam Klivans +2 more
 
-Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently a...
+Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution. To prevent this collapse, we introduce Ambient...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21608v1)
-
----
-
-### 2. ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-11-16 · ✍️ Huawei Lin, Jinting Liu, Tongyan Wang +9 more
-
-Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on c...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21605v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23229v1)
 
 ---
 
-### 3. FaceJev: Direct Visual Decisions for Face Forgery Detection
+### 2. Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-17 · ✍️ Rui Ning, Om Chabra, Hari Balakrishnan
+
+Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for this setting, but maintaining a sliding window is expensive. Th...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23228v1)
+
+---
+
+### 3. FastFrames: Video Generation at Interactive Latency
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-11-16 · ✍️ Siran Peng, Tianshuo Zhang, Yibo Xue +6 more
+📅 2026-11-17 · ✍️ Gene Chou, Guandao Yang, Fujun Luan +4 more
 
-Face forgery detection methods often perform well on seen manipulations but generalize poorly to unseen ones. Multimodal Large Language Models (MLLMs) can recognize facial parts and assess their visual plausibility. Existing MLLM-based methods typically express these judgments through textual explanations, but seldom treat individual part decisions as explicit learning targets. We present FaceJev,...
+Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We prof...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21604v1)
-
----
-
-### 4. Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-16 · ✍️ Ilia Azizi, Frederick Iat-Hin Tam, Marc-Olivier Boldi +2 more
-
-The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and eastern North Pacific tropical cyclones from the 2002-2023 hurricane seasons, we analyze the discussion text and its combin...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21602v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23226v1)
 
 ---
 
-### 5. How VLMs Plan What's Next
+### 4. StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics
 
-![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-16 · ✍️ Rohit Gandikota, Arnab Sen Sharma, Adam Belfki +1 more
+📅 2026-11-17 · ✍️ Xingyang Yu
 
-When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding heads match the relevant text tokens against the image and resolve them into pointers to the matched im...
+We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21600v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23225v1)
 
 ---
 
-### 6. Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks
+### 5. An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization
 
 ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-16 · ✍️ Brian Yarbrough, Jesse Wayment, Jingbo Wang +2 more
+📅 2026-11-17 · ✍️ Zhaosong Lu, Yifeng Xiao
 
-We introduce Hyperlyve (Hyperplane Partitioned Lyapunov Verification and Enumeration), a framework for proving the asymptotic stability of nonlinear dynamical systems, including those with neural network controllers. Hyperlyve learns and formally certifies continuous piecewise-affine (CPA) neural Lyapunov functions within a counterexample-guided inductive synthesis (CEGIS) loop. Hyperlyve's key in...
+In this paper, we study a class of constrained convex finite-sum optimization problems. In many practical applications, all or some of the constraints are hard constraints that represent imperative requirements. Consequently, any desirable approximate solution must (nearly) satisfy these constraints. Motivated by this, we focus on computing an $ε$-$surely\ feasible\ stochastic\ optimal$ ($ε$-SFSO)...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21599v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23221v1)
 
 ---
 
-### 7. Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent
+### 6. Do LLM Agents Still Need to Be Told How to Self-Improve?
 
 ![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-16 · ✍️ Blas Eugenio Vicco Zarate, Miguel Hernán Vicco
+📅 2026-11-17 · ✍️ Shobhita Sundaram, Cansu Sancaktar, Phillip Isola
 
-Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradi...
+LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, an...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21598v1)
-
----
-
-### 8. Optimal Autoregressive Chain-of-Thought Learning via Bagging
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-16 · ✍️ Awni Altabaa, John Lafferty, Omar Montasser
-
-We study how to learn an autoregressive next-token generator $f\colonΣ^\star\toΣ$ from a class $\mathcal{F}$, given chain-of-thought (CoT) demonstrations of length $T$ generated by $f$. We present a simple algorithm based on bagging, which outputs a majority vote of generators that are trained to be CoT-consistent on bootstrap samples of the training data. For binary token sets, it achieves the op...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21597v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23219v1)
 
 ---
 
-### 9. SADL: On the Demand-Supply Geometry of Representation Collapse
+### 7. What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution
 
-![LG](https://img.shields.io/badge/cs.LG-purple)
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-16 · ✍️ Junhan Sun, Yigui Feng, Mingzhe Liu +7 more
+📅 2026-11-17 · ✍️ S. M Seefat Alam
 
-In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representation is dominated by a component shared by different inputs. A batch-normalized projector removes this component, so regularization after the projector cannot correct it, and the differences between rep...
+Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instruct. The head map correlates at $ρ= -0.950$ and $-0.768$ with a label-blind response-length map, appa...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21596v1)
-
----
-
-### 10. Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-16 · ✍️ Aaron Wang, Olivia Gzamouranis, Vaibhav Lohia +6 more
-
-Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of SkyWater 130 nm (SKY130) transistors at 77 K using a neural surrogate of NGSpice. The surrogate maps compact-model parameters and device geometry to the complete set of output and transfer characterist...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21594v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23218v1)
 
 ---
 
-### 11. Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering
+### 8. Higher-Scoring Coding Models Did Not Get More Work Done
 
-![CL](https://img.shields.io/badge/cs.CL-green)
+![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
 
-📅 2026-11-16 · ✍️ Yisong Cao, Leah Kim, Brian Wright +1 more
+📅 2026-11-17 · ✍️ Yining Hua
 
-Job titles and job descriptions alone provide limited insight into how technical roles differ in a changing job market. To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from LinkedIn in the United States between December 2025 and October ...
+New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026, a U.S. export control directive banned access to Claude Fable 5 for 19 days, which forced users to switch to other models. During this time, most former Fable 5 users switched to Opus 4.8 (11 points ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21586v1)
-
----
-
-### 12. CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-16 · ✍️ Steve Rhyner, Yubo Gao, Stefan de Lasa +2 more
-
-Training with MXFP4, a 4-bit microscaling format, is non-deterministic: identical inputs can produce different results across parallelism layouts and GPU vendors. These differences complicate debugging and training audits and can cause training and inference engines to disagree. We present CertiSum to make MXFP4 training bitwise invariant across runs, parallelism layouts, and GPU vendors. Its key ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21584v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23216v1)
 
 ---
 
-### 13. ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+### 9. EviSlide-MIL: Multi-Query Pooling and Shared Prediction for Class-Incremental Whole-Slide Image Classification
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-17 · ✍️ Zhouhan Qian, Sicheng Chen, Chad Wong +4 more
+
+Histopathological analysis of whole-slide images (WSIs) plays a critical role in cancer diagnosis, and multiple instance learning (MIL) is widely adopted for WSI analysis under weak supervision. As new tumor subtypes are introduced, extending existing MIL models requires learning new classes while retaining knowledge of previously learned ones. This presents a class-incremental learning challenge,...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23212v1)
+
+---
+
+### 10. Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-17 · ✍️ John Gideon, Anshul Gupta, Megan Applegate-Kenton +7 more
+
+Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised objective to impairment prediction: alongside predicting the i...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23211v1)
+
+---
+
+### 11. Learning Grounded Reasoning from Human Gaze
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-17 · ✍️ Gabriel Sarch, Declan Campbell, Nicholas Budny +5 more
+
+Human visual reasoning is driven by systematic exploration and extraction of task-relevant visual evidence. Human gaze provides a window into this process, making gaze a useful source of guidance for visually-grounded reasoning in vision-language models (VLMs). However, human gaze also includes noise and redundancies that may transfer poorly to VLMs. In this work, we investigate how human gaze dat...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23209v1)
+
+---
+
+### 12. Distortion-Free Semantic Watermarks for Black-Box Generative Models
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-17 · ✍️ Aviv Yossef, Or Patashnik, Or Zamir
+
+We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output distribution unchanged; this provides a formal guarantee that watermarking does not reduce output qual...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23208v1)
+
+---
+
+### 13. Reading Scene States: Uncovering Safety Failures in Vision-Language Models
+
+![CV](https://img.shields.io/badge/cs.CV-blue) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-17 · ✍️ Tongxi Wu, Yuyang Cheng, Jiacheng Xian +4 more
+
+Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this \textbf{scene-state safety vulnerability} and introduce \textbf{SceneSafetyBench}, comprising 375 image--question pairs spanning Initial, Medium, and Ultimate scene states and five visual presentations. Across eight VLMs...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23206v1)
+
+---
+
+### 14. Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-17 · ✍️ Mehmet Altan Toksöz
+
+Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering 11 signal-processing MATLAB subtasks, using low-rank adaptation (LoRA) and quantized LoRA (QLoRA) on the in...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23205v1)
+
+---
+
+### 15. Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-16 · ✍️ Jaime C. Acosta, Anantaa Kotal, Aritran Piplai
+📅 2026-11-17 · ✍️ Viet K. Nguyen, Mohammad I. Husain
 
-Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-...
+AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, execution integrity, and authorization. We propose the Agent Trust Infrastructure (ATI), a framework-ind...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21579v1)
-
----
-
-### 14. When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents
-
-![AI](https://img.shields.io/badge/cs.AI-orange)
-
-📅 2026-11-16 · ✍️ Zeynab Anbiaee, Sajjad Dadkhah, Ali A. Ghorbani
-
-Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessarily bound to a verified provider identity. This paper studies this gap as tool-...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21577v1)
-
----
-
-### 15. DynSurvX: Time-Resolved Explanations for Dynamic Survival Predictions
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-16 · ✍️ Van Tuan Nguyen, Agathe Guilloux
-
-Recent survival models integrating longitudinal data achieve strong predictive performance, but their predictions are often difficult to interpret, limiting their clinical use. We propose DynSurvX, a model-agnostic explainability framework for dynamic survival prediction with mixed static and longitudinal covariates. Based on Shapley values, DynSurvX introduces a hierarchical two-phase strategy th...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.21571v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.23202v1)
 
 ---
 
