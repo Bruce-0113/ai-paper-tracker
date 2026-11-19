@@ -1,247 +1,277 @@
 {
-  "updated": "2026-11-18T08:14:14.187666+00:00",
+  "updated": "2026-11-19T08:26:25.245204+00:00",
   "papers": [
     {
-      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-      "url": "http://arxiv.org/abs/2611.23229v1",
-      "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution. To prevent this collapse, we introduce Ambient",
+      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+      "url": "http://arxiv.org/abs/2611.24941v1",
+      "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded",
       "authors": [
-        "Giannis Daras",
-        "Marios Papachristou",
-        "Adam Klivans",
-        "Antonio Torralba",
-        "Constantinos Daskalakis"
+        "Jingzhi Bao",
+        "Xiaohe Ma",
+        "Hong Li",
+        "Yuanming Hu",
+        "Xiaoguang Han"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+      "url": "http://arxiv.org/abs/2611.24940v1",
+      "summary": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent latent-space policies avoid pixel generation, yet typically align intermediate features or rely on froz",
+      "authors": [
+        "Junjie Ye",
+        "Yiqi Zhao",
+        "Muchen Xu",
+        "Celina Shiyu Wang",
+        "Hao Dong",
+        "Ruohai Ge",
+        "Rong Xue",
+        "Benjamin J Kolligs",
+        "Aditya Dutt",
+        "Sasanka Nagavalli",
+        "Nassim A. Samad",
+        "Gaurav S. Sukhatme",
+        "Jyotirmoy V. Deshmukh",
+        "Yue Wang",
+        "Yuliang Guo"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
+      "url": "http://arxiv.org/abs/2611.24936v1",
+      "summary": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inference (JDPI), which uses binary safety labels to construct harmful and benign prototypes and makes predi",
+      "authors": [
+        "Yan Qiu",
+        "Yuanyuan Li"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+      "url": "http://arxiv.org/abs/2611.24932v1",
+      "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise. The theory makes five claims: value is go",
+      "authors": [
+        "Priyanka Sinha",
+        "Sugam Pandey"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.AI",
+        "cs.CE",
+        "cs.HC",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+      "url": "http://arxiv.org/abs/2611.24927v1",
+      "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations that make up the AI supply chain: the complex network of actors that contribute",
+      "authors": [
+        "Sarah H. Cen",
+        "Lindsey A. Gailmard",
+        "Joohan Kim",
+        "Rishi Bommasani",
+        "Daniel E. Ho",
+        "Percy Liang"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "url": "http://arxiv.org/abs/2611.24924v1",
+      "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select changes. This process often produces narrow patches and leads to benchmark-specif",
+      "authors": [
+        "Jiahang Lin",
+        "Jiahao Chen",
+        "Yiding Wang",
+        "Shichun Liu",
+        "Chengjun Pan",
+        "Shihan Dou",
+        "Honglin Guo",
+        "Yuyang Hu",
+        "Changhao Jiang",
+        "Zhenhua Han",
+        "Hang Yan",
+        "Qi Zhang",
+        "Tao Gui",
+        "Xuanjing Huang"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
+      "url": "http://arxiv.org/abs/2611.24917v1",
+      "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the world information is encoded into image, which we call World Snapshots, then image processing is world",
+      "authors": [
+        "Sen Fang",
+        "Yalin Feng",
+        "Yancheng Zhang",
+        "Yanxin Zhang",
+        "Zonglin Lyu",
+        "Hongbin Zhong",
+        "Liwei Che",
+        "Rui Wu",
+        "Chen Chen",
+        "Dimitris N. Metaxas"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
+      "url": "http://arxiv.org/abs/2611.24915v1",
+      "summary": "Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on task-dependent yet overlapping channel responses in the shared model. An offline task-prior search uses",
+      "authors": [
+        "Zhaocheng Yu",
+        "Kui Jiang",
+        "Jing Cao",
+        "Yiang Chen",
+        "Xiaocheng Feng",
+        "Junjun Jiang",
+        "Xianming Liu"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
+      "url": "http://arxiv.org/abs/2611.24908v1",
+      "summary": "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect generalization. We decompose the first-layer weights into a signal component aligned with the teacher and an orthogonal complement, and analyze their joint SGD dynamics together with the second layer in the ",
+      "authors": [
+        "Samet Demir",
+        "Zafer Dogan"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "ShadowTransfer: A Geographic Transfer Benchmark for Overhead Shadow Detection",
+      "url": "http://arxiv.org/abs/2611.24904v1",
+      "summary": "Overhead aerial imagery feeds dense-prediction pipelines that are routinely trained in one geographic region and deployed in another, yet no benchmark measures how shadow detection models transfer across regions. Existing overhead shadow datasets either lack a geographic transfer protocol or rely on automatically generated labels. We introduce ShadowTransfer, a benchmark of 4,500 human-verified sh",
+      "authors": [
+        "Shagun Mittal",
+        "Raymond A. Yeh",
+        "Satish Ukkusuri"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators",
+      "url": "http://arxiv.org/abs/2611.24896v1",
+      "summary": "We present a general framework for modeling and learning equivariant functions between finite dimensional semisimple real group representations, unifying constructions developed across many application areas. Our model is a linear combination of equivariant polynomial features whose coefficients are arbitrary learnable functions of invariant polynomial features. We take as features minimal homogen",
+      "authors": [
+        "Michael Liaofan Liu",
+        "Joe Kileel"
+      ],
+      "published": "2026-11-18",
       "categories": [
         "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "title": "On Evaluating User Simulators for Interactive Agents",
+      "url": "http://arxiv.org/abs/2611.24892v1",
+      "summary": "User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation frameworks reliably detect meaningful failures in simulated user behavior. This uncertainty makes it difficult to interpret simulator evaluation. To understand what a high benchmark score tells us about s",
+      "authors": [
+        "Hengguang Zhou",
+        "I-Hung Hsu",
+        "Li Chen",
+        "Priyanshi Shrivastava",
+        "Anastasios Angelopoulos",
+        "Wei-Lin Chiang",
+        "Ion Stoica",
+        "Cho-Jui Hsieh"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+      "url": "http://arxiv.org/abs/2611.24891v1",
+      "summary": "A fixed dispatch rate for LLM inference becomes stale as serving fleets resize and request sizes change. Generative output length is unknown at admission, and shared provider pools can lose capacity. We present Cap-and-Track, a design for asynchronous inference across provider capacity and internal GPUs. Meta's traffic shaper implements Cap-and-Track for post and live-video understanding. Refusals",
+      "authors": [
+        "Benjamin Novotny",
+        "Doug Szeto",
+        "Chang Wang",
+        "Shicheng Chen",
+        "George Zhihua Yuan",
+        "Bob Kamma",
+        "Michael Ge",
+        "John Xin Zhou",
+        "Andrea Olgiati"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Who are you? The Personal Imitation Game",
+      "url": "http://arxiv.org/abs/2611.24888v1",
+      "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals interrogators rely on: stylometric features, pe",
+      "authors": [
+        "Muhammad Rizky Wellyanto",
+        "Hajara-Yasmin Isa",
+        "Kexin Xue",
+        "Vishal Ravichandran",
+        "Wenpeng Lu",
+        "Jerry O. Talton",
+        "Ranjitha Kumar"
+      ],
+      "published": "2026-11-18",
+      "categories": [
+        "cs.HC",
         "cs.AI",
         "cs.CL"
       ]
     },
     {
-      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-      "url": "http://arxiv.org/abs/2611.23228v1",
-      "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for this setting, but maintaining a sliding window is expensive. Th",
+      "title": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
+      "url": "http://arxiv.org/abs/2611.24887v1",
+      "summary": "Large language models have been widely used to generate plausible research ideas, yet it remains unclear what makes automated ideation effective and how generated novel proposals arise from prior scientific work. We introduce the Creative AI Researcher (CAR), an agentic framework combining literature grounding, iterative development and explicit conceptual operators. CAR constructs a semantic know",
       "authors": [
-        "Rui Ning",
-        "Om Chabra",
-        "Hari Balakrishnan"
+        "Samson Yu",
+        "Qiran Zou",
+        "Jing Yu Lim",
+        "Rushi Shah",
+        "Anirudh Goyal",
+        "Dianbo Liu"
       ],
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "categories": [
-        "cs.CV",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "FastFrames: Video Generation at Interactive Latency",
-      "url": "http://arxiv.org/abs/2611.23226v1",
-      "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We prof",
-      "authors": [
-        "Gene Chou",
-        "Guandao Yang",
-        "Fujun Luan",
-        "Lars Mescheder",
-        "Wei Dong",
-        "Stephan Richter",
-        "Vladlen Koltun"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-      "url": "http://arxiv.org/abs/2611.23225v1",
-      "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains ",
-      "authors": [
-        "Xingyang Yu"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "hep-th",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
-      "url": "http://arxiv.org/abs/2611.23221v1",
-      "summary": "In this paper, we study a class of constrained convex finite-sum optimization problems. In many practical applications, all or some of the constraints are hard constraints that represent imperative requirements. Consequently, any desirable approximate solution must (nearly) satisfy these constraints. Motivated by this, we focus on computing an $ε$-$surely\\ feasible\\ stochastic\\ optimal$ ($ε$-SFSO)",
-      "authors": [
-        "Zhaosong Lu",
-        "Yifeng Xiao"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "math.OC",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-      "url": "http://arxiv.org/abs/2611.23219v1",
-      "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, an",
-      "authors": [
-        "Shobhita Sundaram",
-        "Cansu Sancaktar",
-        "Phillip Isola"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
-      "url": "http://arxiv.org/abs/2611.23218v1",
-      "summary": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instruct. The head map correlates at $ρ= -0.950$ and $-0.768$ with a label-blind response-length map, appa",
-      "authors": [
-        "S. M Seefat Alam"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
-      "url": "http://arxiv.org/abs/2611.23216v1",
-      "summary": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026, a U.S. export control directive banned access to Claude Fable 5 for 19 days, which forced users to switch to other models. During this time, most former Fable 5 users switched to Opus 4.8 (11 points ",
-      "authors": [
-        "Yining Hua"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "EviSlide-MIL: Multi-Query Pooling and Shared Prediction for Class-Incremental Whole-Slide Image Classification",
-      "url": "http://arxiv.org/abs/2611.23212v1",
-      "summary": "Histopathological analysis of whole-slide images (WSIs) plays a critical role in cancer diagnosis, and multiple instance learning (MIL) is widely adopted for WSI analysis under weak supervision. As new tumor subtypes are introduced, extending existing MIL models requires learning new classes while retaining knowledge of previously learned ones. This presents a class-incremental learning challenge,",
-      "authors": [
-        "Zhouhan Qian",
-        "Sicheng Chen",
-        "Chad Wong",
-        "Tianyi Zhang",
-        "Enhui Chai",
-        "Zeyu Liu",
-        "Fei Xia"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-      "url": "http://arxiv.org/abs/2611.23211v1",
-      "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised objective to impairment prediction: alongside predicting the i",
-      "authors": [
-        "John Gideon",
-        "Anshul Gupta",
-        "Megan Applegate-Kenton",
-        "Kayli Battel",
-        "Todd J Rowell",
-        "Patricio Reyes Gomez",
-        "Laporsha Dees",
-        "Emily Sumner",
-        "Avinash Balachandran",
-        "Guy Rosman"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ]
-    },
-    {
-      "title": "Learning Grounded Reasoning from Human Gaze",
-      "url": "http://arxiv.org/abs/2611.23209v1",
-      "summary": "Human visual reasoning is driven by systematic exploration and extraction of task-relevant visual evidence. Human gaze provides a window into this process, making gaze a useful source of guidance for visually-grounded reasoning in vision-language models (VLMs). However, human gaze also includes noise and redundancies that may transfer poorly to VLMs. In this work, we investigate how human gaze dat",
-      "authors": [
-        "Gabriel Sarch",
-        "Declan Campbell",
-        "Nicholas Budny",
-        "Kia Ghods",
-        "Katerina Fragkiadaki",
-        "Jonathan D. Cohen",
-        "Brenden M. Lake",
-        "Taylor W. Webb"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
-      "url": "http://arxiv.org/abs/2611.23208v1",
-      "summary": "We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output distribution unchanged; this provides a formal guarantee that watermarking does not reduce output qual",
-      "authors": [
-        "Aviv Yossef",
-        "Or Patashnik",
-        "Or Zamir"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.LG",
-        "cs.CR",
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
-      "url": "http://arxiv.org/abs/2611.23206v1",
-      "summary": "Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this \\textbf{scene-state safety vulnerability} and introduce \\textbf{SceneSafetyBench}, comprising 375 image--question pairs spanning Initial, Medium, and Ultimate scene states and five visual presentations. Across eight VLMs",
-      "authors": [
-        "Tongxi Wu",
-        "Yuyang Cheng",
-        "Jiacheng Xian",
-        "Menglin Yang",
-        "Kai Chen",
-        "Jian Zhang",
-        "Yang Gao"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    {
-      "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
-      "url": "http://arxiv.org/abs/2611.23205v1",
-      "summary": "Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering 11 signal-processing MATLAB subtasks, using low-rank adaptation (LoRA) and quantized LoRA (QLoRA) on the in",
-      "authors": [
-        "Mehmet Altan Toksöz"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.SE",
-        "eess.SP"
-      ]
-    },
-    {
-      "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
-      "url": "http://arxiv.org/abs/2611.23202v1",
-      "summary": "AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, execution integrity, and authorization. We propose the Agent Trust Infrastructure (ATI), a framework-ind",
-      "authors": [
-        "Viet K. Nguyen",
-        "Mohammad I. Husain"
-      ],
-      "published": "2026-11-17",
-      "categories": [
-        "cs.AI"
+        "cs.CL"
       ]
     }
   ]
