@@ -1,0 +1,279 @@
+{
+  "updated": "2026-11-22T07:48:06.230229+00:00",
+  "papers": [
+    {
+      "title": "Posterior Matching Distillation",
+      "url": "http://arxiv.org/abs/2611.26629v1",
+      "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity",
+      "authors": [
+        "Hidir Yesiltepe",
+        "Julius Berner",
+        "Arash Vahdat",
+        "Pinar Yanardag"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "url": "http://arxiv.org/abs/2611.26627v1",
+      "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of t",
+      "authors": [
+        "Tuna Han Salih Meral",
+        "Kaan Oktay",
+        "Alec Helbling",
+        "Atakan Kara",
+        "Duen Horng Chau",
+        "Pinar Yanardag"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "url": "http://arxiv.org/abs/2611.26624v1",
+      "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery. Starting from an initial game, PlayCraft alter",
+      "authors": [
+        "Weihao Cheng"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "url": "http://arxiv.org/abs/2611.26619v1",
+      "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. The Tra",
+      "authors": [
+        "Jinbin Luo",
+        "Xiaozhe Yao",
+        "Shang Yang",
+        "Zhijian Liu",
+        "Song Han",
+        "Qinghao Hu"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "url": "http://arxiv.org/abs/2611.26617v1",
+      "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O$^{2}$LaF, built on a simple principle: one prior,",
+      "authors": [
+        "Yuxin Jiang",
+        "Wenqiang Sun",
+        "Jiaqi Li",
+        "Yuchao Gu",
+        "Lvmin Zhang",
+        "Ivor Tsang",
+        "Mike Zheng Shou"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    {
+      "title": "ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement",
+      "url": "http://arxiv.org/abs/2611.26615v1",
+      "summary": "High-resolution generation enables video world models to render fine-grained scene structures and textures, but directly generating high-resolution video incurs substantial computational and memory costs. We present ScaleWorld, a causal video model that unifies low-resolution world prediction and high-resolution refinement within a single shared backbone. By refining its own predictions, ScaleWorl",
+      "authors": [
+        "Yansong Qu",
+        "Wesker Zheng",
+        "Quanjian Song",
+        "Zhiyuan Zhang",
+        "Xiao Cao",
+        "Shengchuan Zhang",
+        "Liujuan Cao"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "url": "http://arxiv.org/abs/2611.26613v1",
+      "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a systematic action-level analysis of frontier agen",
+      "authors": [
+        "Yiyang Du",
+        "Yuxuan Kuang",
+        "Qitao Zhao",
+        "Yixuan Wang",
+        "Zhanqiu Guo",
+        "Yi Xu",
+        "Xin Li",
+        "Wenbin He",
+        "Liu Ren",
+        "Chenyan Xiong"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.RO",
+        "cs.CL",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Bio-PM-Guided Synthetic IMU Generation",
+      "url": "http://arxiv.org/abs/2611.26607v1",
+      "summary": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted augmentation. We explore whether synthetic IMU data generated in the rep",
+      "authors": [
+        "Deepali Singh",
+        "Deepesh Parpani",
+        "Aviral Gupta"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "url": "http://arxiv.org/abs/2611.26603v1",
+      "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that pro",
+      "authors": [
+        "Peiyun Hu",
+        "Marko Mihajlovic",
+        "Lyndon Duong",
+        "Lahav Lipson",
+        "Wei Dong",
+        "Amaël Delaunoy",
+        "Stephan R. Richter",
+        "Vladlen Koltun"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+      "url": "http://arxiv.org/abs/2611.26601v1",
+      "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and are rarely comparable. We introduce a framework that rates these capabilities on a",
+      "authors": [
+        "Amine Lbath",
+        "Manan Suri",
+        "Aurelien Delaitre",
+        "Vadim Okun",
+        "Massih-Reza Amini",
+        "Dinesh Manocha"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.SE"
+      ]
+    },
+    {
+      "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+      "url": "http://arxiv.org/abs/2611.26598v1",
+      "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train this policy by optimizing a self-constructed utility target rather than distilling an explicit teacher.",
+      "authors": [
+        "Yang Meng",
+        "Zixin Ding",
+        "Robert L. Grossman",
+        "Yuxin Chen"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+      "url": "http://arxiv.org/abs/2611.26596v1",
+      "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework that offloads temporal and precision control to two classical training-free compon",
+      "authors": [
+        "Kai Lu",
+        "Chenyang Ma",
+        "Ioannis Havoutis"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "url": "http://arxiv.org/abs/2611.26595v1",
+      "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompt",
+      "authors": [
+        "Yiyan Ji",
+        "Qixun Wang",
+        "Yang Shi",
+        "Zhuoran Zhang",
+        "Yifan Xu",
+        "Tengfei Liu",
+        "Yuqi Tang",
+        "Xiaohan Zhang",
+        "Shujie Li",
+        "Jiafu Tang",
+        "Xuanyu Zhu",
+        "Xinyu Liu",
+        "Yan He",
+        "Yushuo Guan",
+        "Zihao Wang",
+        "Xianghua Ying",
+        "Shixuan Liu",
+        "Haotian Wang",
+        "Wenjing Yang",
+        "Zhaoxiang Zhang",
+        "Yuanxing Zhang",
+        "Pengfei Wan",
+        "Jiaheng Liu"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+      "url": "http://arxiv.org/abs/2611.26592v1",
+      "summary": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are conditionally independent. We show this assumption fails in practice: reasoning streams are positively c",
+      "authors": [
+        "Terence D. Agbeyegbe",
+        "Toneukarin G. Agbeyegbe"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "stat.ME",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "url": "http://arxiv.org/abs/2611.26590v1",
+      "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to s",
+      "authors": [
+        "Jiahao Huang",
+        "Jun Wang"
+      ],
+      "published": "2026-11-19",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ]
+    }
+  ]
+}
