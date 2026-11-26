@@ -1,188 +1,188 @@
 # 🤖 Daily AI Papers
 
-> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-25 09:35 UTC**
+> Auto-updated every day at 09:00 Taipei time · Last sync: **2026-11-26 09:11 UTC**
 
 Tracking: `cs.AI` · `cs.LG` · `cs.CV` · `cs.CL`
 
 ---
 
-### 1. OmniAct: One Policy, One Million Embodiments
-
-![AI](https://img.shields.io/badge/cs.AI-orange) ![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-24 · ✍️ Xiang Fan, Yuheng Wang, Jiayuan Yan +7 more
-
-A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how differences in robot morphology should shape manipulation strategies. We introduce OmniAct, a cross-emb...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33158v1)
-
----
-
-### 2. PointX: Multi-View Consistent Intrinsics by Querying Surface Points
+### 1. AnyCam: Anything Can Represent Camera for Video Generation
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-11-24 · ✍️ Miguel Farinha, Sam Sartor, Iliyan Georgiev +3 more
+📅 2026-11-25 · ✍️ Weijie Lyu, Zhixin Shu, Yuntian Ke +1 more
 
-The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a different decomposition in every view. We introduce PointX, a simple feed-forward model that predicts intr...
+Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguous in monocular video, or on explicit geometry such as warped point clouds or depth, which breaks dow...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33157v1)
-
----
-
-### 3. DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-24 · ✍️ Binfei Ji, Zhiwen Cao, Anqi Yang +5 more
-
-We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks in a single model, trained in two complementary stages. First, we train DiaCap on 225K curated clips...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33153v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34944v1)
 
 ---
 
-### 4. BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-24 · ✍️ Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano +4 more
-
-The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that the structure of scientific literature itself provides an additional source of supervision: figures...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33151v1)
-
----
-
-### 5. CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-24 · ✍️ Dawid J. Kopiczko, Tijmen Blankevoort, Yuki M. Asano
-
-Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose chain-of-thought is hidden behind an API. We show that the chain-of-thought can ...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33148v1)
-
----
-
-### 6. One Take, Many Cameras: Audio-Grounded Shot Synthesis for Dialogue Re-Cinematography
+### 2. Tracking Any Point with Agentic Visual Reasoning
 
 ![CV](https://img.shields.io/badge/cs.CV-blue)
 
-📅 2026-11-24 · ✍️ Anthony Chen, Naomi Ken Korem, Matan Ben-Yosef +6 more
+📅 2026-11-25 · ✍️ Xuweiyi Chen, Jin Yao, Linzhan Mou +8 more
 
-Creating a dialogue scene typically requires cutting between multiple views (e.g., close-ups, medium shots, and over-the-shoulder shots) of the actors. Yet capturing such coverage is costly and in many settings unavailable. We study dialogue re-cinematography: synthesizing additional shots from a single wide-angle dialogue video. Existing video generators can synthesize new shots, but rely on visu...
+A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappe...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33147v1)
-
----
-
-### 7. Lost on Campus: Evaluating Embodied Spatial Reasoning of Vision-Language Models in the Wild
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-24 · ✍️ Zehan Zheng, Yanyuan Chen, Deming Li +5 more
-
-Embodied Spatial Reasoning (ESR) is central to deploying Vision-Language Models (VLMs) in real-world embodied tasks, yet remains inadequately evaluated. Existing benchmarks primarily assess spatial reasoning in static images or synthetic indoor environments, where semantic shortcuts often suffice, making it difficult to faithfully evaluate spatial reasoning capabilities in the wild. In light of th...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33145v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34943v1)
 
 ---
 
-### 8. ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-24 · ✍️ Xingjian Ran, Xiaoye Mo, Sihao Liu +7 more
-
-Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints. Independent checks use simulation state and episode record...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33143v1)
-
----
-
-### 9. iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-24 · ✍️ Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman +2 more
-
-World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future imagination, but how to train such proxies without sacrificing action-prediction quality remains unclear. An effective proxy n...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33141v1)
-
----
-
-### 10. Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action
-
-![CV](https://img.shields.io/badge/cs.CV-blue)
-
-📅 2026-11-24 · ✍️ Yueh-Cheng Liu, Snehal Jauhri, Matthias Nießner +1 more
-
-We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic annotations, providing rich, joint supervision for visual and embodied learning. We demonstrate its...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33137v1)
-
----
-
-### 11. BriConstrain: Geometrically Constrained Decoding for Autoregressive Brick Assembly Generation
-
-![CV](https://img.shields.io/badge/cs.CV-blue) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-24 · ✍️ Nadav Magar, Amir Hertz, Ariel Shamir +1 more
-
-Language models can generate LEGO$^\circledR$ assemblies from text, but their builds often contain parts that collide or attach to nothing. The usual approach of rejecting and resampling invalid placements discards decoded tokens without guaranteeing a valid build. We present BriConstrain, a constrained decoding method that restricts a pretrained language model's next-token probabilities before sa...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33135v1)
-
----
-
-### 12. A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit
-
-![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-24 · ✍️ Hussamuddin Syed
-
-Qwen3.5-0.8B rarely finishes reasoning in thinking mode: at a 4,096-token budget only 1 or 2 of 500 MATH-500 answers close their think block (two seeds), and accuracy is 15.4%. A recent demonstration had GPT-6 Astra edit 131,072 of the model's weights without gradients and reported MATH-500 rising from 7.9% to 48.1% at a 32,768-token budget. We provide the missing gradient baseline, then combine t...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33133v1)
-
----
-
-### 13. Exploratory Midtraining for Robot Policies
-
-![LG](https://img.shields.io/badge/cs.LG-purple)
-
-📅 2026-11-24 · ✍️  Kshitiz, Zheyuan Hu, Robyn Wu +11 more
-
-Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challenging states of the robot and its environment to states from which further progress is possible ("conne...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33130v1)
-
----
-
-### 14. SAG-Mem-1.0 Technical Report
-
-![CL](https://img.shields.io/badge/cs.CL-green)
-
-📅 2026-11-24 · ✍️ Yuchao Wu, XingCheng Liang, Xuanze Wang +2 more
-
-Long-term conversational memory requires retrieving complementary facts scattered across dialogue sessions, including intermediate evidence with limited similarity to the original question. Existing approaches often rely on derived memory representations or persistent relational structures, introducing construction costs and potentially losing source details. We present SAG-Mem, a conversational m...
-
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33124v1)
-
----
-
-### 15. MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing
+### 3. Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning
 
 ![AI](https://img.shields.io/badge/cs.AI-orange)
 
-📅 2026-11-24 · ✍️ Scott Piersall, Yang Gao, Shenyang Liu +1 more
+📅 2026-11-25 · ✍️ Yalin E. Sagduyu, Tugba Erpek
 
-Large language models (LLMs) can generate parallel programs, but their correctness and performance depend strongly on the instructions that guide generation. We present \textsc{MetaFORGE}, an execution-grounded meta-learning framework that iteratively optimizes persistent natural-language skill specifications for MPI C code generation. \textsc{MetaFORGE} combines correctness testing, compiler diag...
+End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mismatch in channel models. Models trained only on an AWGN channel achieve low bit ...
 
-🔗 [Read on arXiv](http://arxiv.org/abs/2611.33119v1)
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34942v1)
+
+---
+
+### 4. Improving and Expanding Video Editing Capabilities Without Videos
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-25 · ✍️ Ji Xie, Yanhao Jia, Xiangpeng Yang +4 more
+
+Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to ne...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34941v1)
+
+---
+
+### 5. LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-25 · ✍️ Yipengjing Sun, Chenyang Wang, Boyao Zhou +3 more
+
+We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive neural shader. This proxy disentangles canonical geometry and reflectance attributes, rapidly rasteriz...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34940v1)
+
+---
+
+### 6. A Mesh for Every Moment
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-25 · ✍️ Roy Or-El, Jeong Joon Park, Ira Kemelmacher-Shlizerman
+
+We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34939v1)
+
+---
+
+### 7. Tokenisation is not in APX
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-25 · ✍️ Violeta Kastreva, Philip Whittington, Dennis Komm +1 more
+
+In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under both a compression or unigram log-likelihood objectives, and for binary or larger alphabets. We further show that, even over...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34938v1)
+
+---
+
+### 8. Can image generation help visual reasoning? An empirical study
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green) ![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-25 · ✍️ Xueyang Yu, Yifan Jing, Taiming Lu +5 more
+
+Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7 percentage points, with declines on nine of ten ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34935v1)
+
+---
+
+### 9. Attack Policy Selection can Mislead Monitor Evaluators
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-25 · ✍️ Charlie Griffin, Oliver Makins, Asa Cooper Stickland +4 more
+
+AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34934v1)
+
+---
+
+### 10. DynMF2: Rigid Motion Factorization by Expectation-Maximization for Monocular 4D Reconstruction and Motion Segmentation
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-25 · ✍️ Agelos Kratimenos, Yile Hua, Kostas Daniilidis
+
+A single casual video leaves a moving scene under-determined: a point seen once from each place can slide toward or away from the camera and still match every frame. We constrain the reconstruction with the structure of the motion itself. Building on DynMF, we model a scene's motion as a handful of SE(3) trajectories, each rigid, and let every point follow one of them alone, never a blend. DynMF2 ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34931v1)
+
+---
+
+### 11. A gene informed benchmark for BioScoring of pathology foundation models
+
+![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-25 · ✍️ Paul Vilars, Vincent Quoc-Huy Trinh, Maria Vakalopoulou +3 more
+
+Pathology foundation models are usually compared by their performance on downstream tasks such as classification and retrieval. While such benchmarks measure how useful a model is, they provide no insight into the biology it represents. We introduce BioScore, a benchmark that quantifies how well an image encoder captures cell identities, with spatial transcriptomics of the same tissue as the refer...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34930v1)
+
+---
+
+### 12. High-Fidelity Image Matting with Pixel-Space Diffusion Transformers
+
+![CV](https://img.shields.io/badge/cs.CV-blue)
+
+📅 2026-11-25 · ✍️ Baihan Yang, Xin Lin, Yufan Wei +5 more
+
+Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretraine...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34929v1)
+
+---
+
+### 13. Diverse Alternative Reasoning Traces for Hard Math Problems
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange) ![LG](https://img.shields.io/badge/cs.LG-purple)
+
+📅 2026-11-25 · ✍️ Lukas Aichberger, Adam Golinski, Arno Blaas +5 more
+
+Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning ...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34928v1)
+
+---
+
+### 14. Mixture-of-Loops Transformer
+
+![LG](https://img.shields.io/badge/cs.LG-purple) ![CL](https://img.shields.io/badge/cs.CL-green)
+
+📅 2026-11-25 · ✍️ Lianghui Zhu, Shijie Wang, Xinggang Wang +3 more
+
+Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for se...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34923v1)
+
+---
+
+### 15. $μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents
+
+![CL](https://img.shields.io/badge/cs.CL-green) ![AI](https://img.shields.io/badge/cs.AI-orange)
+
+📅 2026-11-25 · ✍️ Qihao Lin, Guanxu Chen, Shuhang Zheng +7 more
+
+Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-duplex multi-user voice interaction. Simulated participants act from isolated prof...
+
+🔗 [Read on arXiv](http://arxiv.org/abs/2611.34920v1)
 
 ---
 

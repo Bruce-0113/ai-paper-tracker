@@ -1,280 +1,272 @@
 {
-  "updated": "2026-11-25T09:35:29.315234+00:00",
+  "updated": "2026-11-26T09:11:40.337763+00:00",
   "papers": [
     {
-      "title": "OmniAct: One Policy, One Million Embodiments",
-      "url": "http://arxiv.org/abs/2611.33158v1",
-      "summary": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how differences in robot morphology should shape manipulation strategies. We introduce OmniAct, a cross-emb",
+      "title": "AnyCam: Anything Can Represent Camera for Video Generation",
+      "url": "http://arxiv.org/abs/2611.34944v1",
+      "summary": "Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguous in monocular video, or on explicit geometry such as warped point clouds or depth, which breaks dow",
       "authors": [
-        "Xiang Fan",
-        "Yuheng Wang",
-        "Jiayuan Yan",
-        "Bohan Fang",
-        "Wisdom Oluchi Ikezogwo",
-        "Ainaz Eftekhar",
-        "Max Argus",
-        "Jason Ren",
-        "Jiafei Duan",
-        "Ranjay Krishna"
+        "Weijie Lyu",
+        "Zhixin Shu",
+        "Yuntian Ke",
+        "Ming-Hsuan Yang"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
-        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Tracking Any Point with Agentic Visual Reasoning",
+      "url": "http://arxiv.org/abs/2611.34943v1",
+      "summary": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappe",
+      "authors": [
+        "Xuweiyi Chen",
+        "Jin Yao",
+        "Linzhan Mou",
+        "Lei Gong",
+        "Di Liu",
+        "Cheng Zhang",
+        "Ziqiao Ma",
+        "Sihan Xu",
+        "Adam W. Harley",
+        "Shengyi Qian",
+        "Zezhou Cheng"
+      ],
+      "published": "2026-11-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+      "url": "http://arxiv.org/abs/2611.34942v1",
+      "summary": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mismatch in channel models. Models trained only on an AWGN channel achieve low bit ",
+      "authors": [
+        "Yalin E. Sagduyu",
+        "Tugba Erpek"
+      ],
+      "published": "2026-11-25",
+      "categories": [
+        "cs.NI",
         "cs.AI",
-        "cs.CV",
-        "cs.LG"
+        "eess.SP"
       ]
     },
     {
-      "title": "PointX: Multi-View Consistent Intrinsics by Querying Surface Points",
-      "url": "http://arxiv.org/abs/2611.33157v1",
-      "summary": "The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a different decomposition in every view. We introduce PointX, a simple feed-forward model that predicts intr",
+      "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+      "url": "http://arxiv.org/abs/2611.34941v1",
+      "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to ne",
       "authors": [
-        "Miguel Farinha",
-        "Sam Sartor",
-        "Iliyan Georgiev",
-        "Giuseppe Vecchio",
-        "Ronald Clark",
-        "Michael Fischer"
+        "Ji Xie",
+        "Yanhao Jia",
+        "Xiangpeng Yang",
+        "Martin Q. Ma",
+        "Sihan Xu",
+        "Erik Cambria",
+        "Louis-Philippe Morency"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
         "cs.CV"
       ]
     },
     {
-      "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
-      "url": "http://arxiv.org/abs/2611.33153v1",
-      "summary": "We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks in a single model, trained in two complementary stages. First, we train DiaCap on 225K curated clips",
+      "title": "LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies",
+      "url": "http://arxiv.org/abs/2611.34940v1",
+      "summary": "We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive neural shader. This proxy disentangles canonical geometry and reflectance attributes, rapidly rasteriz",
       "authors": [
-        "Binfei Ji",
-        "Zhiwen Cao",
-        "Anqi Yang",
-        "Prem Seetharaman",
-        "Shuo Yang",
-        "Ratheesh Kalarot",
-        "Yingyan Celine Lin",
-        "Mingze Xu"
+        "Yipengjing Sun",
+        "Chenyang Wang",
+        "Boyao Zhou",
+        "Jiapeng Zhu",
+        "Ka Leong Cheng",
+        "Shengping Zhang"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "title": "A Mesh for Every Moment",
+      "url": "http://arxiv.org/abs/2611.34939v1",
+      "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose",
+      "authors": [
+        "Roy Or-El",
+        "Jeong Joon Park",
+        "Ira Kemelmacher-Shlizerman"
+      ],
+      "published": "2026-11-25",
       "categories": [
         "cs.CV",
+        "cs.GR"
+      ]
+    },
+    {
+      "title": "Tokenisation is not in APX",
+      "url": "http://arxiv.org/abs/2611.34938v1",
+      "summary": "In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under both a compression or unigram log-likelihood objectives, and for binary or larger alphabets. We further show that, even over",
+      "authors": [
+        "Violeta Kastreva",
+        "Philip Whittington",
+        "Dennis Komm",
+        "Tiago Pimentel"
+      ],
+      "published": "2026-11-25",
+      "categories": [
         "cs.CL",
-        "cs.MM",
-        "cs.SD"
-      ]
-    },
-    {
-      "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
-      "url": "http://arxiv.org/abs/2611.33151v1",
-      "summary": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that the structure of scientific literature itself provides an additional source of supervision: figures",
-      "authors": [
-        "Yuwei Yang",
-        "Xiaoxiao Sun",
-        "Alejandro Lozano",
-        "Yuan-Sen Ting",
-        "Yuhui Yuan",
-        "Liang Zheng",
-        "Serena Yeung-Levy"
-      ],
-      "published": "2026-11-24",
-      "categories": [
-        "cs.CV",
         "cs.LG"
       ]
     },
     {
-      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-      "url": "http://arxiv.org/abs/2611.33148v1",
-      "summary": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose chain-of-thought is hidden behind an API. We show that the chain-of-thought can ",
+      "title": "Can image generation help visual reasoning? An empirical study",
+      "url": "http://arxiv.org/abs/2611.34935v1",
+      "summary": "Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7 percentage points, with declines on nine of ten ",
       "authors": [
-        "Dawid J. Kopiczko",
-        "Tijmen Blankevoort",
-        "Yuki M. Asano"
+        "Xueyang Yu",
+        "Yifan Jing",
+        "Taiming Lu",
+        "Linrong Cai",
+        "Zhipeng Cai",
+        "Yunyang Xiong",
+        "Gabriel Sarch",
+        "Zhuang Liu"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
-        "cs.CL"
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
       ]
     },
     {
-      "title": "One Take, Many Cameras: Audio-Grounded Shot Synthesis for Dialogue Re-Cinematography",
-      "url": "http://arxiv.org/abs/2611.33147v1",
-      "summary": "Creating a dialogue scene typically requires cutting between multiple views (e.g., close-ups, medium shots, and over-the-shoulder shots) of the actors. Yet capturing such coverage is costly and in many settings unavailable. We study dialogue re-cinematography: synthesizing additional shots from a single wide-angle dialogue video. Existing video generators can synthesize new shots, but rely on visu",
+      "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+      "url": "http://arxiv.org/abs/2611.34934v1",
+      "summary": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation ",
       "authors": [
-        "Anthony Chen",
-        "Naomi Ken Korem",
-        "Matan Ben-Yosef",
-        "Tavi Halperin",
-        "Urska Jelercic",
-        "Ofir Bibi",
-        "Daniel Cohen-Or",
-        "Or Patashnik",
-        "Maneesh Agrawala"
+        "Charlie Griffin",
+        "Oliver Makins",
+        "Asa Cooper Stickland",
+        "Alessandro Abate",
+        "Yarin Gal",
+        "Abby D'Cruz",
+        "Xander Davies"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "title": "DynMF2: Rigid Motion Factorization by Expectation-Maximization for Monocular 4D Reconstruction and Motion Segmentation",
+      "url": "http://arxiv.org/abs/2611.34931v1",
+      "summary": "A single casual video leaves a moving scene under-determined: a point seen once from each place can slide toward or away from the camera and still match every frame. We constrain the reconstruction with the structure of the motion itself. Building on DynMF, we model a scene's motion as a handful of SE(3) trajectories, each rigid, and let every point follow one of them alone, never a blend. DynMF2 ",
+      "authors": [
+        "Agelos Kratimenos",
+        "Yile Hua",
+        "Kostas Daniilidis"
+      ],
+      "published": "2026-11-25",
       "categories": [
         "cs.CV"
       ]
     },
     {
-      "title": "Lost on Campus: Evaluating Embodied Spatial Reasoning of Vision-Language Models in the Wild",
-      "url": "http://arxiv.org/abs/2611.33145v1",
-      "summary": "Embodied Spatial Reasoning (ESR) is central to deploying Vision-Language Models (VLMs) in real-world embodied tasks, yet remains inadequately evaluated. Existing benchmarks primarily assess spatial reasoning in static images or synthetic indoor environments, where semantic shortcuts often suffice, making it difficult to faithfully evaluate spatial reasoning capabilities in the wild. In light of th",
+      "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+      "url": "http://arxiv.org/abs/2611.34930v1",
+      "summary": "Pathology foundation models are usually compared by their performance on downstream tasks such as classification and retrieval. While such benchmarks measure how useful a model is, they provide no insight into the biology it represents. We introduce BioScore, a benchmark that quantifies how well an image encoder captures cell identities, with spatial transcriptomics of the same tissue as the refer",
       "authors": [
-        "Zehan Zheng",
-        "Yanyuan Chen",
-        "Deming Li",
-        "Yutao Tang",
-        "Jianwen Xie",
-        "Alan Yuille",
-        "Jieneng Chen",
-        "Cheng Peng"
+        "Paul Vilars",
+        "Vincent Quoc-Huy Trinh",
+        "Maria Vakalopoulou",
+        "Dimitris Samaras",
+        "Stergios Christodoulidis",
+        "Mahdi S. Hosseini"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
-      "url": "http://arxiv.org/abs/2611.33143v1",
-      "summary": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints. Independent checks use simulation state and episode record",
-      "authors": [
-        "Xingjian Ran",
-        "Xiaoye Mo",
-        "Sihao Liu",
-        "Li Luo",
-        "Taiqiang Wu",
-        "Ji Zhao",
-        "Wenqi Shao",
-        "Hongyang Li",
-        "Jiaqi Wang",
-        "Bo Dai"
-      ],
-      "published": "2026-11-24",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ]
-    },
-    {
-      "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
-      "url": "http://arxiv.org/abs/2611.33141v1",
-      "summary": "World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future imagination, but how to train such proxies without sacrificing action-prediction quality remains unclear. An effective proxy n",
-      "authors": [
-        "Vansh Kapoor",
-        "Max Sobol Mark",
-        "Sreyas Venkataraman",
-        "Max Simchowitz",
-        "Aviral Kumar"
-      ],
-      "published": "2026-11-24",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
         "cs.LG"
       ]
     },
     {
-      "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action",
-      "url": "http://arxiv.org/abs/2611.33137v1",
-      "summary": "We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic annotations, providing rich, joint supervision for visual and embodied learning. We demonstrate its",
+      "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+      "url": "http://arxiv.org/abs/2611.34929v1",
+      "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretraine",
       "authors": [
-        "Yueh-Cheng Liu",
-        "Snehal Jauhri",
-        "Matthias Nießner",
-        "Angela Dai"
+        "Baihan Yang",
+        "Xin Lin",
+        "Yufan Wei",
+        "Baiang Li",
+        "Yuheng Liu",
+        "Juanxi Tian",
+        "Xiaohui Xie",
+        "Truong Nguyen"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
         "cs.CV"
       ]
     },
     {
-      "title": "BriConstrain: Geometrically Constrained Decoding for Autoregressive Brick Assembly Generation",
-      "url": "http://arxiv.org/abs/2611.33135v1",
-      "summary": "Language models can generate LEGO$^\\circledR$ assemblies from text, but their builds often contain parts that collide or attach to nothing. The usual approach of rejecting and resampling invalid placements discards decoded tokens without guaranteeing a valid build. We present BriConstrain, a constrained decoding method that restricts a pretrained language model's next-token probabilities before sa",
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "url": "http://arxiv.org/abs/2611.34928v1",
+      "summary": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning ",
       "authors": [
-        "Nadav Magar",
-        "Amir Hertz",
-        "Ariel Shamir",
-        "Or Patashnik"
+        "Lukas Aichberger",
+        "Adam Golinski",
+        "Arno Blaas",
+        "Arwen Bradley",
+        "Jacob Springer",
+        "Mehrdad Farajtabar",
+        "Michael Kirchhof",
+        "Sinead Williamson"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
-        "cs.CV",
-        "cs.CL"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ]
     },
     {
-      "title": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
-      "url": "http://arxiv.org/abs/2611.33133v1",
-      "summary": "Qwen3.5-0.8B rarely finishes reasoning in thinking mode: at a 4,096-token budget only 1 or 2 of 500 MATH-500 answers close their think block (two seeds), and accuracy is 15.4%. A recent demonstration had GPT-6 Astra edit 131,072 of the model's weights without gradients and reported MATH-500 rising from 7.9% to 48.1% at a 32,768-token budget. We provide the missing gradient baseline, then combine t",
+      "title": "Mixture-of-Loops Transformer",
+      "url": "http://arxiv.org/abs/2611.34923v1",
+      "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for se",
       "authors": [
-        "Hussamuddin Syed"
+        "Lianghui Zhu",
+        "Shijie Wang",
+        "Xinggang Wang",
+        "Jinze Bai",
+        "Bo Wang",
+        "Xiang Bai"
       ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
         "cs.LG",
         "cs.CL"
       ]
     },
     {
-      "title": "Exploratory Midtraining for Robot Policies",
-      "url": "http://arxiv.org/abs/2611.33130v1",
-      "summary": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challenging states of the robot and its environment to states from which further progress is possible (\"conne",
+      "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+      "url": "http://arxiv.org/abs/2611.34920v1",
+      "summary": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-duplex multi-user voice interaction. Simulated participants act from isolated prof",
       "authors": [
-        " Kshitiz",
-        "Zheyuan Hu",
-        "Robyn Wu",
-        "Yizhou Li",
-        "Yunchu Zhang",
-        "Vattanary Tevy",
-        "Kavya Tayal",
-        "Shawn Yin",
-        "Aykut Onol",
-        "Kushal Arora",
-        "Dhruv Shah",
-        "Abhishek Gupta",
-        "Zackory Erickson",
-        "Aviral Kumar"
+        "Qihao Lin",
+        "Guanxu Chen",
+        "Shuhang Zheng",
+        "Xiaoya Lu",
+        "Jingyi Yang",
+        "Terumi Chiba",
+        "Wenyi Yu",
+        "Chao Zhang",
+        "Zhuan Shi",
+        "Jing Shao"
       ],
-      "published": "2026-11-24",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ]
-    },
-    {
-      "title": "SAG-Mem-1.0 Technical Report",
-      "url": "http://arxiv.org/abs/2611.33124v1",
-      "summary": "Long-term conversational memory requires retrieving complementary facts scattered across dialogue sessions, including intermediate evidence with limited similarity to the original question. Existing approaches often rely on derived memory representations or persistent relational structures, introducing construction costs and potentially losing source details. We present SAG-Mem, a conversational m",
-      "authors": [
-        "Yuchao Wu",
-        "XingCheng Liang",
-        "Xuanze Wang",
-        "Yini Huang",
-        "Yue Wu"
-      ],
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "categories": [
         "cs.CL",
-        "cs.IR"
-      ]
-    },
-    {
-      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
-      "url": "http://arxiv.org/abs/2611.33119v1",
-      "summary": "Large language models (LLMs) can generate parallel programs, but their correctness and performance depend strongly on the instructions that guide generation. We present \\textsc{MetaFORGE}, an execution-grounded meta-learning framework that iteratively optimizes persistent natural-language skill specifications for MPI C code generation. \\textsc{MetaFORGE} combines correctness testing, compiler diag",
-      "authors": [
-        "Scott Piersall",
-        "Yang Gao",
-        "Shenyang Liu",
-        "Liqiang Wang"
-      ],
-      "published": "2026-11-24",
-      "categories": [
         "cs.AI"
       ]
     }
